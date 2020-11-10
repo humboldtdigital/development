@@ -1,7 +1,8 @@
 <translation>
     <languageList>
-        <language description="German" lang="de_DE"/>
+        <!-- Please set the order of preferences: the first position is the default language -->
         <language description="Spanish" lang="es_ES"/>
+        <language description="German" lang="de_DE"/>
     </languageList>
     <key value="ex.name">
         <val lang="de_DE">Ergänzung</val>
