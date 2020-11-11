@@ -166,7 +166,7 @@
     </key>
     <key value="wit(Manuskript).name">
         <val lang="de_DE">Überlieferung: Abschrift, Entwurf ...</val>
-        <val lang="es_ES">Tradición: transcripción, borrador...</val>
+        <val lang="es_ES">Tradición manuscrita: transcripción, borrador...</val>
     </key>
     <key value="wit(Manuskript).description">
         <val lang="de_DE">Nachweis einer weiteren Handschrift (Abschrift, Entwurf etc.) hinzufügen</val>
@@ -174,7 +174,7 @@
     </key>
     <key value="profileDesc_date-notBeforeAfter.name">
         <val lang="de_DE">Ungefährer Erstellungszeitraum</val>
-        <val lang="es_ES">Periodo de creación aproximado</val>
+        <val lang="es_ES">Período de creación aproximado</val>
     </key>
     <key value="profileDesc_date-notBeforeAfter.description">
         <val lang="de_DE">Zeitraum der Erstellung des Manuskripts bzw. Drucks</val>
@@ -222,7 +222,7 @@
     </key>
     <key value="profileDesc_date-fromto.name">
         <val lang="de_DE">Erstellungszeitspanne</val>
-        <val lang="es_ES">Período de creación</val>
+        <val lang="es_ES">Período de creación exacto</val>
     </key>
     <key value="profileDesc_date-fromto.description">
         <val lang="de_DE">Zeitspanne der Erstellung des Manuskripts bzw. Drucks</val>
