@@ -1355,4 +1355,208 @@
         <val lang="de_DE"></val>
         <val lang="es_ES"></val>
     </key>
+    <key value="css.title.placeholder-content">
+        <val lang="de_DE">Titel</val>
+    </key>
+    <key value="css.title.idno.placeholder-content">
+        <val lang="de_DE">Briefnummer</val>
+    </key>
+    <key value="css.msDesc.idno.placeholder-content">
+        <val lang="de_DE">Signatur</val>
+    </key>
+    <key value="css.msDesc.physDesc.p.placeholder-content">
+        <val lang="de_DE">Hier Papier, Format etc. eintragen</val>
+    </key>
+    <key value="css.editor-after.content">
+        <val lang="de_DE">Herausgeber</val>
+    </key>
+    <key value="css.msDesc.content">
+        <val lang="de_DE">Handschrift</val>
+    </key>
+    <key value="css.msDesc-rend-copy.content">
+        <val lang="de_DE">Abschrift</val>
+    </key>
+    <key value="css.msDesc-rend-concept.content">
+        <val lang="de_DE">Entwurf</val>
+    </key>
+    <key value="css.msDesc-rend-print-as-print.content">
+        <val lang="de_DE">Druck (als solcher)</val>
+    </key>
+    <key value="css.msDesc-rend-not-extant.content">
+        <val lang="de_DE">Erschlossen</val>
+    </key>
+    <key value="css.msDesc-rend-print.content">
+        <val lang="de_DE">Nur Druckzeuge vorhanden</val>
+    </key>
+    <key value="css.msDesc.idno.placeholder-content">
+        <val lang="de_DE">[Signatur]</val>
+    </key>
+    <key value="(css.msDesc.physDesc.p.placeholder-content">
+        <val lang="de_DE">[Hier Papier, Format etc. eintragen]</val>
+    </key>
+    <key value="css.msDesc.physDesc-before.content)">
+        <val lang="de_DE">Handschriftenbeschreibung: </val>
+    </key>
+    <key value="css.sourceDesc.witness.msDesc-concept">
+        <val lang="de_DE">Entwurf: </val>
+    </key>
+    <key value="css.sourceDesc.witness.msDesc-copy">
+        <val lang="de_DE">Abschrift: </val>
+    </key>
+    <key value="css.profileDesc.creation-empty">
+        <val lang="de_DE">[Angaben zur Erstellung des Manuskripts über Menü "Allgemein" angeben]</val>
+    </key>
+    <key value="css.profileDesc.creation.date-before">
+        <val lang="de_DE">Datum: </val>
+    </key>
+    <key value="css.date.notBefore">
+        <val lang="de_DE">Nicht vor</val>
+    </key>
+    <key value="css.date.AND.notAfter">
+        <val lang="de_DE"> und nicht nach </val>
+    </key>
+    <key value="css.profileDesc.creation.persName-before">
+        <val lang="de_DE">Ersteller: </val>
+    </key>
+    <key value="css.profileDesc.creation.placeName-before">
+        <val lang="de_DE">Erstellungsort: </val>
+    </key>
+    <key value="css.profileDesc.abstract-before">
+        <val lang="de_DE">Regest: </val>
+    </key>
+    <key value="css.profileDesc.abstract.p">
+        <val lang="de_DE">[Regest hier eingeben]</val>
+    </key>
+    <key value="css.notesStmt.note-before">
+        <val lang="de_DE">Anmerkungen zum Text</val>
+    </key>
+    <key value="css.notesStmt.note.p">
+        <val lang="de_DE">[Text hier eingeben]</val>
+    </key>
+    <key value="css.correspAction-sent">
+        <val lang="de_DE">[Absenderangaben über Menü "Briefmetadaten" eintragen]</val>
+    </key>
+    <key value="css.correspAction-received">
+        <val lang="de_DE">[Empfängerangaben über Menü "Briefmetadaten" eintragen]</val>
+    </key>
+    <key value="css.correspAction-sent.persName-before">
+        <val lang="de_DE">Absender: </val>
+    </key>
+    <key value="css.correspAction-received.persName-before">
+        <val lang="de_DE">Empfänger: </val>
+    </key>
+    <key value="css.correspAction-sent.placeName-before">
+        <val lang="de_DE">Schreibort: </val>
+    </key>
+    <key value="css.correspAction-received.placeName-before">
+        <val lang="de_DE">Empfangsort: </val>
+    </key>
+    <key value="css.correspAction-sent.date-before">
+        <val lang="de_DE">Schreibdatum: </val>
+    </key>
+    <key value="css.correspAction-received.date-before">
+        <val lang="de_DE">Empfangsdatum: </val>
+    </key>
+    <key value="css.correspContext.ref-prev">
+        <val lang="de_DE">Vorangehender Brief</val>
+    </key>
+    <key value="css.correspContext.ref-next">
+        <val lang="de_DE">Nachfolgender Brief</val>
+    </key>
+    <key value="css.correspDesc.note-before-first-of-type">
+        <val lang="de_DE">Anmerkungen zum Brief:</val>
+    </key>
+    <key value="css.correspDesc.note">
+        <val lang="de_DE">[Hier Anmerkungen zum Brief oder zur Datierung eingeben]</val>
+    </key>
+    <key value="css.text.body.div-regestOnly">
+        <val lang="de_DE">[Kein Text, nur Regest möglich]</val>
+    </key>
+    <key value="css.text.figure">
+        <val lang="de_DE">[Zeichnung o.ä.]</val>
+    </key>
+    <key value="css.text.figure.head">
+        <val lang="de_DE">[Überschrift der Abbildung]</val>
+    </key>
+    <key value="css.text.figure.figDesc">
+        <val lang="de_DE">[Bildbeschreibung durch den Bearbeiter]</val>
+    </key>
+    <key value="css.text.figure.p">
+        <val lang="de_DE">[Bildunterschrift des Autors]</val>
+    </key>
+    <key value="css.text.figure.note">
+        <val lang="de_DE">[Sacherläuterung zur Zeichnung bzw. Abbildung]</val>
+    </key>
+    <key value="css.text.note">
+        <val lang="de_DE">[Anmerkung eingeben]</val>
+    </key>
+    <key value="css.dateline">
+        <val lang="de_DE">[Datumszeile]</val>
+    </key>
+    <key value="css.opener.dateline">
+        <val lang="de_DE">[Anrede]</val>
+    </key>
+    <key value="css.opener.salute">
+        <val lang="de_DE">[Gruß]</val>
+    </key>
+    <key value="css.closer.salute">
+        <val lang="de_DE">[Unterschrift]</val>
+    </key>
+    <key value="css.quote.add">
+        <val lang="de_DE">[Hinzufügung]</val>
+    </key>
+    <key value="css.text.supplied-low-before">
+        <val lang="de_DE">zu ergänzen wohl [</val>
+    </key>
+    <key value="css.norm-spelling">
+        <val lang="de_DE">[Normalisierte Schreibung]</val>
+    </key>
+    <key value="css.revised-spelling">
+        <val lang="de_DE">[Korrigierte Schreibung]</val>
+    </key>
+    <key value="css.corr-deleted">
+        <val lang="de_DE">[gelöscht]</val>
+    </key>
+    <key value="css.choice.expan">
+        <val lang="de_DE">[Aufgelöste Schreibung]</val>
+    </key>
+    <key value="css.text.damage-empty">
+        <val lang="de_DE">Schadhafte Stelle</val>
+    </key>
+    <key value="css.note-annotation">
+        <val lang="de_DE">[Sachanmerkung hier eingeben]</val>
+    </key>
+    <key value="css.note-text">
+        <val lang="de_DE">[Textanmerkung hier eingeben]</val>
+    </key>
+    <key value="css.anchor-annotation">
+        <val lang="de_DE">Sachanmerkung: Start des Bezugstextes</val>
+    </key>
+    <key value="css.facsimile-before">
+        <val lang="de_DE">Digitalisate</val>
+    </key>
+    <key value="css.address-before">
+        <val lang="de_DE">Adresse: </val>
+    </key>
+    <key value="css.addrLine">
+        <val lang="de_DE">[Adresszeile]</val>
+    </key>
+    <key value="css.profileDesc.textClass-before">
+        <val lang="de_DE">Schlagwörter/Themen: </val>
+    </key>
+    <key value="css.revisionDesc.change">
+        <val lang="de_DE">[Kommentar zur Änderung eingeben]</val>
+    </key>
+    <key value="css.revisionDesc.status">
+        <val lang="de_DE">Status: </val>
+    </key>
+    <key value="css.revisionDesc.listChange-before">
+        <val lang="de_DE">Bearbeitungshistorie</val>
+    </key>
+    <key value="css.revisionDesc.change">
+        <val lang="de_DE">[Kommentar zur Änderung eingeben]</val>
+    </key>
+    <key value="css.revisionDesc.change-before">
+        <val lang="de_DE"> von </val>
+    </key>
 </translation>
