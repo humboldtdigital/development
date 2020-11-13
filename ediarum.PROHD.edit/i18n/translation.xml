@@ -1355,6 +1355,7 @@
         <val lang="de_DE"></val>
         <val lang="es_ES"></val>
     </key>
+    <!-- Continue from here -->
     <key value="css.title.placeholder-content">
         <val lang="de_DE">Titel</val>
     </key>
