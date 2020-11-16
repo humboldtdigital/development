@@ -292,12 +292,10 @@
         <val lang="de_DE">Freie Textanmerkung einfügen</val>
         <val lang="es_ES">Insertar una anotación de texto libre</val>
     </key>
-    <!-- Doubt for TELOTA -->
     <key value="seg_textapparat.description">
         <val lang="de_DE">Anmerkung einfügen, die nachher im Textapparat erscheint</val>
         <val lang="es_ES">Insertar una nota que aparece después del texto</val>
     </key>
-    <!-- Doubt for TELOTA-->
     <key value="space.name">
         <val lang="de_DE">Großes Spatium</val>
         <val lang="es_ES">Espacio grande</val>
@@ -1361,6 +1359,7 @@
     </key>
     
     <!-- CSS -->
+    <!-- See css/standard.css -->
     <key value="css.title.placeholder-content">
         <val lang="de_DE">Titel</val>
         <val lang="es_ES">Título</val>
