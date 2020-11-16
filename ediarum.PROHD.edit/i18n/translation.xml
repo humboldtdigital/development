@@ -1,12 +1,12 @@
 <translation>
-    
+
     <!-- Language options -->
     <languageList>
         <!-- Please set the order of preferences: the first position is the default language -->
         <language description="Spanish" lang="es_ES"/>
         <language description="German" lang="de_DE"/>
     </languageList>
-    
+
     <!-- TEI elements -->
     <key value="ex.name">
         <val lang="de_DE">Ergänzung</val>
@@ -69,8 +69,10 @@
         <val lang="es_ES">Corrección por el autor</val>
     </key>
     <key value="subst.description">
-        <val lang="de_DE">Getilgtes Wort mit gleichzeitiger Korrektur durch den Autor im Manuskript</val>
-        <val lang="es_ES">Palabra eliminada con corrección simultánea del autor en el manuscrito</val>
+        <val lang="de_DE">Getilgtes Wort mit gleichzeitiger Korrektur durch den Autor im
+            Manuskript</val>
+        <val lang="es_ES">Palabra eliminada con corrección simultánea del autor en el
+            manuscrito</val>
     </key>
     <key value="unclear.name">
         <val lang="de_DE">Unsichere Lesart</val>
@@ -117,8 +119,8 @@
         <val lang="es_ES">Laguna u omisión</val>
     </key>
     <key value="gap_1.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="persName.name">
         <val lang="de_DE">Personenname</val>
@@ -149,8 +151,10 @@
         <val lang="es_ES">Referencia a la carta o al pasaje de texto</val>
     </key>
     <key value="ref.description">
-        <val lang="de_DE">Expliziten Verweis auf eine Textstelle im selben oder einem anderen Manuskript einfügen</val>
-        <val lang="es_ES">Insertar una referencia explícita a un pasaje de texto en el mismo o en otro manuscrito</val>
+        <val lang="de_DE">Expliziten Verweis auf eine Textstelle im selben oder einem anderen
+            Manuskript einfügen</val>
+        <val lang="es_ES">Insertar una referencia explícita a un pasaje de texto en el mismo o en
+            otro manuscrito</val>
     </key>
     <key value="abstract.name">
         <val lang="de_DE">Regest</val>
@@ -173,7 +177,8 @@
         <val lang="es_ES">Tradición manuscrita: transcripción, borrador...</val>
     </key>
     <key value="wit(Manuskript).description">
-        <val lang="de_DE">Nachweis einer weiteren Handschrift (Abschrift, Entwurf etc.) hinzufügen</val>
+        <val lang="de_DE">Nachweis einer weiteren Handschrift (Abschrift, Entwurf etc.)
+            hinzufügen</val>
         <val lang="es_ES">Añadir la prueba de otro manuscrito (copia, borrador, etc.)</val>
     </key>
     <key value="profileDesc_date-notBeforeAfter.name">
@@ -190,7 +195,8 @@
     </key>
     <key value="bibl.description">
         <val lang="de_DE">Im Manuskript explizit erwähnte Werktitel kennzeichnen</val>
-        <val lang="es_ES">Marcar los títulos de las obras que se mencionan explícitamente en el manuscrito</val>
+        <val lang="es_ES">Marcar los títulos de las obras que se mencionan explícitamente en el
+            manuscrito</val>
     </key>
     <key value="del_gap.name">
         <val lang="de_DE">Nicht entzifferbarer Text, durchgestrichen</val>
@@ -278,7 +284,8 @@
     </key>
     <key value="foreign.description">
         <val lang="de_DE">Kennzeichnet einen fremdsprachigen Textabschnitt im Manuskript</val>
-        <val lang="es_ES">Identifica una sección de texto en idioma extranjero en el manuscrito</val>
+        <val lang="es_ES">Identifica una sección de texto en idioma extranjero en el
+            manuscrito</val>
     </key>
     <key value="sic-corr[deleted].name">
         <val lang="de_DE">Streichung durch den Bearbeiter</val>
@@ -309,24 +316,28 @@
         <val lang="es_ES">Poema / Estrofa</val>
     </key>
     <key value="lg.description">
-        <val lang="de_DE">Fügt eine Textstruktur zum Notieren eines Gedichtes bzw. innerhalb eines Gedichtes eine weitere Strophe ein</val>
-        <val lang="es_ES">Insertar una estructura de texto para anotar un poema o dentro de un poema un verso adicional</val>
+        <val lang="de_DE">Fügt eine Textstruktur zum Notieren eines Gedichtes bzw. innerhalb eines
+            Gedichtes eine weitere Strophe ein</val>
+        <val lang="es_ES">Insertar una estructura de texto para anotar un poema o dentro de un poema
+            un verso adicional</val>
     </key>
     <key value="figure_1.name">
         <val lang="de_DE">Zeichnung</val>
         <val lang="es_ES">Dibujo</val>
     </key>
     <key value="figure_1.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="ediarum_delete_comment.name">
         <val lang="de_DE">Sachanmerkung löschen</val>
         <val lang="es_ES">Borrar un comentario editorial</val>
     </key>
     <key value="ediarum_delete_comment.description">
-        <val lang="de_DE">Löscht eine Sachanmerkung, belässt jedoch den Manuskripttext in der Datei</val>
-        <val lang="es_ES">Borrar un comentario editorial, pero dejando el texto del manuscrito en el fichero</val>
+        <val lang="de_DE">Löscht eine Sachanmerkung, belässt jedoch den Manuskripttext in der
+            Datei</val>
+        <val lang="es_ES">Borrar un comentario editorial, pero dejando el texto del manuscrito en el
+            fichero</val>
     </key>
     <key value="index_loeschen.name">
         <val lang="de_DE">Indizierung löschen</val>
@@ -342,24 +353,30 @@
         <!-- doubt -->
     </key>
     <key value="index_persName_loeschen_index.description">
-        <val lang="de_DE">Löscht Indizierung anhand der Personen-ID des aktuellen persName-Elements</val>
-        <val lang="es_ES">Eliminar la indexación utilizando el ID de la persona del elemento persName actual</val>
+        <val lang="de_DE">Löscht Indizierung anhand der Personen-ID des aktuellen
+            persName-Elements</val>
+        <val lang="es_ES">Eliminar la indexación utilizando el ID de la persona del elemento
+            persName actual</val>
     </key>
     <key value="names_unwrap.name">
         <val lang="de_DE">Namenauszeichnung löschen</val>
         <val lang="es_ES">Eliminar el etiquetado de nombres</val>
     </key>
     <key value="names_unwrap.description">
-        <val lang="de_DE">Löscht die Auszeichnungen von Personen und Ortsnamen sowie Werktiteln</val>
-        <val lang="es_ES">Eliminar los nombres de personas y de lugares, y los títulos de las obras</val>
+        <val lang="de_DE">Löscht die Auszeichnungen von Personen und Ortsnamen sowie
+            Werktiteln</val>
+        <val lang="es_ES">Eliminar los nombres de personas y de lugares, y los títulos de las
+            obras</val>
     </key>
     <key value="index_persName_loeschen.name">
         <val lang="de_DE">Indizierung und Personennamenauszeichnung löschen</val>
         <val lang="es_ES">Eliminar la indexación y el etiquetado de nombres personales</val>
     </key>
     <key value="index_persName_loeschen.description">
-        <val lang="de_DE">Löscht die Indizierung inkl. Personennamenauszeichnung, der ausgezeichnete Text verbleibt im Dokument</val>
-        <val lang="es_ES">Eliminar la indexación, incluyendo el etiquetado de nombres personales, el texto etiquetado permanece en el documento</val>
+        <val lang="de_DE">Löscht die Indizierung inkl. Personennamenauszeichnung, der ausgezeichnete
+            Text verbleibt im Dokument</val>
+        <val lang="es_ES">Eliminar la indexación, incluyendo el etiquetado de nombres personales, el
+            texto etiquetado permanece en el documento</val>
     </key>
     <key value="insert.table.name">
         <val lang="de_DE">Tabelle einfügen</val>
@@ -483,7 +500,8 @@
     </key>
     <key value="msDesc/@rend.description">
         <val lang="de_DE">Art der Textgrundlage (Manuskript, Abschrift, Konzept ...) angeben</val>
-        <val lang="es_ES">Indicar el tipo de base textual (manuscrito, transcripción, borrador, etc.)</val>
+        <val lang="es_ES">Indicar el tipo de base textual (manuscrito, transcripción, borrador,
+            etc.)</val>
     </key>
     <key value="closer.name">
         <val lang="de_DE">Briefschluss</val>
@@ -530,8 +548,11 @@
         <val lang="es_ES">Dirección postal</val>
     </key>
     <key value="address.description">
-        <val lang="de_DE">Adresse am Briefanfang einfügen. Soll die Adresse am Briefende eingefügt werden muss der Cursor im &lt;closer&gt; (Briefschluss) stehen</val>
-        <val lang="es_ES">Insertar la dirección postal al principio de la carta. Si la dirección debe insertarse al final de la carta, el cursor debe posicionarse en &lt;closer; (cierre de la carta)</val>
+        <val lang="de_DE">Adresse am Briefanfang einfügen. Soll die Adresse am Briefende eingefügt
+            werden muss der Cursor im &lt;closer&gt; (Briefschluss) stehen</val>
+        <val lang="es_ES">Insertar la dirección postal al principio de la carta. Si la dirección
+            debe insertarse al final de la carta, el cursor debe posicionarse en &lt;closer; (cierre
+            de la carta)</val>
     </key>
     <key value="postscript.name">
         <val lang="de_DE">Postskriptum</val>
@@ -554,8 +575,10 @@
         <val lang="es_ES">Inicio de un nuevo acto de escritura</val>
     </key>
     <key value="writingSession.description">
-        <val lang="de_DE">Weiterer Schreibakt, d.h. nicht unerhebliche Ergänzung des Briefs nach geraumer Zeit</val>
-        <val lang="es_ES">Un acto de escritura adicional, es decir, una adición sustancial a la carta después de un tiempo considerable</val>
+        <val lang="de_DE">Weiterer Schreibakt, d.h. nicht unerhebliche Ergänzung des Briefs nach
+            geraumer Zeit</val>
+        <val lang="es_ES">Un acto de escritura adicional, es decir, una adición sustancial a la
+            carta después de un tiempo considerable</val>
     </key>
     <key value="opener.name">
         <val lang="de_DE">Briefanfang</val>
@@ -570,8 +593,10 @@
         <val lang="es_ES">Saludo</val>
     </key>
     <key value="salute.description">
-        <val lang="de_DE">Standardisierte GruÃŸformel am Anfang des Briefes nach der Datumszeile</val>
-        <val lang="es_ES">Fórmula de saludo estandarizada al principio de la carta después de la línea de fecha</val>
+        <val lang="de_DE">Standardisierte GruÃŸformel am Anfang des Briefes nach der
+            Datumszeile</val>
+        <val lang="es_ES">Fórmula de saludo estandarizada al principio de la carta después de la
+            línea de fecha</val>
     </key>
     <key value="correspDesc/note.name">
         <val lang="de_DE">Anmerkung zum Brief</val>
@@ -586,7 +611,8 @@
         <val lang="es_ES">Manuscrito o transcripción</val>
     </key>
     <key value="changeSourceType.description">
-        <val lang="de_DE">Ändert die Art der Quelle von Handschrift zu Abschrift bzw. anders herum</val>
+        <val lang="de_DE">Ändert die Art der Quelle von Handschrift zu Abschrift bzw. anders
+            herum</val>
         <val lang="es_ES">Cambiar el tipo de fuente manuscrita a transcripción o viceversa</val>
     </key>
     <key value="correspAction[sent]_placeName.name">
@@ -618,7 +644,8 @@
         <val lang="es_ES">Contexto de la correspondencia (enlace interno)</val>
     </key>
     <key value="correspContext_ref[ID].description">
-        <val lang="de_DE">Fügt einen Link auf einen vorhergehenden Brief (A) oder nachfolgenden Brief (B) ein.</val>
+        <val lang="de_DE">Fügt einen Link auf einen vorhergehenden Brief (A) oder nachfolgenden
+            Brief (B) ein.</val>
         <val lang="es_ES">Insertar un enlace a una carta anterior (A) o posterior (B).</val>
     </key>
     <key value="correspAction[sent]_orgName.name">
@@ -634,16 +661,16 @@
         <val lang="es_ES">Guion (en dash)</val>
     </key>
     <key value="symbol_enDash.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="symbol_emDash.name">
         <val lang="de_DE">Geviertstrich</val>
         <val lang="es_ES">Raya (em dash)</val>
     </key>
     <key value="symbol_emDash.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="spacing.name">
         <val lang="de_DE">Gesperrt</val>
@@ -682,8 +709,10 @@
         <val lang="es_ES">Carácter especial</val>
     </key>
     <key value="symbol_free.description">
-        <val lang="de_DE">Sonderzeichen einfügen. Folgendes Format MUSS eingehalten werden: &amp;#x????;</val>
-        <val lang="es_ES">Insertar caracteres especiales. El siguiente formato DEBE ser seguido: &amp;#x????;</val>
+        <val lang="de_DE">Sonderzeichen einfügen. Folgendes Format MUSS eingehalten werden:
+            &amp;#x????;</val>
+        <val lang="es_ES">Insertar caracteres especiales. El siguiente formato DEBE ser seguido:
+            &amp;#x????;</val>
     </key>
     <key value="website.name">
         <val lang="de_DE">Website</val>
@@ -698,8 +727,8 @@
         <val lang="es_ES">Fracciones</val>
     </key>
     <key value="symbol_fracture.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="correspAction[sent]_date[when].name">
         <val lang="de_DE">Genaues Schreibdatum</val>
@@ -746,8 +775,8 @@
         <val lang="es_ES">Ortografía normalizada</val>
     </key>
     <key value="orig-reg.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="correspAction[received]_placeName.name">
         <val lang="de_DE">Empfangsort</val>
@@ -810,7 +839,7 @@
         <val lang="es_ES">Foliación o paginación alternativa</val>
     </key>
     <key value="fw.description">
-        <val lang="de_DE"></val>
+        <val lang="de_DE"/>
         <val lang="es_ES">Foliación o paginación alternativa</val>
     </key>
     <key value="symbol_macron.name">
@@ -818,64 +847,68 @@
         <val lang="es_ES">Tilde de abreviación</val>
     </key>
     <key value="symbol_macron.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="spec_sign_small_o+stroke.name">
         <val lang="de_DE">ø</val>
         <val lang="es_ES">ø</val>
     </key>
     <key value="spec_sign_small_o+stroke.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="spec_sign_small_e+diaeresis.name">
         <val lang="de_DE">ë</val>
         <val lang="es_ES">ë</val>
     </key>
     <key value="spec_sign_small_e+diaeresis.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="milestone.name">
         <val lang="de_DE">Horizontale Trennlinie</val>
         <val lang="es_ES">Línea divisoria horizontal</val>
     </key>
     <key value="milestone.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="rs_eins.name">
         <val lang="de_DE">Anapher</val>
         <val lang="es_ES">Referencia</val>
     </key>
     <key value="rs_eins.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="rs_zwei.name">
         <val lang="de_DE">Anapher</val>
         <val lang="es_ES">Referencia</val>
     </key>
     <key value="rs_zwei.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="rs.name">
         <val lang="de_DE">Anapher</val>
         <val lang="es_ES">Referencia</val>
     </key>
     <key value="rs.description">
-        <val lang="de_DE">Verweisendes Wort bzw. Wörter, die auf Personen, Orte oder Werke verweisen, aber keine Eigennamen sind</val>
-        <val lang="es_ES">Palabras que se refieren a personas, lugares u obras, pero que no son nombres propios</val>
+        <val lang="de_DE">Verweisendes Wort bzw. Wörter, die auf Personen, Orte oder Werke
+            verweisen, aber keine Eigennamen sind</val>
+        <val lang="es_ES">Palabras que se refieren a personas, lugares u obras, pero que no son
+            nombres propios</val>
     </key>
     <key value="lb[break].name">
         <val lang="de_DE">Zeilenumbruch im Wort</val>
         <val lang="es_ES">Ruptura de línea en una palabra</val>
     </key>
     <key value="lb[break].description">
-        <val lang="de_DE">Zeilenumbruch einfügen, der ein Wort trennt - allerdings ohne Trennzeichen</val>
-        <val lang="es_ES">Insertar un salto de línea que separe una palabra - pero sin separadores</val>
+        <val lang="de_DE">Zeilenumbruch einfügen, der ein Wort trennt - allerdings ohne
+            Trennzeichen</val>
+        <val lang="es_ES">Insertar un salto de línea que separe una palabra - pero sin
+            separadores</val>
     </key>
     <key value="lb[break-hyphen].name">
         <val lang="de_DE">Zeilenumbruch mit Trennzeichen</val>
@@ -922,8 +955,10 @@
         <val lang="es_ES">Referencia a un comentario editorial</val>
     </key>
     <key value="ref[note].description">
-        <val lang="de_DE">Expliziten Verweis auf eine Sachanmerkung im selben oder einem anderen Manuskript einfügen</val>
-        <val lang="es_ES">Insertar una referencia explícita a un comentario editorial en el mismo o en otro manuscrito</val>
+        <val lang="de_DE">Expliziten Verweis auf eine Sachanmerkung im selben oder einem anderen
+            Manuskript einfügen</val>
+        <val lang="es_ES">Insertar una referencia explícita a un comentario editorial en el mismo o
+            en otro manuscrito</val>
     </key>
     <key value="msDesc/physDesc.name">
         <val lang="de_DE">Beschreibung des Manuskripts</val>
@@ -938,8 +973,10 @@
         <val lang="es_ES">Contexto de la correspondencia (texto)</val>
     </key>
     <key value="correspContext_ref[text].description">
-        <val lang="de_DE">Fügt einen Textverweis auf einen vorangehenden oder nachfolgenden Brief ein.</val>
-        <val lang="es_ES">Insertar un texto que hace referencia a una carta anterior o posterior</val>
+        <val lang="de_DE">Fügt einen Textverweis auf einen vorangehenden oder nachfolgenden Brief
+            ein.</val>
+        <val lang="es_ES">Insertar un texto que hace referencia a una carta anterior o
+            posterior</val>
     </key>
     <key value="rs[term].name">
         <val lang="de_DE">Sachbegriff</val>
@@ -954,8 +991,10 @@
         <val lang="es_ES">Nombre de organización</val>
     </key>
     <key value="orgName.description">
-        <val lang="de_DE">Im Manuskript explizit erwähnte Institution, Firma oder sonstige Organisation kennzeichnen und verlinken</val>
-        <val lang="es_ES">Etiquetar y vincular las instituciones, empresas u otras organizaciones explícitamente mencionadas en el manuscrito</val>
+        <val lang="de_DE">Im Manuskript explizit erwähnte Institution, Firma oder sonstige
+            Organisation kennzeichnen und verlinken</val>
+        <val lang="es_ES">Etiquetar y vincular las instituciones, empresas u otras organizaciones
+            explícitamente mencionadas en el manuscrito</val>
     </key>
     <key value="metamark.name">
         <val lang="de_DE">Einweisungszeichen</val>
@@ -971,23 +1010,26 @@
     </key>
     <key value="ref[URL].description">
         <val lang="de_DE">Link auf externe Website, nach Möglichkeit hier Permalinks verwenden</val>
-        <val lang="es_ES">Enlazar a un sitio web externo, si es posible usando enlaces permanentes aquí</val>
+        <val lang="es_ES">Enlazar a un sitio web externo, si es posible usando enlaces permanentes
+            aquí</val>
     </key>
     <key value="correspContext_ref[text+URL].name">
         <val lang="de_DE">Korrespondenzkontext (Text und externer Link)</val>
         <val lang="es_ES">Contexto de la correspondencia (texto y enlace externo)</val>
     </key>
     <key value="correspContext_ref[text+URL].description">
-        <val lang="de_DE">Fügt einen Textverweis mitsamt externem Link auf einen vorangehenden oder nachfolgenden Brief ein.</val>
-        <val lang="es_ES">Insertar una referencia de texto con un enlace externo a una carta anterior o posterior.</val>
+        <val lang="de_DE">Fügt einen Textverweis mitsamt externem Link auf einen vorangehenden oder
+            nachfolgenden Brief ein.</val>
+        <val lang="es_ES">Insertar una referencia de texto con un enlace externo a una carta
+            anterior o posterior.</val>
     </key>
     <key value="symbol_letters.name">
         <val lang="de_DE">Buchstaben</val>
         <val lang="es_ES">Caracteres</val>
     </key>
     <key value="symbol_letters.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="symbol_units.name">
         <val lang="de_DE">Einheitenzeichen</val>
@@ -1018,7 +1060,7 @@
         <val lang="es_ES">Palabras impresas</val>
     </key>
     <key value="hi[mPrint].description">
-        <val lang="de_DE"></val>
+        <val lang="de_DE"/>
         <val lang="es_ES">Palabras impresas en el manuscrito</val>
     </key>
     <key value="bibl_zotero.name">
@@ -1027,23 +1069,24 @@
     </key>
     <key value="bibl_zotero.description">
         <val lang="de_DE">Im Manuskript explizit erwähnte Werktitel kennzeichnen</val>
-        <val lang="es_ES">Etiquetar los títulos de las obras que se mencionan explícitamente en el manuscrito</val>
+        <val lang="es_ES">Etiquetar los títulos de las obras que se mencionan explícitamente en el
+            manuscrito</val>
     </key>
     <key value="@rendition=&quot;mPrint&quot;.name">
         <val lang="de_DE">Absatz, Adresse etc. ist vorgedruckter Text</val>
         <val lang="es_ES">Texto preimpreso</val>
     </key>
     <key value="@rendition=&quot;mPrint&quot;.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="p[renditon=#mMM].name">
         <val lang="de_DE">Absatz am Rand angestrichen</val>
         <val lang="es_ES">Párrafo al margen destacado</val>
     </key>
     <key value="p[renditon=#mMM].description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="@cert[remove].name">
         <val lang="de_DE">Unsichere Identifizierung entfernen</val>
@@ -1051,7 +1094,8 @@
     </key>
     <key value="@cert[remove].description">
         <val lang="de_DE">Identifizierung (d.h. Verknüpfung) der Person als sicher markieren</val>
-        <val lang="es_ES">Etiquetar la identificación (es decir, el enlace) de la persona como segura</val>
+        <val lang="es_ES">Etiquetar la identificación (es decir, el enlace) de la persona como
+            segura</val>
     </key>
     <key value="metamark[function=used].name">
         <val lang="de_DE">Textpassage "erledigt"</val>
@@ -1059,23 +1103,24 @@
     </key>
     <key value="metamark[function=used].description">
         <val lang="de_DE">Textpassage ist durch den Autor im Manuskript als erledigt markiert</val>
-        <val lang="es_ES">El pasaje del texto está marcado como completado por el autor en el manuscrito</val>
+        <val lang="es_ES">El pasaje del texto está marcado como completado por el autor en el
+            manuscrito</val>
     </key>
     <key value="notesStmt.name">
         <val lang="de_DE">Anmerkung zum Text</val>
         <val lang="es_ES">Nota al texto</val>
     </key>
     <key value="notesStmt.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="@select.name">
         <val lang="de_DE">Textgrundlage auswählen/abwählen</val>
         <val lang="es_ES">Seleccionar/Deseleccionar base de texto</val>
     </key>
     <key value="@select.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="correspAction[received]_orgName.name">
         <val lang="de_DE">Empfänger (Organisation)</val>
@@ -1114,32 +1159,34 @@
         <val lang="es_ES">Símbolo</val>
     </key>
     <key value="symbol_symbols.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="note_1.name">
         <val lang="de_DE">note-Element</val>
         <val lang="es_ES">Elemento note</val>
     </key>
     <key value="note_1.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="hand.name">
         <val lang="de_DE">@hand mit Register</val>
         <val lang="es_ES">@hand con registro</val>
     </key>
     <key value="hand.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="table.drawn.name">
         <val lang="de_DE">Tabelle implizit bzw. explizit gezeichnet</val>
         <val lang="es_ES">Marcar tabla implícita o explícitamente</val>
     </key>
     <key value="table.drawn.description">
-        <val lang="de_DE">Tabelle nicht nur implizit durch die Anordnung von Zeilen und Spalten vorhanden, sondern durch explizite Zeichnung der Gitterlinien.</val>
-        <val lang="es_ES">Marcar implícitamente (por la disposición de filas y columnas) o explícitamente (por el dibujo explícito de las líneas de la cuadrícula).</val>
+        <val lang="de_DE">Tabelle nicht nur implizit durch die Anordnung von Zeilen und Spalten
+            vorhanden, sondern durch explizite Zeichnung der Gitterlinien.</val>
+        <val lang="es_ES">Marcar implícitamente (por la disposición de filas y columnas) o
+            explícitamente (por el dibujo explícito de las líneas de la cuadrícula).</val>
     </key>
     <key value="figure.name">
         <val lang="de_DE">Zeichnung</val>
@@ -1162,16 +1209,16 @@
         <val lang="es_ES">gap: eliminar @quantity</val>
     </key>
     <key value="gap_2.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="gap_3.name">
         <val lang="de_DE">gap: remove @unit</val>
         <val lang="es_ES">gap: eliminar @unit</val>
     </key>
     <key value="gap_3.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="hi[#b].name">
         <val lang="de_DE">Fettdruck</val>
@@ -1202,16 +1249,20 @@
         <val lang="es_ES">La carta/documento se adjunta con...</val>
     </key>
     <key value="ref[attachedTo].description">
-        <val lang="de_DE">Verlinkung zu einem Brief oder Dokument anlegen, zu dem vorliegendes Dokument/Brief als Beilage zugeordnet ist.</val>
-        <val lang="es_ES">Crear un enlace a una carta o documento al que este documento/carta se asigna como anexo</val>
+        <val lang="de_DE">Verlinkung zu einem Brief oder Dokument anlegen, zu dem vorliegendes
+            Dokument/Brief als Beilage zugeordnet ist.</val>
+        <val lang="es_ES">Crear un enlace a una carta o documento al que este documento/carta se
+            asigna como anexo</val>
     </key>
     <key value="ref[hasAttachement].name">
         <val lang="de_DE">Verweis auf Beilage</val>
         <val lang="es_ES">Referencia al anexo</val>
     </key>
     <key value="ref[hasAttachement].description">
-        <val lang="de_DE">Verlinkung zu einem Brief oder Dokument anlegen, das als Beilage überliefert ist.</val>
-        <val lang="es_ES">Crear un enlace a una carta o documento que se ha entregado como anexo</val>
+        <val lang="de_DE">Verlinkung zu einem Brief oder Dokument anlegen, das als Beilage
+            überliefert ist.</val>
+        <val lang="es_ES">Crear un enlace a una carta o documento que se ha entregado como
+            anexo</val>
     </key>
     <key value="head_rendition[c].name">
         <val lang="de_DE">Überschrift zentrieren</val>
@@ -1242,8 +1293,8 @@
         <val lang="es_ES">Eliminar los atributos vacíos</val>
     </key>
     <key value="ediarum_remove_empty_attributes.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="note[foot].name">
         <val lang="de_DE">Fußnote</val>
@@ -1258,8 +1309,8 @@
         <val lang="es_ES">Elemento note (escrito a mano en texto impreso)</val>
     </key>
     <key value="note[handwritten]_1.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="note[handwritten].name">
         <val lang="de_DE">Handschriftliche Anmerkung</val>
@@ -1274,8 +1325,8 @@
         <val lang="es_ES">Párrafo/lista indentada</val>
     </key>
     <key value="p[renditon=#et].description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="idno.name">
         <val lang="de_DE">Briefnummer für gedruckte Edition</val>
@@ -1290,8 +1341,8 @@
         <val lang="es_ES">Cleaner</val>
     </key>
     <key value="rs_drei.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="profileDesc_creation_orgName.name">
         <val lang="de_DE">Autor des Manuskripts (Organisation)</val>
@@ -1346,18 +1397,18 @@
         <val lang="es_ES">Eliminar @rendition=#left in cell</val>
     </key>
     <key value="@rendition[remove_#leftl].description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
     <key value="@rendition[align]_1.name">
         <val lang="de_DE">Ausrichtung ändern</val>
         <val lang="es_ES">Cambiar de orientación</val>
     </key>
     <key value="@rendition[align]_1.description">
-        <val lang="de_DE"></val>
-        <val lang="es_ES"></val>
+        <val lang="de_DE"/>
+        <val lang="es_ES"/>
     </key>
-    
+
     <!-- CSS -->
     <!-- See css/standard.css -->
     <key value="css.title.placeholder-content">
@@ -1368,17 +1419,18 @@
         <val lang="de_DE">Briefnummer</val>
         <val lang="es_ES">Carta número</val>
     </key>
-    <key value="css.msDesc.idno.placeholder-content">
+    <!-- corrected by adding idno.shelfmark -->
+    <key value="css.msDesc.idno.idno.shelfmark.placeholder-content">
         <val lang="de_DE">Signatur</val>
         <val lang="es_ES">Signatura</val>
     </key>
     <key value="css.msDesc.physDesc.p.placeholder-content">
         <val lang="de_DE">Hier Papier, Format etc. eintragen</val>
-        <val lang="es_ES">Introduzca información sobre el papel, el formato, etc. aquí</val>
+        <val lang="es_ES">Introducir información sobre el papel, el formato, etc. aquí</val>
     </key>
     <key value="css.editor-after.content">
-        <val lang="de_DE">Herausgeber</val>
-        <val lang="es_ES">Editor</val>
+        <val lang="de_DE">(Herausgeber)</val>
+        <val lang="es_ES">(Editor)</val>
     </key>
     <key value="css.msDesc.content">
         <val lang="de_DE">Handschrift</val>
@@ -1405,17 +1457,20 @@
         <val lang="de_DE">Nur Druckzeuge vorhanden</val>
         <val lang="es_ES">Solo existen testimonios impresos</val>
     </key>
-    <key value="css.msDesc.idno.placeholder-content">
+    <!-- Duplicated -->
+    <!--    <key value="css.msDesc.idno.placeholder-content">
         <val lang="de_DE">[Signatur]</val>
         <val lang="es_ES">[Signatura]</val>
-    </key>
-    <key value="(css.msDesc.physDesc.p.placeholder-content">
+    </key>-->
+    <!-- Duplicated -->
+    <!--<key value="(css.msDesc.physDesc.p.placeholder-content">
         <val lang="de_DE">[Hier Papier, Format etc. eintragen]</val>
         <val lang="es_ES">[Introducir aquí información sobre el papel, el tamaño, etc.]</val>
-    </key>
-    <key value="css.msDesc.physDesc-before.content)">
+    </key>-->
+    <!-- Corrected value in Spanish -->
+    <key value="css.msDesc.physDesc-before.content">
         <val lang="de_DE">Handschriftenbeschreibung: </val>
-        <val lang="es_ES">Descripción de la letra: </val>
+        <val lang="es_ES">Descripción física del documento</val>
     </key>
     <key value="css.sourceDesc.witness.msDesc-concept">
         <val lang="de_DE">Entwurf: </val>
@@ -1426,8 +1481,10 @@
         <val lang="es_ES">Copia: </val>
     </key>
     <key value="css.profileDesc.creation-empty">
-        <val lang="de_DE">[Angaben zur Erstellung des Manuskripts über Menü "Allgemein" angeben]</val>
-        <val lang="es_ES">[Especifique la información sobre la creación del manuscrito a través del menú "General"]</val>
+        <val lang="de_DE">[Angaben zur Erstellung des Manuskripts über Menü "Allgemein"
+            angeben]</val>
+        <val lang="es_ES">[Especifique la información sobre la creación del manuscrito a través del
+            menú "General"]</val>
     </key>
     <key value="css.profileDesc.creation.date-before">
         <val lang="de_DE">Datum: </val>
@@ -1467,11 +1524,13 @@
     </key>
     <key value="css.correspAction-sent">
         <val lang="de_DE">[Absenderangaben über Menü "Briefmetadaten" eintragen]</val>
-        <val lang="es_ES">[Introducir los datos del remitente a través del menú "Metadatos de cartas"]</val>
+        <val lang="es_ES">[Introducir los datos del remitente a través del menú "Metadatos de
+            cartas"]</val>
     </key>
     <key value="css.correspAction-received">
         <val lang="de_DE">[Empfängerangaben über Menü "Briefmetadaten" eintragen]</val>
-        <val lang="es_ES">[Introducir los datos del destinatario a través del menú "Metadatos de cartas"]</val>
+        <val lang="es_ES">[Introducir los datos del destinatario a través del menú "Metadatos de
+            cartas"]</val>
     </key>
     <key value="css.correspAction-sent.persName-before">
         <val lang="de_DE">Absender: </val>
