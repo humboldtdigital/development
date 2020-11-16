@@ -73,7 +73,8 @@ titleStmt {
 }
 
 titleStmt title {
-    -oxy-placeholder-content: "Titel";
+    content:"${i18n(css.title.placeholder-content)} : ";
+   /* -oxy-placeholder-content: "Titel";*/
     -oxy-display-tags: none;
     font-size: 1.5em;
 }
