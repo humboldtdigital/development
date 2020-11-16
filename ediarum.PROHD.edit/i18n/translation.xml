@@ -1,9 +1,13 @@
 <translation>
+    
+    <!-- Language options -->
     <languageList>
         <!-- Please set the order of preferences: the first position is the default language -->
         <language description="Spanish" lang="es_ES"/>
         <language description="German" lang="de_DE"/>
     </languageList>
+    
+    <!-- TEI elements -->
     <key value="ex.name">
         <val lang="de_DE">Ergänzung</val>
         <val lang="es_ES">Añadidura</val>
@@ -525,11 +529,11 @@
     </key>
     <key value="address.name">
         <val lang="de_DE">Adresse</val>
-        <val lang="es_ES">Dirección</val>
+        <val lang="es_ES">Dirección postal</val>
     </key>
     <key value="address.description">
         <val lang="de_DE">Adresse am Briefanfang einfügen. Soll die Adresse am Briefende eingefügt werden muss der Cursor im &lt;closer&gt; (Briefschluss) stehen</val>
-        <val lang="es_ES">Insertar la dirección al principio de la carta. Si la dirección debe insertarse al final de la carta, el cursor debe posicionarse en &lt;closer; (cierre de la carta)</val>
+        <val lang="es_ES">Insertar la dirección postal al principio de la carta. Si la dirección debe insertarse al final de la carta, el cursor debe posicionarse en &lt;closer; (cierre de la carta)</val>
     </key>
     <key value="postscript.name">
         <val lang="de_DE">Postskriptum</val>
@@ -1355,7 +1359,8 @@
         <val lang="de_DE"></val>
         <val lang="es_ES"></val>
     </key>
-    <!-- Continue from here -->
+    
+    <!-- CSS -->
     <key value="css.title.placeholder-content">
         <val lang="de_DE">Titel</val>
         <val lang="es_ES">Título</val>
@@ -1455,178 +1460,181 @@
     </key>
     <key value="css.notesStmt.note-before">
         <val lang="de_DE">Anmerkungen zum Text</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Comentarios</val>
     </key>
     <key value="css.notesStmt.note.p">
         <val lang="de_DE">[Text hier eingeben]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Introducir el texto aquí]</val>
     </key>
     <key value="css.correspAction-sent">
         <val lang="de_DE">[Absenderangaben über Menü "Briefmetadaten" eintragen]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Introducir los datos del remitente a través del menú "Metadatos de cartas"]</val>
     </key>
     <key value="css.correspAction-received">
         <val lang="de_DE">[Empfängerangaben über Menü "Briefmetadaten" eintragen]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Introducir los datos del destinatario a través del menú "Metadatos de cartas"]</val>
     </key>
     <key value="css.correspAction-sent.persName-before">
         <val lang="de_DE">Absender: </val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Remitente:</val>
     </key>
     <key value="css.correspAction-received.persName-before">
         <val lang="de_DE">Empfänger: </val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Destinatario: </val>
     </key>
     <key value="css.correspAction-sent.placeName-before">
         <val lang="de_DE">Schreibort: </val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Lugar de escritura: </val>
     </key>
     <key value="css.correspAction-received.placeName-before">
         <val lang="de_DE">Empfangsort: </val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Lugar de recepción: </val>
     </key>
     <key value="css.correspAction-sent.date-before">
         <val lang="de_DE">Schreibdatum: </val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Fecha de escritura: </val>
     </key>
     <key value="css.correspAction-received.date-before">
         <val lang="de_DE">Empfangsdatum: </val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Fecha de recepción: </val>
     </key>
     <key value="css.correspContext.ref-prev">
         <val lang="de_DE">Vorangehender Brief</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Carta anterior</val>
     </key>
     <key value="css.correspContext.ref-next">
         <val lang="de_DE">Nachfolgender Brief</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Carta posterior</val>
     </key>
     <key value="css.correspDesc.note-before-first-of-type">
         <val lang="de_DE">Anmerkungen zum Brief:</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Comentarios sobre la carta:</val>
     </key>
     <key value="css.correspDesc.note">
         <val lang="de_DE">[Hier Anmerkungen zum Brief oder zur Datierung eingeben]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Introducir aquí los comentarios sobre la carta o la fecha]</val>
     </key>
     <key value="css.text.body.div-regestOnly">
         <val lang="de_DE">[Kein Text, nur Regest möglich]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Resumen sin texto]</val>
     </key>
     <key value="css.text.figure">
         <val lang="de_DE">[Zeichnung o.ä.]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Dibujo o similar]</val>
     </key>
     <key value="css.text.figure.head">
         <val lang="de_DE">[Überschrift der Abbildung]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Título de la figura]</val>
     </key>
     <key value="css.text.figure.figDesc">
         <val lang="de_DE">[Bildbeschreibung durch den Bearbeiter]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Descripción de la imagen por el editor]</val>
     </key>
     <key value="css.text.figure.p">
         <val lang="de_DE">[Bildunterschrift des Autors]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Título del autor]</val>
     </key>
     <key value="css.text.figure.note">
         <val lang="de_DE">[Sacherläuterung zur Zeichnung bzw. Abbildung]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Explicación del dibujo o ilustración]</val>
     </key>
     <key value="css.text.note">
         <val lang="de_DE">[Anmerkung eingeben]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Introducir nota]</val>
     </key>
     <key value="css.dateline">
         <val lang="de_DE">[Datumszeile]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Fecha]</val>
     </key>
     <key value="css.opener.dateline">
         <val lang="de_DE">[Anrede]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Saludo]</val>
     </key>
     <key value="css.opener.salute">
         <val lang="de_DE">[Gruß]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Despedida]</val>
     </key>
     <key value="css.closer.salute">
         <val lang="de_DE">[Unterschrift]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Firma]</val>
     </key>
     <key value="css.quote.add">
         <val lang="de_DE">[Hinzufügung]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Adición]</val>
     </key>
     <key value="css.text.supplied-low-before">
         <val lang="de_DE">zu ergänzen wohl [</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">para ser completado [</val>
     </key>
     <key value="css.norm-spelling">
         <val lang="de_DE">[Normalisierte Schreibung]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Ortografía normalizada]</val>
     </key>
     <key value="css.revised-spelling">
         <val lang="de_DE">[Korrigierte Schreibung]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Ortografía corregida]</val>
     </key>
     <key value="css.corr-deleted">
         <val lang="de_DE">[gelöscht]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Eliminado]</val>
     </key>
     <key value="css.choice.expan">
         <val lang="de_DE">[Aufgelöste Schreibung]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Grafía incierta o confusa]</val>
     </key>
+    <!-- doubt -->
     <key value="css.text.damage-empty">
         <val lang="de_DE">Schadhafte Stelle</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Área defectuosa</val>
     </key>
     <key value="css.note-annotation">
         <val lang="de_DE">[Sachanmerkung hier eingeben]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Introducir aquí los comentarios sobre... ]</val>
     </key>
+    <!-- dobut -->
     <key value="css.note-text">
         <val lang="de_DE">[Textanmerkung hier eingeben]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Introducir aquí los comentarios sobre el texto]</val>
     </key>
     <key value="css.anchor-annotation">
         <val lang="de_DE">Sachanmerkung: Start des Bezugstextes</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Nota al margen: comienzo del texto de referencia</val>
     </key>
+    <!-- doubt -->
     <key value="css.facsimile-before">
         <val lang="de_DE">Digitalisate</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Facsímil digital</val>
     </key>
     <key value="css.address-before">
         <val lang="de_DE">Adresse: </val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Dirección postal: </val>
     </key>
     <key value="css.addrLine">
         <val lang="de_DE">[Adresszeile]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Línea de dirección postal]</val>
     </key>
     <key value="css.profileDesc.textClass-before">
         <val lang="de_DE">Schlagwörter/Themen: </val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Palabras clave o temas: </val>
     </key>
     <key value="css.revisionDesc.change">
         <val lang="de_DE">[Kommentar zur Änderung eingeben]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Introducir un comentario sobre el cambio]</val>
     </key>
     <key value="css.revisionDesc.status">
         <val lang="de_DE">Status: </val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Estado: </val>
     </key>
     <key value="css.revisionDesc.listChange-before">
         <val lang="de_DE">Bearbeitungshistorie</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">Historial de edición</val>
     </key>
     <key value="css.revisionDesc.change">
         <val lang="de_DE">[Kommentar zur Änderung eingeben]</val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES">[Introducir un comentario sobre el cambio]</val>
     </key>
     <key value="css.revisionDesc.change-before">
         <val lang="de_DE"> von </val>
-        <val lang="es_ES"></val>
+        <val lang="es_ES"> de </val>
     </key>
 </translation>
