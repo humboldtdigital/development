@@ -1588,9 +1588,8 @@
     </key>
     <key value="css.note-annotation">
         <val lang="de_DE">[Sachanmerkung hier eingeben]</val>
-        <val lang="es_ES">[Introducir aquí los comentarios sobre... ]</val>
+        <val lang="es_ES">[Introducir aquí un comentario a un pasaje]</val>
     </key>
-    <!-- dobut -->
     <key value="css.note-text">
         <val lang="de_DE">[Textanmerkung hier eingeben]</val>
         <val lang="es_ES">[Introducir aquí los comentarios sobre el texto]</val>
