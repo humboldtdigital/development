@@ -1617,7 +1617,7 @@
     </key>
     <key value="css.quote.add">
         <val lang="de_DE">[Hinzufügung]</val>
-        <val lang="es_ES">[Adición]</val>
+        <val lang="es_ES">[Añadido]</val>
     </key>
     <key value="css.text.supplied-low-before">
         <val lang="de_DE">zu ergänzen wohl [</val>
@@ -1625,24 +1625,23 @@
     </key>
     <key value="css.norm-spelling">
         <val lang="de_DE">[Normalisierte Schreibung]</val>
-        <val lang="es_ES">[Ortografía normalizada]</val>
+        <val lang="es_ES">[Normalización]</val>
     </key>
     <key value="css.revised-spelling">
         <val lang="de_DE">[Korrigierte Schreibung]</val>
-        <val lang="es_ES">[Ortografía corregida]</val>
+        <val lang="es_ES">[Corrección]</val>
     </key>
     <key value="css.corr-deleted">
         <val lang="de_DE">[gelöscht]</val>
-        <val lang="es_ES">[Eliminado]</val>
+        <val lang="es_ES">[Eliminación]</val>
     </key>
     <key value="css.choice.expan">
         <val lang="de_DE">[Aufgelöste Schreibung]</val>
-        <val lang="es_ES">[Grafía incierta o confusa]</val>
+        <val lang="es_ES">[Abreviatura expandida]</val>
     </key>
-    <!-- doubt -->
     <key value="css.text.damage-empty">
         <val lang="de_DE">Schadhafte Stelle</val>
-        <val lang="es_ES">Área defectuosa</val>
+        <val lang="es_ES">Área dañada</val>
     </key>
     <key value="css.note-annotation">
         <val lang="de_DE">[Sachanmerkung hier eingeben]</val>
