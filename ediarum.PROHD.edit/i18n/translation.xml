@@ -1419,8 +1419,7 @@
         <val lang="de_DE">Briefnummer</val>
         <val lang="es_ES">Carta número</val>
     </key>
-    <!-- corrected by adding one idno.shelfmark -->
-    <key value="css.msDesc.idno.idno.shelfmark.placeholder-content">
+    <key value="css.msDesc.idno.placeholder-content">
         <val lang="de_DE">Signatur</val>
         <val lang="es_ES">Signatura</val>
     </key>
@@ -1457,17 +1456,17 @@
         <val lang="de_DE">Nur Druckzeuge vorhanden</val>
         <val lang="es_ES">Solo existen testimonios impresos</val>
     </key>
-    <!-- Duplicated -->
-    <!--    <key value="css.msDesc.idno.placeholder-content">
+    <!-- doubt : is it duplicated? -->
+    <key value="css.msDesc.idno.placeholder-content">
         <val lang="de_DE">[Signatur]</val>
         <val lang="es_ES">[Signatura]</val>
-    </key>-->
-    <!-- Duplicated -->
-    <!--<key value="(css.msDesc.physDesc.p.placeholder-content">
+    </key>
+    <!-- doubt : is it duplicated? -->
+    <key value="(css.msDesc.physDesc.p.placeholder-content">
         <val lang="de_DE">[Hier Papier, Format etc. eintragen]</val>
         <val lang="es_ES">[Introducir aquí información sobre el papel, el tamaño, etc.]</val>
-    </key>-->
-    <!-- Corrected value in Spanish -->
+    </key>
+    <!-- doubt: modified value in Spanish -->
     <key value="css.msDesc.physDesc-before.content">
         <val lang="de_DE">Handschriftenbeschreibung: </val>
         <val lang="es_ES">Descripción física del documento</val>
