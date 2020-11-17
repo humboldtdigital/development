@@ -183,13 +183,12 @@ sourceDesc msDesc[rend = "print"] {
 }
 
 /*Corrected below by adding idno and type*/
-sourceDesc msDesc idno idno[type = "shelfmark"] {
+sourceDesc msDesc idno {
     /* -oxy-placeholder-content: "Signatur";*/
-    content: "${i18n(css.msDesc.idno.idno.shelfmark.placeholder-content)} : ";
+    content: "${i18n(css.msDesc.idno.placeholder-content)} : ";
 }
 
-/*Corrected below by adding one more idno*/
-sourceDesc msDesc idno idno[type = 'uri']:before {
+sourceDesc msDesc idno[type = 'uri']:before {
     content: "\A URI: ";
 }
 
