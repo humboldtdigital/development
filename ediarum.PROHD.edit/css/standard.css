@@ -182,7 +182,6 @@ sourceDesc msDesc[rend = "print"] {
     /*content: "Nur Druckzeuge vorhanden.";*/
 }
 
-/*Corrected below by adding idno and type*/
 sourceDesc msDesc idno {
     /* -oxy-placeholder-content: "Signatur";*/
     content: "${i18n(css.msDesc.idno.placeholder-content)} : ";
