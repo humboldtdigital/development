@@ -831,7 +831,8 @@ quote add,
 text add {
     color: green;
     -oxy-display-tags: none;
-    -oxy-placeholder-content: "[Hinzufügung]"
+    content:"${i18n(css.quote.add)} : ";
+   /* -oxy-placeholder-content: "[Hinzufügung]"*/
 }
 
 quote hi[rendition = "#u"],
@@ -910,7 +911,8 @@ text supplied:after {
 
 
 text supplied[cert = "low"]:before {
-    content: "zu ergänzen wohl [";
+    /*content: "zu ergänzen wohl [";*/
+    content:"${i18n(css.text.supplied-low-before)} : ";
     font-family: "BBAWfont-italic";
     color: gray;
 }
@@ -945,17 +947,20 @@ text choice expan {
     font-style: italic;
     background-color: #E8FFDD;
     -oxy-display-tags: none;
-    -oxy-placeholder-content: "[Normalisierte Schreibung]";
+    /*-oxy-placeholder-content: "[Normalisierte Schreibung]";*/
+    content:"${i18n(css.norm-spelling)} : ";
 }
 
 quote choice corr,
 text choice corr {
-    -oxy-placeholder-content: "[Korrigierte Schreibung]";
+    /*-oxy-placeholder-content: "[Korrigierte Schreibung]";*/
+    content:"${i18n(css.revised-spelling)} : ";
 }
 
 quote corr[type = "deleted"],
 text corr[type = "deleted"] {
-    content: "[gelöscht]";
+    /*content: "[gelöscht]";*/
+    content:"${i18n(css.corr-deleted)} : ";
     font-style: italic;
     color: green;
 }
@@ -969,7 +974,8 @@ text choice abbr {
 quote choice expan,
 text choice expan {
     background-color: #E8FFDD;
-    -oxy-placeholder-content: "[Aufgelöste Schreibung]";
+   /* -oxy-placeholder-content: "[Aufgelöste Schreibung]";*/
+   content:"${i18n(css.choice.expan)} : ";
 }
 
 quote gap,
@@ -999,7 +1005,8 @@ text damage {
 
 text damage:empty {
     -oxy-display-tags: none;
-    content: "Schadhafte Stelle";
+    /*content: "Schadhafte Stelle";*/
+    content:"${i18n(css.text.damage-empty)} : ";
 }
 
 text damage:before {
@@ -1060,7 +1067,8 @@ text note[type = "sachapparat"] {
     font-family: "BBAWfont-italic";
     color: #423E2C;
     background-color: #D6D2C2;
-    -oxy-placeholder-content: "[Sachanmerkung hier eingeben]";
+    /*-oxy-placeholder-content: "[Sachanmerkung hier eingeben]";*/
+    content:"${i18n(css.note-annotation)} : ";
     -oxy-display-tags: none;
 }
 
@@ -1071,13 +1079,15 @@ text note[type = "sachapparat"] {
 }
 
 text seg[type = "textapparat"] note {
-    -oxy-placeholder-content: "[Textanmerkung hier eingeben]";
+    /*-oxy-placeholder-content: "[Textanmerkung hier eingeben]";*/
+    content:"${i18n(css.note-text)} : ";
     -oxy-display-tags: none;
 }
 
 text anchor[type = "sachapparat"] {
     display: block;
-    content: "Sachanmerkung: Start des Bezugstextes";
+    /*content: "Sachanmerkung: Start des Bezugstextes";*/
+    content:"${i18n(css.anchor-annotation)} : ";
     color: #423E2C;
     background-color: #D6D2C2;
     -oxy-display-tags: none;
@@ -1175,7 +1185,8 @@ facsimile {
 }
 facsimile:before {
     display: block;
-    content: "Digitalisate";
+    /*content: "Digitalisate";*/
+    content:"${i18n(css.facsimile-before)} : ";
     font-weight: bold;
 }
 
@@ -1186,18 +1197,21 @@ addrLine {
 
 address:before {
     display: block;
-    content: "Adresse:";
+   /* content: "Adresse:";*/
+   content:"${i18n(css.address-before)} : ";
     font-style: italic;
 }
 
 addrLine {
-    -oxy-placeholder-content: "[Adresszeile]";
+    /*-oxy-placeholder-content: "[Adresszeile]";*/
+    content:"${i18n(css.addrLine)} : ";
 }
 
 /* Keywords */
 
 profileDesc textClass:before {
-    content: "Schlagwörter/Themen: ";
+   /* content: "Schlagwörter/Themen: ";*/
+   content:"${i18n(css.profileDesc.textClass-before)} : ";
     font-style: normal;
     font-weight: normal;
 }
@@ -1253,18 +1267,19 @@ revisionDesc change {
 
     line-height: 1.4;
     -oxy-show-placeholder: always;
-    -oxy-placeholder-content: "[Kommentar zur Änderung eingeben]";
+    /*-oxy-placeholder-content: "[Kommentar zur Änderung eingeben]";*/
+    content:"${i18n(css.revisionDesc.change)} : ";
 }
 
 
 revisionDesc[status = 'draft']:before {
     content: 
-    "Status: " url('gfx/status_draft.gif')
+    /*"Status: "*/ "${i18n(css.revisionDesc.status)} : " url('gfx/status_draft.gif')
 }
 
 revisionDesc[status = 'final']:before {
     content: 
-    "Status: " url('gfx/status_final.gif')
+    /*"Status: "*/ "${i18n(css.revisionDesc.status)} : " url('gfx/status_final.gif')
 }
 revisionDesc {
     display: block;
@@ -1283,7 +1298,8 @@ revisionDesc listChange:before {
     font-family: "BBAWfont-italic";
 
     color: rgb(70, 94, 122);
-    content: "Bearbeitungshistorie";
+    /*content: "Bearbeitungshistorie";*/
+    content:"${i18n(css.revisionDesc.listChange-before)} : ";
     margin: 0.5em 0 0 0;
 
 }
@@ -1296,14 +1312,16 @@ revisionDesc listChange {
 
 revisionDesc change {
     -oxy-show-placeholder: always;
-    -oxy-placeholder-content: "[Kommentar zur Änderung eingeben]";
+    /*-oxy-placeholder-content: "[Kommentar zur Änderung eingeben]";*/
+    content:"${i18n(css.revisionDesc.change)} : ";
+    
 }
 revisionDesc change:before {
     content: oxy_editor(type, datePicker, edit, '@when', format, 'yyyy-MM-dd');
 }
 revisionDesc change[who]:before {
     content: oxy_editor(type, datePicker, edit, '@when', format, 'yyyy-MM-dd')
- " von " oxy_editor(type, text, edit, '@who', columns, 10) " ";
+ /*" von "*/ "${i18n(css.revisionDesc.change-before)} : " oxy_editor(type, text, edit, '@who', columns, 10) " ";
 }
 
 /* PROHD customization */
