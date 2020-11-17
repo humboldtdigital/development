@@ -650,7 +650,8 @@ text figure {
     display: block;
     margin: 0 0 0 2em;
     -oxy-display-tags: none;
-    -oxy-placeholder-content: "[Zeichnung o.ä.]";
+   /* -oxy-placeholder-content: "[Zeichnung o.ä.]";*/
+   content:"${i18n(css.text.figure)} : ";
 }
 
 text figure[facs] {
@@ -660,23 +661,27 @@ text figure[facs] {
 
 text figure head {
     -oxy-display-tags: none;
-    -oxy-placeholder-content: "[Überschrift der Abbildung]";
+    /*-oxy-placeholder-content: "[Überschrift der Abbildung]";*/
+    content:"${i18n(css.text.figure.head)} : ";
 }
 
 text figure figDesc {
     display: block;
     font-style: italic;
-    -oxy-placeholder-content: "[Bildbeschreibung durch den Bearbeiter]"
+    /*-oxy-placeholder-content: "[Bildbeschreibung durch den Bearbeiter]"*/
+    content:"${i18n(css.text.figure.figDesc)} : ";
 }
 
 text figure p {
-    -oxy-placeholder-content: "[Bildunterschrift des Autors]"
+    /*-oxy-placeholder-content: "[Bildunterschrift des Autors]"*/
+    content:"${i18n(css.text.figure.p)} : ";
 }
 
 text figure note {
     display: block;
     font-style: italic;
-    -oxy-placeholder-content: "[Sacherläuterung zur Zeichnung bzw. Abbildung]"
+    /*-oxy-placeholder-content: "[Sacherläuterung zur Zeichnung bzw. Abbildung]"*/
+    content:"${i18n(css.text.figure.note)} : ";
 }
 
 /*  graphic DEPRECATED */
@@ -689,7 +694,8 @@ text graphic {
 text note {
     background-color: #e0e0e0;
     -oxy-display-tags: none;
-    -oxy-placeholder-content: "[Anmerkung eingeben]";
+   /* -oxy-placeholder-content: "[Anmerkung eingeben]";*/
+   content:"${i18n(css.text.note)} : ";
     -oxy-show-placeholder: always;
 }
 
@@ -735,7 +741,8 @@ milestone {
 /* Correspondence */
 dateline {
     display: block;
-    -oxy-placeholder-content: "[Datumszeile]";
+    /*-oxy-placeholder-content: "[Datumszeile]";*/
+    content:"${i18n(css.dateline)} : ";
 }
 
 opener dateline {
@@ -744,17 +751,21 @@ opener dateline {
 
 opener salute {
     display: block;
-    -oxy-placeholder-content: "[Anrede]";
+    /*-oxy-placeholder-content: "[Anrede]";*/
+    content:"${i18n(css.opener.dateline)} : ";
+    
 }
 
 closer salute {
     display: block;
-    -oxy-placeholder-content: "[Gruß]";
+    /*-oxy-placeholder-content: "[Gruß]";*/
+    content:"${i18n(css.opener.salute)} : ";
 }
 
 signed {
     display: block;
-    -oxy-placeholder-content: "[Unterschrift]";
+    /*-oxy-placeholder-content: "[Unterschrift]";*/
+    content:"${i18n(css.closer.salute)} : ";
 }
 
 /* Tables  */
