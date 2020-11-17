@@ -211,11 +211,13 @@ sourceDesc listWit witness {
 }
 
 sourceDesc witness msDesc[type = 'concept'] {
-    content: "Entwurf: ";
+   /* content: "Entwurf: ";*/
+   content:"${i18n(css.sourceDesc.witness.msDesc-concept)} : ";
 }
 
 sourceDesc witness msDesc[type = 'copy'] {
-    content: "Abschrift: ";
+   /* content: "Abschrift: ";*/
+   content:"${i18n(css.sourceDesc.witness.msDesc-copy)} : ";
 }
 
 sourceDesc witness > bibl {
@@ -266,7 +268,8 @@ text {
 }
 
 profileDesc creation:empty {
-    -oxy-placeholder-content: '[Angaben zur Erstellung des Manuskripts über Menü "Allgemein" angeben]';
+    /*-oxy-placeholder-content: '[Angaben zur Erstellung des Manuskripts über Menü "Allgemein" angeben]';*/
+    content:"${i18n(css.profileDesc.creation-empty)} : ";
     display: block;
 }
 
@@ -284,7 +287,8 @@ profileDesc correspAction placeName {
 }
 
 profileDesc creation date:before {
-    content: "Datum: "
+    /*content: "Datum: "*/
+    content:"${i18n(css.profileDesc.creation.date-before)} : ";
 }
 
 correspDesc date[when],
@@ -301,17 +305,20 @@ profileDesc creation date[from] {
 
 correspDesc date[notBefore],
 profileDesc creation date[notBefore] {
-    content: "Nicht vor" oxy_editor(type, datePicker, edit, '@notBefore', format, 'yyyy-MM-dd') " und nicht nach " oxy_editor(type, datePicker, edit, '@notAfter', format, 'yyyy-MM-dd');
+   /* content: "Nicht vor" oxy_editor(type, datePicker, edit, '@notBefore', format, 'yyyy-MM-dd') " und nicht nach " oxy_editor(type, datePicker, edit, '@notAfter', format, 'yyyy-MM-dd');*/
+    content: "${i18n(css.date.notBefore)}:" oxy_editor(type, datePicker, edit, '@notBefore', format, 'yyyy-MM-dd') "${i18n(css.date.AND.notAfter)}:" oxy_editor(type, datePicker, edit, '@notAfter', format, 'yyyy-MM-dd');
     -oxy-display-tags: none;
 }
 
 
 profileDesc creation persName:before {
-    content: "Ersteller: ";
+   /* content: "Ersteller: ";*/
+   content:"${i18n(css.profileDesc.creation.persName-before)} : ";
 }
 
 profileDesc creation placeName:before {
-    content: "Erstellungsort: ";
+    /*content: "Erstellungsort: ";*/
+    content:"${i18n(css.profileDesc.creation.placeName-before)} : ";
 }
 
 profileDesc creation persName:after,
@@ -334,13 +341,15 @@ profileDesc textClass {
 
 profileDesc abstract:before {
     display: block;
-    content: "Regest: ";
+    content:"${i18n(css.profileDesc.abstract-before)} : ";
+    /*content: "Regest: ";*/
     font-weight: bold;
 }
 
 profileDesc abstract p {
     display: block;
-    -oxy-placeholder-content: "[Regest hier eingeben]"
+   /* -oxy-placeholder-content: "[Regest hier eingeben]"*/
+   content:"${i18n(css.profileDesc.abstract.p)} : ";
 }
 
 
@@ -362,13 +371,15 @@ abstract quote:after {
 
 /* Anmerkungen zum Text */
 notesStmt note:before {
-    content: "Anmerkungen zum Text";
+    /*content: "Anmerkungen zum Text";*/
+    content:"${i18n(css.notesStmt.note-before)} : ";
     font-weight: bold;
 }
 
 notesStmt note p {
     display: block;
-    -oxy-placeholder-content: "[Text hier eingeben]";
+    content:"${i18n(css.notesStmt.note.p)} : ";
+    /*-oxy-placeholder-content: "[Text hier eingeben]";*/
 }
 
 notesStmt {
@@ -383,37 +394,45 @@ notesStmt {
 
 correspAction[type = "sent"] {
     display: block;
-    -oxy-placeholder-content: '[Absenderangaben über Menü "Briefmetadaten" eintragen]';
+    /*-oxy-placeholder-content: '[Absenderangaben über Menü "Briefmetadaten" eintragen]';*/
+    content:"${i18n(css.correspAction-sent)} : ";
 }
 
 correspAction[type = "received"] {
     display: block;
-    -oxy-placeholder-content: '[Empfängerangaben über Menü "Briefmetadaten" eintragen]';
+   /* -oxy-placeholder-content: '[Empfängerangaben über Menü "Briefmetadaten" eintragen]';*/
+   content:"${i18n(css.correspAction-received)} : ";
 }
 
 
 correspAction[type = 'sent'] persName:before {
-    content: "Absender: ";
+    /*content: "Absender: ";*/
+    content:"${i18n(css.correspAction-sent.persName-before)} : ";
 }
 
 correspAction[type = 'received'] persName:before {
-    content: "Empfänger: ";
+    /*content: "Empfänger: ";*/
+    content:"${i18n(css.correspAction-received.persName-before)} : ";
 }
 
 correspAction[type = 'sent'] placeName:before {
-    content: "Schreibort: ";
+   /* content: "Schreibort: ";*/
+   content:"${i18n(css.correspAction-sent.placeName-before)} : ";
 }
 
 correspAction[type = 'received'] placeName:before {
-    content: "Empfangsort: ";
+    /*content: "Empfangsort: ";*/
+    content:"${i18n(css.correspAction-received.placeName-before)} : ";   
 }
 
 correspAction[type = 'sent'] date:before {
-    content: "Schreibdatum: ";
+    /*content: "Schreibdatum: ";*/
+    content:"${i18n(css.correspAction-sent.date-before)} : ";
 }
 
 correspAction[type = 'received'] date:before {
-    content: "Empfangsdatum: ";
+   /* content: "Empfangsdatum: ";*/
+   content:"${i18n(css.correspAction-received.date-before)} : ";
 }
 
 correspContext ref {
@@ -426,21 +445,26 @@ correspContext ref[target] {
 
 
 correspContext ref[type = "prev"][target] {
-    content: "Vorangehender Brief";
+    /*content: "Vorangehender Brief";*/
+    content:"${i18n(css.correspContext.ref-prev)} : ";
 }
 
 correspContext ref[type = "next"][target] {
-    content: "Nachfolgender Brief";
+   /* content: "Nachfolgender Brief";*/
+   content:"${i18n(css.correspContext.ref-next)} : ";
+
 }
 
 correspContext ref[type = "prev"],
 correspContext ref[type = "prev"][target ^= "http://"] {
-    content: "Vorangehender Brief: ";
+    /*content: "Vorangehender Brief: ";*/
+     content:"${i18n(css.correspContext.ref-prev)} : ";
 }
 
 correspContext ref[type = "next"],
 correspContext ref[type = "next"][target ^= "http://"] {
-    content: "Nachfolgender Brief: ";
+   /* content: "Nachfolgender Brief: ";*/
+   content:"${i18n(css.correspContext.ref-next)} : ";
 }
 
 correspContext ref[target]:after {
@@ -456,13 +480,15 @@ correspContext ref[target ^= "http://"]:after {
 /* Anmerkungen zum Brief */
 correspDesc note:before:first-of-type {
     display: block;
-    content: "Anmerkungen zum Brief:";
+   /* content: "Anmerkungen zum Brief:";*/
+   content:"${i18n(css.correspDesc.note-before-first-of-type)} : ";
     font-weight: bold;
 }
 
 correspDesc note {
     display: block;
-    -oxy-placeholder-content: "[Hier Anmerkungen zum Brief oder zur Datierung eingeben]";
+   /* -oxy-placeholder-content: "[Hier Anmerkungen zum Brief oder zur Datierung eingeben]";*/
+   content:"${i18n(css.correspDesc.note)} : ";
     -oxy-show-placeholder: always;
 }
 
@@ -479,7 +505,9 @@ msDesc[rend = "notExtant"] msIdentifier {
 text body div[type = "regestOnly"] {
     display: block;
     -oxy-editable: false;
-    content: "[Kein Text, nur Regest möglich]";
+   /* content: "[Kein Text, nur Regest möglich]";*/
+   content:"${i18n(css.text.body.div-regestOnly)} : ";
+
 }
 
 /* ############## text ################# */
