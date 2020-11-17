@@ -1419,7 +1419,7 @@
         <val lang="de_DE">Briefnummer</val>
         <val lang="es_ES">Carta número</val>
     </key>
-    <!-- corrected by adding idno.shelfmark -->
+    <!-- corrected by adding one idno.shelfmark -->
     <key value="css.msDesc.idno.idno.shelfmark.placeholder-content">
         <val lang="de_DE">Signatur</val>
         <val lang="es_ES">Signatura</val>
