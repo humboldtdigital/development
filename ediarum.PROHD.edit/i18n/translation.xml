@@ -1597,7 +1597,7 @@
     </key>
     <key value="css.text.note">
         <val lang="de_DE">[Anmerkung eingeben]</val>
-        <val lang="es_ES">[Introducir nota]</val>
+        <val lang="es_ES">[Nota]</val>
     </key>
     <key value="css.dateline">
         <val lang="de_DE">[Datumszeile]</val>
