@@ -158,7 +158,7 @@
 													<String>${framework}/css/standard.css</String>
 												</field>
 												<field name="title">
-													<String>Standardansicht</String>
+													<String>Vista estándar</String>
 												</field>
 												<field name="alternate">
 													<Boolean>false</Boolean>
@@ -185,7 +185,7 @@
 													<String>${framework}/css/text-critical.css</String>
 												</field>
 												<field name="title">
-													<String>Kritischer Text</String>
+													<String>Texto crítico</String>
 												</field>
 												<field name="alternate">
 													<Boolean>false</Boolean>
@@ -212,7 +212,7 @@
 													<String>${framework}/css/text-comments.css</String>
 												</field>
 												<field name="title">
-													<String>Lesetext mit Kommentar</String>
+													<String>Texto de lectura con comentarios</String>
 												</field>
 												<field name="alternate">
 													<Boolean>false</Boolean>
@@ -239,7 +239,7 @@
 													<String>${framework}/css/links.css</String>
 												</field>
 												<field name="title">
-													<String>+ Links anzeigen</String>
+													<String>+ Mostrar enlaces</String>
 												</field>
 												<field name="alternate">
 													<Boolean>true</Boolean>
