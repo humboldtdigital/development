@@ -187,7 +187,7 @@
     </key>
     <key value="profileDesc_date-notBeforeAfter.description">
         <val lang="de_DE">Zeitraum der Erstellung des Manuskripts bzw. Drucks</val>
-        <val lang="es_ES">Período de elaboración del manuscrito o de la impresión</val>
+        <val lang="es_ES">Insertar un período de creación del documento</val>
     </key>
     <key value="bibl.name">
         <val lang="de_DE">Werktitel</val>
@@ -228,7 +228,7 @@
     </key>
     <key value="profileDesc_date-when.description">
         <val lang="de_DE">Zeitraum der Erstellung des Manuskripts bzw. Drucks</val>
-        <val lang="es_ES">Fecha exacta de elaboración del manuscrito o de la impresión</val>
+        <val lang="es_ES">Insertar una fecha exacta de creación del documento</val>
     </key>
     <key value="profileDesc_date-fromto.name">
         <val lang="de_DE">Erstellungszeitspanne</val>
@@ -236,7 +236,7 @@
     </key>
     <key value="profileDesc_date-fromto.description">
         <val lang="de_DE">Zeitspanne der Erstellung des Manuskripts bzw. Drucks</val>
-        <val lang="es_ES">Período de tiempo de la creación del manuscrito o de la impresión</val>
+        <val lang="es_ES">Insertar un período de tiempo de la creación del documento</val>
     </key>
     <key value="index_personen.name">
         <val lang="de_DE">Personenindex</val>
@@ -509,7 +509,7 @@
     </key>
     <key value="closer.description">
         <val lang="de_DE">Briefschluss mit Gruß und Unterschrift</val>
-        <val lang="es_ES">Cierre de la carta con despedida y firma</val>
+        <val lang="es_ES">Insertar el cierre de la carta con despedida y firma</val>
     </key>
     <key value="hi[superscript].name">
         <val lang="de_DE">Hochstellen</val>
@@ -551,7 +551,7 @@
         <val lang="de_DE">Adresse am Briefanfang einfügen. Soll die Adresse am Briefende eingefügt
             werden muss der Cursor im &lt;closer&gt; (Briefschluss) stehen</val>
         <val lang="es_ES">Insertar la dirección postal al principio de la carta. Si la dirección
-            debe insertarse al final de la carta, el cursor debe posicionarse en &lt;closer; (cierre
+            debe insertarse al final de la carta, el cursor debe posicionarse en &lt;closer&gt; (cierre
             de la carta)</val>
     </key>
     <key value="postscript.name">
@@ -560,7 +560,7 @@
     </key>
     <key value="postscript.description">
         <val lang="de_DE">Postkriptum (relativ kurzer Nachsatz zum Brief)</val>
-        <val lang="es_ES">Posdata (una adición relativamente corta a la carta)</val>
+        <val lang="es_ES">Insertar una adición relativamente corta escrita posteriormente</val>
     </key>
     <key value="schreibakt_auftrennen.name">
         <val lang="de_DE">Schreibakt auftrennen</val>
@@ -586,7 +586,7 @@
     </key>
     <key value="opener.description">
         <val lang="de_DE">Eröffnungszeile des Briefs</val>
-        <val lang="es_ES">Línea de apertura de la carta</val>
+        <val lang="es_ES">Insertar la información de apertura de la carta</val>
     </key>
     <key value="salute.name">
         <val lang="de_DE">Anrede</val>
@@ -646,7 +646,7 @@
     <key value="correspContext_ref[ID].description">
         <val lang="de_DE">Fügt einen Link auf einen vorhergehenden Brief (A) oder nachfolgenden
             Brief (B) ein.</val>
-        <val lang="es_ES">Insertar un enlace a una carta anterior (A) o posterior (B).</val>
+        <val lang="es_ES">Insertar un enlace a una carta anterior (A) o posterior (B)</val>
     </key>
     <key value="correspAction[sent]_orgName.name">
         <val lang="de_DE">Absender (Organisation)</val>
@@ -662,7 +662,7 @@
     </key>
     <key value="symbol_enDash.description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">Insertar un guion corto (en dash &#8211;)</val>
     </key>
     <key value="symbol_emDash.name">
         <val lang="de_DE">Geviertstrich</val>
@@ -670,7 +670,7 @@
     </key>
     <key value="symbol_emDash.description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">Insertar una raya (em dash &#8212;)</val>
     </key>
     <key value="spacing.name">
         <val lang="de_DE">Gesperrt</val>
@@ -702,7 +702,7 @@
     </key>
     <key value="@cert[low].description">
         <val lang="de_DE">Identifizierung (d.h. Verknüpfung) der Person unsicher</val>
-        <val lang="es_ES">Identificación (enlace) de la persona es incierta</val>
+        <val lang="es_ES">Identificar (enlace) la persona como incierta</val>
     </key>
     <key value="symbol_free.name">
         <val lang="de_DE">Sonderzeichen</val>
@@ -711,7 +711,7 @@
     <key value="symbol_free.description">
         <val lang="de_DE">Sonderzeichen einfügen. Folgendes Format MUSS eingehalten werden:
             &amp;#x????;</val>
-        <val lang="es_ES">Insertar caracteres especiales. El siguiente formato DEBE ser seguido:
+        <val lang="es_ES">Insertar caracteres especiales.Se DEBE seguir el siguiente formato:
             &amp;#x????;</val>
     </key>
     <key value="website.name">
@@ -728,7 +728,7 @@
     </key>
     <key value="symbol_fracture.description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">Insertar una fracción</val>
     </key>
     <key value="correspAction[sent]_date[when].name">
         <val lang="de_DE">Genaues Schreibdatum</val>
@@ -736,7 +736,7 @@
     </key>
     <key value="correspAction[sent]_date[when].description">
         <val lang="de_DE">Genauer Tag als der Brief geschrieben wurde</val>
-        <val lang="es_ES">Día exacto en que se escribió la carta</val>
+        <val lang="es_ES">Insertar el día exacto en que se escribió la carta</val>
     </key>
     <key value="correspAction[received]_date[when].name">
         <val lang="de_DE">Genaues Empfangsdatum</val>
@@ -744,7 +744,7 @@
     </key>
     <key value="correspAction[received]_date[when].description">
         <val lang="de_DE">Genauer Tag als der Brief empfangen wurde</val>
-        <val lang="es_ES">Día exacto en que se recibió la carta</val>
+        <val lang="es_ES">Insertar día exacto en que se recibió la carta</val>
     </key>
     <key value="correspAction[sent]_date[from].name">
         <val lang="de_DE">Genauer Schreibzeitraum</val>
@@ -752,7 +752,7 @@
     </key>
     <key value="correspAction[sent]_date[from].description">
         <val lang="de_DE">Genauer Zeitraum als der Brief geschrieben wurde</val>
-        <val lang="es_ES">Período exacto en el que se escribió la carta</val>
+        <val lang="es_ES">Insertar período exacto en el que se escribió la carta</val>
     </key>
     <key value="correspAction[sent]_date[notBefore] - Kopie.name">
         <val lang="de_DE">Ungefährer Schreibzeitraum</val>
@@ -760,7 +760,7 @@
     </key>
     <key value="correspAction[sent]_date[notBefore] - Kopie.description">
         <val lang="de_DE">Ungefährer Zeitraum als der Brief geschrieben wurde</val>
-        <val lang="es_ES">Período aproximado en el que se escribió la carta</val>
+        <val lang="es_ES">Insertar período aproximado en el que se escribió la carta</val>
     </key>
     <key value="correspAction[received]_date[notBefore].name">
         <val lang="de_DE">Ungefährer Empfangszeitraum</val>
@@ -768,7 +768,7 @@
     </key>
     <key value="correspAction[received]_date[notBefore].description">
         <val lang="de_DE">Ungefährer Zeitraum als der Brief empfangen wurde</val>
-        <val lang="es_ES">Período aproximado en el que se recibió la carta</val>
+        <val lang="es_ES">Insertar período aproximado en el que se recibió la carta</val>
     </key>
     <key value="orig-reg.name">
         <val lang="de_DE">Normalisierte Schreibung</val>
@@ -848,7 +848,7 @@
     </key>
     <key value="symbol_macron.description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">Insertar una tilde de abreviación</val>
     </key>
     <key value="spec_sign_small_o+stroke.name">
         <val lang="de_DE">ø</val>
@@ -872,7 +872,7 @@
     </key>
     <key value="milestone.description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">Insertar una línea divisoria horizontal</val>
     </key>
     <key value="rs_eins.name">
         <val lang="de_DE">Anapher</val>
@@ -936,11 +936,11 @@
     </key>
     <key value="profileDesc_creation_persName.name">
         <val lang="de_DE">Autor des Manuskripts</val>
-        <val lang="es_ES">Autor del manuscrito</val>
+        <val lang="es_ES">Autor del texto</val>
     </key>
     <key value="profileDesc_creation_persName.description">
         <val lang="de_DE">Fügt den Autor des Manuskripts ein</val>
-        <val lang="es_ES">Insertar el autor del manuscrito</val>
+        <val lang="es_ES">Insertar el autor del texto</val>
     </key>
     <key value="profileDesc_creation_placeName.name">
         <val lang="de_DE">Schreibort</val>
@@ -962,11 +962,11 @@
     </key>
     <key value="msDesc/physDesc.name">
         <val lang="de_DE">Beschreibung des Manuskripts</val>
-        <val lang="es_ES">Descripción del manuscrito</val>
+        <val lang="es_ES">Descripción del documento</val>
     </key>
     <key value="msDesc/physDesc.description">
         <val lang="de_DE">Beschreibung der materiellen Eigenschaften der Handschrift</val>
-        <val lang="es_ES">Descripción de las características físicas del manuscrito</val>
+        <val lang="es_ES">Insertar una descripción de las características físicas del documento</val>
     </key>
     <key value="correspContext_ref[text].name">
         <val lang="de_DE">Korrespondenzkontext (Text)</val>
@@ -1029,7 +1029,7 @@
     </key>
     <key value="symbol_letters.description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">Insertar un carácter especial</val>
     </key>
     <key value="symbol_units.name">
         <val lang="de_DE">Einheitenzeichen</val>
@@ -1037,7 +1037,7 @@
     </key>
     <key value="symbol_units.description">
         <val lang="de_DE">Währungen, Gewichte etc.</val>
-        <val lang="es_ES">Divisas, peso, etc.</val>
+        <val lang="es_ES">Insertar una divisa, peso, etc.</val>
     </key>
     <key value="hi[#g].name">
         <val lang="de_DE">Gesperrter Text</val>
@@ -1053,7 +1053,7 @@
     </key>
     <key value="hi[#i].description">
         <val lang="de_DE">In gedrucktem Text hervorgehoben</val>
-        <val lang="es_ES">Destacado en el texto impreso</val>
+        <val lang="es_ES">Destacar con cursiva en el texto impreso</val>
     </key>
     <key value="hi[mPrint].name">
         <val lang="de_DE">Vorgedruckte Wörter</val>
@@ -1061,7 +1061,7 @@
     </key>
     <key value="hi[mPrint].description">
         <val lang="de_DE"/>
-        <val lang="es_ES">Palabras impresas en el manuscrito</val>
+        <val lang="es_ES">Marcar las palabras como impresas en el manuscrito</val>
     </key>
     <key value="bibl_zotero.name">
         <val lang="de_DE">Werktitel (Zotero)</val>
@@ -1078,7 +1078,7 @@
     </key>
     <key value="@rendition=&quot;mPrint&quot;.description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">Marcar el texto como preimpreso</val>
     </key>
     <key value="p[renditon=#mMM].name">
         <val lang="de_DE">Absatz am Rand angestrichen</val>
@@ -1086,7 +1086,7 @@
     </key>
     <key value="p[renditon=#mMM].description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">Marcar un párrafo como destacado al margen</val>
     </key>
     <key value="@cert[remove].name">
         <val lang="de_DE">Unsichere Identifizierung entfernen</val>
@@ -1103,8 +1103,7 @@
     </key>
     <key value="metamark[function=used].description">
         <val lang="de_DE">Textpassage ist durch den Autor im Manuskript als erledigt markiert</val>
-        <val lang="es_ES">El pasaje del texto está marcado como completado por el autor en el
-            manuscrito</val>
+        <val lang="es_ES">Marcar el pasaje del texto como completado por el autor</val>
     </key>
     <key value="notesStmt.name">
         <val lang="de_DE">Anmerkung zum Text</val>
@@ -1112,7 +1111,7 @@
     </key>
     <key value="notesStmt.description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">[Insertar en una nota un comentario general sobre el documento, la fecha u otros fenómenos textuales]</val>
     </key>
     <key value="@select.name">
         <val lang="de_DE">Textgrundlage auswählen/abwählen</val>
@@ -1120,7 +1119,7 @@
     </key>
     <key value="@select.description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">Seleccionar/Deseleccionar el testimonio que sirve como base del texto</val>
     </key>
     <key value="correspAction[received]_orgName.name">
         <val lang="de_DE">Empfänger (Organisation)</val>
@@ -1160,7 +1159,7 @@
     </key>
     <key value="symbol_symbols.description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">Insertar un símbolo especial</val>
     </key>
     <key value="note_1.name">
         <val lang="de_DE">note-Element</val>
@@ -1185,8 +1184,8 @@
     <key value="table.drawn.description">
         <val lang="de_DE">Tabelle nicht nur implizit durch die Anordnung von Zeilen und Spalten
             vorhanden, sondern durch explizite Zeichnung der Gitterlinien.</val>
-        <val lang="es_ES">Marcar implícitamente (por la disposición de filas y columnas) o
-            explícitamente (por el dibujo explícito de las líneas de la cuadrícula).</val>
+        <val lang="es_ES">Marcar la tabla implícitamente (por la disposición de filas y columnas) o
+            explícitamente (por el dibujo explícito de las líneas de la cuadrícula)</val>
     </key>
     <key value="figure.name">
         <val lang="de_DE">Zeichnung</val>
@@ -1226,7 +1225,7 @@
     </key>
     <key value="hi[#b].description">
         <val lang="de_DE">Fettgedruckter Text (nur bei Transkription gedruckter Texte)</val>
-        <val lang="es_ES">Texto en negrita (sólo para la transcripción de textos impresos)</val>
+        <val lang="es_ES">Marcar el texto como negrita (sólo para la transcripción de textos impresos)</val>
     </key>
     <key value="hi[#aq_#fr].name">
         <val lang="de_DE">Schriftartwechsel</val>
@@ -1290,11 +1289,11 @@
     </key>
     <key value="ediarum_remove_empty_attributes.name">
         <val lang="de_DE">Entfernt leere Attribute</val>
-        <val lang="es_ES">Eliminar los atributos vacíos</val>
+        <val lang="es_ES">Eliminación de atributos vacíos</val>
     </key>
     <key value="ediarum_remove_empty_attributes.description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">Eliminar los atributos vacíos</val>
     </key>
     <key value="note[foot].name">
         <val lang="de_DE">Fußnote</val>
@@ -1318,7 +1317,7 @@
     </key>
     <key value="note[handwritten].description">
         <val lang="de_DE">Handschriftliche Anmerkung in einem gedruckten Text</val>
-        <val lang="es_ES">Nota manuscrita en un texto impreso</val>
+        <val lang="es_ES">Marcar como nota manuscrita en un texto impreso</val>
     </key>
     <key value="p[renditon=#et].name">
         <val lang="de_DE">Absatz/Liste eingerückt</val>
@@ -1326,7 +1325,7 @@
     </key>
     <key value="p[renditon=#et].description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">Marcar un párrafo o una lista como indentada</val>
     </key>
     <key value="idno.name">
         <val lang="de_DE">Briefnummer für gedruckte Edition</val>
@@ -1346,11 +1345,11 @@
     </key>
     <key value="profileDesc_creation_orgName.name">
         <val lang="de_DE">Autor des Manuskripts (Organisation)</val>
-        <val lang="es_ES">Autor del manuscrito (organización)</val>
+        <val lang="es_ES">Autor del texto (organización)</val>
     </key>
     <key value="profileDesc_creation_orgName.description">
         <val lang="de_DE">Fügt eine Insitution als Urheber des Manuskripts ein</val>
-        <val lang="es_ES">Insertar una institución como autor del manuscrito</val>
+        <val lang="es_ES">Insertar una institución como autor del texto</val>
     </key>
     <key value="ediarum_manual.name">
         <val lang="de_DE">Handbuch</val>
@@ -1565,11 +1564,11 @@
     </key>
     <key value="css.correspDesc.note-before-first-of-type">
         <val lang="de_DE">Anmerkungen zum Brief:</val>
-        <val lang="es_ES">Comentarios sobre la carta:</val>
+        <val lang="es_ES">Comentario general sobre la carta</val>
     </key>
     <key value="css.correspDesc.note">
         <val lang="de_DE">[Hier Anmerkungen zum Brief oder zur Datierung eingeben]</val>
-        <val lang="es_ES">[Introducir aquí los comentarios sobre la carta o la fecha]</val>
+        <val lang="es_ES">[Introducir en una nota un comentario sobre la carta, la fecha u otros fenómenos textuales]</val>
     </key>
     <key value="css.text.body.div-regestOnly">
         <val lang="de_DE">[Kein Text, nur Regest möglich]</val>
