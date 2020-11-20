@@ -822,7 +822,7 @@
 											<Integer>-1</Integer>
 										</field>
 										<field name="value">
-											<String>${i18n(abstract.description)</String>
+											<String>${i18n(abstract.description)}</String>
 										</field>
 										<field name="patchHandling">
 											<String>set</String>
@@ -3246,7 +3246,7 @@
 											<Integer>-1</Integer>
 										</field>
 										<field name="value">
-											<String>${i18n(.correspAction[sent]_date[notBefore] - Kopie.description)}</String>
+											<String>${i18n(correspAction[sent]_date[notBefore] - Kopie.description)}</String>
 										</field>
 										<field name="patchHandling">
 											<String>set</String>
@@ -6235,7 +6235,7 @@
 														</menu>
 														<menu>
 															<field name="label">
-																<String>Línea</String>
+																<String>Lista</String>
 															</field>
 															<field name="accessKey">
 																<String></String>
