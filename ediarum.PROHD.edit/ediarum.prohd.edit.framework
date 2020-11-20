@@ -6170,7 +6170,7 @@
 										<field name="value">
 											<menu>
 												<field name="label">
-													<String>Estructura del texto</String>
+													<String>Estructura textual</String>
 												</field>
 												<field name="accessKey">
 													<String></String>
@@ -6415,6 +6415,87 @@
 										<field name="value">
 											<menu>
 												<field name="label">
+													<String>Estructura de carta</String>
+												</field>
+												<field name="accessKey">
+													<String></String>
+												</field>
+												<field name="iconPath">
+													<String></String>
+												</field>
+												<field name="menuEntriesDescriptorList">
+													<menuEntry-array>
+														<menuItem>
+															<field name="actionID">
+																<String>address</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>opener</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>writingSession</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>closer</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>closer_dateline</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>postscript</String>
+															</field>
+														</menuItem>
+													</menuEntry-array>
+												</field>
+												<field name="context">
+													<null/>
+												</field>
+											</menu>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
+										</field>
+										<field name="index">
+											<Integer>10</Integer>
+										</field>
+										<field name="value">
+											<menuSeparator/>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
+										</field>
+										<field name="index">
+											<Integer>11</Integer>
+										</field>
+										<field name="value">
+											<menu>
+												<field name="label">
 													<String>Edición textual</String>
 												</field>
 												<field name="accessKey">
@@ -6556,7 +6637,7 @@
 											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
 										</field>
 										<field name="index">
-											<Integer>10</Integer>
+											<Integer>12</Integer>
 										</field>
 										<field name="value">
 											<menu>
@@ -6615,7 +6696,7 @@
 											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
 										</field>
 										<field name="index">
-											<Integer>11</Integer>
+											<Integer>13</Integer>
 										</field>
 										<field name="value">
 											<menu>
@@ -6664,7 +6745,7 @@
 											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
 										</field>
 										<field name="index">
-											<Integer>12</Integer>
+											<Integer>14</Integer>
 										</field>
 										<field name="value">
 											<menu>
@@ -6739,7 +6820,7 @@
 											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
 										</field>
 										<field name="index">
-											<Integer>13</Integer>
+											<Integer>15</Integer>
 										</field>
 										<field name="value">
 											<menu>
@@ -6815,7 +6896,7 @@
 											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
 										</field>
 										<field name="index">
-											<Integer>14</Integer>
+											<Integer>16</Integer>
 										</field>
 										<field name="value">
 											<menu>
@@ -6892,194 +6973,10 @@
 											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
 										</field>
 										<field name="index">
-											<Integer>15</Integer>
-										</field>
-										<field name="value">
-											<menuSeparator/>
-										</field>
-										<field name="patchHandling">
-											<String>addIndex</String>
-										</field>
-										<field name="anchor">
-											<null/>
-										</field>
-									</poPatch>
-									<poPatch>
-										<field name="fieldPath">
-											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
-										</field>
-										<field name="index">
-											<Integer>16</Integer>
-										</field>
-										<field name="value">
-											<menu>
-												<field name="label">
-													<String>Metadatos de cartas</String>
-												</field>
-												<field name="accessKey">
-													<String></String>
-												</field>
-												<field name="iconPath">
-													<String></String>
-												</field>
-												<field name="menuEntriesDescriptorList">
-													<menuEntry-array>
-														<menuItem>
-															<field name="actionID">
-																<String>correspAction[sent]_persName</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>correspAction[sent]_orgName</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>correspAction[sent]_placeName</String>
-															</field>
-														</menuItem>
-														<menuSeparator/>
-														<menuItem>
-															<field name="actionID">
-																<String>correspAction[received]_persName</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>correspAction[received]_orgName</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>correspAction[received]_placeName</String>
-															</field>
-														</menuItem>
-														<menuSeparator/>
-														<menuItem>
-															<field name="actionID">
-																<String>correspAction[sent]_date[when]</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>correspAction[sent]_date[from]</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>correspAction[sent]_date[notBefore] - Kopie</String>
-															</field>
-														</menuItem>
-														<menuSeparator/>
-														<menuItem>
-															<field name="actionID">
-																<String>correspAction[received]_date[when]</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>correspAction[received]_date[notBefore]</String>
-															</field>
-														</menuItem>
-														<menuSeparator/>
-														<menuItem>
-															<field name="actionID">
-																<String>correspDesc/note</String>
-															</field>
-														</menuItem>
-														<menuSeparator/>
-														<menuItem>
-															<field name="actionID">
-																<String>correspContext_ref[ID]</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>correspContext_ref[text]</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>correspContext_ref[text+URL]</String>
-															</field>
-														</menuItem>
-														<menuSeparator/>
-														<menuItem>
-															<field name="actionID">
-																<String>idno</String>
-															</field>
-														</menuItem>
-													</menuEntry-array>
-												</field>
-												<field name="context">
-													<null/>
-												</field>
-											</menu>
-										</field>
-										<field name="patchHandling">
-											<String>addIndex</String>
-										</field>
-										<field name="anchor">
-											<null/>
-										</field>
-									</poPatch>
-									<poPatch>
-										<field name="fieldPath">
-											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
-										</field>
-										<field name="index">
 											<Integer>17</Integer>
 										</field>
 										<field name="value">
-											<menu>
-												<field name="label">
-													<String>Estructura de carta</String>
-												</field>
-												<field name="accessKey">
-													<String></String>
-												</field>
-												<field name="iconPath">
-													<String></String>
-												</field>
-												<field name="menuEntriesDescriptorList">
-													<menuEntry-array>
-														<menuItem>
-															<field name="actionID">
-																<String>address</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>opener</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>writingSession</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>closer</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>closer_dateline</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>postscript</String>
-															</field>
-														</menuItem>
-													</menuEntry-array>
-												</field>
-												<field name="context">
-													<null/>
-												</field>
-											</menu>
+											<menuSeparator/>
 										</field>
 										<field name="patchHandling">
 											<String>addIndex</String>
@@ -7330,6 +7227,126 @@
 														<menuItem>
 															<field name="actionID">
 																<String>keyword</String>
+															</field>
+														</menuItem>
+													</menuEntry-array>
+												</field>
+												<field name="context">
+													<null/>
+												</field>
+											</menu>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
+										</field>
+										<field name="index">
+											<Integer>1</Integer>
+										</field>
+										<field name="value">
+											<menu>
+												<field name="label">
+													<String>Metadatos de cartas</String>
+												</field>
+												<field name="accessKey">
+													<String></String>
+												</field>
+												<field name="iconPath">
+													<String></String>
+												</field>
+												<field name="menuEntriesDescriptorList">
+													<menuEntry-array>
+														<menuItem>
+															<field name="actionID">
+																<String>correspAction[sent]_persName</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>correspAction[sent]_orgName</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>correspAction[sent]_placeName</String>
+															</field>
+														</menuItem>
+														<menuSeparator/>
+														<menuItem>
+															<field name="actionID">
+																<String>correspAction[received]_persName</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>correspAction[received]_orgName</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>correspAction[received]_placeName</String>
+															</field>
+														</menuItem>
+														<menuSeparator/>
+														<menuItem>
+															<field name="actionID">
+																<String>correspAction[sent]_date[when]</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>correspAction[sent]_date[from]</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>correspAction[sent]_date[notBefore] - Kopie</String>
+															</field>
+														</menuItem>
+														<menuSeparator/>
+														<menuItem>
+															<field name="actionID">
+																<String>correspAction[received]_date[when]</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>correspAction[received]_date[notBefore]</String>
+															</field>
+														</menuItem>
+														<menuSeparator/>
+														<menuItem>
+															<field name="actionID">
+																<String>correspDesc/note</String>
+															</field>
+														</menuItem>
+														<menuSeparator/>
+														<menuItem>
+															<field name="actionID">
+																<String>correspContext_ref[ID]</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>correspContext_ref[text]</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>correspContext_ref[text+URL]</String>
+															</field>
+														</menuItem>
+														<menuSeparator/>
+														<menuItem>
+															<field name="actionID">
+																<String>idno</String>
 															</field>
 														</menuItem>
 													</menuEntry-array>
