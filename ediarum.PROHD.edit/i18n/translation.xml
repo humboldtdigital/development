@@ -1691,4 +1691,35 @@
         <val lang="de_DE"> von </val>
         <val lang="es_ES"> de </val>
     </key>
+    
+    <!-- Menu -->
+    
+    <key value="metadata.menu">
+        <val lang="de_DE">Metadaten</val>
+        <val lang="es_ES">Metadatos generales</val>
+    </key>
+    
+    <!-- Actions Argument Values -->
+    
+    <key value="typeOfUnderlined">
+        <val lang="de_DE">Art der Unterstreichung</val>
+        <val lang="es_ES">Tipo de subrayado</val>
+    </key>
+    <key value="typeOfUnderlined.simple">
+        <val lang="de_DE">Einfach unterstrichen</val>
+        <val lang="es_ES">Subrayado simple</val>
+    </key>
+    <key value="typeOfUnderlined.simple">
+        <val lang="de_DE">Einfach unterstrichen</val>
+        <val lang="es_ES">Subrayado simple</val>
+    </key>
+    <key value="typeOfUnderlined.double">
+        <val lang="de_DE">Doppelt unterstrichen</val>
+        <val lang="es_ES">Subrayado doble</val>
+    </key>
+    <key value="typeOfUnderlined.margin">
+        <val lang="de_DE">Am Rand angestrichen</val>
+        <val lang="es_ES">Subrayado al margen</val>
+    </key>
+     
 </translation>
