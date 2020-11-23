@@ -3,8 +3,8 @@
     <!-- Language options -->
     <languageList>
         <!-- Please set the order of preferences: the first position is the default language -->
-        <language description="Spanish" lang="es_ES"/>
         <language description="German" lang="de_DE"/>
+        <language description="Spanish" lang="es_ES"/>
     </languageList>
 
     <!-- TEI elements -->
@@ -1694,9 +1694,101 @@
     
     <!-- Menu -->
     
+    <key value="text.menu">
+        <val lang="de_DE">Text</val>
+        <val lang="es_ES">Texto</val>
+    </key>
     <key value="metadata.menu">
         <val lang="de_DE">Metadaten</val>
         <val lang="es_ES">Metadatos generales</val>
+    </key>
+    <key value="metadataSup.menu">
+        <val lang="de_DE">Metadaten</val>
+        <val lang="es_ES">Metadatos</val>
+    </key>
+    <key value="letterMetadata.menu">
+        <val lang="de_DE">Briefmetadaten</val>
+        <val lang="es_ES">Metadatos de cartas</val>
+    </key>
+    <key value="textualEstructure.menu">
+        <val lang="de_DE">Textstruktur</val>
+        <val lang="es_ES">Estructura textual</val>
+    </key>
+    <key value="letterText.menu">
+        <val lang="de_DE">Brieftext</val>
+        <val lang="es_ES">Estructura de carta</val>
+    </key>
+    <key value="editorial.menu">
+        <val lang="de_DE">Herausgeberbearbeitung</val>
+        <val lang="es_ES">Edición textual</val>
+    </key>
+    <key value="textualChanges.menu">
+        <val lang="de_DE">Autorbearbeitung</val>
+        <val lang="es_ES">Génesis textual</val>
+    </key>
+    <key value="readability.menu">
+        <val lang="de_DE">Lesbarkeit</val>
+        <val lang="es_ES">Legibilidad</val>
+    </key>
+    <key value="indexes.menu">
+        <val lang="de_DE">Indizierung und Namen</val>
+        <val lang="es_ES">Indexación de nombres</val>
+    </key>
+    <key value="print.menu">
+        <val lang="de_DE">Traskription gedrucktes Texte</val>
+        <val lang="es_ES">Transcripción de impresos</val>
+    </key>
+    <key value="especialFunctions.menu">
+        <val lang="de_DE">Sonderfunktionen</val>
+        <val lang="es_ES">Funciones especiales</val>
+    </key>
+    <key value="symbols.menu">
+        <val lang="de_DE">Symbole</val>
+        <val lang="es_ES">Símbolos</val>
+    </key>
+    <key value="website.menu">
+        <val lang="de_DE">Website</val>
+        <val lang="es_ES">Página web</val>
+    </key>
+    <key value="lineBreak.menu">
+        <val lang="de_DE">Zeilenumbruch</val>
+        <val lang="es_ES">Ruptura de línea</val>
+    </key>
+    <key value="list.menu">
+        <val lang="de_DE">Listen</val>
+        <val lang="es_ES">Listas</val>
+    </key>
+    <key value="table.menu">
+        <val lang="de_DE">Tabelle</val>
+        <val lang="es_ES">Tablas</val>
+    </key>
+    <key value="pageBreak.menu">
+        <val lang="de_DE">Folio- und Seitenwechsel</val>
+        <val lang="es_ES">Cambio de folio o página</val>
+    </key>
+    <key value="corrections.menu">
+        <val lang="de_DE">Korrekturen</val>
+        <val lang="es_ES">Correcciones</val>
+    </key>
+    <key value="dates.menu">
+        <val lang="de_DE">Datum</val>
+        <val lang="es_ES">Fechas</val>
+    </key>
+    <key value="language.menu">
+        <val lang="de_DE">Sprache und Schriftart</val>
+        <val lang="es_ES">Idioma y tipo de letra</val>
+    </key>
+    <key value="indexText.menu">
+        <val lang="de_DE">Textstellen indizieren</val>
+        <val lang="es_ES">Indexación de pasajes de texto</val>
+    </key>
+    <key value="reference.menu">
+        <val lang="de_DE">Verweise</val>
+        <val lang="es_ES">Referencias</val>
+    </key>
+    <key value="revision.menu">
+        <val lang="de_DE">Überprüfung und Status</val>
+        <val lang="es_ES">Revisión y estado</val>
     </key>
     
     <!-- Actions Argument Values -->
