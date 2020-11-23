@@ -6219,7 +6219,7 @@
 										<field name="value">
 											<menu>
 												<field name="label">
-													<String>Estructura textual</String>
+													<String>${i18n(textualEstructure.menu)}</String>
 												</field>
 												<field name="accessKey">
 													<String></String>
@@ -6251,7 +6251,7 @@
 														</menuItem>
 														<menu>
 															<field name="label">
-																<String>Ruptura de línea</String>
+																<String>${i18n(lineBreak.menu)}</String>
 															</field>
 															<field name="accessKey">
 																<String></String>
@@ -6284,7 +6284,7 @@
 														</menu>
 														<menu>
 															<field name="label">
-																<String>Lista</String>
+																<String>${i18n(list.menu)}</String>
 															</field>
 															<field name="accessKey">
 																<String></String>
@@ -6312,7 +6312,7 @@
 														</menu>
 														<menu>
 															<field name="label">
-																<String>Tabla</String>
+																<String>${i18n(table.menu)}</String>
 															</field>
 															<field name="accessKey">
 																<String></String>
@@ -6409,7 +6409,7 @@
 														</menuItem>
 														<menu>
 															<field name="label">
-																<String>Foliación</String>
+																<String>${i18n(pageBreak.menu)}</String>
 															</field>
 															<field name="accessKey">
 																<String></String>
@@ -6464,7 +6464,7 @@
 										<field name="value">
 											<menu>
 												<field name="label">
-													<String>Estructura de carta</String>
+													<String>${i18n(letterText.menu)}</String>
 												</field>
 												<field name="accessKey">
 													<String></String>
@@ -6545,7 +6545,7 @@
 										<field name="value">
 											<menu>
 												<field name="label">
-													<String>Edición textual</String>
+													<String>${i18n(editorial.menu)}</String>
 												</field>
 												<field name="accessKey">
 													<String></String>
@@ -6588,7 +6588,7 @@
 														</menuItem>
 														<menu>
 															<field name="label">
-																<String>Referencia</String>
+																<String> ${i18n(reference.menu)}</String>
 															</field>
 															<field name="accessKey">
 																<String></String>
@@ -6626,7 +6626,7 @@
 														</menu>
 														<menu>
 															<field name="label">
-																<String>Fechas</String>
+																<String>${i18n(dates.menu)}</String>
 															</field>
 															<field name="accessKey">
 																<String></String>
@@ -6691,7 +6691,7 @@
 										<field name="value">
 											<menu>
 												<field name="label">
-													<String>Génesis textual</String>
+													<String>${i18n(textualChanges.menu)}</String>
 												</field>
 												<field name="accessKey">
 													<String></String>
@@ -6750,7 +6750,7 @@
 										<field name="value">
 											<menu>
 												<field name="label">
-													<String>Legilidad</String>
+													<String>${i18n(readability.menu)}</String>
 												</field>
 												<field name="accessKey">
 													<String></String>
@@ -6799,7 +6799,7 @@
 										<field name="value">
 											<menu>
 												<field name="label">
-													<String>Indexación de entidades nombradas</String>
+													<String>${i18n(indexes.menu)}</String>
 												</field>
 												<field name="accessKey">
 													<String></String>
@@ -6874,7 +6874,7 @@
 										<field name="value">
 											<menu>
 												<field name="label">
-													<String>Transcripción de impresos</String>
+													<String>${i18n(print.menu)}</String>
 												</field>
 												<field name="accessKey">
 													<String></String>
@@ -6950,7 +6950,7 @@
 										<field name="value">
 											<menu>
 												<field name="label">
-													<String>Funciones especiales</String>
+													<String>${i18n(especialFunctions.menu)}</String>
 												</field>
 												<field name="accessKey">
 													<String></String>
@@ -7247,7 +7247,7 @@
 														</menuItem>
 														<menu>
 															<field name="label">
-																<String>Revisión y estado</String>
+																<String> ${i18n(revision.menu)}</String>
 															</field>
 															<field name="accessKey">
 																<String></String>
@@ -7302,7 +7302,7 @@
 										<field name="value">
 											<menu>
 												<field name="label">
-													<String>Metadatos de cartas</String>
+													<String>${i18n(letterMetadata.menu)}</String>
 												</field>
 												<field name="accessKey">
 													<String></String>
@@ -7458,7 +7458,7 @@
 											<Integer>-1</Integer>
 										</field>
 										<field name="value">
-											<String>Texto</String>
+											<String>${i18n(text.menu)}</String>
 										</field>
 										<field name="patchHandling">
 											<String>set</String>
@@ -7560,7 +7560,7 @@
 										<field name="value">
 											<toolbar>
 												<field name="id">
-													<String>Indexación de entidades</String>
+													<String>${i18n(indexes.menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
@@ -8160,6 +8160,23 @@
 											<String>authorExtensionDescriptor/additionalToolbarsDescriptors</String>
 										</field>
 										<field name="index">
+											<Integer>2</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/additionalToolbarsDescriptors</String>
+										</field>
+										<field name="index">
 											<Integer>1</Integer>
 										</field>
 										<field name="value">
@@ -8199,7 +8216,7 @@
 										<field name="value">
 											<toolbar>
 												<field name="id">
-													<String>Metadatos</String>
+													<String>${i18n(metadataSup.menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>2</Integer>
@@ -8214,7 +8231,7 @@
 													<toolbarEntry-array>
 														<toolbar>
 															<field name="id">
-																<String>Metadatos generales</String>
+																<String>${i18n(metadata.menu)}</String>
 															</field>
 															<field name="type">
 																<Integer>3</Integer>
@@ -8331,7 +8348,7 @@
 														</toolbar>
 														<toolbar>
 															<field name="id">
-																<String>Metadatos de cartas</String>
+																<String>${i18n(letterMetadata.menu)}</String>
 															</field>
 															<field name="type">
 																<Integer>3</Integer>
@@ -8448,7 +8465,7 @@
 										<field name="value">
 											<toolbar>
 												<field name="id">
-													<String>Caracteres especiales</String>
+													<String>${i18n(especialFunctions.menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>2</Integer>
@@ -8463,7 +8480,7 @@
 													<toolbarEntry-array>
 														<toolbar>
 															<field name="id">
-																<String>Símbolos</String>
+																<String>${i18n(symbols.menu)}</String>
 															</field>
 															<field name="type">
 																<Integer>3</Integer>
@@ -8522,6 +8539,45 @@
 																</toolbarEntry-array>
 															</field>
 														</toolbar>
+													</toolbarEntry-array>
+												</field>
+											</toolbar>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/additionalToolbarsDescriptors</String>
+										</field>
+										<field name="index">
+											<Integer>2</Integer>
+										</field>
+										<field name="value">
+											<toolbar>
+												<field name="id">
+													<String>${i18n(website.menu)}</String>
+												</field>
+												<field name="type">
+													<Integer>2</Integer>
+												</field>
+												<field name="largeIconPath">
+													<null/>
+												</field>
+												<field name="smallIconPath">
+													<null/>
+												</field>
+												<field name="toolbarEntriesDescriptorList">
+													<toolbarEntry-array>
+														<toolbarItem>
+															<field name="actionID">
+																<String>website</String>
+															</field>
+														</toolbarItem>
 													</toolbarEntry-array>
 												</field>
 											</toolbar>
