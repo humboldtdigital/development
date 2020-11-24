@@ -3,8 +3,8 @@
     <!-- Language options -->
     <languageList>
         <!-- Please set the order of preferences: the first position is the default language -->
-        <language description="German" lang="de_DE"/>
         <language description="Spanish" lang="es_ES"/>
+        <language description="German" lang="de_DE"/>
     </languageList>
 
     <!-- TEI elements -->
