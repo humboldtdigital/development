@@ -7511,7 +7511,7 @@
 										<field name="value">
 											<toolbar>
 												<field name="id">
-													<String>Indexación de pasajes de texto</String>
+													<String> ${i18n(indexText.menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
@@ -7659,7 +7659,7 @@
 										<field name="value">
 											<toolbar>
 												<field name="id">
-													<String>Fechas</String>
+													<String> ${i18n(dates.menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
@@ -7708,7 +7708,7 @@
 										<field name="value">
 											<toolbar>
 												<field name="id">
-													<String>Idioma y tipo de letra</String>
+													<String> ${i18n(language.menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
@@ -7769,7 +7769,7 @@
 										<field name="value">
 											<toolbar>
 												<field name="id">
-													<String>Correcciones</String>
+													<String> ${i18n(corrections.menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
@@ -7868,7 +7868,7 @@
 										<field name="value">
 											<toolbar>
 												<field name="id">
-													<String>Cambio de folio o página</String>
+													<String> ${i18n(pageBreak.menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
@@ -8006,7 +8006,7 @@
 										<field name="value">
 											<toolbar>
 												<field name="id">
-													<String>Ruptura de línea</String>
+													<String> ${i18n(lineBreak.menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
@@ -8055,7 +8055,7 @@
 										<field name="value">
 											<toolbar>
 												<field name="id">
-													<String>Listas</String>
+													<String> ${i18n(list.menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
@@ -8099,7 +8099,7 @@
 										<field name="value">
 											<toolbar>
 												<field name="id">
-													<String>Tablas</String>
+													<String> ${i18n(table.menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
