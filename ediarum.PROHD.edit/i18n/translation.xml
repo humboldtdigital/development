@@ -3,8 +3,9 @@
     <!-- Language options -->
     <languageList>
         <!-- Please set the order of preferences: the first position is the default language -->
-        <language description="Spanish" lang="es_ES"/>
         <language description="German" lang="de_DE"/>
+        <language description="Spanish" lang="es_ES"/>
+        
     </languageList>
 
     <!-- TEI elements -->
@@ -1790,6 +1791,15 @@
         <val lang="de_DE">Überprüfung und Status</val>
         <val lang="es_ES">Revisión y estado</val>
     </key>
+    
+    <!-- Styles -->
+    
+    <!-- This is not working -->
+   <!-- <key value="reading.style">
+        <val lang="de_DE">Lesetext mit Kommentar</val>
+        <val lang="es_ES">Texto de lectura con comentarios</val>
+    </key>
+    -->
     
     <!-- Actions Argument Values -->
     
