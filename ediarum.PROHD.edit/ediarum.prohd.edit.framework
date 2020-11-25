@@ -6217,6 +6217,23 @@
 											<Integer>8</Integer>
 										</field>
 										<field name="value">
+											<menuSeparator/>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
+										</field>
+										<field name="index">
+											<Integer>9</Integer>
+										</field>
+										<field name="value">
 											<menu>
 												<field name="label">
 													<String>${i18n(textualEstructure.menu)}</String>
@@ -6459,12 +6476,12 @@
 											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
 										</field>
 										<field name="index">
-											<Integer>9</Integer>
+											<Integer>10</Integer>
 										</field>
 										<field name="value">
 											<menu>
 												<field name="label">
-													<String>${i18n(letterText.menu)}</String>
+													<String>${i18n(textualChanges.menu)}</String>
 												</field>
 												<field name="accessKey">
 													<String></String>
@@ -6476,32 +6493,27 @@
 													<menuEntry-array>
 														<menuItem>
 															<field name="actionID">
-																<String>address</String>
+																<String>hi[underline]</String>
 															</field>
 														</menuItem>
 														<menuItem>
 															<field name="actionID">
-																<String>opener</String>
+																<String>hi[superscript]</String>
 															</field>
 														</menuItem>
 														<menuItem>
 															<field name="actionID">
-																<String>writingSession</String>
+																<String>del</String>
 															</field>
 														</menuItem>
 														<menuItem>
 															<field name="actionID">
-																<String>closer</String>
+																<String>subst</String>
 															</field>
 														</menuItem>
 														<menuItem>
 															<field name="actionID">
-																<String>closer_dateline</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>postscript</String>
+																<String>add</String>
 															</field>
 														</menuItem>
 													</menuEntry-array>
@@ -6523,10 +6535,42 @@
 											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
 										</field>
 										<field name="index">
-											<Integer>10</Integer>
+											<Integer>11</Integer>
 										</field>
 										<field name="value">
-											<menuSeparator/>
+											<menu>
+												<field name="label">
+													<String>${i18n(readability.menu)}</String>
+												</field>
+												<field name="accessKey">
+													<String></String>
+												</field>
+												<field name="iconPath">
+													<String></String>
+												</field>
+												<field name="menuEntriesDescriptorList">
+													<menuEntry-array>
+														<menuItem>
+															<field name="actionID">
+																<String>unclear</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>gap</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>del_gap</String>
+															</field>
+														</menuItem>
+													</menuEntry-array>
+												</field>
+												<field name="context">
+													<null/>
+												</field>
+											</menu>
 										</field>
 										<field name="patchHandling">
 											<String>addIndex</String>
@@ -6540,7 +6584,7 @@
 											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
 										</field>
 										<field name="index">
-											<Integer>11</Integer>
+											<Integer>12</Integer>
 										</field>
 										<field name="value">
 											<menu>
@@ -6686,115 +6730,7 @@
 											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
 										</field>
 										<field name="index">
-											<Integer>12</Integer>
-										</field>
-										<field name="value">
-											<menu>
-												<field name="label">
-													<String>${i18n(textualChanges.menu)}</String>
-												</field>
-												<field name="accessKey">
-													<String></String>
-												</field>
-												<field name="iconPath">
-													<String></String>
-												</field>
-												<field name="menuEntriesDescriptorList">
-													<menuEntry-array>
-														<menuItem>
-															<field name="actionID">
-																<String>hi[underline]</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>hi[superscript]</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>del</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>subst</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>add</String>
-															</field>
-														</menuItem>
-													</menuEntry-array>
-												</field>
-												<field name="context">
-													<null/>
-												</field>
-											</menu>
-										</field>
-										<field name="patchHandling">
-											<String>addIndex</String>
-										</field>
-										<field name="anchor">
-											<null/>
-										</field>
-									</poPatch>
-									<poPatch>
-										<field name="fieldPath">
-											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
-										</field>
-										<field name="index">
 											<Integer>13</Integer>
-										</field>
-										<field name="value">
-											<menu>
-												<field name="label">
-													<String>${i18n(readability.menu)}</String>
-												</field>
-												<field name="accessKey">
-													<String></String>
-												</field>
-												<field name="iconPath">
-													<String></String>
-												</field>
-												<field name="menuEntriesDescriptorList">
-													<menuEntry-array>
-														<menuItem>
-															<field name="actionID">
-																<String>unclear</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>gap</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>del_gap</String>
-															</field>
-														</menuItem>
-													</menuEntry-array>
-												</field>
-												<field name="context">
-													<null/>
-												</field>
-											</menu>
-										</field>
-										<field name="patchHandling">
-											<String>addIndex</String>
-										</field>
-										<field name="anchor">
-											<null/>
-										</field>
-									</poPatch>
-									<poPatch>
-										<field name="fieldPath">
-											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
-										</field>
-										<field name="index">
-											<Integer>14</Integer>
 										</field>
 										<field name="value">
 											<menu>
@@ -6869,7 +6805,7 @@
 											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
 										</field>
 										<field name="index">
-											<Integer>15</Integer>
+											<Integer>14</Integer>
 										</field>
 										<field name="value">
 											<menu>
@@ -6945,7 +6881,7 @@
 											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
 										</field>
 										<field name="index">
-											<Integer>16</Integer>
+											<Integer>15</Integer>
 										</field>
 										<field name="value">
 											<menu>
@@ -7022,7 +6958,7 @@
 											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
 										</field>
 										<field name="index">
-											<Integer>17</Integer>
+											<Integer>16</Integer>
 										</field>
 										<field name="value">
 											<menuSeparator/>
@@ -7039,126 +6975,7 @@
 											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
 										</field>
 										<field name="index">
-											<Integer>6</Integer>
-										</field>
-										<field name="value">
-											<null/>
-										</field>
-										<field name="patchHandling">
-											<String>removeIndex</String>
-										</field>
-										<field name="anchor">
-											<String>Sonderfunktionen</String>
-										</field>
-									</poPatch>
-									<poPatch>
-										<field name="fieldPath">
-											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
-										</field>
-										<field name="index">
-											<Integer>5</Integer>
-										</field>
-										<field name="value">
-											<null/>
-										</field>
-										<field name="patchHandling">
-											<String>removeIndex</String>
-										</field>
-										<field name="anchor">
-											<String>Transkription gedruckter Texte</String>
-										</field>
-									</poPatch>
-									<poPatch>
-										<field name="fieldPath">
-											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
-										</field>
-										<field name="index">
-											<Integer>4</Integer>
-										</field>
-										<field name="value">
-											<null/>
-										</field>
-										<field name="patchHandling">
-											<String>removeIndex</String>
-										</field>
-										<field name="anchor">
-											<String>Indizierung &amp; Namen</String>
-										</field>
-									</poPatch>
-									<poPatch>
-										<field name="fieldPath">
-											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
-										</field>
-										<field name="index">
-											<Integer>3</Integer>
-										</field>
-										<field name="value">
-											<null/>
-										</field>
-										<field name="patchHandling">
-											<String>removeIndex</String>
-										</field>
-										<field name="anchor">
-											<String>Herausgeberbearbeitung</String>
-										</field>
-									</poPatch>
-									<poPatch>
-										<field name="fieldPath">
-											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
-										</field>
-										<field name="index">
-											<Integer>2</Integer>
-										</field>
-										<field name="value">
-											<null/>
-										</field>
-										<field name="patchHandling">
-											<String>removeIndex</String>
-										</field>
-										<field name="anchor">
-											<String>Lesbarkeit</String>
-										</field>
-									</poPatch>
-									<poPatch>
-										<field name="fieldPath">
-											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
-										</field>
-										<field name="index">
-											<Integer>1</Integer>
-										</field>
-										<field name="value">
-											<null/>
-										</field>
-										<field name="patchHandling">
-											<String>removeIndex</String>
-										</field>
-										<field name="anchor">
-											<String>Autorbearbeitungen</String>
-										</field>
-									</poPatch>
-									<poPatch>
-										<field name="fieldPath">
-											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
-										</field>
-										<field name="index">
-											<Integer>0</Integer>
-										</field>
-										<field name="value">
-											<null/>
-										</field>
-										<field name="patchHandling">
-											<String>removeIndex</String>
-										</field>
-										<field name="anchor">
-											<String>Textstruktur</String>
-										</field>
-									</poPatch>
-									<poPatch>
-										<field name="fieldPath">
-											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
-										</field>
-										<field name="index">
-											<Integer>0</Integer>
+											<Integer>17</Integer>
 										</field>
 										<field name="value">
 											<menu>
@@ -7297,7 +7114,7 @@
 											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
 										</field>
 										<field name="index">
-											<Integer>1</Integer>
+											<Integer>18</Integer>
 										</field>
 										<field name="value">
 											<menu>
@@ -7410,6 +7227,189 @@
 										</field>
 										<field name="anchor">
 											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
+										</field>
+										<field name="index">
+											<Integer>19</Integer>
+										</field>
+										<field name="value">
+											<menu>
+												<field name="label">
+													<String>${i18n(letterText.menu)}</String>
+												</field>
+												<field name="accessKey">
+													<String></String>
+												</field>
+												<field name="iconPath">
+													<String></String>
+												</field>
+												<field name="menuEntriesDescriptorList">
+													<menuEntry-array>
+														<menuItem>
+															<field name="actionID">
+																<String>address</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>opener</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>writingSession</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>closer</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>closer_dateline</String>
+															</field>
+														</menuItem>
+														<menuItem>
+															<field name="actionID">
+																<String>postscript</String>
+															</field>
+														</menuItem>
+													</menuEntry-array>
+												</field>
+												<field name="context">
+													<null/>
+												</field>
+											</menu>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
+										</field>
+										<field name="index">
+											<Integer>6</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<String>Sonderfunktionen</String>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
+										</field>
+										<field name="index">
+											<Integer>5</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<String>Transkription gedruckter Texte</String>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
+										</field>
+										<field name="index">
+											<Integer>4</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<String>Indizierung &amp; Namen</String>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
+										</field>
+										<field name="index">
+											<Integer>3</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<String>Herausgeberbearbeitung</String>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
+										</field>
+										<field name="index">
+											<Integer>2</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<String>Lesbarkeit</String>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
+										</field>
+										<field name="index">
+											<Integer>1</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<String>Autorbearbeitungen</String>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/menubarDescriptor/menuEntriesDescriptorList</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<String>Textstruktur</String>
 										</field>
 									</poPatch>
 									<poPatch>
