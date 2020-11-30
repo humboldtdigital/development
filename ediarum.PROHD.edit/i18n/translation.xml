@@ -170,16 +170,16 @@
     </key>
     <key value="wit(Druck).description">
         <val lang="de_DE">Nachweis eines überlieferten Drucks hinzufügen</val>
-        <val lang="es_ES">Añadir otro testimonio impreso de la fuente original</val>
+        <val lang="es_ES">Añadir un testimonio impreso como fuente</val>
     </key>
     <key value="wit(Manuskript).name">
         <val lang="de_DE">Überlieferung: Abschrift, Entwurf ...</val>
-        <val lang="es_ES">Tradición manuscrita: transcripción, borrador...</val>
+        <val lang="es_ES">Tradición manuscrita</val>
     </key>
     <key value="wit(Manuskript).description">
         <val lang="de_DE">Nachweis einer weiteren Handschrift (Abschrift, Entwurf etc.)
             hinzufügen</val>
-        <val lang="es_ES">Añadir la prueba de otro manuscrito (copia, borrador, etc.)</val>
+        <val lang="es_ES">Añadir un manuscrito (copia, borrador, etc.) como fuente</val>
     </key>
     <key value="profileDesc_date-notBeforeAfter.name">
         <val lang="de_DE">Ungefährer Erstellungszeitraum</val>
