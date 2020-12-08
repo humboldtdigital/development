@@ -5,8 +5,6 @@
 - Development and localisation into Spanish by Antonio Rojas Castro
 - Contact: antonio.rojas-castro[at]bbaw.de
 
-test
-
 # Sobre este repositorio
 
 - Este repositorio contiene los cambios realizados **durante el desarrollo**.
