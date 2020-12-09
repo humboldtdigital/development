@@ -315,6 +315,8 @@
                 &lt;editor&gt; element after &lt;title&gt; .</assert>
             <report test="tei:choice" role="ERROR">A &lt;titleStmt&gt; element cannot contain a
                 &lt;choice&gt; element as a children.</report>
+            <assert test="tei:funder" role="ERROR">A &lt;titleStmt&gt; element must contain a
+                &lt;funder&gt; element after &lt;editor&gt;.</assert>
             <!--<assert test="tei:title[position() > 1]" role="ERROR">An edition should contain only one title.</assert>-->
         </rule>
     </pattern>
@@ -339,6 +341,7 @@
                 edition statement should contain a &lt;date&gt; (publication date, no creation date).</assert>
         </rule>  
     </pattern>
+    
     
     <pattern id="publicationStmt">
         <rule context="tei:publicationStmt">
