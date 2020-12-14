@@ -1802,7 +1802,8 @@
     
     <!-- Actions Argument Values -->
     
-    <key value="typeOfUnderlined">
+    <!-- tests -->
+   <!-- <key value="typeOfUnderlined">
         <val lang="de_DE">Art der Unterstreichung</val>
         <val lang="es_ES">Tipo de subrayado</val>
     </key>
@@ -1821,5 +1822,434 @@
     <key value="typeOfUnderlined.margin">
         <val lang="de_DE">Am Rand angestrichen</val>
         <val lang="es_ES">Subrayado al margen</val>
+    </key>-->
+    
+    
+    <key value="css.revisionDesc.change">
+        <val lang="de_DE">[Kommentar zur Änderung eingeben]</val>
     </key>
+    <key value="css.revisionDesc.change-before">
+        <val lang="de_DE"> von </val>
+    </key>
+    <key value="ask.kind_of_underline">
+        <val lang="de_DE">Art der Unterstreichung</val>
+    </key>
+    <key value="ask.single_underline">
+        <val lang="de_DE">Einfach unterstrichenasd</val>
+    </key>
+    <key value="ask.double_underline">
+        <val lang="de_DE">Doppelt unterstrichenasd</val>
+    </key>
+    <key value="ask.margin_line">
+        <val lang="de_DE">Am Rand angestrichenasd</val>
+    </key>
+    <key value="ask.kind_of_deletion">
+        <val lang="de_DE">Art der Streichung</val>
+    </key>
+    <key value="ask.deletion_overwritten">
+        <val lang="de_DE">Tilgung durch Überschreibung des ursprünglichen Textes</val>
+    </key>
+    <key value="ask.deletion_striketrough">
+        <val lang="de_DE">Tilgung durch Streichung</val>
+    </key>
+    <key value="ask.deletion_erasure">
+        <val lang="de_DE">Tilgung durch Radieren</val>
+    </key>
+    <key value="ask.kind_of_addition">
+        <val lang="de_DE">Art der Hinzufügung</val>
+    </key>
+    <key value="ask.add_superlinear">
+        <val lang="de_DE">über der Zeile eingetragen</val>
+    </key>
+    <key value="ask.add_sublinear">
+        <val lang="de_DE">unter der Zeile eingetragen</val>
+    </key>
+    <key value="ask.intralinear">
+        <val lang="de_DE">innerhalb der Zeile eingetragen</val>
+    </key>
+    <key value="ask.add_across">
+        <val lang="de_DE">über den ursprünglichen Text geschrieben</val>
+    </key>
+    <key value="ask.add_left">
+        <val lang="de_DE">am linken Rand eingetragen</val>
+    </key>
+    <key value="ask.add_right">
+        <val lang="de_DE">am rechten Rand eingetragen</val>
+    </key>
+    <key value="ask.reason_unclear">
+        <val lang="de_DE">Grund der unsicheren Lesung</val>
+    </key>
+    <key value="ask.unclear_illegible">
+        <val lang="de_DE">unleserlich</val>
+    </key>
+    <key value="ask.unclear_covered">
+        <val lang="de_DE">durch Überschreibung/Überzeichnung schwer leserlich</val>
+    </key>
+    <key value="ask.unclear_cert">
+        <val lang="de_DE">Wahrscheinlichkeit dass Lesart zutrifft</val>
+    </key>
+    <key value="ask.unclear_cert_high">
+        <val lang="de_DE">hohe Sicherheit der Lesart</val>
+    </key>
+    <key value="ask.unclear_cert_low">
+        <val lang="de_DE">geringe Sicherheit der Lesart</val>
+    </key>
+    <key value="ask.pb">
+        <val lang="de_DE">Folio bzw. Seitenzahl</val>
+    </key>
+    <key value="ask.date_when">
+        <val lang="de_DE">Datum im Format JJJJ-MM-TT</val>
+    </key>
+    <key value="ask.date_calendar">
+        <val lang="de_DE">In der Quelle verwendeter Kalender</val>
+    </key>
+    <key value="ask.date_calendar_gregorian">
+        <val lang="de_DE">Gregorianischer</val>
+    </key>
+    <key value="ask.date_calendar_julian">
+        <val lang="de_DE">Julianischer</val>
+    </key>
+    <key value="ask.gap_reason">
+        <val lang="de_DE">Grund für die Lücke</val>
+    </key>
+    <key value="ask.gap_reason_lost">
+        <val lang="de_DE">Zerstörung/Verlust</val>
+    </key>
+    <key value="ask.gap_reason_empty">
+        <val lang="de_DE">Leerraum</val>
+    </key>
+    <key value="ask.gap_reason_illegible">
+        <val lang="de_DE">unleserlich</val>
+    </key>
+    <key value="ask.gap_reason_covered">
+        <val lang="de_DE">durch Überschreibung/Überzeichnung schwer leserlich</val>
+    </key>
+    <key value="ask.gap_reason_fm">
+        <val lang="de_DE">fremdsprachlicher Text</val>
+    </key>
+    <key value="ask.gap_reasion_insignificant">
+        <val lang="de_DE">Für das Korpus unwichtiger Text</val>
+    </key>
+    <key value="ask.unit">
+        <val lang="de_DE">Einheit</val>
+    </key>
+    <key value="ask.unit_chars">
+        <val lang="de_DE">Zeichen</val>
+    </key>
+    <key value="ask.unit_lines">
+        <val lang="de_DE">Zeilen</val>
+    </key>
+    <key value="ask.unit_pages">
+        <val lang="de_DE">Seiten</val>
+    </key>
+    <key value="ask.unit_words">
+        <val lang="de_DE">Wörter</val>
+    </key>
+    <key value="ask.gap_unit_quantity">
+        <val lang="de_DE">Anzahl der unleserlichen Zeichen, Wörter, Zeilen oder Seiten</val>
+    </key>
+    <key value="ask.supplied_cert">
+        <val lang="de_DE">Wahrscheinlichkeit dass Ergänzung zutrifft</val>
+    </key>
+    <key value="ask.cert_high">
+        <val lang="de_DE">hoch</val>
+    </key>
+    <key value="ask.cert_low">
+        <val lang="de_DE">niedrig</val>
+    </key>
+    <key value="ask.wit_print">
+        <val lang="de_DE">Drucknachweis</val>
+    </key>
+    <key value="ask.wit_type_manuscript">
+        <val lang="de_DE">Art der Handschrift</val>
+    </key>
+    <key value="ask.type_concept">
+        <val lang="de_DE">Entwurf</val>
+    </key>
+    <key value="ask.type_copy">
+        <val lang="de_DE">Abschrift</val>
+    </key>
+    <key value="ask.wit_institution">
+        <val lang="de_DE">Aufbewahrende Institution</val>
+    </key>
+    <key value="ask.wit_collection">
+        <val lang="de_DE">ggf. Sammlung</val>
+    </key>
+    <key value="ask.wit_idno">
+        <val lang="de_DE">Signatur</val>
+    </key>
+    <key value="ask.date_start">
+        <val lang="de_DE">Anfangsdatum im Format JJJJ-MM-TT</val>
+    </key>
+    <key value="ask.date_end">
+        <val lang="de_DE">Enddatum im Format JJJJ-MM-TT</val>
+    </key>
+    <key value="ask.date_cert">
+        <val lang="de_DE">Wahrscheinlichkeit mit der die Datierung zutrifft</val>
+    </key>
+    <key value="ask.del_gap_quantity">
+        <val lang="de_DE">Anzahl der nicht lesbaren Wörter</val>
+    </key>
+    <key value="ask.foreign_language">
+        <val lang="de_DE">Wählen Sie die Sprache aus</val>
+    </key>
+    <key value="ask.lang_grc">
+        <val lang="de_DE">Griechisch</val>
+    </key>
+    <key value="ask.lang_lat">
+        <val lang="de_DE">Latein</val>
+    </key>
+    <key value="ask.lang_heb">
+        <val lang="de_DE">Hebräisch</val>
+    </key>
+    <key value="ask.lang_deu">
+        <val lang="de_DE">Deutsch</val>
+    </key>
+    <key value="ask.lang_fra">
+        <val lang="de_DE">Französisch</val>
+    </key>
+    <key value="ask.lang_eng">
+        <val lang="de_DE">Englisch</val>
+    </key>
+    <key value="ask.lang_rus">
+        <val lang="de_DE">Russisch</val>
+    </key>
+    <key value="ask.lang_spa">
+        <val lang="de_DE">Spanisch</val>
+    </key>
+    <key value="ask.stanza_number">
+        <val lang="de_DE">Strophenummer</val>
+    </key>
+    <key value="ask.filename">
+        <val lang="de_DE">Dateiname</val>
+    </key>
+    <key value="ask.hand_facs">
+        <val lang="de_DE">Urheber der Zeichnung</val>
+    </key>
+    <key value="ask.hand_author">
+        <val lang="de_DE">Autor des Textes</val>
+    </key>
+    <key value="ask.hand_addressee">
+        <val lang="de_DE">Empfänger dieses Briefes</val>
+    </key>
+    <key value="ask.hand_index">
+        <val lang="de_DE">Person aus dem Register</val>
+    </key>
+    <key value="ask.hand_unknown">
+        <val lang="de_DE">Unbekannt</val>
+    </key>
+    <key value="ask.type_textbase">
+        <val lang="de_DE">Art der Textgrundlage</val>
+    </key>
+    <key value="ask.type_notExtant">
+        <val lang="de_DE">Erschlossen</val>
+    </key>
+    <key value="ask.type_manuscript">
+        <val lang="de_DE">Manuskript</val>
+    </key>
+    <key value="ask.type_print">
+        <val lang="de_DE">Druck</val>
+    </key>
+    <key value="ask.type_print_as_print">
+        <val lang="de_DE">Druck als solcher</val>
+    </key>
+    <key value="ask.format">
+        <val lang="de_DE">Formatierung</val>
+    </key>
+    <key value="ask.rend_paragraph">
+        <val lang="de_DE">eigener Absatz</val>
+    </key>
+    <key value="ask.rend_within_the_line">
+        <val lang="de_DE">in der Zeile</val>
+    </key>
+    <key value="ask.salute_salute">
+        <val lang="de_DE">Gruß falls vorhanden</val>
+    </key>
+    <key value="ask.salute_signature">
+        <val lang="de_DE">Unterschrift</val>
+    </key>
+    <key value="ask.writing_session_number">
+        <val lang="de_DE">Nummer des Schreibakts</val>
+    </key>
+    <key value="ask.dateline">
+        <val lang="de_DE">Datumszeile</val>
+    </key>
+    <key value="ask.msDesc_sourceType">
+        <val lang="de_DE">Überlieferung des Manuskripts</val>
+    </key>
+    <key value="ask.msDesc_type_manuscript">
+        <val lang="de_DE">Handschrift</val>
+    </key>
+    <key value="ask.msDesc_notExtant">
+        <val lang="de_DE">Nicht erhalten/überliefert</val>
+    </key>
+    <key value="ask.type_of_linked_letter">
+        <val lang="de_DE">Typ des verlinkten Briefs auswählen</val>
+    </key>
+    <key value="ask.letter_prev">
+        <val lang="de_DE">Vorangehender Brief</val>
+    </key>
+    <key value="ask.letter_next">
+        <val lang="de_DE">Nachfolgender Brief</val>
+    </key>
+    <key value="ask.enter_kalliope_uri">
+        <val lang="de_DE">Kalliope-URI eingeben</val>
+    </key>
+    <key value="ask.sic-corr_cert">
+        <val lang="de_DE">Wahrscheinlichkeit mit der die Korrektur zutrifft</val>
+    </key>
+    <key value="ask.cert_medium">
+        <val lang="de_DE">mittel</val>
+    </key>
+    <key value="ask.insert_symbol">
+        <val lang="de_DE">Sonderzeichen einfügen. Format: &amp;#x????;</val>
+    </key>
+    <key value="ask.insert_fraction">
+        <val lang="de_DE">Bruchzahl auswählen</val>
+    </key>
+    <key value="ask.facs_url">
+        <val lang="de_DE">URL des Digitalisats</val>
+    </key>
+    <key value="ask.fw">
+        <val lang="de_DE">Seitenzahl eingeben</val>
+    </key>
+    <key value="ask.type_person">
+        <val lang="de_DE">Person</val>
+    </key>
+    <key value="ask.type_org">
+        <val lang="de_DE">Institution</val>
+    </key>
+    <key value="ask.type_place">
+        <val lang="de_DE">Ort</val>
+    </key>
+    <key value="ask.type_term">
+        <val lang="de_DE">Sachbegriff</val>
+    </key>
+    <key value="ask.type_bibl_zotero">
+        <val lang="de_DE">Literaturtitel (Zotero)</val>
+    </key>
+    <key value="ask.type_bibl">
+        <val lang="de_DE">Literaturtitel</val>
+    </key>
+    <key value="ask.type">
+        <val lang="de_DE">Typ</val>
+    </key>
+    <key value="ask.url_id">
+        <val lang="de_DE">URL oder Identifier eintragen</val>
+    </key>
+    <key value="ask.ref_as_text">
+        <val lang="de_DE">Verweis in Textform</val>
+    </key>
+    <key value="ask.url_enter">
+        <val lang="de_DE">URL eingeben</val>
+    </key>
+    <key value="ask.external_link">
+        <val lang="de_DE">Externer Link</val>
+    </key>
+    <key value="ask.choose_character">
+        <val lang="de_DE">Wählen Sie ein Zeichen aus</val>
+    </key>
+    <key value="ask.enter_authority_uri">
+        <val lang="de_DE">GND, VIAF etc. (URI) der Person</val>
+    </key>
+    <key value="ask.surname">
+        <val lang="de_DE">Nachname</val>
+    </key>
+    <key value="ask.forename">
+        <val lang="de_DE">Vorname</val>
+    </key>
+    <key value="ask.type_of_responsibility">
+        <val lang="de_DE">Art der Mitarbeit</val>
+    </key>
+    <key value="ask.type_resp_collaboration">
+        <val lang="de_DE">Mitarbeit</val>
+    </key>
+    <key value="ask.type_resp_editorial">
+        <val lang="de_DE">Redaktionelle Mitarbeit</val>
+    </key>
+    <key value="ask.type_resp_transcription">
+        <val lang="de_DE">Transkription</val>
+    </key>
+    <key value="ask.type_resp_commentary">
+        <val lang="de_DE">Kommentar</val>
+    </key>
+    <key value="ask.type_resp_register">
+        <val lang="de_DE">Register</val>
+    </key>
+    <key value="ask.note_place">
+        <val lang="de_DE">Ort der Anmerkung</val>
+    </key>
+    <key value="ask.note_right">
+        <val lang="de_DE">Anmerkung am rechten Rand</val>
+    </key>
+    <key value="ask.note_left">
+        <val lang="de_DE">Anmerkung am linken Rand</val>
+    </key>
+    <key value="ask.note_mTop">
+        <val lang="de_DE">Anmerkung am oberen Rand</val>
+    </key>
+    <key value="ask.note_mBottom">
+        <val lang="de_DE">Anmerkung am unteren Rand</val>
+    </key>
+    <key value="ask.note_inline">
+        <val lang="de_DE">Anmerkung innerhalb der Zeile</val>
+    </key>
+    <key value="ask.hand_note">
+        <val lang="de_DE">Schreiber der Anmerkung</val>
+    </key>
+    <key value="ask.type_of_typeface">
+        <val lang="de_DE">Schriftart</val>
+    </key>
+    <key value="ask.typeface_aq">
+        <val lang="de_DE">Antiqua bzw. lateinische Schrift</val>
+    </key>
+    <key value="ask.typeface_fr">
+        <val lang="de_DE">Fraktur bzw. Kurrent</val>
+    </key>
+    <key value="ask.cb_type">
+        <val lang="de_DE">Typ der Spalte</val>
+    </key>
+    <key value="ask.cb_type_normal">
+        <val lang="de_DE">Normal</val>
+    </key>
+    <key value="ask.cb_start">
+        <val lang="de_DE">Beginn des Spaltensatzes</val>
+    </key>
+    <key value="ask.cb_end">
+        <val lang="de_DE">Ende des Spaltensatzes</val>
+    </key>
+    <key value="ask.cb_number">
+        <val lang="de_DE">Spaltennummer</val>
+    </key>
+    <key value="ask.referencing_symbol">
+        <val lang="de_DE">Referenzierendes Zeichen</val>
+    </key>
+    <key value="ask.enter_letter_number">
+        <val lang="de_DE">Briefnummer eingeben</val>
+    </key>
+    <key value="ask.shorthand_editor">
+        <val lang="de_DE">Kürzel Bearbeiter*in</val>
+    </key>
+    <key value="ask.revisionDesc_status">
+        <val lang="de_DE">Status</val>
+    </key>
+    <key value="ask.status_draft">
+        <val lang="de_DE">Entwurf</val>
+    </key>
+    <key value="ask.status_final">
+        <val lang="de_DE">Final</val>
+    </key>
+    <key value="ask.alignment_change">
+        <val lang="de_DE">Ausrichtung ändern</val>
+    </key>
+    <key value="ask.alignment_change_left">
+        <val lang="de_DE">linksbündig</val>
+    </key>
+    <key value="ask.alignment_change_right">
+        <val lang="de_DE">rechtsbündig</val>
+    </key>
+    <key value="ask.alignment_change_centered">
+        <val lang="de_DE">zentriert</val>
+    </key>
+    
 </translation>
