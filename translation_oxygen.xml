@@ -13,6 +13,7 @@
   
 --><translation>
     <languageList>
+        <language description="Spanish" lang="es_ES" localeDescription="Spanish"/>
         <language description="English" lang="en_US" localeDescription="English"/>
         <language description="German" lang="de_DE" localeDescription="Deutsch"/>
         <language description="French" lang="fr_FR" localeDescription="Français"/>
@@ -57493,6 +57494,7 @@
     <key value="File">
         <comment>The classical data file. File menu </comment>
         <val lang="en_US">File</val>
+        <val lang="es_ES">Archivo</val>
         <val lang="de_DE">Datei</val>
         <val lang="fr_FR">Fichier</val>
         <val lang="ja_JP">ファイル</val>
