@@ -551,8 +551,8 @@
         <val lang="de_DE">Adresse am Briefanfang einfügen. Soll die Adresse am Briefende eingefügt
             werden muss der Cursor im &lt;closer&gt; (Briefschluss) stehen</val>
         <val lang="es_ES">Insertar la dirección postal al principio de la carta. Si la dirección
-            debe insertarse al final de la carta, el cursor debe posicionarse en &lt;closer&gt; (cierre
-            de la carta)</val>
+            debe insertarse al final de la carta, el cursor debe posicionarse en &lt;closer&gt;
+            (cierre de la carta)</val>
     </key>
     <key value="postscript.name">
         <val lang="de_DE">Postskriptum</val>
@@ -966,7 +966,8 @@
     </key>
     <key value="msDesc/physDesc.description">
         <val lang="de_DE">Beschreibung der materiellen Eigenschaften der Handschrift</val>
-        <val lang="es_ES">Insertar una descripción de las características físicas del documento</val>
+        <val lang="es_ES">Insertar una descripción de las características físicas del
+            documento</val>
     </key>
     <key value="correspContext_ref[text].name">
         <val lang="de_DE">Korrespondenzkontext (Text)</val>
@@ -1111,7 +1112,8 @@
     </key>
     <key value="notesStmt.description">
         <val lang="de_DE"/>
-        <val lang="es_ES">[Insertar en una nota un comentario general sobre el documento, la fecha u otros fenómenos textuales]</val>
+        <val lang="es_ES">[Insertar en una nota un comentario general sobre el documento, la fecha u
+            otros fenómenos textuales]</val>
     </key>
     <key value="@select.name">
         <val lang="de_DE">Textgrundlage auswählen/abwählen</val>
@@ -1119,7 +1121,8 @@
     </key>
     <key value="@select.description">
         <val lang="de_DE"/>
-        <val lang="es_ES">Seleccionar/Deseleccionar el testimonio que sirve como base del texto</val>
+        <val lang="es_ES">Seleccionar/Deseleccionar el testimonio que sirve como base del
+            texto</val>
     </key>
     <key value="correspAction[received]_orgName.name">
         <val lang="de_DE">Empfänger (Organisation)</val>
@@ -1225,7 +1228,8 @@
     </key>
     <key value="hi[#b].description">
         <val lang="de_DE">Fettgedruckter Text (nur bei Transkription gedruckter Texte)</val>
-        <val lang="es_ES">Marcar el texto como negrita (sólo para la transcripción de textos impresos)</val>
+        <val lang="es_ES">Marcar el texto como negrita (sólo para la transcripción de textos
+            impresos)</val>
     </key>
     <key value="hi[#aq_#fr].name">
         <val lang="de_DE">Schriftartwechsel</val>
@@ -1568,7 +1572,8 @@
     </key>
     <key value="css.correspDesc.note">
         <val lang="de_DE">[Hier Anmerkungen zum Brief oder zur Datierung eingeben]</val>
-        <val lang="es_ES">[Introducir en una nota un comentario sobre la carta, la fecha u otros fenómenos textuales]</val>
+        <val lang="es_ES">[Introducir en una nota un comentario sobre la carta, la fecha u otros
+            fenómenos textuales]</val>
     </key>
     <key value="css.text.body.div-regestOnly">
         <val lang="de_DE">[Kein Text, nur Regest möglich]</val>
@@ -1691,9 +1696,9 @@
         <val lang="de_DE"> von </val>
         <val lang="es_ES"> de </val>
     </key>
-    
+
     <!-- Menu -->
-    
+
     <key value="text.menu">
         <val lang="de_DE">Text</val>
         <val lang="es_ES">Texto</val>
@@ -1790,20 +1795,20 @@
         <val lang="de_DE">Überprüfung und Status</val>
         <val lang="es_ES">Revisión y estado</val>
     </key>
-    
+
     <!-- Styles -->
-    
+
     <!-- This is not working -->
-   <!-- <key value="reading.style">
+    <!-- <key value="reading.style">
         <val lang="de_DE">Lesetext mit Kommentar</val>
         <val lang="es_ES">Texto de lectura con comentarios</val>
     </key>
     -->
-    
+
     <!-- Actions Argument Values -->
-    
+
     <!-- tests -->
-   <!-- <key value="typeOfUnderlined">
+    <!-- <key value="typeOfUnderlined">
         <val lang="de_DE">Art der Unterstreichung</val>
         <val lang="es_ES">Tipo de subrayado</val>
     </key>
@@ -1823,433 +1828,576 @@
         <val lang="de_DE">Am Rand angestrichen</val>
         <val lang="es_ES">Subrayado al margen</val>
     </key>-->
-    
-    
+
+    <!-- <val lang="es_ES"> </val> -->
+
     <key value="css.revisionDesc.change">
         <val lang="de_DE">[Kommentar zur Änderung eingeben]</val>
+        <val lang="es_ES">[Introducir el comentario sobre el cambio]</val>
     </key>
     <key value="css.revisionDesc.change-before">
         <val lang="de_DE"> von </val>
+        <val lang="es_ES"> de </val>
     </key>
     <key value="ask.kind_of_underline">
         <val lang="de_DE">Art der Unterstreichung</val>
+        <val lang="es_ES">Tipo de subrayado</val>
     </key>
     <key value="ask.single_underline">
-        <val lang="de_DE">Einfach unterstrichenasd</val>
+        <val lang="de_DE">Einfach unterstrichen</val>
+        <val lang="es_ES">Subrayado simple</val>
     </key>
     <key value="ask.double_underline">
-        <val lang="de_DE">Doppelt unterstrichenasd</val>
+        <val lang="de_DE">Doppelt unterstrichen</val>
+        <val lang="es_ES">Subrayado doble</val>
     </key>
     <key value="ask.margin_line">
-        <val lang="de_DE">Am Rand angestrichenasd</val>
+        <val lang="de_DE">Am Rand angestrichen</val>
+        <val lang="es_ES">Subrayado al margen</val>
     </key>
     <key value="ask.kind_of_deletion">
         <val lang="de_DE">Art der Streichung</val>
+        <val lang="es_ES">Tipo de supresión</val>
     </key>
     <key value="ask.deletion_overwritten">
         <val lang="de_DE">Tilgung durch Überschreibung des ursprünglichen Textes</val>
+        <val lang="es_ES">Eliminación mediante reescritura encima del texto original</val>
     </key>
     <key value="ask.deletion_striketrough">
         <val lang="de_DE">Tilgung durch Streichung</val>
+        <val lang="es_ES">Eliminación mediante tachado</val>
     </key>
     <key value="ask.deletion_erasure">
         <val lang="de_DE">Tilgung durch Radieren</val>
+        <val lang="es_ES">Eliminación mediante borrado</val>
     </key>
     <key value="ask.kind_of_addition">
         <val lang="de_DE">Art der Hinzufügung</val>
+        <val lang="es_ES">Tipo de adición</val>
     </key>
     <key value="ask.add_superlinear">
         <val lang="de_DE">über der Zeile eingetragen</val>
+        <val lang="es_ES">Añadido por encima de la línea</val>
     </key>
     <key value="ask.add_sublinear">
         <val lang="de_DE">unter der Zeile eingetragen</val>
+        <val lang="es_ES">Añadido por debajo de la línea</val>
     </key>
     <key value="ask.intralinear">
         <val lang="de_DE">innerhalb der Zeile eingetragen</val>
+        <val lang="es_ES">Añadido en la misma línea</val>
     </key>
     <key value="ask.add_across">
         <val lang="de_DE">über den ursprünglichen Text geschrieben</val>
+        <val lang="es_ES">Añadido sobre el texto original</val>
     </key>
     <key value="ask.add_left">
         <val lang="de_DE">am linken Rand eingetragen</val>
+        <val lang="es_ES">Añadido en el margen izquierdo</val>
     </key>
     <key value="ask.add_right">
         <val lang="de_DE">am rechten Rand eingetragen</val>
+        <val lang="es_ES">Añadido en el margen derecho</val>
     </key>
     <key value="ask.reason_unclear">
         <val lang="de_DE">Grund der unsicheren Lesung</val>
+        <val lang="es_ES">Razón de la lectura incierta</val>
     </key>
     <key value="ask.unclear_illegible">
         <val lang="de_DE">unleserlich</val>
+        <val lang="es_ES">Ilegible</val>
     </key>
     <key value="ask.unclear_covered">
         <val lang="de_DE">durch Überschreibung/Überzeichnung schwer leserlich</val>
+        <val lang="es_ES">Difícil de leer debido a la sobreescritura </val>
     </key>
     <key value="ask.unclear_cert">
         <val lang="de_DE">Wahrscheinlichkeit dass Lesart zutrifft</val>
+        <val lang="es_ES">Probabilidad de que la lectura sea correcta</val>
     </key>
     <key value="ask.unclear_cert_high">
         <val lang="de_DE">hohe Sicherheit der Lesart</val>
+        <val lang="es_ES">Certeza alta</val>
     </key>
     <key value="ask.unclear_cert_low">
         <val lang="de_DE">geringe Sicherheit der Lesart</val>
+        <val lang="es_ES">Certeza baja</val>
     </key>
     <key value="ask.pb">
         <val lang="de_DE">Folio bzw. Seitenzahl</val>
+        <val lang="es_ES">Número de folio o página</val>
     </key>
     <key value="ask.date_when">
         <val lang="de_DE">Datum im Format JJJJ-MM-TT</val>
+        <val lang="es_ES">Fecha en el formato AAAA-MM-DD</val>
     </key>
     <key value="ask.date_calendar">
         <val lang="de_DE">In der Quelle verwendeter Kalender</val>
+        <val lang="es_ES">Calendario usado en la fuente</val>
     </key>
     <key value="ask.date_calendar_gregorian">
         <val lang="de_DE">Gregorianischer</val>
+        <val lang="es_ES">Gregoriano</val>
     </key>
     <key value="ask.date_calendar_julian">
         <val lang="de_DE">Julianischer</val>
+        <val lang="es_ES">Juliano</val>
     </key>
     <key value="ask.gap_reason">
         <val lang="de_DE">Grund für die Lücke</val>
+        <val lang="es_ES">Motivo de la laguna</val>
     </key>
     <key value="ask.gap_reason_lost">
         <val lang="de_DE">Zerstörung/Verlust</val>
+        <val lang="es_ES">Destrucción/pérdida</val>
     </key>
     <key value="ask.gap_reason_empty">
         <val lang="de_DE">Leerraum</val>
+        <val lang="es_ES">Espacio vacío</val>
     </key>
     <key value="ask.gap_reason_illegible">
         <val lang="de_DE">unleserlich</val>
+        <val lang="es_ES">Ilegible</val>
     </key>
     <key value="ask.gap_reason_covered">
         <val lang="de_DE">durch Überschreibung/Überzeichnung schwer leserlich</val>
+        <val lang="es_ES">Difícil de leer debido a la sobreescritura</val>
     </key>
     <key value="ask.gap_reason_fm">
         <val lang="de_DE">fremdsprachlicher Text</val>
+        <val lang="es_ES">Texto en idioma extranjero</val>
     </key>
     <key value="ask.gap_reasion_insignificant">
         <val lang="de_DE">Für das Korpus unwichtiger Text</val>
+        <val lang="es_ES">El texto no es importante para el corpus</val>
     </key>
     <key value="ask.unit">
         <val lang="de_DE">Einheit</val>
+        <val lang="es_ES">Unidad</val>
     </key>
     <key value="ask.unit_chars">
         <val lang="de_DE">Zeichen</val>
+        <val lang="es_ES">Caracteres</val>
     </key>
     <key value="ask.unit_lines">
         <val lang="de_DE">Zeilen</val>
+        <val lang="es_ES">Líneas</val>
     </key>
     <key value="ask.unit_pages">
         <val lang="de_DE">Seiten</val>
+        <val lang="es_ES">Páginas</val>
     </key>
     <key value="ask.unit_words">
         <val lang="de_DE">Wörter</val>
+        <val lang="es_ES">Palabras</val>
     </key>
     <key value="ask.gap_unit_quantity">
         <val lang="de_DE">Anzahl der unleserlichen Zeichen, Wörter, Zeilen oder Seiten</val>
+        <val lang="es_ES">Número de caracteres, palabras, líneas o páginas ilegibles</val>
     </key>
     <key value="ask.supplied_cert">
         <val lang="de_DE">Wahrscheinlichkeit dass Ergänzung zutrifft</val>
+        <val lang="es_ES">Probabilidad de que la adición sea cierta</val>
     </key>
     <key value="ask.cert_high">
         <val lang="de_DE">hoch</val>
+        <val lang="es_ES">Alta</val>
     </key>
     <key value="ask.cert_low">
         <val lang="de_DE">niedrig</val>
+        <val lang="es_ES">Baja</val>
     </key>
     <key value="ask.wit_print">
         <val lang="de_DE">Drucknachweis</val>
+        <val lang="es_ES">Testimonio impreso</val>
     </key>
     <key value="ask.wit_type_manuscript">
         <val lang="de_DE">Art der Handschrift</val>
+        <val lang="es_ES">Tipo de manuscrito</val>
     </key>
     <key value="ask.type_concept">
         <val lang="de_DE">Entwurf</val>
+        <val lang="es_ES">Borrador</val>
     </key>
     <key value="ask.type_copy">
         <val lang="de_DE">Abschrift</val>
+        <val lang="es_ES">Copia</val>
     </key>
     <key value="ask.wit_institution">
         <val lang="de_DE">Aufbewahrende Institution</val>
+        <val lang="es_ES">Institución preservadora</val>
     </key>
     <key value="ask.wit_collection">
         <val lang="de_DE">ggf. Sammlung</val>
+        <val lang="es_ES">Si procede, la colección</val>
     </key>
     <key value="ask.wit_idno">
         <val lang="de_DE">Signatur</val>
+        <val lang="es_ES">Signatura</val>
     </key>
     <key value="ask.date_start">
         <val lang="de_DE">Anfangsdatum im Format JJJJ-MM-TT</val>
+        <val lang="es_ES">Fecha de inicio en formato AAAA-MM-DD</val>
     </key>
     <key value="ask.date_end">
         <val lang="de_DE">Enddatum im Format JJJJ-MM-TT</val>
+        <val lang="es_ES">Fecha de finalización en formato AAAA-MM-DD</val>
     </key>
     <key value="ask.date_cert">
         <val lang="de_DE">Wahrscheinlichkeit mit der die Datierung zutrifft</val>
+        <val lang="es_ES">Probabilidad de que la fecha sea correcta</val>
     </key>
     <key value="ask.del_gap_quantity">
         <val lang="de_DE">Anzahl der nicht lesbaren Wörter</val>
+        <val lang="es_ES">Número de palabras ilegibles</val>
     </key>
     <key value="ask.foreign_language">
         <val lang="de_DE">Wählen Sie die Sprache aus</val>
+        <val lang="es_ES">Seleccionar el idioma</val>
     </key>
     <key value="ask.lang_grc">
         <val lang="de_DE">Griechisch</val>
+        <val lang="es_ES">Griego</val>
     </key>
     <key value="ask.lang_lat">
         <val lang="de_DE">Latein</val>
+        <val lang="es_ES">Latín</val>
     </key>
     <key value="ask.lang_heb">
         <val lang="de_DE">Hebräisch</val>
+        <val lang="es_ES">Hebreo</val>
     </key>
     <key value="ask.lang_deu">
         <val lang="de_DE">Deutsch</val>
+        <val lang="es_ES">Alemán</val>
     </key>
     <key value="ask.lang_fra">
         <val lang="de_DE">Französisch</val>
+        <val lang="es_ES">Francés</val>
     </key>
     <key value="ask.lang_eng">
         <val lang="de_DE">Englisch</val>
+        <val lang="es_ES">Inglés</val>
     </key>
     <key value="ask.lang_rus">
         <val lang="de_DE">Russisch</val>
+        <val lang="es_ES">Ruso</val>
     </key>
     <key value="ask.lang_spa">
         <val lang="de_DE">Spanisch</val>
+        <val lang="es_ES">Español</val>
     </key>
     <key value="ask.stanza_number">
         <val lang="de_DE">Strophenummer</val>
+        <val lang="es_ES">Número de estrofa</val>
     </key>
     <key value="ask.filename">
         <val lang="de_DE">Dateiname</val>
+        <val lang="es_ES">Nombre del archivo</val>
     </key>
     <key value="ask.hand_facs">
         <val lang="de_DE">Urheber der Zeichnung</val>
+        <val lang="es_ES">Autor del dibujo</val>
     </key>
     <key value="ask.hand_author">
         <val lang="de_DE">Autor des Textes</val>
+        <val lang="es_ES">Autor del texto</val>
     </key>
     <key value="ask.hand_addressee">
         <val lang="de_DE">Empfänger dieses Briefes</val>
+        <val lang="es_ES">Destinatario de esta carta</val>
     </key>
     <key value="ask.hand_index">
         <val lang="de_DE">Person aus dem Register</val>
+        <val lang="es_ES">Persona del registro</val>
     </key>
     <key value="ask.hand_unknown">
         <val lang="de_DE">Unbekannt</val>
+        <val lang="es_ES">Desconocido</val>
     </key>
     <key value="ask.type_textbase">
         <val lang="de_DE">Art der Textgrundlage</val>
+        <val lang="es_ES">Tipo de base textual</val>
     </key>
     <key value="ask.type_notExtant">
         <val lang="de_DE">Erschlossen</val>
+        <val lang="es_ES">Accesible en</val>
     </key>
     <key value="ask.type_manuscript">
         <val lang="de_DE">Manuskript</val>
+        <val lang="es_ES">Manuscrito</val>
     </key>
     <key value="ask.type_print">
         <val lang="de_DE">Druck</val>
+        <val lang="es_ES">Impreso</val>
     </key>
     <key value="ask.type_print_as_print">
         <val lang="de_DE">Druck als solcher</val>
+        <val lang="es_ES">Impreso como tal</val>
     </key>
     <key value="ask.format">
         <val lang="de_DE">Formatierung</val>
+        <val lang="es_ES">Formato</val>
     </key>
     <key value="ask.rend_paragraph">
         <val lang="de_DE">eigener Absatz</val>
+        <val lang="es_ES">Párrafo aparte</val>
     </key>
     <key value="ask.rend_within_the_line">
         <val lang="de_DE">in der Zeile</val>
+        <val lang="es_ES">En la línea</val>
     </key>
     <key value="ask.salute_salute">
         <val lang="de_DE">Gruß falls vorhanden</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.salute_signature">
         <val lang="de_DE">Unterschrift</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.writing_session_number">
         <val lang="de_DE">Nummer des Schreibakts</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.dateline">
         <val lang="de_DE">Datumszeile</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.msDesc_sourceType">
         <val lang="de_DE">Überlieferung des Manuskripts</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.msDesc_type_manuscript">
         <val lang="de_DE">Handschrift</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.msDesc_notExtant">
         <val lang="de_DE">Nicht erhalten/überliefert</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.type_of_linked_letter">
         <val lang="de_DE">Typ des verlinkten Briefs auswählen</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.letter_prev">
         <val lang="de_DE">Vorangehender Brief</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.letter_next">
         <val lang="de_DE">Nachfolgender Brief</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.enter_kalliope_uri">
         <val lang="de_DE">Kalliope-URI eingeben</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.sic-corr_cert">
         <val lang="de_DE">Wahrscheinlichkeit mit der die Korrektur zutrifft</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.cert_medium">
         <val lang="de_DE">mittel</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.insert_symbol">
         <val lang="de_DE">Sonderzeichen einfügen. Format: &amp;#x????;</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.insert_fraction">
         <val lang="de_DE">Bruchzahl auswählen</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.facs_url">
         <val lang="de_DE">URL des Digitalisats</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.fw">
         <val lang="de_DE">Seitenzahl eingeben</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.type_person">
         <val lang="de_DE">Person</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.type_org">
         <val lang="de_DE">Institution</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.type_place">
         <val lang="de_DE">Ort</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.type_term">
         <val lang="de_DE">Sachbegriff</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.type_bibl_zotero">
         <val lang="de_DE">Literaturtitel (Zotero)</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.type_bibl">
         <val lang="de_DE">Literaturtitel</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.type">
         <val lang="de_DE">Typ</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.url_id">
         <val lang="de_DE">URL oder Identifier eintragen</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.ref_as_text">
         <val lang="de_DE">Verweis in Textform</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.url_enter">
         <val lang="de_DE">URL eingeben</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.external_link">
         <val lang="de_DE">Externer Link</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.choose_character">
         <val lang="de_DE">Wählen Sie ein Zeichen aus</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.enter_authority_uri">
         <val lang="de_DE">GND, VIAF etc. (URI) der Person</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.surname">
         <val lang="de_DE">Nachname</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.forename">
         <val lang="de_DE">Vorname</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.type_of_responsibility">
         <val lang="de_DE">Art der Mitarbeit</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.type_resp_collaboration">
         <val lang="de_DE">Mitarbeit</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.type_resp_editorial">
         <val lang="de_DE">Redaktionelle Mitarbeit</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.type_resp_transcription">
         <val lang="de_DE">Transkription</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.type_resp_commentary">
         <val lang="de_DE">Kommentar</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.type_resp_register">
         <val lang="de_DE">Register</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.note_place">
         <val lang="de_DE">Ort der Anmerkung</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.note_right">
         <val lang="de_DE">Anmerkung am rechten Rand</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.note_left">
         <val lang="de_DE">Anmerkung am linken Rand</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.note_mTop">
         <val lang="de_DE">Anmerkung am oberen Rand</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.note_mBottom">
         <val lang="de_DE">Anmerkung am unteren Rand</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.note_inline">
         <val lang="de_DE">Anmerkung innerhalb der Zeile</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.hand_note">
         <val lang="de_DE">Schreiber der Anmerkung</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.type_of_typeface">
         <val lang="de_DE">Schriftart</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.typeface_aq">
         <val lang="de_DE">Antiqua bzw. lateinische Schrift</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.typeface_fr">
         <val lang="de_DE">Fraktur bzw. Kurrent</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.cb_type">
         <val lang="de_DE">Typ der Spalte</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.cb_type_normal">
         <val lang="de_DE">Normal</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.cb_start">
         <val lang="de_DE">Beginn des Spaltensatzes</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.cb_end">
         <val lang="de_DE">Ende des Spaltensatzes</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.cb_number">
         <val lang="de_DE">Spaltennummer</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.referencing_symbol">
         <val lang="de_DE">Referenzierendes Zeichen</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.enter_letter_number">
         <val lang="de_DE">Briefnummer eingeben</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.shorthand_editor">
         <val lang="de_DE">Kürzel Bearbeiter*in</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.revisionDesc_status">
         <val lang="de_DE">Status</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.status_draft">
         <val lang="de_DE">Entwurf</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.status_final">
         <val lang="de_DE">Final</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.alignment_change">
         <val lang="de_DE">Ausrichtung ändern</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.alignment_change_left">
         <val lang="de_DE">linksbündig</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.alignment_change_right">
         <val lang="de_DE">rechtsbündig</val>
+        <val lang="es_ES"> </val>
     </key>
     <key value="ask.alignment_change_centered">
         <val lang="de_DE">zentriert</val>
+        <val lang="es_ES"> </val>
     </key>
-    
+
 </translation>
