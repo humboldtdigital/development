@@ -1829,8 +1829,6 @@
         <val lang="es_ES">Subrayado al margen</val>
     </key>-->
 
-    <!-- <val lang="es_ES"> </val> -->
-
     <key value="css.revisionDesc.change">
         <val lang="de_DE">[Kommentar zur Änderung eingeben]</val>
         <val lang="es_ES">[Introducir el comentario sobre el cambio]</val>
@@ -2149,59 +2147,59 @@
     </key>
     <key value="ask.salute_salute">
         <val lang="de_DE">Gruß falls vorhanden</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Saludo, si está disponible</val>
     </key>
     <key value="ask.salute_signature">
         <val lang="de_DE">Unterschrift</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Firma</val>
     </key>
     <key value="ask.writing_session_number">
         <val lang="de_DE">Nummer des Schreibakts</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Número del acto de escritura</val>
     </key>
     <key value="ask.dateline">
         <val lang="de_DE">Datumszeile</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Línea de fecha</val>
     </key>
     <key value="ask.msDesc_sourceType">
         <val lang="de_DE">Überlieferung des Manuskripts</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Transmisión del manuscrito</val>
     </key>
     <key value="ask.msDesc_type_manuscript">
         <val lang="de_DE">Handschrift</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Manuscrito</val>
     </key>
     <key value="ask.msDesc_notExtant">
         <val lang="de_DE">Nicht erhalten/überliefert</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">No preservado/conservado</val>
     </key>
     <key value="ask.type_of_linked_letter">
         <val lang="de_DE">Typ des verlinkten Briefs auswählen</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Seleccionar el tipo de carta enlazada</val>
     </key>
     <key value="ask.letter_prev">
         <val lang="de_DE">Vorangehender Brief</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Carta anterior</val>
     </key>
     <key value="ask.letter_next">
         <val lang="de_DE">Nachfolgender Brief</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Carta siguiente</val>
     </key>
     <key value="ask.enter_kalliope_uri">
         <val lang="de_DE">Kalliope-URI eingeben</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Introducir un URI</val>
     </key>
     <key value="ask.sic-corr_cert">
         <val lang="de_DE">Wahrscheinlichkeit mit der die Korrektur zutrifft</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Probabilidad con la que se aplica la corrección</val>
     </key>
     <key value="ask.cert_medium">
         <val lang="de_DE">mittel</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Media</val>
     </key>
     <key value="ask.insert_symbol">
         <val lang="de_DE">Sonderzeichen einfügen. Format: &amp;#x????;</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Insertar caracteres especiales. Formato: &amp;#x????;</val>
     </key>
     <key value="ask.insert_fraction">
         <val lang="de_DE">Bruchzahl auswählen</val>
@@ -2209,195 +2207,195 @@
     </key>
     <key value="ask.facs_url">
         <val lang="de_DE">URL des Digitalisats</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">URL de la digitalización</val>
     </key>
     <key value="ask.fw">
         <val lang="de_DE">Seitenzahl eingeben</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Introducir el número de página</val>
     </key>
     <key value="ask.type_person">
         <val lang="de_DE">Person</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Persona</val>
     </key>
     <key value="ask.type_org">
         <val lang="de_DE">Institution</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Institución</val>
     </key>
     <key value="ask.type_place">
         <val lang="de_DE">Ort</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Lugar</val>
     </key>
     <key value="ask.type_term">
         <val lang="de_DE">Sachbegriff</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Término</val>
     </key>
     <key value="ask.type_bibl_zotero">
         <val lang="de_DE">Literaturtitel (Zotero)</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Título de obra (Zotero)</val>
     </key>
     <key value="ask.type_bibl">
         <val lang="de_DE">Literaturtitel</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Título de obra</val>
     </key>
     <key value="ask.type">
         <val lang="de_DE">Typ</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Tipo</val>
     </key>
     <key value="ask.url_id">
         <val lang="de_DE">URL oder Identifier eintragen</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Introducir URL o identificador</val>
     </key>
     <key value="ask.ref_as_text">
         <val lang="de_DE">Verweis in Textform</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Referencia textual</val>
     </key>
     <key value="ask.url_enter">
         <val lang="de_DE">URL eingeben</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Introducir URL</val>
     </key>
     <key value="ask.external_link">
         <val lang="de_DE">Externer Link</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Enlace externo</val>
     </key>
     <key value="ask.choose_character">
         <val lang="de_DE">Wählen Sie ein Zeichen aus</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Seleccionar un carácter</val>
     </key>
     <key value="ask.enter_authority_uri">
         <val lang="de_DE">GND, VIAF etc. (URI) der Person</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">VIAF  u otro identificador (URI) de persona</val>
     </key>
     <key value="ask.surname">
         <val lang="de_DE">Nachname</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Apellido</val>
     </key>
     <key value="ask.forename">
         <val lang="de_DE">Vorname</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Nombre</val>
     </key>
     <key value="ask.type_of_responsibility">
         <val lang="de_DE">Art der Mitarbeit</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Tipo de colaboración</val>
     </key>
     <key value="ask.type_resp_collaboration">
         <val lang="de_DE">Mitarbeit</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Colaboración</val>
     </key>
     <key value="ask.type_resp_editorial">
         <val lang="de_DE">Redaktionelle Mitarbeit</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Colaboración editorial</val>
     </key>
     <key value="ask.type_resp_transcription">
         <val lang="de_DE">Transkription</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Transcripción</val>
     </key>
     <key value="ask.type_resp_commentary">
         <val lang="de_DE">Kommentar</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Comentario</val>
     </key>
     <key value="ask.type_resp_register">
         <val lang="de_DE">Register</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Registro</val>
     </key>
     <key value="ask.note_place">
         <val lang="de_DE">Ort der Anmerkung</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Lugar de la anotación</val>
     </key>
     <key value="ask.note_right">
         <val lang="de_DE">Anmerkung am rechten Rand</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Nota en el margen derecho</val>
     </key>
     <key value="ask.note_left">
         <val lang="de_DE">Anmerkung am linken Rand</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Nota en el margen izquierdo</val>
     </key>
     <key value="ask.note_mTop">
         <val lang="de_DE">Anmerkung am oberen Rand</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Nota en la parte superior</val>
     </key>
     <key value="ask.note_mBottom">
         <val lang="de_DE">Anmerkung am unteren Rand</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Nota en la parte inferior</val>
     </key>
     <key value="ask.note_inline">
         <val lang="de_DE">Anmerkung innerhalb der Zeile</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Nota dentro de la línea</val>
     </key>
     <key value="ask.hand_note">
         <val lang="de_DE">Schreiber der Anmerkung</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Autor de la nota</val>
     </key>
     <key value="ask.type_of_typeface">
         <val lang="de_DE">Schriftart</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Caligrafía</val>
     </key>
     <key value="ask.typeface_aq">
         <val lang="de_DE">Antiqua bzw. lateinische Schrift</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Caligrafía antigua o latina</val>
     </key>
     <key value="ask.typeface_fr">
         <val lang="de_DE">Fraktur bzw. Kurrent</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Caligrafía gótica (Fraktur)</val>
     </key>
     <key value="ask.cb_type">
         <val lang="de_DE">Typ der Spalte</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Tipo de columna</val>
     </key>
     <key value="ask.cb_type_normal">
         <val lang="de_DE">Normal</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Normal</val>
     </key>
     <key value="ask.cb_start">
         <val lang="de_DE">Beginn des Spaltensatzes</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Inicio de la columna</val>
     </key>
     <key value="ask.cb_end">
         <val lang="de_DE">Ende des Spaltensatzes</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Fin de la columna</val>
     </key>
     <key value="ask.cb_number">
         <val lang="de_DE">Spaltennummer</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Número de columna</val>
     </key>
     <key value="ask.referencing_symbol">
         <val lang="de_DE">Referenzierendes Zeichen</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Caracter referenciado</val>
     </key>
     <key value="ask.enter_letter_number">
         <val lang="de_DE">Briefnummer eingeben</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Introducir el número de la carta</val>
     </key>
     <key value="ask.shorthand_editor">
         <val lang="de_DE">Kürzel Bearbeiter*in</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Abreviatura del editor</val>
     </key>
     <key value="ask.revisionDesc_status">
         <val lang="de_DE">Status</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Estado</val>
     </key>
     <key value="ask.status_draft">
         <val lang="de_DE">Entwurf</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Borrador</val>
     </key>
     <key value="ask.status_final">
         <val lang="de_DE">Final</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Final</val>
     </key>
     <key value="ask.alignment_change">
-        <val lang="de_DE">Ausrichtung ändern</val>
-        <val lang="es_ES"> </val>
+        <val lang="de_DE">Ausichtung ändern</val>
+        <val lang="es_ES">Cambiar la alineación</val>
     </key>
     <key value="ask.alignment_change_left">
         <val lang="de_DE">linksbündig</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Justificado a la izquierda</val>
     </key>
     <key value="ask.alignment_change_right">
         <val lang="de_DE">rechtsbündig</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">justificado a la derecha</val>
     </key>
     <key value="ask.alignment_change_centered">
         <val lang="de_DE">zentriert</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Texto centrado</val>
     </key>
 
 </translation>
