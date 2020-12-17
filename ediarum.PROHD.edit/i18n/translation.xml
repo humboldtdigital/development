@@ -1875,6 +1875,14 @@
         <val lang="de_DE">am rechten Rand eingetragen</val>
         <val lang="es_ES">Añadido en el margen derecho</val>
     </key>
+<key value="ask.add_mTop">
+        <val lang="de_DE">am oberen Rand eingetragen</val>
+        <val lang="es_ES">Añadido en el margen superior</val>
+    </key>
+<key value="ask.add_mBottom">
+        <val lang="de_DE">am unteren Rand eingetragen</val>
+        <val lang="es_ES">Añadido en el margen inferior</val>
+    </key>
     <key value="ask.reason_unclear">
         <val lang="de_DE">Grund der unsicheren Lesung</val>
         <val lang="es_ES">Razón de la lectura incierta</val>
