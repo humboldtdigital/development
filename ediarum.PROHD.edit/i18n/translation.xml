@@ -1807,28 +1807,6 @@
 
     <!-- Actions Argument Values -->
 
-    <!-- tests -->
-    <!-- <key value="typeOfUnderlined">
-        <val lang="de_DE">Art der Unterstreichung</val>
-        <val lang="es_ES">Tipo de subrayado</val>
-    </key>
-    <key value="typeOfUnderlined.simple">
-        <val lang="de_DE">Einfach unterstrichen</val>
-        <val lang="es_ES">Subrayado simple</val>
-    </key>
-    <key value="typeOfUnderlined.simple">
-        <val lang="de_DE">Einfach unterstrichen</val>
-        <val lang="es_ES">Subrayado simple</val>
-    </key>
-    <key value="typeOfUnderlined.double">
-        <val lang="de_DE">Doppelt unterstrichen</val>
-        <val lang="es_ES">Subrayado doble</val>
-    </key>
-    <key value="typeOfUnderlined.margin">
-        <val lang="de_DE">Am Rand angestrichen</val>
-        <val lang="es_ES">Subrayado al margen</val>
-    </key>-->
-
     <key value="css.revisionDesc.change">
         <val lang="de_DE">[Kommentar zur Änderung eingeben]</val>
         <val lang="es_ES">[Introducir el comentario sobre el cambio]</val>
@@ -1853,7 +1831,7 @@
         <val lang="de_DE">Am Rand angestrichen</val>
         <val lang="es_ES">Subrayado al margen</val>
     </key>
-    <key value="ask.kind_of_deletion">
+	<key value="ask.kind_of_deletion">
         <val lang="de_DE">Art der Streichung</val>
         <val lang="es_ES">Tipo de supresión</val>
     </key>
