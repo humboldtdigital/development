@@ -1016,6 +1016,56 @@ or ancestor-or-self::quote</String>
 									</poPatch>
 									<poPatch>
 										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[13]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[13]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String></String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;gap xmlns="http://www.tei-c.org/ns/1.0" reason="${ask('${i18n(ask.gap_reason)}', combobox, ('lost':'${i18n(ask.gap_reason_lost)}';'empty':'${i18n(ask.gap_reason_empty)}';'illegible':'${i18n(ask.gap_reason_illegible)}';'covered':'${i18n(ask.gap_reason_covered)}';'fm':'${i18n(ask.gap_reason_fm)}';'insignificant':'${i18n(ask.gap_reason_insignificant)}'), 'lost')}" unit="${ask('${i18n(ask.unit)}', combobox, ('chars':'${i18n(ask.unit_chars)}';'lines':'${i18n(ask.unit_lines)}';'pages':'${i18n(ask.unit_pages)}';'words':'${i18n(ask.unit_words)}';), 'chars')}"  quantity="${ask('${i18n(ask.gap_unit_quantity)}', generic, '')}" />
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
 											<String>authorExtensionDescriptor/actionDescriptors/[14]/name</String>
 										</field>
 										<field name="index">
