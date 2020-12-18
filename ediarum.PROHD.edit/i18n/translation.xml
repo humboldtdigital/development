@@ -1951,7 +1951,7 @@
         <val lang="de_DE">fremdsprachlicher Text</val>
         <val lang="es_ES">Texto en idioma extranjero</val>
     </key>
-    <key value="ask.gap_reasion_insignificant">
+    <key value="ask.gap_reason_insignificant">
         <val lang="de_DE">Für das Korpus unwichtiger Text</val>
         <val lang="es_ES">El texto no es importante para el corpus</val>
     </key>
