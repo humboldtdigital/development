@@ -2470,6 +2470,40 @@ calendar="${ask('${i18n(ask.date_calendar)}', combobox, ('#Gregorian':'${i18n(as
 											<String>authorExtensionDescriptor/actionDescriptors/[27]/actionModes</String>
 										</field>
 										<field name="index">
+											<Integer>2</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[27]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>1</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[27]/actionModes</String>
+										</field>
+										<field name="index">
 											<Integer>0</Integer>
 										</field>
 										<field name="value">
@@ -2509,6 +2543,93 @@ calendar="${ask('${i18n(ask.date_calendar)}', combobox, ('#Gregorian':'${i18n(as
 														<entry>
 															<String>insertPosition</String>
 															<String>Inside as last child</String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[27]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>1</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>//teiHeader/profileDesc and not(//correspDesc)</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;creation xmlns="http://www.tei-c.org/ns/1.0">
+      &lt;date from="${ask('${i18n(ask.date_start)}')}" to="${ask('${i18n(ask.date_end)}')}" cert="${ask('${i18n(ask.date_cert)}', generic, 'high')}"/>
+&lt;/creation>
+</String>
+														</entry>
+														<entry>
+															<String>insertLocation</String>
+															<String>//teiHeader/fileDesc/profileDesc</String>
+														</entry>
+														<entry>
+															<String>insertPosition</String>
+															<String>Inside as first child</String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[27]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>2</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>not(//correspDesc)</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;profileDesc xmlns="http://www.tei-c.org/ns/1.0">
+&lt;creation>
+      &lt;date from="${ask('${i18n(ask.date_start)}')}" to="${ask('${i18n(ask.date_end)}')}" cert="${ask('${i18n(ask.date_cert)}', generic, 'high')}"/>
+  &lt;/creation>
+&lt;/profileDesc></String>
+														</entry>
+														<entry>
+															<String>insertLocation</String>
+															<String>//teiHeader/fileDesc</String>
+														</entry>
+														<entry>
+															<String>insertPosition</String>
+															<String>After</String>
 														</entry>
 													</serializableOrderedMap>
 												</field>
