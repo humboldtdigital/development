@@ -2085,6 +2085,56 @@ or ancestor-or-self::quote</String>
 									</poPatch>
 									<poPatch>
 										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[24]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[24]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>oxy:allows-child-element("date")</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;date xmlns="http://www.tei-c.org/ns/1.0" from="${ask('${i18n(ask.date_start)}')}" to="${ask('${i18n(ask.date_end)}')}" cert="${ask('${i18n(ask.date_cert)}', combobox, ('high':'${i18n(ask.cert_high)}';'low':'${i18n(ask.cert_low)}';), 'high')}" 
+calendar="${ask('${i18n(ask.date_calendar)}', combobox, ('#Gregorian':'${i18n(ask.date_calendar_gregorian)}';'#Julian':'${i18n(ask.date_calendar_julian)}';), '#Gregorian')}" /></String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.SurroundWithFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
 											<String>authorExtensionDescriptor/actionDescriptors/[25]/name</String>
 										</field>
 										<field name="index">
@@ -2112,6 +2162,55 @@ or ancestor-or-self::quote</String>
 										</field>
 										<field name="patchHandling">
 											<String>set</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[25]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[25]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>oxy:allows-child-element("date")</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;date xmlns="http://www.tei-c.org/ns/1.0" notBefore="${ask('${i18n(ask.date_start)}')}" notAfter="${ask('${i18n(ask.date_end)}" cert="${ask('Wahrscheinlichkeit der Datierung', combobox, ('high':'hoch';'low':'niedrig';), 'high')}"  calendar="${ask('In der Quelle verwendeter Kalender', combobox, ('#Gregorian':'Gregorianischer';'#Julian':'Julianischer';), '#Gregorian')}" /></String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.SurroundWithFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
 										</field>
 										<field name="anchor">
 											<null/>
@@ -2180,6 +2279,65 @@ or ancestor-or-self::quote</String>
 										</field>
 										<field name="patchHandling">
 											<String>set</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[27]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[27]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>//teiHeader/profileDesc/creation and not(//correspDesc)</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;date xmlns="http://www.tei-c.org/ns/1.0" from="${ask('${i18n(ask.date_start)}')}" to="${ask('${i18n(ask.date_end)}')}" cert="${ask('Wahrscheinlichkeit mit der die Datierung zutrifft', generic, 'high')}" />
+
+</String>
+														</entry>
+														<entry>
+															<String>insertLocation</String>
+															<String>//teiHeader/profileDesc/creation</String>
+														</entry>
+														<entry>
+															<String>insertPosition</String>
+															<String>Inside as last child</String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
 										</field>
 										<field name="anchor">
 											<null/>
@@ -8063,7 +8221,7 @@ or ancestor-or-self::quote</String>
 														</menuItem>
 														<menu>
 															<field name="label">
-																<String> ${i18n(revision.menu)}</String>
+																<String>${i18n(revision.menu)}</String>
 															</field>
 															<field name="accessKey">
 																<String></String>
