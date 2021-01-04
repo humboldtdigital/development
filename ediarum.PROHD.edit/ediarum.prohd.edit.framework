@@ -2498,7 +2498,7 @@ calendar="${ask('${i18n(ask.date_calendar)}', combobox, ('#Gregorian':'${i18n(as
 													<serializableOrderedMap>
 														<entry>
 															<String>fragment</String>
-															<String>&lt;date xmlns="http://www.tei-c.org/ns/1.0" from="${ask('${i18n(ask.date_start)}')}" to="${ask('${i18n(ask.date_end)}')}" cert="${ask('Wahrscheinlichkeit mit der die Datierung zutrifft', generic, 'high')}" />
+															<String>&lt;date xmlns="http://www.tei-c.org/ns/1.0" from="${ask('${i18n(ask.date_start)}')}" to="${ask('${i18n(ask.date_end)}')}" cert="${ask('${i18n(ask.date_cert)}', generic, 'high')}"/>
 
 </String>
 														</entry>
