@@ -2200,7 +2200,8 @@ calendar="${ask('${i18n(ask.date_calendar)}', combobox, ('#Gregorian':'${i18n(as
 													<serializableOrderedMap>
 														<entry>
 															<String>fragment</String>
-															<String>&lt;date xmlns="http://www.tei-c.org/ns/1.0" notBefore="${ask('${i18n(ask.date_start)}')}" notAfter="${ask('${i18n(ask.date_end)}" cert="${ask('Wahrscheinlichkeit der Datierung', combobox, ('high':'hoch';'low':'niedrig';), 'high')}"  calendar="${ask('In der Quelle verwendeter Kalender', combobox, ('#Gregorian':'Gregorianischer';'#Julian':'Julianischer';), '#Gregorian')}" /></String>
+															<String>&lt;date xmlns="http://www.tei-c.org/ns/1.0" notBefore="${ask('${i18n(ask.date_start)}')}" notAfter="${ask('${i18n(ask.date_end)}" cert="${ask('${i18n(ask.date_cert)}', combobox, ('high':'${i18n(ask.cert_high)}';'low':'${i18n(ask.cert_low)}';), 'high')}" 
+calendar="${ask('${i18n(ask.date_calendar)}', combobox, ('#Gregorian':'${i18n(ask.date_calendar_gregorian)}';'#Julian':'${i18n(ask.date_calendar_julian)}';), '#Gregorian')}" /></String>
 														</entry>
 													</serializableOrderedMap>
 												</field>
@@ -7789,7 +7790,7 @@ calendar="${ask('${i18n(ask.date_calendar)}', combobox, ('#Gregorian':'${i18n(as
 														</menuItem>
 														<menu>
 															<field name="label">
-																<String> ${i18n(reference.menu)}</String>
+																<String>${i18n(reference.menu)}</String>
 															</field>
 															<field name="accessKey">
 																<String></String>
