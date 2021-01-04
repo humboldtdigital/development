@@ -3252,6 +3252,66 @@ calendar="${ask('${i18n(ask.date_calendar)}', combobox, ('#Gregorian':'${i18n(as
 									</poPatch>
 									<poPatch>
 										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[38]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[38]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>oxy:allows-child-element("figure")</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;figure xmlns="http://www.tei-c.org/ns/1.0" facs="${ask('${i18n(ask.filename)}', generic, '')}" hand="${ask('${i18n(ask.hand_facs)}', combobox, ('#author':'${i18n(ask.hand_author)}';'#addressee':'${i18n(ask.hand_addressee)}';'#index':'${i18n(ask.hand_index)}';'#unknown':'${i18n(ask.hand_unknown)}'), '#author')}">
+  &lt;p>&lt;/p>
+  &lt;figDesc>${caret}&lt;/figDesc>
+&lt;/figure></String>
+														</entry>
+														<entry>
+															<String>insertLocation</String>
+															<String></String>
+														</entry>
+														<entry>
+															<String>insertPosition</String>
+															<String>Inside as first child</String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
 											<String>authorExtensionDescriptor/actionDescriptors/[39]/name</String>
 										</field>
 										<field name="index">
