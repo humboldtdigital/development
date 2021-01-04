@@ -1584,6 +1584,142 @@ or ancestor-or-self::quote</String>
 									</poPatch>
 									<poPatch>
 										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[20]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>1</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[20]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[20]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>//sourceDesc/listWit</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;witness xmlns="http://www.tei-c.org/ns/1.0">
+  &lt;msDesc type="${ask('${i18n(ask.wit_type_manuscript)}', combobox, ('concept':'${i18n(ask.type_concept)}';'copy':'${i18n(ask.type_copy)}';), 'concept')}">
+    &lt;msIdentifier>
+      &lt;institution>${ask('${i18n(ask.wit_institution)}')}&lt;/institution>
+      &lt;collection>${ask('${i18n(ask.wit_collection)}')}&lt;/collection>
+       &lt;idno>
+         &lt;idno type="shelfmark">${ask('${i18n(ask.wit_idno)}')}&lt;/idno>
+        &lt;/idno>
+    &lt;/msIdentifier>
+  &lt;/msDesc>
+&lt;/witness></String>
+														</entry>
+														<entry>
+															<String>insertLocation</String>
+															<String>//teiHeader/fileDesc/sourceDesc/listWit</String>
+														</entry>
+														<entry>
+															<String>insertPosition</String>
+															<String>Inside as first child</String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[20]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>1</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String></String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;listWit xmlns="http://www.tei-c.org/ns/1.0">
+&lt;witness>
+  &lt;msDesc type="${ask('${i18n(ask.wit_type_manuscript)}', combobox, ('concept':'${i18n(ask.type_concept)}';'copy':'${i18n(ask.type_copy)}';), 'concept')}">
+    &lt;msIdentifier>
+      &lt;institution>${ask('${i18n(ask.wit_institution)}')}&lt;/institution>
+      &lt;collection>${ask('${i18n(ask.wit_collection)}')}&lt;/collection>
+       &lt;idno>
+         &lt;idno type="shelfmark">${ask('${i18n(ask.wit_idno)}')}&lt;/idno>
+        &lt;/idno>
+    &lt;/msIdentifier>
+  &lt;/msDesc>
+&lt;/witness>
+&lt;/listWit></String>
+														</entry>
+														<entry>
+															<String>insertLocation</String>
+															<String>//teiHeader/fileDesc/sourceDesc</String>
+														</entry>
+														<entry>
+															<String>insertPosition</String>
+															<String>Inside as last child</String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
 											<String>authorExtensionDescriptor/actionDescriptors/[21]/name</String>
 										</field>
 										<field name="index">
@@ -7636,7 +7772,7 @@ or ancestor-or-self::quote</String>
 														</menuItem>
 														<menuItem>
 															<field name="actionID">
-																<String>msDesc/@rend</String>
+																<String>wit(Manuskript)</String>
 															</field>
 														</menuItem>
 														<menuItem>
