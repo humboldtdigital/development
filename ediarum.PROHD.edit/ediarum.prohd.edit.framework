@@ -2851,6 +2851,55 @@ calendar="${ask('${i18n(ask.date_calendar)}', combobox, ('#Gregorian':'${i18n(as
 									</poPatch>
 									<poPatch>
 										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[33]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[33]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>oxy:allows-child-element("foreign")</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;foreign xmlns="http://www.tei-c.org/ns/1.0" xml:lang="${ask('${i18n(ask.foreign_language)}', combobox, ('grc':'${i18n(ask.lang_grc)}'; 'Lat':'${i18n(ask.lang_lat)}'; 'heb':'${i18n(ask.lang_heb)}';'deu':'${i18n(ask.lang_deu)}';'fra':'${i18n(ask.lang_fra)}'; 'eng':'${i18n(ask.lang_eng)}';'rus':'${i18n(ask.lang_rus)}';'spa':'${i18n(ask.lang_spa)}'; ))}">&lt;/foreign></String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.SurroundWithFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
 											<String>authorExtensionDescriptor/actionDescriptors/[34]/name</String>
 										</field>
 										<field name="index">
