@@ -477,6 +477,23 @@
 											<String>authorExtensionDescriptor/actionDescriptors/[6]/actionModes</String>
 										</field>
 										<field name="index">
+											<Integer>1</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[6]/actionModes</String>
+										</field>
+										<field name="index">
 											<Integer>0</Integer>
 										</field>
 										<field name="value">
@@ -506,6 +523,38 @@
 														<entry>
 															<String>fragment</String>
 															<String>&lt;del xmlns="http://www.tei-c.org/ns/1.0" rendition="${ask('${i18n(ask.kind_of_deletion)}', combobox, ('#ow':'${i18n(ask.deletion_overwritten)}';'#s':'${i18n(ask.deletion_striketrough)}';'#erased':'${i18n(ask.deletion_erasure)}';), '#s')}">&lt;/del></String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.SurroundWithFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[6]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>1</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>ancestor-or-self::text</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;del xmlns="http://www.tei-c.org/ns/1.0"  rendition="${ask('${i18n(ask.kind_of_deletion)}', combobox, ('#ow':'${i18n(ask.deletion_overwritten)}';'#s':'${i18n(ask.deletion_striketrough)}';'#erased':'${i18n(ask.deletion_erasure)}';), '#s')}">&lt;/del></String>
 														</entry>
 													</serializableOrderedMap>
 												</field>
@@ -4623,6 +4672,58 @@ calendar="${ask('${i18n(ask.date_calendar)}', combobox, ('#Gregorian':'${i18n(as
 										</field>
 										<field name="patchHandling">
 											<String>set</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[67]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[67]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>//text[@type="letter"] and ancestor-or-self::div[@type="writingSession"]
+</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;opener xmlns="http://www.tei-c.org/ns/1.0">
+  &lt;dateline rend="align(right)">${ask('${i18n(ask.dateline)}')}&lt;/dateline>
+&lt;/opener></String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
 										</field>
 										<field name="anchor">
 											<null/>
