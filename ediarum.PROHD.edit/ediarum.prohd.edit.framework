@@ -4217,6 +4217,59 @@ calendar="${ask('${i18n(ask.date_calendar)}', combobox, ('#Gregorian':'${i18n(as
 									</poPatch>
 									<poPatch>
 										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[60]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[60]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>self::closer</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>name</String>
+															<String>rend</String>
+														</entry>
+														<entry>
+															<String>value</String>
+															<String>${ask('', radio, ('paragraph':'${i18n(ask.rend_paragraph)}';'within the line':'${i18n(ask.rend_within_the_line)}';))}</String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.ChangeAttributeOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
 											<String>authorExtensionDescriptor/actionDescriptors/[61]/name</String>
 										</field>
 										<field name="index">
