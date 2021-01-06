@@ -2189,7 +2189,7 @@
     </key>
     <key value="ask.insert_fraction">
         <val lang="de_DE">Bruchzahl auswählen</val>
-        <val lang="es_ES"> </val>
+        <val lang="es_ES">Seleccionar una fracción</val>
     </key>
     <key value="ask.facs_url">
         <val lang="de_DE">URL des Digitalisats</val>
