@@ -57187,6 +57187,7 @@
     <key value="New_project">
         <comment>Action that creates a new project.</comment>
         <val lang="en_US">New project</val>
+        <val lang="es_ES">Nuevo proyecto</val>
         <val lang="de_DE">Neues Projekt</val>
         <val lang="fr_FR">Nouveau projet</val>
         <val lang="ja_JP">新規プロジェクト</val>
@@ -57196,6 +57197,7 @@
     <key distribution="common" value="File_Open_URL">
         <comment>Name of the action that opens a remote file.</comment>
         <val lang="en_US">Open URL</val>
+        <val lang="es_ES">Abrir URL</val>
         <val lang="de_DE">URL öffnen</val>
         <val lang="fr_FR">Ouvrir l'URL</val>
         <val lang="ja_JP">URLを開く</val>
