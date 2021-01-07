@@ -10,11 +10,11 @@
     <!-- TEI elements -->
     <key value="ex.name">
         <val lang="de_DE">Ergänzung</val>
-        <val lang="es_ES">Añadidura</val>
+        <val lang="es_ES">Texto expandido de una abreviatura</val>
     </key>
     <key value="ex.description">
         <val lang="de_DE">Ergänzungen von fehlenden Wortteilen durch die Herausgeber</val>
-        <val lang="es_ES">Letras o palabras añadidas por los editores</val>
+        <val lang="es_ES">En una abreviatura, letras o palabras expandidas por los editores</val>
     </key>
     <key value="hi[underline].name">
         <val lang="de_DE">Unterstrichen</val>
@@ -820,11 +820,11 @@
     </key>
     <key value="abbr-expan.name">
         <val lang="de_DE">Abkürzungen auflösen</val>
-        <val lang="es_ES">Deshacer abreviaturas</val>
+        <val lang="es_ES">Expandir abreviaturas</val>
     </key>
     <key value="abbr-expan.description">
         <val lang="de_DE">Abkürzungen auflösen</val>
-        <val lang="es_ES">Deshacer abreviaturas</val>
+        <val lang="es_ES">Insertar simultáneamente la abreviatura y la expansión de una palabra o carácter</val>
     </key>
     <key value="pb[facs].name">
         <val lang="de_DE">Foliowechsel mit Link</val>
