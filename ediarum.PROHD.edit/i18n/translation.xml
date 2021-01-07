@@ -776,7 +776,7 @@
     </key>
     <key value="orig-reg.description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">Insertar simultáneamente la ortografía original y la regularización</val>
     </key>
     <key value="correspAction[received]_placeName.name">
         <val lang="de_DE">Empfangsort</val>
