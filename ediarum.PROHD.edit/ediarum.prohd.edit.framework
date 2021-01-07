@@ -7614,6 +7614,58 @@ calendar="${ask('${i18n(ask.date_calendar)}', combobox, ('#Gregorian':'${i18n(as
 									</poPatch>
 									<poPatch>
 										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[118]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[118]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>ancestor-or-self::note[parent::seg] 
+or ancestor-or-self::note[parent::correspDesc] 
+or ancestor-or-self::p[parent::abstract]
+or ancestor-or-self::note[parent::notesStmt] </String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;ref xmlns="http://www.tei-c.org/ns/1.0" target="${ask('${i18n(ask.url_enter)}', url, '')}">&lt;/ref></String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.SurroundWithFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
 											<String>authorExtensionDescriptor/actionDescriptors/[119]/name</String>
 										</field>
 										<field name="index">
