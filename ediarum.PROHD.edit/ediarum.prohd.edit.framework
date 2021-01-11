@@ -7992,6 +7992,55 @@ or ancestor-or-self::note[parent::notesStmt] </String>
 									</poPatch>
 									<poPatch>
 										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[121]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[121]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String></String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>${ask('${i18n(ask.choose_symbol)}', combobox, ('&amp;#x00A3;':'£';'&amp;#x2032;':'′';'&amp;#x2033;':'″';'&amp;#x2034;':'‴';), '&amp;#x00A3;')}</String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
 											<String>authorExtensionDescriptor/actionDescriptors/[122]/name</String>
 										</field>
 										<field name="index">
