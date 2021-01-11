@@ -2247,6 +2247,10 @@
         <val lang="de_DE">Wählen Sie ein Zeichen aus</val>
         <val lang="es_ES">Seleccionar un carácter</val>
     </key>
+    <key value="ask.choose_symbol">
+        <val lang="de_DE">Bitte wählen Sie ein Zeichen aus</val>
+        <val lang="es_ES">Seleccionar un símbolo de unidad o comillas</val>
+    </key>
     <key value="ask.enter_authority_uri">
         <val lang="de_DE">GND, VIAF etc. (URI) der Person</val>
         <val lang="es_ES">VIAF  u otro identificador (URI) de persona</val>
