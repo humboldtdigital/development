@@ -7909,6 +7909,55 @@ or ancestor-or-self::note[parent::notesStmt] </String>
 									</poPatch>
 									<poPatch>
 										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[120]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[120]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String></String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>${ask('${i18n(ask.choose_character)}', combobox, ('&amp;#x00E3;':'ã';'&amp;#0230;':'æ';'&amp;#0198;':'Æ';'&amp;#x00E7;':'ç';'&amp;#x00C7;':'Ç';'&amp;#x229;':'ȩ';'&amp;#x00EB;':'ë';'&amp;#x00EF;':'ï';'&amp;#x0142;':'ł';'&amp;#x0141;':'Ł';'&amp;#x144;':'ń';'&amp;#x00F1;':'ñ';'&amp;#x00F8;':'ø';'&amp;#0339;':'œ';'&amp;#0338;':'Œ';'&amp;#x0161;':'š';'&amp;#x0160;':'Š';), '&amp;#x00E3;')}</String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
 											<String>authorExtensionDescriptor/actionDescriptors/[121]/name</String>
 										</field>
 										<field name="index">
