@@ -1166,7 +1166,7 @@
     </key>
     <key value="note_1.name">
         <val lang="de_DE">note-Element</val>
-        <val lang="es_ES">Nota por parte del autor, editor, destinatario o colaborador</val>
+        <val lang="es_ES">Nota por parte del autor, destinatario u otra persona</val>
     </key>
     <key value="note_1.description">
         <val lang="de_DE"/>
