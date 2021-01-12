@@ -9417,6 +9417,59 @@ or ancestor-or-self::note[parent::notesStmt] </String>
 									</poPatch>
 									<poPatch>
 										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[150]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[150]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>oxy:allows-child-element("cb")</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;cb xmlns="http://www.tei-c.org/ns/1.0" type="${ask('${i18n(ask.cb_type)}', combobox, ('':'${i18n(ask.cb_type_normal)}';'start':'${i18n(ask.cb_start)}';'end':'${i18n(ask.cb_end)}';), '')}" n="${ask('${i18n(ask.cb_number)}', generic, '')}"/></String>
+														</entry>
+														<entry>
+															<String>insertLocation</String>
+															<String></String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
 											<String>authorExtensionDescriptor/actionDescriptors/[151]/name</String>
 										</field>
 										<field name="index">
