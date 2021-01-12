@@ -10391,6 +10391,130 @@ or ancestor-or-self::note[parent::notesStmt] </String>
 									</poPatch>
 									<poPatch>
 										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[166]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>3</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[166]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>2</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[166]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>2</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>ancestor-or-self::cell[@rendition="#right"] or
+ancestor-or-self::cell[@rendition="#c"] or
+ancestor-or-self::cell[not(@rendition)]</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>elementLocation</String>
+															<String>ancestor-or-self::cell</String>
+														</entry>
+														<entry>
+															<String>name</String>
+															<String>rendition</String>
+														</entry>
+														<entry>
+															<String>namespace</String>
+															<String></String>
+														</entry>
+														<entry>
+															<String>value</String>
+															<String>${ask('${i18n(ask.alignment_change)}', editable_combobox, ('#left':'${i18n(ask.alignment_change_left)}';'#right':'${i18n(ask.alignment_change_right)}';'#c':'${i18n(ask.alignment_change_centered)}';'':'';), '#left')}</String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.ChangeAttributeOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[166]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>3</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>ancestor-or-self::cell[not(@rendition)]</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>elementLocation</String>
+															<String>ancestor-or-self::cell</String>
+														</entry>
+														<entry>
+															<String>name</String>
+															<String>rendition</String>
+														</entry>
+														<entry>
+															<String>namespace</String>
+															<String></String>
+														</entry>
+														<entry>
+															<String>value</String>
+															<String>${ask('${i18n(ask.alignment_change)}', editable_combobox, ('#left':'${i18n(ask.alignment_change_left)}';'#right':'${i18n(ask.alignment_change_right)}';'#c':'${i18n(ask.alignment_change_centered)}';'':'';), '#left')}</String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.ChangeAttributeOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
 											<String>authorExtensionDescriptor/actionDescriptors</String>
 										</field>
 										<field name="index">
