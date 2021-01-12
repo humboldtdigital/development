@@ -1309,11 +1309,11 @@
     </key>
     <key value="note[handwritten]_1.name">
         <val lang="de_DE">note-Element (handwritten in printed text)</val>
-        <val lang="es_ES">Elemento note (escrito a mano en texto impreso)</val>
+        <val lang="es_ES">Nota escrita a mano en un texto impreso</val>
     </key>
     <key value="note[handwritten]_1.description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">Insertar nota escrita a mano en un texto impreso</val>
     </key>
     <key value="note[handwritten].name">
         <val lang="de_DE">Handschriftliche Anmerkung</val>
