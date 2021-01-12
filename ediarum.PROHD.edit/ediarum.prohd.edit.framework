@@ -8759,6 +8759,173 @@ or ancestor-or-self::note[parent::notesStmt] </String>
 									</poPatch>
 									<poPatch>
 										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[137]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>2</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[137]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>1</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[137]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[137]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>ancestor-or-self::closer</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;note xmlns="http://www.tei-c.org/ns/1.0" place="${ask('${i18n(ask.note_place)}', combobox, ('right':'${i18n(ask.note_right)}';'left':'${i18n(ask.note_left)}';'mTop':'${i18n(ask.note_mTop)}';'mBottom':'${i18n(ask.note_mBottom)}';'inline':'${i18n(ask.note_inline)}';), '')}" hand="${ask('${i18n(ask.hand_note)}', combobox, ('#author':'${i18n(ask.hand_author)}';'#addressee':'${i18n(ask.hand_addressee)}';'#index':'${i18n(ask.hand_index)}';'#unknown':'${i18n(ask.hand_unknown)}'), '#author')}">&lt;/note></String>
+														</entry>
+														<entry>
+															<String>insertLocation</String>
+															<String>ancestor-or-self::closer</String>
+														</entry>
+														<entry>
+															<String>insertPosition</String>
+															<String>Before</String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[137]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>1</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>ancestor-or-self::opener</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;note xmlns="http://www.tei-c.org/ns/1.0" place="${ask('${i18n(ask.note_place)}', combobox, ('right':'${i18n(ask.note_right)}';'left':'${i18n(ask.note_left)}';'mTop':'${i18n(ask.note_mTop)}';'mBottom':'${i18n(ask.note_mBottom)}';'inline':'${i18n(ask.note_inline)}';), '')}" hand="${ask('${i18n(ask.hand_note)}', combobox, ('#author':'${i18n(ask.hand_author)}';'#addressee':'${i18n(ask.hand_addressee)}';'#index':'${i18n(ask.hand_index)}';'#unknown':'${i18n(ask.hand_unknown)}'), '#author')}">&lt;/note></String>
+														</entry>
+														<entry>
+															<String>insertLocation</String>
+															<String>ancestor-or-self::opener</String>
+														</entry>
+														<entry>
+															<String>insertPosition</String>
+															<String>Before</String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[137]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>2</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>ancestor-or-self::text</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>fragment</String>
+															<String>&lt;note xmlns="http://www.tei-c.org/ns/1.0" place="${ask('${i18n(ask.note_place)}', combobox, ('right':'${i18n(ask.note_right)}';'left':'${i18n(ask.note_left)}';'mTop':'${i18n(ask.note_mTop)}';'mBottom':'${i18n(ask.note_mBottom)}';'inline':'${i18n(ask.note_inline)}';), '')}" hand="${ask('${i18n(ask.hand_note)}', combobox, ('#author':'${i18n(ask.hand_author)}';'#addressee':'${i18n(ask.hand_addressee)}';'#index':'${i18n(ask.hand_index)}';'#unknown':'${i18n(ask.hand_unknown)}'), '#author')}">&lt;/note></String>
+														</entry>
+														<entry>
+															<String>insertLocation</String>
+															<String></String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
 											<String>authorExtensionDescriptor/actionDescriptors/[138]/name</String>
 										</field>
 										<field name="index">
