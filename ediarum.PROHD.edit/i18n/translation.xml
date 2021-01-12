@@ -1166,11 +1166,11 @@
     </key>
     <key value="note_1.name">
         <val lang="de_DE">note-Element</val>
-        <val lang="es_ES">Elemento note</val>
+        <val lang="es_ES">Nota por parte del autor, editor, destinatario o colaborador</val>
     </key>
     <key value="note_1.description">
         <val lang="de_DE"/>
-        <val lang="es_ES"/>
+        <val lang="es_ES">Insertar nota</val>
     </key>
     <key value="hand.name">
         <val lang="de_DE">@hand mit Register</val>
