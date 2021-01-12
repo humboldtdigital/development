@@ -10334,6 +10334,63 @@ or ancestor-or-self::note[parent::notesStmt] </String>
 									</poPatch>
 									<poPatch>
 										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[164]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<null/>
+										</field>
+										<field name="patchHandling">
+											<String>removeIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
+											<String>authorExtensionDescriptor/actionDescriptors/[164]/actionModes</String>
+										</field>
+										<field name="index">
+											<Integer>0</Integer>
+										</field>
+										<field name="value">
+											<actionMode>
+												<field name="xpathCondition">
+													<String>ancestor-or-self::revisionDesc</String>
+												</field>
+												<field name="argValues">
+													<serializableOrderedMap>
+														<entry>
+															<String>elementLocation</String>
+															<String>ancestor-or-self::revisionDesc</String>
+														</entry>
+														<entry>
+															<String>name</String>
+															<String>status</String>
+														</entry>
+														<entry>
+															<String>value</String>
+															<String>${ask('${i18n(ask.revisionDesc_status)}', radio, ('draft':'${i18n(ask.status_draft)}';'final':'${i18n(ask.status_final)}';), 'draft')}</String>
+														</entry>
+													</serializableOrderedMap>
+												</field>
+												<field name="operationID">
+													<String>ro.sync.ecss.extensions.commons.operations.ChangeAttributeOperation</String>
+												</field>
+											</actionMode>
+										</field>
+										<field name="patchHandling">
+											<String>addIndex</String>
+										</field>
+										<field name="anchor">
+											<null/>
+										</field>
+									</poPatch>
+									<poPatch>
+										<field name="fieldPath">
 											<String>authorExtensionDescriptor/actionDescriptors</String>
 										</field>
 										<field name="index">
