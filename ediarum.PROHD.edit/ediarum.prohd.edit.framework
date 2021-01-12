@@ -8578,10 +8578,10 @@ or ancestor-or-self::note[parent::notesStmt] </String>
 															<String>fragment</String>
 															<String>&lt;respStmt xmlns="http://www.tei-c.org/ns/1.0">
   &lt;persName ref="${ask('${i18n(ask.enter_authority_uri)}', generic, '')}">
-    &lt;surname>${ask('Nachname', generic, '')}&lt;/surname>
-    &lt;forename>${ask('Vorname', generic, '')}&lt;/forename>
+    &lt;surname>${ask('${i18n(ask.surname)}', generic, '')}&lt;/surname>
+    &lt;forename>${ask('${i18n(ask.forename)}', generic, '')}&lt;/forename>
   &lt;/persName>
-  &lt;resp>&lt;note type="remarkResponsibility">${ask('Art der Mitarbeit', editable_combobox, ('Mitarbeit':'Mitarbeit';'Redaktionelle Mitarbeit':'Redaktionelle Mitarbeit';'Transkription':'Transkription';'Kommentar':'Kommentar';'Register':'Register';'':'';), 'Mitarbeit')}&lt;/note>&lt;/resp>
+  &lt;resp>&lt;note type="remarkResponsibility">${ask('${i18n(ask.type_of_responsibility)}', editable_combobox, ('Mitarbeit':'${i18n(ask.type_resp_collaboration)}';'Redaktionelle Mitarbeit':'${i18n(ask.type_resp_editorial)}';'Transkription':'${i18n(ask.type_resp_transcription)}';'Kommentar':'${i18n(ask.type_resp_commentary)}';'Register':'${i18n(ask.type_resp_register)}';'':'';), 'Mitarbeit')}&lt;/note>&lt;/resp>
 &lt;/respStmt></String>
 														</entry>
 														<entry>
