@@ -2391,5 +2391,50 @@
         <val lang="de_DE">zentriert</val>
         <val lang="es_ES">Texto centrado</val>
     </key>
+    
+    
+    <!-- prohd templates -->
+    <!-- This arguments are not working in default templates -->
+    
+   <!-- <key value="ask.title_edition">
+        <val lang="de_DE">Titel der digitalen Ausgabe eingeben</val>
+        <val lang="es_ES">Introducir título de la edición digital</val>
+    </key>
+    
+    <key value="ask.date_year">
+        <val lang="de_DE">Jahr der Veröffentlichung der digitalen Ausgabe</val>
+        <val lang="es_ES">Año de publicación de la edición digital</val>
+    </key>
+          
+    <key value="ask.publisher">
+        <val lang="de_DE">Herausgebende Institution</val>
+        <val lang="es_ES">Institución que publica la edición digital</val>
+    </key>
 
+    <key value="ask.repository">
+        <val lang="de_DE">Archiv eingeben</val>
+        <val lang="es_ES">Introducir archivo o biblioteca</val>
+    </key>
+    
+    <key value="ask.collection">
+        <val lang="de_DE">Ggf. Sammlung</val>
+        <val lang="es_ES">Colección, si fuera necesario</val>
+    </key>
+    
+    <key value="ask.signature">
+        <val lang="de_DE">Signatur</val>
+        <val lang="es_ES">Signatura</val>
+    </key>
+    
+    <key value="ask.language_abbreviation">
+        <val lang="de_DE">Textsprache (ISO-Code)</val>
+        <val lang="es_ES">Idioma del texto (código ISO)</val>
+    </key>
+    
+    <key value="ask.language">
+        <val lang="de_DE">Textsprache</val>
+        <val lang="es_ES">Idioma del texto</val>
+    </key>-->
+    
+   
 </translation>
