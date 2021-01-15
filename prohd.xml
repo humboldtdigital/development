@@ -4,19 +4,23 @@
     <fileDesc>
       <titleStmt>
         <title>ODD del Proyecto Humboldt Digital</title>
+        <editor><surname>Rojas Castro</surname><forename>Antonio</forename></editor>
       </titleStmt>
       <publicationStmt>
-        <publisher>ProHD</publisher>
+        <publisher>ODD publicada por Proyecto Humboldt Digital (ProHD) por primera vez en enero de
+            <date when="2021-01-15">2021</date></publisher>
       </publicationStmt>
       <sourceDesc>
-        <bibl>TEI U5 (derived from TEI U1: An Introduction to TEI Tagging (derived from TEI ED W21:
-          Living with the Guidelines)</bibl>
+        <bibl>ODD basada en TEI U5 y <ref
+            target="https://www.ediarum.org/docs/ediarum.BASE.manual/index.html"
+          />ediarum.BASE.manual</bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
       <schemaSpec ident="prohd" start="TEI" prefix="tei_" targetLang="es" docLang="es">
+
         <!-- modules -->
         <moduleRef key="tei"/>
         <moduleRef key="core"
@@ -34,213 +38,319 @@
         <moduleRef key="textcrit" include="witness"/>
         <moduleRef key="namesdates" include="persName placeName surname forename"/>
         <moduleRef key="gaiji" include="g"/>
-        <!-- classes -->
-        <classRef key="att.global.facs"/>
-        <classSpec ident="att.global" type="atts" mode="change" module="tei">
-          <attList>
-            <attDef ident="xml:base" mode="delete"/>
-          </attList>
-        </classSpec>
-        <classSpec ident="att.global.rendition" type="atts" mode="change" module="tei">
-          <attList>
-            <attDef ident="style" mode="delete"/>
-            <attDef ident="rendition" mode="delete"/>
-          </attList>
-        </classSpec>
-        <classSpec type="atts" ident="att.global.linking" module="linking" mode="change">
-          <attList>
-            <attDef ident="synch" mode="delete"/>
-            <attDef ident="sameAs" mode="delete"/>
-            <attDef ident="copyOf" mode="delete"/>
-            <attDef ident="exclude" mode="delete"/>
-            <attDef ident="select" mode="delete"/>
-          </attList>
-        </classSpec>
-        <classSpec type="atts" ident="att.datable.w3c" module="tei" mode="change">
-          <attList>
-            <attDef ident="notBefore" mode="delete"/>
-            <attDef ident="notAfter" mode="delete"/>
-            <attDef ident="from" mode="delete"/>
-            <attDef ident="to" mode="delete"/>
-          </attList>
-        </classSpec>
-        <classSpec type="atts" ident="att.datable" module="tei" mode="change">
-          <attList>
-            <attDef ident="calendar" mode="delete"/>
-          </attList>
-        </classSpec>
-        <classSpec type="atts" ident="att.internetMedia" module="tei" mode="delete"/>
-        <classSpec type="model" ident="model.msItemPart" module="tei" mode="delete"/>
-        <classSpec type="model" ident="model.msQuoteLike" module="tei" mode="delete"/>
-        <classSpec type="model" ident="model.personPart" module="tei" mode="delete"/>
+
         <!-- element Specifications -->
-        <elementSpec ident="TEI" mode="change">
+
+        <!-- elemnets in teiHeader -->
+        <!-- required attributes and possible values -->
+        <!-- graphic can be also in text -->
+        <elementSpec ident="graphic" mode="replace">
           <attList>
-            <attDef ident="version" mode="delete"/>
+            <attDef ident="url" usage="opt" mode="replace"/>
+            <attDef ident="facs" usage="opt" mode="replace"/>
+            <attDef ident="hand" usage="opt" mode="replace">
+              <valList type="semi" mode="replace">
+                <valItem ident="#author"/>
+                <valItem ident="#addressee"/>
+                <valItem ident="#unknown"/>
+              </valList>
+            </attDef>
           </attList>
         </elementSpec>
-        <elementSpec module="header" ident="editorialDecl" mode="change">
+        <elementSpec ident="idno" mode="replace">
+          <attList>
+            <attDef ident="type" mode="replace" usage="req">
+              <valList type="closed" mode="replace">
+                <valItem ident="uri"/>
+                <valItem ident="URLimages"/>
+                <valItem ident="shelfmark"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="bibl" mode="replace">
+          <attList>
+            <attDef ident="type" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="print"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="change" mode="replace">
+          <attList>
+            <attDef ident="when" usage="req" mode="replace"/>
+            <attDef ident="who" usage="req" mode="replace"/>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="correspAction" mode="replace">
+          <attList>
+            <attDef ident="type" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="sent"/>
+                <valItem ident="received"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="date" mode="replace">
+          <attList>
+            <attDef ident="when" usage="opt" mode="replace"/>
+            <attDef ident="from" usage="opt" mode="replace"/>
+            <attDef ident="to" usage="opt" mode="replace"/>
+            <attDef ident="notBefore" usage="opt" mode="replace"/>
+            <attDef ident="notAfter" usage="opt" mode="replace"/>
+            <attDef ident="cert" usage="opt" mode="replace">
+              <valList type="closed" mode="replace">
+                <!-- doubt: check values of this attribute -->
+                <valItem ident="high"/>
+                <valItem ident="low"/>
+                <valItem ident="medium"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="msDesc" mode="replace">
+          <attList>
+            <attDef ident="type" usage="req" mode="replace"/>
+            <attDef ident="rend" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="print"/>
+                <valItem ident="copy"/>
+                <valItem ident="manuscript"/>
+                <valItem ident="concept"/>
+                <valItem ident="notExtant"/>
+              </valList>
+            </attDef>
+            <attDef ident="select" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="#this"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="note" mode="replace">
+          <attList>
+            <attDef ident="type" usage="opt" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="editorial"/>
+                <valItem ident="remarkResponsibility"/>
+              </valList>
+            </attDef>
+            <attDef ident="place" usage="opt" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="left"/>
+                <valItem ident="right"/>
+                <valItem ident="mTop"/>
+                <valItem ident="mBottom"/>
+                <valItem ident="inline"/>
+              </valList>
+            </attDef>
+            <attDef ident="hand" usage="opt" mode="replace">
+              <valList type="semi" mode="replace">
+                <valItem ident="#author"/>
+                <valItem ident="#addressee"/>
+                <valItem ident="#unknown"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="persName" mode="replace">
+          <attList>
+            <attDef ident="key" usage="opt" mode="replace"/>
+            <attDef ident="ref" usage="opt" mode="replace"/>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="placeName" mode="replace">
+          <attList>
+            <attDef ident="key" usage="req" mode="replace"/>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="quote" mode="replace">
+          <attList>
+            <attDef ident="rendition" usage="req" mode="replace">
+              <valList>
+                <valItem ident="#u"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="ref" mode="replace">
+          <attList>
+            <attDef ident="type" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="hasAttachment"/>
+                <valItem ident="attachedTo"/>
+                <valItem ident="next"/>
+                <valItem ident="previous"/>
+              </valList>
+            </attDef>
+            <attDef ident="target" usage="req" mode="replace"/>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="revisionDesc" mode="replace">
+          <attList>
+            <attDef ident="status" usage="req" mode="replace"/>
+          </attList>
+        </elementSpec>
+
+
+        <!-- content and sequence of elements -->
+        <elementSpec ident="abstract" mode="replace">
           <content>
-            <alternate minOccurs="1" maxOccurs="unbounded">
-              <classRef key="model.pLike"/>
-            </alternate>
+            <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
           </content>
         </elementSpec>
-        <elementSpec ident="graphic" mode="change">
-          <attList>
-            <attRef name="url" class="att.resourced"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="idno" mode="change">
-          <attList>
-            <attRef name="type" class="att.entryLike"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="bibl" mode="change">
-          <attList>
-            <attRef name="type" class="att.entryLike"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="change" mode="change">
-          <attList>
-            <attRef name="when" class="att.datable.w3c"/>
-            <attRef name="who" class="att.ascribed"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="correspAction" mode="change">
-          <attList>
-            <attRef name="type" class="att.entryLike"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="date" mode="change">
-          <attList>
-            <attRef name="when" class="att.datable.w3c"/>
-            <attRef name="from" class="att.citing"/>
-            <attRef name="to" class="att.citing"/>
-            <attRef name="notBefore" class="att.datable.w3c"/>
-            <attRef name="notAfter" class="att.datable.w3c"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="fw" mode="change">
-          <attList>
-            <attRef name="type" class="att.entryLike"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="gap" mode="change">
-          <attList>
-            <attRef name="unit" class="att.citing"/>
-            <attRef name="quantity" class="att.dimensions"/>
-            <attRef name="reason" class="teidata.enumerated"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="lb" mode="change">
-          <attList>
-            <attRef name="break" class="att.breaking"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="msDesc" mode="change">
-          <attList>
-            <attRef name="type" class="att.entryLike"/>
-            <attRef name="rend" class="att.global.rendition"/>
-            <attRef name="select" class="att.global.linking"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="note" mode="change">
-          <attList>
-            <attRef name="type" class="att.entryLike"/>
-            <attRef name="place" class="att.placement"/>
-            <attRef name="hand" class="att.written"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="pb" mode="change">
-          <attList>
-            <attRef name="n" class="att.global"/>
-            <attRef name="facs" class="att.global.facs"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="persName" mode="change">
-          <attList>
-            <attRef name="key" class="att.canonical"/>
-            <attRef name="ref" class="att.canonical"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="placeName" mode="change">
-          <attList>
-            <attRef name="key" class="att.canonical"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="quote" mode="change">
-          <attList>
-            <attRef name="rendition" class="att.global.rendition"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="ref" mode="change">
-          <attList>
-            <attRef name="type" class="att.entryLike"/>
-            <attRef name="target" class="att.pointing"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="revisionDesc" mode="change">
-          <attList>
-            <attRef name="status" class="att.docStatus"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="space" mode="change">
-          <attList>
-            <attRef name="unit" class="att.citing"/>
-            <attRef name="quantity" class="att.dimensions"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="g" mode="change">
-          <attList>
-            <attRef name="ref" class="teidata.pointer"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="table" mode="change">
-          <attList>
-            <attRef name="rows" class="teidata.count"/>
-            <attRef name="cols" class="teidata.count"/>
-            <attRef name="rend" class="att.global.rendition"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="add" mode="change">
-          <attList>
-            <attRef name="place" class="att.placement"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="cell" mode="change">
-          <attList>
-            <attRef name="rendition" class="att.global.rendition"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="del" mode="change">
-          <attList>
-            <attRef name="rendition" class="att.global.rendition"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="figure" mode="change">
-          <attList>
-            <attRef name="facs" class="att.global.facs"/>
-            <attRef name="hand" class="att.written"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="hi" mode="change">
-          <attList>
-            <attRef name="rendition" class="att.global.rendition"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="row" mode="change">
-          <attList>
-            <attRef name="role" class="att.naming"/>
-          </attList>
-        </elementSpec>
-        <elementSpec ident="unclear" mode="change">
-          <attList>
-            <attRef name="reason" class="teidata.enumerated"/>
-            <attRef name="cert" class="att.global.responsibility"/>
-          </attList>
-        </elementSpec>
       </schemaSpec>
+
+      <!-- elements in text -->
+      <elementSpec ident="lb" mode="replace">
+        <attList>
+          <attDef ident="break" usage="opt" mode="replace">
+            <valList type="closed" mode="replace">
+              <valItem ident="no"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="pb" mode="replace">
+        <attList>
+          <attDef ident="n" usage="rec" mode="replace"/>
+          <attDef ident="facs" usage="opt" mode="replace"/>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="fw" mode="replace">
+        <attList>
+          <attDef ident="type" usage="req" mode="replace">
+            <valList type="closed" mode="replace">
+              <valItem ident="folNum"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="gap" mode="replace">
+        <attList>
+          <attDef ident="unit" usage="req" mode="replace">
+            <valList type="closed" mode="replace">
+              <valItem ident="pages"/>
+            </valList>
+          </attDef>
+          <attDef ident="quantity" usage="req" mode="replace"/>
+          <attDef ident="reason" usage="opt" mode="replace">
+            <valList type="closed" mode="replace">
+              <valItem ident="empty"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="space" mode="replace">
+        <attList>
+          <attDef ident="unit" usage="req" mode="replace">
+            <valList type="closed" mode="replace">
+              <valItem ident="lines"/>
+              <valItem ident="chars"/>
+              <valItem ident="words"/>
+            </valList>
+          </attDef>
+          <attDef ident="quantity" usage="req" mode="replace"/>
+          <attDef ident="dim" usage="req" mode="replace"/>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="g" mode="replace">
+        <attList>
+          <attDef ident="ref" usage="req" mode="replace">
+            <valList type="closed" mode="replace">
+              <valItem ident="#typoHyphen"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="table" mode="replace">
+        <attList>
+          <attDef ident="rows" usage="req" mode="replace"/>
+          <attDef ident="cols" usage="req" mode="replace"/>
+          <attDef ident="rend" usage="req" mode="replace"/>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="row" mode="replace">
+        <attList>
+          <attDef ident="role" usage="req" mode="replace">
+            <valList type="closed" mode="replace">
+              <valItem ident="label"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="cell" mode="replace">
+        <attList>
+          <attDef ident="rendition" usage="req" mode="replace">
+            <valList type="closed" mode="replace">
+              <valItem ident="#right"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="hi" mode="replace">
+        <attList>
+          <attDef ident="rendition" usage="req" mode="replace">
+            <valList type="closed" mode="replace">
+              <valItem ident="#u"/>
+              <valItem ident="#uu"/>
+              <valItem ident="#mMM"/>
+              <valItem ident="#sup"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="add" mode="replace">
+        <attList>
+          <attDef ident="place" usage="req" mode="replace">
+            <valList type="closed" mode="replace">
+              <valItem ident="superlinear"/>
+              <valItem ident="sublinear"/>
+              <valItem ident="intralinear"/>
+              <valItem ident="across"/>
+              <valItem ident="left"/>
+              <valItem ident="right"/>
+              <valItem ident="mTop"/>
+              <valItem ident="mBottom"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="del" mode="replace">
+        <attList>
+          <attDef ident="rendition" usage="req" mode="replace">
+            <valList type="closed" mode="replace">
+              <valItem ident="#ow"/>
+              <valItem ident="#s"/>
+              <valItem ident="#erased"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="figure" mode="replace">
+        <attList>
+          <attDef ident="facs" usage="req" mode="replace"/>
+          <attDef ident="hand" usage="req" mode="replace"/>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="unclear" mode="replace">
+        <attList>
+          <attDef ident="reason" usage="req" mode="replace">
+            <valList type="closed" mode="replace">
+              <valItem ident="illegible"/>
+              <valItem ident="covered"/>
+            </valList>
+          </attDef>
+          <attDef ident="cert" usage="req" mode="replace">
+            <valList type="closed" mode="replace">
+              <valItem ident="low"/>
+              <valItem ident="high"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
     </body>
   </text>
 </TEI>
