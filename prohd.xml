@@ -41,7 +41,7 @@
 
         <!-- element Specifications -->
 
-        <!-- elemnets in teiHeader -->
+        <!-- elements in teiHeader -->
         <!-- required attributes and possible values -->
         <!-- graphic can be also in text -->
         <elementSpec ident="graphic" mode="replace">
@@ -228,7 +228,7 @@
           </attDef>
         </attList>
       </elementSpec>
-      <elementSpec ident="gap" mode="replace">
+      <elementSpec ident="gap" mode="change">
         <attList>
           <attDef ident="unit" usage="req" mode="replace">
             <valList type="closed" mode="replace">
@@ -243,7 +243,7 @@
           </attDef>
         </attList>
       </elementSpec>
-      <elementSpec ident="space" mode="replace">
+      <elementSpec ident="space" mode="change">
         <attList>
           <attDef ident="unit" usage="req" mode="replace">
             <valList type="closed" mode="replace">
@@ -272,7 +272,7 @@
           <attDef ident="rend" usage="req" mode="replace"/>
         </attList>
       </elementSpec>
-      <elementSpec ident="row" mode="replace">
+      <elementSpec ident="row" mode="change">
         <attList>
           <attDef ident="role" usage="req" mode="replace">
             <valList type="closed" mode="replace">
@@ -281,7 +281,7 @@
           </attDef>
         </attList>
       </elementSpec>
-      <elementSpec ident="cell" mode="replace">
+      <elementSpec ident="cell" mode="change">
         <attList>
           <attDef ident="rendition" usage="req" mode="replace">
             <valList type="closed" mode="replace">
