@@ -38,6 +38,8 @@
         <moduleRef key="textcrit" include="witness"/>
         <moduleRef key="namesdates" include="persName placeName surname forename"/>
         <moduleRef key="gaiji" include="g"/>
+        
+        <!-- OJO: falta incluir tei:measure -->
 
         <!-- element Specifications -->
 
