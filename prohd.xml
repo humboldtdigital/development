@@ -57,20 +57,20 @@
             </attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="idno" mode="replace">
+        <elementSpec ident="idno" mode="change">
           <attList>
-            <attDef ident="type" mode="replace" usage="req">
+            <attDef ident="type" mode="replace" usage="opt">
               <valList type="closed" mode="replace">
                 <valItem ident="uri"/>
-                <valItem ident="URLimages"/>
+                <valItem ident="URLImages"/>
                 <valItem ident="shelfmark"/>
               </valList>
             </attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="bibl" mode="replace">
+        <elementSpec ident="bibl" mode="change">
           <attList>
-            <attDef ident="type" usage="req" mode="replace">
+            <attDef ident="type" usage="opt" mode="replace">
               <valList type="closed" mode="replace">
                 <valItem ident="print"/>
               </valList>
@@ -83,7 +83,7 @@
             <attDef ident="who" usage="req" mode="replace"/>
           </attList>
         </elementSpec>
-        <elementSpec ident="correspAction" mode="replace">
+        <elementSpec ident="correspAction" mode="change">
           <attList>
             <attDef ident="type" usage="req" mode="replace">
               <valList type="closed" mode="replace">
@@ -93,7 +93,7 @@
             </attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="date" mode="replace">
+        <elementSpec ident="date" mode="change">
           <attList>
             <attDef ident="when" usage="opt" mode="replace"/>
             <attDef ident="from" usage="opt" mode="replace"/>
@@ -110,9 +110,9 @@
             </attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="msDesc" mode="replace">
+        <elementSpec ident="msDesc" mode="change">
           <attList>
-            <attDef ident="type" usage="req" mode="replace"/>
+            <attDef ident="type" usage="opt" mode="replace"/>
             <attDef ident="rend" usage="req" mode="replace">
               <valList type="closed" mode="replace">
                 <valItem ident="print"/>
@@ -122,7 +122,7 @@
                 <valItem ident="notExtant"/>
               </valList>
             </attDef>
-            <attDef ident="select" usage="req" mode="replace">
+            <attDef ident="select" usage="opt" mode="replace">
               <valList type="closed" mode="replace">
                 <valItem ident="#this"/>
               </valList>
@@ -155,13 +155,13 @@
             </attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="persName" mode="replace">
+        <elementSpec ident="persName" mode="change">
           <attList>
             <attDef ident="key" usage="opt" mode="replace"/>
             <attDef ident="ref" usage="opt" mode="replace"/>
           </attList>
         </elementSpec>
-        <elementSpec ident="placeName" mode="replace">
+        <elementSpec ident="placeName" mode="change">
           <attList>
             <attDef ident="key" usage="req" mode="replace"/>
           </attList>
@@ -175,9 +175,9 @@
             </attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="ref" mode="replace">
+        <elementSpec ident="ref" mode="change">
           <attList>
-            <attDef ident="type" usage="req" mode="replace">
+            <attDef ident="type" usage="opt" mode="replace">
               <valList type="closed" mode="replace">
                 <valItem ident="hasAttachment"/>
                 <valItem ident="attachedTo"/>
@@ -204,7 +204,7 @@
       </schemaSpec>
 
       <!-- elements in text -->
-      <elementSpec ident="lb" mode="replace">
+      <elementSpec ident="lb" mode="change">
         <attList>
           <attDef ident="break" usage="opt" mode="replace">
             <valList type="closed" mode="replace">
@@ -213,13 +213,13 @@
           </attDef>
         </attList>
       </elementSpec>
-      <elementSpec ident="pb" mode="replace">
+      <elementSpec ident="pb" mode="change">
         <attList>
           <attDef ident="n" usage="rec" mode="replace"/>
           <attDef ident="facs" usage="opt" mode="replace"/>
         </attList>
       </elementSpec>
-      <elementSpec ident="fw" mode="replace">
+      <elementSpec ident="fw" mode="change">
         <attList>
           <attDef ident="type" usage="req" mode="replace">
             <valList type="closed" mode="replace">
@@ -256,7 +256,7 @@
           <attDef ident="dim" usage="req" mode="replace"/>
         </attList>
       </elementSpec>
-      <elementSpec ident="g" mode="replace">
+      <elementSpec ident="g" mode="change">
         <attList>
           <attDef ident="ref" usage="req" mode="replace">
             <valList type="closed" mode="replace">
@@ -290,7 +290,7 @@
           </attDef>
         </attList>
       </elementSpec>
-      <elementSpec ident="hi" mode="replace">
+      <elementSpec ident="hi" mode="change">
         <attList>
           <attDef ident="rendition" usage="req" mode="replace">
             <valList type="closed" mode="replace">
@@ -335,7 +335,7 @@
           <attDef ident="hand" usage="req" mode="replace"/>
         </attList>
       </elementSpec>
-      <elementSpec ident="unclear" mode="replace">
+      <elementSpec ident="unclear" mode="change">
         <attList>
           <attDef ident="reason" usage="req" mode="replace">
             <valList type="closed" mode="replace">
