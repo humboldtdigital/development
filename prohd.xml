@@ -129,7 +129,7 @@
             </attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="note" mode="replace">
+        <elementSpec ident="note" mode="change">
           <attList>
             <attDef ident="type" usage="opt" mode="replace">
               <valList type="closed" mode="replace">
@@ -147,7 +147,7 @@
               </valList>
             </attDef>
             <attDef ident="hand" usage="opt" mode="replace">
-              <valList type="semi" mode="replace">
+              <valList type="open" mode="replace">
                 <valItem ident="#author"/>
                 <valItem ident="#addressee"/>
                 <valItem ident="#unknown"/>
@@ -196,7 +196,7 @@
 
 
         <!-- content and sequence of elements -->
-        <elementSpec ident="abstract" mode="replace">
+        <elementSpec ident="abstract" mode="change">
           <content>
             <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
           </content>
@@ -265,7 +265,7 @@
           </attDef>
         </attList>
       </elementSpec>
-      <elementSpec ident="table" mode="replace">
+      <elementSpec ident="table" mode="change">
         <attList>
           <attDef ident="rows" usage="req" mode="replace"/>
           <attDef ident="cols" usage="req" mode="replace"/>
@@ -302,7 +302,7 @@
           </attDef>
         </attList>
       </elementSpec>
-      <elementSpec ident="add" mode="replace">
+      <elementSpec ident="add" mode="change">
         <attList>
           <attDef ident="place" usage="req" mode="replace">
             <valList type="closed" mode="replace">
@@ -318,7 +318,7 @@
           </attDef>
         </attList>
       </elementSpec>
-      <elementSpec ident="del" mode="replace">
+      <elementSpec ident="del" mode="change">
         <attList>
           <attDef ident="rendition" usage="req" mode="replace">
             <valList type="closed" mode="replace">
