@@ -4,7 +4,12 @@
     <fileDesc>
       <titleStmt>
         <title>ODD del Proyecto Humboldt Digital</title>
-        <editor><surname>Rojas Castro</surname><forename>Antonio</forename></editor>
+        <editor>
+          <persName>
+            <surname>Rojas Castro</surname>
+            <forename>Antonio</forename>
+          </persName>
+        </editor>
       </titleStmt>
       <publicationStmt>
         <publisher>ODD publicada por Proyecto Humboldt Digital (ProHD) por primera vez en enero de
@@ -38,7 +43,7 @@
         <moduleRef key="textcrit" include="witness"/>
         <moduleRef key="namesdates" include="persName placeName surname forename"/>
         <moduleRef key="gaiji" include="g"/>
-        
+
         <!-- OJO: falta incluir tei:measure -->
 
         <!-- element Specifications -->
