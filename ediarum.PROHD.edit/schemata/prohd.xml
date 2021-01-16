@@ -51,7 +51,7 @@
         <!-- elements in teiHeader -->
         <!-- required attributes and possible values -->
         <!-- graphic can be also in text -->
-        <elementSpec ident="graphic" mode="replace">
+        <elementSpec ident="graphic" mode="change">
           <attList>
             <attDef ident="url" usage="opt" mode="replace"/>
             <attDef ident="facs" usage="opt" mode="replace"/>
@@ -84,7 +84,7 @@
             </attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="change" mode="replace">
+        <elementSpec ident="change" mode="change">
           <attList>
             <attDef ident="when" usage="req" mode="replace"/>
             <attDef ident="who" usage="req" mode="replace"/>
@@ -173,7 +173,7 @@
             <attDef ident="key" usage="req" mode="replace"/>
           </attList>
         </elementSpec>
-        <elementSpec ident="quote" mode="replace">
+        <elementSpec ident="quote" mode="change">
           <attList>
             <attDef ident="rendition" usage="req" mode="replace">
               <valList>
@@ -195,7 +195,7 @@
             <attDef ident="target" usage="req" mode="replace"/>
           </attList>
         </elementSpec>
-        <elementSpec ident="revisionDesc" mode="replace">
+        <elementSpec ident="revisionDesc" mode="change">
           <attList>
             <attDef ident="status" usage="req" mode="replace"/>
           </attList>
@@ -336,7 +336,7 @@
           </attDef>
         </attList>
       </elementSpec>
-      <elementSpec ident="figure" mode="replace">
+      <elementSpec ident="figure" mode="change">
         <attList>
           <attDef ident="facs" usage="req" mode="replace"/>
           <attDef ident="hand" usage="req" mode="replace"/>
