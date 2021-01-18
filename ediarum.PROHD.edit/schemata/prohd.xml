@@ -205,176 +205,175 @@
             <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
           </content>
         </elementSpec>
+
+
+
+        <!-- elements in text -->
+        <elementSpec ident="lb" mode="change">
+          <attList>
+            <attDef ident="break" usage="opt" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="no"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="pb" mode="change">
+          <attList>
+            <attDef ident="n" usage="rec" mode="replace"/>
+            <attDef ident="facs" usage="opt" mode="replace"/>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="fw" mode="change">
+          <attList>
+            <attDef ident="type" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="folNum"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="space" mode="change">
+          <attList>
+            <attDef ident="unit" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="lines"/>
+                <valItem ident="chars"/>
+                <valItem ident="words"/>
+              </valList>
+            </attDef>
+            <attDef ident="quantity" usage="req" mode="replace"/>
+            <attDef ident="dim" usage="req" mode="replace"/>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="g" mode="change">
+          <attList>
+            <attDef ident="ref" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="#typoHyphen"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="table" mode="change">
+          <attList>
+            <attDef ident="rows" usage="req" mode="replace"/>
+            <attDef ident="cols" usage="req" mode="replace"/>
+            <attDef ident="rend" usage="req" mode="replace"/>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="row" mode="change">
+          <attList>
+            <attDef ident="role" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="label"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="cell" mode="change">
+          <attList>
+            <attDef ident="rendition" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="#right"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="hi" mode="change">
+          <attList>
+            <attDef ident="rendition" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="#u"/>
+                <valItem ident="#uu"/>
+                <valItem ident="#mMM"/>
+                <valItem ident="#sup"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="add" mode="change">
+          <attList>
+            <attDef ident="place" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="superlinear"/>
+                <valItem ident="sublinear"/>
+                <valItem ident="intralinear"/>
+                <valItem ident="across"/>
+                <valItem ident="left"/>
+                <valItem ident="right"/>
+                <valItem ident="mTop"/>
+                <valItem ident="mBottom"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="del" mode="change">
+          <attList>
+            <attDef ident="rendition" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="#ow"/>
+                <valItem ident="#s"/>
+                <valItem ident="#erased"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="figure" mode="change">
+          <attList>
+            <attDef ident="facs" usage="req" mode="replace"/>
+            <attDef ident="hand" usage="req" mode="replace"/>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="unclear" mode="change">
+          <attList>
+            <attDef ident="reason" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="illegible"/>
+                <valItem ident="covered"/>
+              </valList>
+            </attDef>
+            <attDef ident="cert" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="low"/>
+                <valItem ident="high"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="gap" mode="change">
+          <attList>
+            <attDef ident="reason">
+              <valList type="closed" mode="replace">
+                <valItem ident="lost"/>
+                <valItem ident="illegible"/>
+                <valItem ident="covered"/>
+                <valItem ident="empty"/>
+                <valItem ident="fm"/>
+                <valItem ident="insignificant"/>
+              </valList>
+            </attDef>
+            <attDef ident="unit">
+              <valList type="closed" mode="replace">
+                <valItem ident="chars"/>
+                <valItem ident="lines"/>
+                <valItem ident="pages"/>
+                <valItem ident="words"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="supplied" mode="change">
+          <attList>
+            <attDef ident="cert" usage="req">
+              <valList type="closed">
+                <valItem ident="low"/>
+                <valItem ident="high"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
       </schemaSpec>
-
-      <!-- elements in text -->
-      <elementSpec ident="lb" mode="change">
-        <attList>
-          <attDef ident="break" usage="opt" mode="replace">
-            <valList type="closed" mode="replace">
-              <valItem ident="no"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="pb" mode="change">
-        <attList>
-          <attDef ident="n" usage="rec" mode="replace"/>
-          <attDef ident="facs" usage="opt" mode="replace"/>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="fw" mode="change">
-        <attList>
-          <attDef ident="type" usage="req" mode="replace">
-            <valList type="closed" mode="replace">
-              <valItem ident="folNum"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="space" mode="change">
-        <attList>
-          <attDef ident="unit" usage="req" mode="replace">
-            <valList type="closed" mode="replace">
-              <valItem ident="lines"/>
-              <valItem ident="chars"/>
-              <valItem ident="words"/>
-            </valList>
-          </attDef>
-          <attDef ident="quantity" usage="req" mode="replace"/>
-          <attDef ident="dim" usage="req" mode="replace"/>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="g" mode="change">
-        <attList>
-          <attDef ident="ref" usage="req" mode="replace">
-            <valList type="closed" mode="replace">
-              <valItem ident="#typoHyphen"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="table" mode="change">
-        <attList>
-          <attDef ident="rows" usage="req" mode="replace"/>
-          <attDef ident="cols" usage="req" mode="replace"/>
-          <attDef ident="rend" usage="req" mode="replace"/>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="row" mode="change">
-        <attList>
-          <attDef ident="role" usage="req" mode="replace">
-            <valList type="closed" mode="replace">
-              <valItem ident="label"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="cell" mode="change">
-        <attList>
-          <attDef ident="rendition" usage="req" mode="replace">
-            <valList type="closed" mode="replace">
-              <valItem ident="#right"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="hi" mode="change">
-        <attList>
-          <attDef ident="rendition" usage="req" mode="replace">
-            <valList type="closed" mode="replace">
-              <valItem ident="#u"/>
-              <valItem ident="#uu"/>
-              <valItem ident="#mMM"/>
-              <valItem ident="#sup"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="add" mode="change">
-        <attList>
-          <attDef ident="place" usage="req" mode="replace">
-            <valList type="closed" mode="replace">
-              <valItem ident="superlinear"/>
-              <valItem ident="sublinear"/>
-              <valItem ident="intralinear"/>
-              <valItem ident="across"/>
-              <valItem ident="left"/>
-              <valItem ident="right"/>
-              <valItem ident="mTop"/>
-              <valItem ident="mBottom"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="del" mode="change">
-        <attList>
-          <attDef ident="rendition" usage="req" mode="replace">
-            <valList type="closed" mode="replace">
-              <valItem ident="#ow"/>
-              <valItem ident="#s"/>
-              <valItem ident="#erased"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="figure" mode="change">
-        <attList>
-          <attDef ident="facs" usage="req" mode="replace"/>
-          <attDef ident="hand" usage="req" mode="replace"/>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="unclear" mode="change">
-        <attList>
-          <attDef ident="reason" usage="req" mode="replace">
-            <valList type="closed" mode="replace">
-              <valItem ident="illegible"/>
-              <valItem ident="covered"/>
-            </valList>
-          </attDef>
-          <attDef ident="cert" usage="req" mode="replace">
-            <valList type="closed" mode="replace">
-              <valItem ident="low"/>
-              <valItem ident="high"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="gap" mode="change">
-        <attList>
-          <attDef ident="reason">
-            <valList type="closed" mode="replace">
-              <valItem ident="lost"/>
-              <valItem ident="illegible"/>
-              <valItem ident="covered"/>
-              <valItem ident="empty"/>
-              <valItem ident="fm"/>
-              <valItem ident="insignificant"/>
-            </valList>
-          </attDef>
-          <attDef ident="unit">
-            <valList type="closed" mode="replace">
-              <valItem ident="chars"/>
-              <valItem ident="lines"/>
-              <valItem ident="pages"/>
-              <valItem ident="words"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-      <elementSpec ident="supplied" mode="change">
-        <attList>
-          <!-- to do: @cert as required is not working -->
-          <attDef ident="cert" usage="req" mode="replace">
-            <valList type="closed" mode="replace">
-              <valItem ident="low"/>
-              <valItem ident="high"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
-
-
     </body>
   </text>
 </TEI>
