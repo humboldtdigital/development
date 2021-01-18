@@ -262,7 +262,7 @@
         </elementSpec>
         <elementSpec ident="row" mode="change">
           <attList>
-            <attDef ident="role" usage="req" mode="replace">
+            <attDef ident="role" mode="replace">
               <valList type="closed" mode="replace">
                 <valItem ident="label"/>
               </valList>
@@ -271,7 +271,7 @@
         </elementSpec>
         <elementSpec ident="cell" mode="change">
           <attList>
-            <attDef ident="rendition" usage="req" mode="replace">
+            <attDef ident="rendition" mode="replace">
               <valList type="closed" mode="replace">
                 <valItem ident="#right"/>
               </valList>
