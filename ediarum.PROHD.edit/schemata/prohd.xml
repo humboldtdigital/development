@@ -373,7 +373,7 @@
           </attList>
         </elementSpec>
         <!-- continue with https://www.ediarum.org/docs/ediarum.BASE.manual/frameworks/basis/text/streichung_hg.html -->
-        <!-- to improve: 1. make sure usage="opt" is fine, if it does not change, delete;  -->
+        <!-- to improve: 1. make sure usage="opt" is fine, if it does not change, delete; search //attDef[@usage="opt"]  -->
         <!-- to improve: 2. delete non required attributes by using mode="delete" -->
 
 
