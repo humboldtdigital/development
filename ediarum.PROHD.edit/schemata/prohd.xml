@@ -343,7 +343,7 @@
         </elementSpec>
         <elementSpec ident="gap" mode="change">
           <attList>
-            <attDef ident="reason">
+            <attDef ident="reason" usage="req" mode="replace">
               <valList type="closed" mode="replace">
                 <valItem ident="lost"/>
                 <valItem ident="illegible"/>
@@ -353,7 +353,7 @@
                 <valItem ident="insignificant"/>
               </valList>
             </attDef>
-            <attDef ident="unit">
+            <attDef ident="unit" usage="req" mode="replace">
               <valList type="closed" mode="replace">
                 <valItem ident="chars"/>
                 <valItem ident="lines"/>
@@ -365,7 +365,7 @@
         </elementSpec>
         <elementSpec ident="supplied" mode="change">
           <attList>
-            <attDef ident="cert" usage="req">
+            <attDef ident="cert" usage="req" mode="replace">
               <valList type="closed">
                 <valItem ident="low"/>
                 <valItem ident="high"/>
