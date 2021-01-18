@@ -29,7 +29,7 @@
         <!-- modules -->
         <moduleRef key="tei"/>
         <moduleRef key="core"
-          include="abbr add addrLine address author bibl biblScope choice cit corr date del desc divGen editor emph expan foreign gap gloss graphic head hi index item l label lb lg list listBibl mentioned milestone name note num orig p pb ptr pubPlace publisher q ref reg relatedItem resp respStmt rs sic soCalled sp speaker stage term time title unclear quote"/>
+          include="abbr add addrLine address author bibl biblScope choice cit corr date del desc divGen editor emph expan foreign gap gloss graphic head hi index item l label lb lg list listBibl measure mentioned milestone name note num orig p pb ptr pubPlace publisher q ref reg relatedItem resp respStmt rs sic soCalled sp speaker stage term time title unclear quote"/>
         <moduleRef key="header"
           include="authority availability catDesc catRef category change classCode classDecl creation distributor edition editionStmt editorialDecl encodingDesc extent fileDesc funder idno keywords langUsage language licence notesStmt principal profileDesc projectDesc publicationStmt refsDecl revisionDesc samplingDecl seriesStmt sourceDesc sponsor taxonomy teiHeader textClass titleStmt abstract listChange correspAction correspDesc correspContext"/>
         <moduleRef key="textstructure"
@@ -40,11 +40,9 @@
         <moduleRef key="transcr" include="facsimile fw space subst ex supplied metamark"/>
         <moduleRef key="msdescription"
           include="physDesc msDesc msIdentifier institution collection repository"/>
-        <moduleRef key="textcrit" include="witness"/>
-        <moduleRef key="namesdates" include="persName placeName surname forename"/>
+        <moduleRef key="textcrit" include="listWit witness"/>
+        <moduleRef key="namesdates" include="persName placeName surname forename orgName"/>
         <moduleRef key="gaiji" include="g"/>
-
-        <!-- OJO: falta incluir tei:measure -->
 
         <!-- element Specifications -->
 
@@ -109,10 +107,8 @@
             <attDef ident="notAfter" usage="opt" mode="replace"/>
             <attDef ident="cert" usage="opt" mode="replace">
               <valList type="closed" mode="replace">
-                <!-- doubt: check values of this attribute -->
                 <valItem ident="high"/>
                 <valItem ident="low"/>
-                <valItem ident="medium"/>
               </valList>
             </attDef>
           </attList>
@@ -120,6 +116,7 @@
         <elementSpec ident="msDesc" mode="change">
           <attList>
             <attDef ident="type" usage="opt" mode="replace"/>
+            <!-- to do: @rend should not be required -->
             <attDef ident="rend" usage="req" mode="replace">
               <valList type="closed" mode="replace">
                 <valItem ident="print"/>
@@ -235,21 +232,6 @@
           </attDef>
         </attList>
       </elementSpec>
-      <elementSpec ident="gap" mode="change">
-        <attList>
-          <attDef ident="unit" usage="req" mode="replace">
-            <valList type="closed" mode="replace">
-              <valItem ident="pages"/>
-            </valList>
-          </attDef>
-          <attDef ident="quantity" usage="req" mode="replace"/>
-          <attDef ident="reason" usage="opt" mode="replace">
-            <valList type="closed" mode="replace">
-              <valItem ident="empty"/>
-            </valList>
-          </attDef>
-        </attList>
-      </elementSpec>
       <elementSpec ident="space" mode="change">
         <attList>
           <attDef ident="unit" usage="req" mode="replace">
@@ -358,6 +340,41 @@
           </attDef>
         </attList>
       </elementSpec>
+      <elementSpec ident="gap" mode="change">
+        <attList>
+          <attDef ident="reason">
+            <valList type="closed" mode="replace">
+              <valItem ident="lost"/>
+              <valItem ident="illegible"/>
+              <valItem ident="covered"/>
+              <valItem ident="empty"/>
+              <valItem ident="fm"/>
+              <valItem ident="insignificant"/>
+            </valList>
+          </attDef>
+          <attDef ident="unit">
+            <valList type="closed" mode="replace">
+              <valItem ident="chars"/>
+              <valItem ident="lines"/>
+              <valItem ident="pages"/>
+              <valItem ident="words"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+      <elementSpec ident="supplied" mode="change">
+        <attList>
+          <!-- to do: @cert as required is not working -->
+          <attDef ident="cert" usage="req" mode="replace">
+            <valList type="closed" mode="replace">
+              <valItem ident="low"/>
+              <valItem ident="high"/>
+            </valList>
+          </attDef>
+        </attList>
+      </elementSpec>
+
+
     </body>
   </text>
 </TEI>
