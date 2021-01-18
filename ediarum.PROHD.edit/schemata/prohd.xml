@@ -116,7 +116,6 @@
         <elementSpec ident="msDesc" mode="change">
           <attList>
             <attDef ident="type" usage="opt" mode="replace"/>
-            <!-- to do: @rend should not be required -->
             <attDef ident="rend" usage="req" mode="replace">
               <valList type="closed" mode="replace">
                 <valItem ident="print"/>
@@ -205,7 +204,6 @@
             <elementRef key="p" minOccurs="1" maxOccurs="unbounded"/>
           </content>
         </elementSpec>
-
 
 
         <!-- elements in text -->
@@ -366,13 +364,20 @@
         <elementSpec ident="supplied" mode="change">
           <attList>
             <attDef ident="cert" usage="req" mode="replace">
-              <valList type="closed">
+              <valList type="closed" mode="replace">
                 <valItem ident="low"/>
                 <valItem ident="high"/>
               </valList>
             </attDef>
+            <!--<attDef ident="reason" mode="delete"/>-->
           </attList>
         </elementSpec>
+        <!-- continue with https://www.ediarum.org/docs/ediarum.BASE.manual/frameworks/basis/text/streichung_hg.html -->
+        <!-- to improve: 1. make sure usage="opt" is fine, if it does not change, delete;  -->
+        <!-- to improve: 2. delete non required attributes by using mode="delete" -->
+
+
+
       </schemaSpec>
     </body>
   </text>
