@@ -369,5 +369,11 @@
         </rule>
     </pattern>
 
+    <pattern id="date">
+        <rule context="tei:date">
+            <report test="@notBefore-iso or @notAfter-iso" role="error">The attributes @notBefore-iso or @notAfter-iso are not allowed.</report>
+        </rule>
+    </pattern>
+
 
 </schema>
