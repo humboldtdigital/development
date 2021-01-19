@@ -69,6 +69,7 @@
                 <valItem ident="uri"/>
                 <valItem ident="URLImages"/>
                 <valItem ident="shelfmark"/>
+                <valItem ident="URLCatalogue"/>
               </valList>
             </attDef>
           </attList>
@@ -100,6 +101,7 @@
         </elementSpec>
         <elementSpec ident="date" mode="change">
           <attList>
+            <!-- doubt: is this necessary? -->
             <attDef ident="when" usage="opt" mode="replace"/>
             <attDef ident="from" usage="opt" mode="replace"/>
             <attDef ident="to" usage="opt" mode="replace"/>
@@ -109,6 +111,12 @@
               <valList type="closed" mode="replace">
                 <valItem ident="high"/>
                 <valItem ident="low"/>
+              </valList>
+            </attDef>
+            <attDef ident="calendar" usage="opt" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="#Julian"/>
+                <valItem ident="#Gregorian"/>
               </valList>
             </attDef>
           </attList>
@@ -158,6 +166,7 @@
             </attDef>
           </attList>
         </elementSpec>
+        <!-- doubt: is this necessary? -->
         <elementSpec ident="persName" mode="change">
           <attList>
             <attDef ident="key" usage="opt" mode="replace"/>
@@ -165,6 +174,11 @@
           </attList>
         </elementSpec>
         <elementSpec ident="placeName" mode="change">
+          <attList>
+            <attDef ident="key" usage="req" mode="replace"/>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="orgName" mode="change">
           <attList>
             <attDef ident="key" usage="req" mode="replace"/>
           </attList>
@@ -241,7 +255,6 @@
               </valList>
             </attDef>
             <attDef ident="quantity" usage="req" mode="replace"/>
-            <attDef ident="dim" usage="req" mode="replace"/>
           </attList>
         </elementSpec>
         <elementSpec ident="g" mode="change">
@@ -257,12 +270,12 @@
           <attList>
             <attDef ident="rows" usage="req" mode="replace"/>
             <attDef ident="cols" usage="req" mode="replace"/>
-            <attDef ident="rend" usage="req" mode="replace"/>
+            <!--            <attDef ident="rend" usage="req" mode="replace"/>-->
           </attList>
         </elementSpec>
         <elementSpec ident="row" mode="change">
           <attList>
-            <attDef ident="role" usage="req" mode="replace">
+            <attDef ident="role" mode="replace">
               <valList type="closed" mode="replace">
                 <valItem ident="label"/>
               </valList>
@@ -271,7 +284,7 @@
         </elementSpec>
         <elementSpec ident="cell" mode="change">
           <attList>
-            <attDef ident="rendition" usage="req" mode="replace">
+            <attDef ident="rendition" mode="replace">
               <valList type="closed" mode="replace">
                 <valItem ident="#right"/>
               </valList>
@@ -372,11 +385,54 @@
             <!--<attDef ident="reason" mode="delete"/>-->
           </attList>
         </elementSpec>
-        <!-- continue with https://www.ediarum.org/docs/ediarum.BASE.manual/frameworks/basis/text/streichung_hg.html -->
+        <elementSpec ident="seg" mode="change">
+          <attList>
+            <attDef ident="type" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="comment"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="anchor" mode="change">
+          <attList>
+            <attDef ident="type" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="target"/>
+                <valItem ident="index"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="foreign" mode="change">
+          <attList>
+            <attDef ident="xml:lang" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="grc"/>
+                <valItem ident="lat"/>
+                <valItem ident="heb"/>
+                <valItem ident="deu"/>
+                <valItem ident="fra"/>
+                <valItem ident="eng"/>
+                <valItem ident="rus"/>
+                <valItem ident="esp"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="rs" mode="change">
+          <attList>
+            <attDef ident="type" usage="req" mode="replace">
+              <valList type="closed" mode="replace">
+                <valItem ident="term"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+
         <!-- to improve: 1. make sure usage="opt" is fine, if it does not change, delete; search //attDef[@usage="opt"]  -->
         <!-- to improve: 2. delete non required attributes by using mode="delete" -->
-
-
+        <!-- For example <attDef ident="reason" mode="delete"/> inside attList -->
 
       </schemaSpec>
     </body>
