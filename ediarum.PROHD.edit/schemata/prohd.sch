@@ -313,12 +313,8 @@
                 of the edition should be normalized and cannot contain notes, alternative readings
                 or break lines.</report>
         </rule>
-        <!-- Is this working? -->
-        <rule context="tei:titleStmt/tei:title[position = 1]">
-            <assert test="@type" role="ERROR">The first <name/> must contain an attribute @type.</assert>
-        </rule>
     </pattern>
-    
+
 
     <pattern id="editionStmt">
         <rule context="tei:editionStmt">
@@ -339,8 +335,10 @@
         <rule context="tei:publicationStmt">
             <assert test="tei:publisher" role="ERROR">A &lt;publicationStmt&gt; element must contain
                 an &lt;publisher&gt; element.</assert>
+            <assert test="tei:pubPlace" role="ERROR">A &lt;publicationStmt&gt; element must contain
+                an &lt;pubPlace&gt; element after &lt;publisher&gt;.</assert>
             <assert test="tei:availability" role="ERROR">A &lt;publicationStmt&gt; element must
-                contain an &lt;availability&gt; element after &lt;publisher&gt;.</assert>
+                contain an &lt;availability&gt; element after &lt;pubPlace&gt;.</assert>
         </rule>
     </pattern>
 
@@ -363,6 +361,11 @@
             <assert test="tei:langUsage/tei:language" role="ERROR">An edition must contain
                 information about the language of the text in &lt;language&gt; inside
                 &lt;langUsage&gt;.</assert>
+            <report test="tei:creation/tei:persName[not(matches(., '(.+),(.+)'))]" role="ERROR"
+                >Incorrect format. The surname should go first and be separated by a coma.</report>
+            <report test="tei:correspDesc/correspAction/tei:persName[not(matches(., '(.+),(.+)'))]"
+                role="ERROR">Incorrect format. The surname should go first and be separated by a
+                coma.</report>
         </rule>
     </pattern>
 
