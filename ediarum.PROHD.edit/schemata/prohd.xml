@@ -69,6 +69,7 @@
                 <valItem ident="uri"/>
                 <valItem ident="URLImages"/>
                 <valItem ident="shelfmark"/>
+                <valItem ident="URLCatalogue"/>
               </valList>
             </attDef>
           </attList>
@@ -177,6 +178,11 @@
             <attDef ident="key" usage="req" mode="replace"/>
           </attList>
         </elementSpec>
+        <elementSpec ident="orgName" mode="change">
+          <attList>
+            <attDef ident="key" usage="req" mode="replace"/>
+          </attList>
+        </elementSpec>
         <elementSpec ident="quote" mode="change">
           <attList>
             <attDef ident="rendition" usage="req" mode="replace">
@@ -249,7 +255,6 @@
               </valList>
             </attDef>
             <attDef ident="quantity" usage="req" mode="replace"/>
-            <attDef ident="dim" usage="req" mode="replace"/>
           </attList>
         </elementSpec>
         <elementSpec ident="g" mode="change">
@@ -415,7 +420,7 @@
             </attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="rs">
+        <elementSpec ident="rs" mode="change">
           <attList>
             <attDef ident="type" usage="req" mode="replace">
               <valList type="closed" mode="replace">
