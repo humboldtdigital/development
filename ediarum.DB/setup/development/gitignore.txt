@@ -1,4 +1,0 @@
-/build/
-project.properties
-/exist/config.xml
-/exist/webconfig.xml
