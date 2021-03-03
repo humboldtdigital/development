@@ -662,7 +662,7 @@ text figure {
     margin: 0 0 0 2em;
     -oxy-display-tags: none;
    /* -oxy-placeholder-content: "[Zeichnung o.ä.]";*/
-   content:"${i18n(css.text.figure)} : ";
+    -oxy-placeholder-content:"${i18n(css.text.figure)} : ";
 }
 
 text figure[facs] {
@@ -673,26 +673,26 @@ text figure[facs] {
 text figure head {
     -oxy-display-tags: none;
     /*-oxy-placeholder-content: "[Überschrift der Abbildung]";*/
-    content:"${i18n(css.text.figure.head)} : ";
+    -oxy-placeholder-content:"${i18n(css.text.figure.head)} : ";
 }
 
 text figure figDesc {
     display: block;
     font-style: italic;
     /*-oxy-placeholder-content: "[Bildbeschreibung durch den Bearbeiter]"*/
-    content:"${i18n(css.text.figure.figDesc)} : ";
+    -oxy-placeholder-content:"${i18n(css.text.figure.figDesc)} : ";
 }
 
 text figure p {
     /*-oxy-placeholder-content: "[Bildunterschrift des Autors]"*/
-    content:"${i18n(css.text.figure.p)} : ";
+    -oxy-placeholder-content:"${i18n(css.text.figure.p)} : ";
 }
 
 text figure note {
     display: block;
     font-style: italic;
     /*-oxy-placeholder-content: "[Sacherläuterung zur Zeichnung bzw. Abbildung]"*/
-    content:"${i18n(css.text.figure.note)} : ";
+    -oxy-placeholder-content:"${i18n(css.text.figure.note)} : ";
 }
 
 /*  graphic DEPRECATED */
@@ -706,7 +706,7 @@ text note {
     background-color: #e0e0e0;
     -oxy-display-tags: none;
    /* -oxy-placeholder-content: "[Anmerkung eingeben]";*/
-   content:"${i18n(css.text.note)} : ";
+   -oxy-placeholder-content:"${i18n(css.text.note)} : ";
     -oxy-show-placeholder: always;
 }
 
@@ -753,7 +753,7 @@ milestone {
 dateline {
     display: block;
     /*-oxy-placeholder-content: "[Datumszeile]";*/
-    content:"${i18n(css.dateline)} : ";
+    -oxy-placeholder-content:"${i18n(css.dateline)} : ";
 }
 
 opener dateline {
@@ -763,20 +763,20 @@ opener dateline {
 opener salute {
     display: block;
     /*-oxy-placeholder-content: "[Anrede]";*/
-    content:"${i18n(css.opener.dateline)} : ";
+    -oxy-placeholder-content:"${i18n(css.opener.dateline)} : ";
     
 }
 
 closer salute {
     display: block;
     /*-oxy-placeholder-content: "[Gruß]";*/
-    content:"${i18n(css.opener.salute)} : ";
+    -oxy-placeholder-content:"${i18n(css.opener.salute)} : ";
 }
 
 signed {
     display: block;
     /*-oxy-placeholder-content: "[Unterschrift]";*/
-    content:"${i18n(css.closer.salute)} : ";
+    -oxy-placeholder-content:"${i18n(css.closer.salute)} : ";
 }
 
 /* Tables  */
@@ -844,7 +844,7 @@ quote add,
 text add {
     color: green;
     -oxy-display-tags: none;
-    content:"${i18n(css.quote.add)} : ";
+    -oxy-placeholder-content:"${i18n(css.quote.add)} : ";
    /* -oxy-placeholder-content: "[Hinzufügung]"*/
 }
 
@@ -961,13 +961,13 @@ text choice expan {
     background-color: #E8FFDD;
     -oxy-display-tags: none;
     /*-oxy-placeholder-content: "[Normalisierte Schreibung]";*/
-    content:"${i18n(css.norm-spelling)} : ";
+    -oxy-placeholder-content:"${i18n(css.norm-spelling)} : ";
 }
 
 quote choice corr,
 text choice corr {
     /*-oxy-placeholder-content: "[Korrigierte Schreibung]";*/
-    content:"${i18n(css.revised-spelling)} : ";
+    -oxy-placeholder-content:"${i18n(css.revised-spelling)} : ";
 }
 
 quote corr[type = "deleted"],
@@ -988,7 +988,7 @@ quote choice expan,
 text choice expan {
     background-color: #E8FFDD;
    /* -oxy-placeholder-content: "[Aufgelöste Schreibung]";*/
-   content:"${i18n(css.choice.expan)} : ";
+   -oxy-placeholder-content:"${i18n(css.choice.expan)} : ";
 }
 
 quote gap,
@@ -1081,7 +1081,7 @@ text note[type = "sachapparat"] {
     color: #423E2C;
     background-color: #D6D2C2;
     /*-oxy-placeholder-content: "[Sachanmerkung hier eingeben]";*/
-    content:"${i18n(css.note-annotation)} : ";
+    -oxy-placeholder-content:"${i18n(css.note-annotation)} : ";
     -oxy-display-tags: none;
 }
 
@@ -1093,7 +1093,7 @@ text note[type = "sachapparat"] {
 
 text seg[type = "textapparat"] note {
     /*-oxy-placeholder-content: "[Textanmerkung hier eingeben]";*/
-    content:"${i18n(css.note-text)} : ";
+    -oxy-placeholder-content:"${i18n(css.note-text)} : ";
     -oxy-display-tags: none;
 }
 
@@ -1221,7 +1221,7 @@ address:before {
 
 addrLine {
     /*-oxy-placeholder-content: "[Adresszeile]";*/
-    content:"${i18n(css.addrLine)} : ";
+    -oxy-placeholder-content:"${i18n(css.addrLine)} : ";
 }
 
 /* Keywords */
@@ -1333,7 +1333,7 @@ revisionDesc listChange {
 revisionDesc change {
     -oxy-show-placeholder: always;
     /*-oxy-placeholder-content: "[Kommentar zur Änderung eingeben]";
-    content:"${i18n(css.revisionDesc.change)} : ";
+    -oxy-placeholder-content:"${i18n(css.revisionDesc.change)} : ";
 }
 */
 
@@ -1385,7 +1385,7 @@ titleStmt title[type = "sub"]{
 titleStmt title idno {
     padding-left: 0.5em;
     font-size: 0.9em;
-    content: "${i18n(css.title.idno.placeholder-content)} : ";
+    -oxy-placeholder-content: "${i18n(css.title.idno.placeholder-content)} : ";
     /*-oxy-placeholder-content: "Briefnummer : ";*/
     -oxy-display-tags: none;
 }
