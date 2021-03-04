@@ -346,21 +346,23 @@
     <val lang="de_DE">Standort der Organisation</val>
     <val lang="es_ES">Localización de la organización</val>
   </key>
+  <!-- doubt: está repetido? -->
   <key value="org_location[from].name">
     <val lang="de_DE">Ortsangabe datieren</val>
-    <val lang="es_ES">Fecha de la ubicación</val>
+    <val lang="es_ES">Datación de la localización</val>
   </key>
   <key value="org_location[from].description">
     <val lang="de_DE">Beschränkt die Ortsangaben auf den angegebenen Zeitraum</val>
     <val lang="es_ES">Restringir la información de localización al periodo especificado</val>
   </key>
+  <!-- doubt: está repetido? -->
   <key value="org_location[to].name">
     <val lang="de_DE">Ortsangabe datieren</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Datación de la localización</val>
   </key>
   <key value="org_location[to].description">
     <val lang="de_DE">Beschränkt die Ortsangaben auf den angegebenen Zeitraum</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Restringir la información de localización al periodo especificado</val>
   </key>
   <key value="org_location[date].name">
     <val lang="de_DE">Standortangabe datieren</val>
