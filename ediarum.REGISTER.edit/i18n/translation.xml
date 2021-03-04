@@ -1,0 +1,577 @@
+<translation>
+  <languageList>
+    <language description="German" lang="de_DE"/>
+  </languageList>
+  <key value="general_new_entry.name">
+    <val lang="de_DE">Neuer Eintrag</val>
+  </key>
+  <key value="general_new_entry.description">
+    <val lang="de_DE">Neuen Eintrag in diesem Register erstellen</val>
+  </key>
+  <key value="general_authorityID.name">
+    <val lang="de_DE">Norm-ID</val>
+  </key>
+  <key value="general_authorityID.description">
+    <val lang="de_DE">Eine Norm-ID (GND, VIAF, BNF, GeoNames ...) hinzufügen</val>
+  </key>
+  <key value="person_birth.name">
+    <val lang="de_DE">Geburtsjahr</val>
+  </key>
+  <key value="person_birth.description">
+    <val lang="de_DE">Geburtsjahr eingeben</val>
+  </key>
+  <key value="person_death.name">
+    <val lang="de_DE">Sterbejahr</val>
+  </key>
+  <key value="person_death.description">
+    <val lang="de_DE">Sterbejahr eingeben</val>
+  </key>
+  <key value="general_note.name">
+    <val lang="de_DE">Kommentar</val>
+  </key>
+  <key value="general_note.description">
+    <val lang="de_DE">Kommentar einfügen</val>
+  </key>
+  <key value="general_delete_entry.name">
+    <val lang="de_DE">Ganzen Eintrag löschen</val>
+  </key>
+  <key value="general_delete_entry.description">
+    <val lang="de_DE">Löscht den kompletten Eintrag, wo sich der Cursor gerade befindet</val>
+  </key>
+  <key value="newGroup.name">
+    <val lang="de_DE">Gruppe anlegen</val>
+  </key>
+  <key value="newGroup.description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="group_connecting.name">
+    <val lang="de_DE">Personen zu einer Gruppe verbinden</val>
+  </key>
+  <key value="group_connecting.description">
+    <val lang="de_DE">Personen zu einer Gruppe verbinden</val>
+  </key>
+  <key value="groupName.name">
+    <val lang="de_DE">Gruppenname vergeben</val>
+  </key>
+  <key value="groupName.description">
+    <val lang="de_DE">Gruppenname vergeben</val>
+  </key>
+  <key value="place_name_alt.name">
+    <val lang="de_DE">Alternativer Name bzw. Schreibung</val>
+  </key>
+  <key value="place_name_alt.description">
+    <val lang="de_DE">Alternative Schreibungen eines Names eintragen</val>
+  </key>
+  <key value="place_listPlace.name">
+    <val lang="de_DE">Unterort</val>
+  </key>
+  <key value="place_listPlace.description">
+    <val lang="de_DE">Einen Unterort hinzufügen</val>
+  </key>
+  <key value="general_delete_element.name">
+    <val lang="de_DE">Einzelne Angabe löschen</val>
+  </key>
+  <key value="general_delete_element.description">
+    <val lang="de_DE">Löscht die Angabe, wo sich der Cursor gerade befindet</val>
+  </key>
+  <key value="merge_entries[define].name">
+    <val lang="de_DE">Eintrag auswählen</val>
+  </key>
+  <key value="merge_entries[define].description">
+    <val lang="de_DE">Eintrag zum Zusammenfügen auswählen</val>
+  </key>
+  <key value="merge_entries.name">
+    <val lang="de_DE">Einträge zusammenführen</val>
+  </key>
+  <key value="merge_entries.description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="person_persName[alt]_name.name">
+    <val lang="de_DE">Alternativer Name bzw. Schreibung</val>
+  </key>
+  <key value="person_persName[alt]_name.description">
+    <val lang="de_DE">Alternative Schreibungen eintragen - ohne Unterscheidung zwischen Vor- und
+      Nachname</val>
+  </key>
+  <key value="person_persName[alt]_surname - Kopie.name">
+    <val lang="de_DE">Alternativer Name bzw. Schreibung (Vor- und Nachname)</val>
+  </key>
+  <key value="person_persName[alt]_surname - Kopie.description">
+    <val lang="de_DE">Alternative Schreibungen eintragen</val>
+  </key>
+  <key value="person_floruit.name">
+    <val lang="de_DE">Floruit (Wirkungszeit)</val>
+  </key>
+  <key value="person_floruit.description">
+    <val lang="de_DE">Wirkungszeit, falls Geburts- und Sterbedatum nicht bekannt sind</val>
+  </key>
+  <key value="person_floruit[notBefore].name">
+    <val lang="de_DE">"Nicht vor" hinzufügen</val>
+  </key>
+  <key value="person_floruit[notBefore].description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="person_floruit[notAfter].name">
+    <val lang="de_DE">"Nicht nach" hinzufügen</val>
+  </key>
+  <key value="person_floruit[notAfter].description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="person_persName[pseudonym]_name.name">
+    <val lang="de_DE">Pseudonym</val>
+  </key>
+  <key value="person_persName[pseudonym]_name.description">
+    <val lang="de_DE">Pseudonym</val>
+  </key>
+  <key value="bibl_date.name">
+    <val lang="de_DE">Erscheinungsjahr</val>
+  </key>
+  <key value="bibl_date.description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="bibl_pubPlace.name">
+    <val lang="de_DE">Erscheinungsort</val>
+  </key>
+  <key value="bibl_pubPlace.description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="bibl_persName[key].name">
+    <val lang="de_DE">Autor / Hrsg. mit Register verknüpfen</val>
+  </key>
+  <key value="bibl_persName[key].description">
+    <val lang="de_DE">Verknüpft einen Autor mit einem Eintrag im Personenregister</val>
+  </key>
+  <key value="person_birth-death.name">
+    <val lang="de_DE">Lebensdaten</val>
+  </key>
+  <key value="person_birth-death.description">
+    <val lang="de_DE">Lebensdaten eingeben</val>
+  </key>
+  <key value="place_getGeoname.name">
+    <val lang="de_DE">GeoNames-ID suchen</val>
+  </key>
+  <key value="place_getGeoname.description">
+    <val lang="de_DE">GeoNames-ID recherchieren</val>
+  </key>
+  <key value="merge_entries[deselect].name">
+    <val lang="de_DE">Markierung zum Zusammenführen löschen</val>
+  </key>
+  <key value="merge_entries[deselect].description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="general_sort.name">
+    <val lang="de_DE">Register sortieren</val>
+  </key>
+  <key value="general_sort.description">
+    <val lang="de_DE">Aktuelle Registerdatei alphabethisch sortieren (oberste Ebene)</val>
+  </key>
+  <key value="person_role.name">
+    <val lang="de_DE">Personentyp (fiktional etc.)</val>
+  </key>
+  <key value="person_role.description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="bibl_author.name">
+    <val lang="de_DE">Weiterer Autor</val>
+  </key>
+  <key value="bibl_author.description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="person_persName[birth]_name - Kopie.name">
+    <val lang="de_DE">Geburtsname</val>
+  </key>
+  <key value="person_persName[birth]_name - Kopie.description">
+    <val lang="de_DE">Geburtsname</val>
+  </key>
+  <key value="person_persName[pseudonym]_name - Kopie.name">
+    <val lang="de_DE">Pseudonym (Vor- und Nachname)</val>
+  </key>
+  <key value="person_persName[pseudonym]_name - Kopie.description">
+    <val lang="de_DE">Pseudonym</val>
+  </key>
+  <key value="person_new[mythological].name">
+    <val lang="de_DE">Neue mythologische Person</val>
+  </key>
+  <key value="person_new[mythological].description">
+    <val lang="de_DE">Neuen mythologische Person in diesem Register erstellen</val>
+  </key>
+  <key value="bibl_editor.name">
+    <val lang="de_DE">Weiterer Herausgeber</val>
+  </key>
+  <key value="bibl_editor.description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="bibl_new[journal].name">
+    <val lang="de_DE">Zeitschrift oder Sammelband</val>
+  </key>
+  <key value="bibl_new[journal].description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="bibl_new[article].name">
+    <val lang="de_DE">Artikel</val>
+  </key>
+  <key value="bibl_new[article].description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="bibl_author2editor.name">
+    <val lang="de_DE">Autor &lt;-&gt; Herausgeber</val>
+  </key>
+  <key value="bibl_author2editor.description">
+    <val lang="de_DE">Autor zu Herausgeber verwandeln oder umgekehrt</val>
+  </key>
+  <key value="general_persName.name">
+    <val lang="de_DE">Personenname verlinken</val>
+  </key>
+  <key value="general_persName.description">
+    <val lang="de_DE">In der Beschreibung erwähnte Person verlinken</val>
+  </key>
+  <key value="general_placeName.name">
+    <val lang="de_DE">Ortsname verlinken</val>
+  </key>
+  <key value="general_placeName.description">
+    <val lang="de_DE">In der Beschreibung erwähnten Ort verlinken</val>
+  </key>
+  <key value="general_orgName.name">
+    <val lang="de_DE">Organisationsname verlinken</val>
+  </key>
+  <key value="general_orgName.description">
+    <val lang="de_DE">In der Beschreibung genannte Institution, Firma oder sonstige Organisation
+      verlinken</val>
+  </key>
+  <key value="ref[URL].name">
+    <val lang="de_DE">Link auf externe Website</val>
+  </key>
+  <key value="ref[URL].description">
+    <val lang="de_DE">Link auf externe Website, nach Möglichkeit hier Permalinks verwenden</val>
+  </key>
+  <key value="general_openInWebsite.name">
+    <val lang="de_DE">Zeige diesen Eintrag auf der Website</val>
+  </key>
+  <key value="general_openInWebsite.description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="org_location.name">
+    <val lang="de_DE">Standort</val>
+  </key>
+  <key value="org_location.description">
+    <val lang="de_DE">Standort der Organisation</val>
+  </key>
+  <key value="org_location[from].name">
+    <val lang="de_DE">Ortsangabe datieren</val>
+  </key>
+  <key value="org_location[from].description">
+    <val lang="de_DE">Beschränkt die Ortsangaben auf den angegebenen Zeitraum</val>
+  </key>
+  <key value="org_location[to].name">
+    <val lang="de_DE">Ortsangabe datieren</val>
+  </key>
+  <key value="org_location[to].description">
+    <val lang="de_DE">Beschränkt die Ortsangaben auf den angegebenen Zeitraum</val>
+  </key>
+  <key value="org_location[date].name">
+    <val lang="de_DE">Standortangabe datieren</val>
+  </key>
+  <key value="org_location[date].description">
+    <val lang="de_DE">Beschränkt die Ortsangaben auf den angegebenen Zeitraum</val>
+  </key>
+  <key value="item_list.name">
+    <val lang="de_DE">Untergeordnete Ebene einfügen</val>
+  </key>
+  <key value="item_list.description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="bibl_author_role.name">
+    <val lang="de_DE">Anteil am Werk bestimmen</val>
+  </key>
+  <key value="bibl_author_role.description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="general_ptr_1.name">
+    <val lang="de_DE">Referenz auf Druckausgabe - Teil 1</val>
+  </key>
+  <key value="general_ptr_1.description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="general_ptr_2.name">
+    <val lang="de_DE">Referenz auf Druckausgabe - Teil 2</val>
+  </key>
+  <key value="general_ptr_2.description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="general_ptr.name">
+    <val lang="de_DE">Referenz auf Druckausgabe</val>
+  </key>
+  <key value="general_ptr.description">
+    <val lang="de_DE"/>
+  </key>
+  <key value="general_bibl_zotero.name">
+    <val lang="de_DE">Literaturtitel (Zotero) verlinken</val>
+  </key>
+  <key value="general_bibl_zotero.description">
+    <val lang="de_DE">Literaturtitel mit Zotero-Register verknüpfen</val>
+  </key>
+  <key value="bibl_title_alt.name">
+    <val lang="de_DE">Alternativer Titel (Zeitschrift)</val>
+  </key>
+  <key value="bibl_title_alt.description">
+    <val lang="de_DE">Weiteren/alternativen Titel hinzufügen</val>
+  </key>
+  <key value="item_label[alt].name">
+    <val lang="de_DE">Alternative Bezeichung</val>
+  </key>
+  <key value="item_label[alt].description">
+    <val lang="de_DE">Alternative Bezeichnung für den Begriff notieren</val>
+  </key>
+  <key value="general_sort_Unterorte.name">
+    <val lang="de_DE">Unterorte sortieren</val>
+  </key>
+  <key value="general_sort_Unterorte.description">
+    <val lang="de_DE">Aktuelle Unterorte alphabethisch sortieren (zweite Ebene)</val>
+  </key>
+  <key value="surname">
+    <val lang="de_DE">Nachname</val>
+  </key>
+  <key value="forename">
+    <val lang="de_DE">Vorname(n)</val>
+  </key>
+  <key value="birth_year">
+    <val lang="de_DE">Geburtsjahr</val>
+  </key>
+  <key value="death_year">
+    <val lang="de_DE">Todesjahr</val>
+  </key>
+  <key value="placename_without_additions">
+    <val lang="de_DE">Ortsname (ohne Zusätze)</val>
+  </key>
+  <key value="surname_author">
+    <val lang="de_DE">Nachname des Autors</val>
+  </key>
+  <key value="title_of_publication">
+    <val lang="de_DE">Titel der Publikation</val>
+  </key>
+  <key value="term_without_description">
+    <val lang="de_DE">Begriff (ohne Beschreibung)</val>
+  </key>
+  <key value="institution_without_description">
+    <val lang="de_DE">Name der Einrichtung (ohne Beschreibung)</val>
+  </key>
+  <key value="enter_authority_file_id">
+    <val lang="de_DE">Norm-ID eingeben (GND, VIAF, BNF)</val>
+  </key>
+  <key value="enter_authority_file_id_geonames">
+    <val lang="de_DE">Norm-ID eingeben (GeoNames o.ä.)</val>
+  </key>
+  <key value="enter_authority_file_id_institution">
+    <val lang="de_DE">Norm-ID für die Einrichtung eingeben (GND o.ä.)</val>
+  </key>
+  <key value="birth_date">
+    <val lang="de_DE">Geburtsdatum</val>
+  </key>
+  <key value="death_date">
+    <val lang="de_DE">Sterbedatum</val>
+  </key>
+  <key value="group_name">
+    <val lang="de_DE">Gruppenname</val>
+  </key>
+  <key value="enter_comment">
+    <val lang="de_DE">Kommentar eingeben</val>
+  </key>
+  <key value="type_of_subplace">
+    <val lang="de_DE">Art des Unterorts</val>
+  </key>
+  <key value="mountain">
+    <val lang="de_DE">Berg, Hügel, Felsen</val>
+  </key>
+  <key value="monument">
+    <val lang="de_DE">Denkmal</val>
+  </key>
+  <key value="building">
+    <val lang="de_DE">Gebäude</val>
+  </key>
+  <key value="sea">
+    <val lang="de_DE">Fluss, See</val>
+  </key>
+  <key value="type_others">
+    <val lang="de_DE">Nicht spezifiziert</val>
+  </key>
+  <key value="park">
+    <val lang="de_DE">Park</val>
+  </key>
+  <key value="district">
+    <val lang="de_DE">Stadtviertel</val>
+  </key>
+  <key value="street">
+    <val lang="de_DE">Straße</val>
+  </key>
+  <key value="forest">
+    <val lang="de_DE">Wald</val>
+  </key>
+  <key value="enter_name">
+    <val lang="de_DE">Name eingeben</val>
+  </key>
+  <key value="not_before_enter">
+    <val lang="de_DE">Nicht vor (JJJJ(-MM)(-TT))</val>
+  </key>
+  <key value="not_after_enter">
+    <val lang="de_DE">Nicht nach (JJJJ(-MM)(-TT))</val>
+  </key>
+  <key value="enter_as_text">
+    <val lang="de_DE">Angabe als Text</val>
+  </key>
+  <key value="enter_pseudonym">
+    <val lang="de_DE">Pseudonym eingeben</val>
+  </key>
+  <key value="year">
+    <val lang="de_DE">Jahr</val>
+  </key>
+  <key value="type_of_place">
+    <val lang="de_DE">Art des Ortes</val>
+  </key>
+  <key value="city_village">
+    <val lang="de_DE">Stadt, Dorf</val>
+  </key>
+  <key value="country_region">
+    <val lang="de_DE">Land, Region</val>
+  </key>
+  <key value="continent">
+    <val lang="de_DE">Kontinent</val>
+  </key>
+  <key value="europe">
+    <val lang="de_DE">Europa</val>
+  </key>
+  <key value="north_america">
+    <val lang="de_DE">Nordamerika</val>
+  </key>
+  <key value="south_america">
+    <val lang="de_DE">Südamerika</val>
+  </key>
+  <key value="asia">
+    <val lang="de_DE">Asien</val>
+  </key>
+  <key value="all_continents">
+    <val lang="de_DE">Alle Kontinente</val>
+  </key>
+  <key value="africa">
+    <val lang="de_DE">Afrika</val>
+  </key>
+  <key value="oceania">
+    <val lang="de_DE">Ozeanien</val>
+  </key>
+  <key value="antarctica">
+    <val lang="de_DE">Antarktis</val>
+  </key>
+  <key value="real_person">
+    <val lang="de_DE">Reale Person</val>
+  </key>
+  <key value="mythological_person">
+    <val lang="de_DE">Mythologische Person</val>
+  </key>
+  <key value="fictitious_person">
+    <val lang="de_DE">Fiktiver Charakter</val>
+  </key>
+  <key value="birthname_only_surname">
+    <val lang="de_DE">Geburtsname (nur Nachname) eingeben</val>
+  </key>
+  <key value="enter_pseudonym_surname">
+    <val lang="de_DE">Nachname des Pseudonyms eingeben</val>
+  </key>
+  <key value="enter_pseudonym_forename">
+    <val lang="de_DE">Vorname des Pseudonyms eingeben</val>
+  </key>
+  <key value="type_of_publication">
+    <val lang="de_DE">Art der Publikation</val>
+  </key>
+  <key value="journal">
+    <val lang="de_DE">Zeitschrift</val>
+  </key>
+  <key value="edited_volumen">
+    <val lang="de_DE">Sammelband</val>
+  </key>
+  <key value="title_journal_volume">
+    <val lang="de_DE">Titel der Zeitschrift bzw. des Sammelbandes</val>
+  </key>
+  <key value="forename_author">
+    <val lang="de_DE">Vorname des Autors</val>
+  </key>
+  <key value="article_title">
+    <val lang="de_DE">Titel des Artikels</val>
+  </key>
+  <key value="volume_and_page">
+    <val lang="de_DE">Band- und Seitenangaben</val>
+  </key>
+  <key value="enter_url">
+    <val lang="de_DE">URL eingeben</val>
+  </key>
+  <key value="place_details">
+    <val lang="de_DE">Genauere Ortsangabe: Straße, Platz etc.</val>
+  </key>
+  <key value="date_format_string_optional">
+    <val lang="de_DE">Datum im Format (JJJJ-MM-TT), nur Jahr (JJJJ) ist auch möglich</val>
+  </key>
+  <key value="choose_role">
+    <val lang="de_DE">Anteil auswählen</val>
+  </key>
+  <key value="music">
+    <val lang="de_DE">Musik</val>
+  </key>
+  <key value="composition">
+    <val lang="de_DE">Komposition</val>
+  </key>
+  <key value="arrangement">
+    <val lang="de_DE">Bearbeitung</val>
+  </key>
+  <key value="libretto">
+    <val lang="de_DE">Libretto</val>
+  </key>
+  <key value="text">
+    <val lang="de_DE">Text</val>
+  </key>
+  <key value="translation">
+    <val lang="de_DE">Übersetzung</val>
+  </key>
+  <key value="type_of_pointer">
+    <val lang="de_DE">Art der Referenz</val>
+  </key>
+  <key value="page">
+    <val lang="de_DE">Seitenzahl</val>
+  </key>
+  <key value="letter_number">
+    <val lang="de_DE">Briefnummer</val>
+  </key>
+  <key value="enter_reference_format">
+    <val lang="de_DE">Referenz im Format Band#Seite bzw. Band#Briefnr. eingeben</val>
+  </key>
+  <key value="only_mentioned_in_comment">
+    <val lang="de_DE">Nur in Anmerkung erwähnt?</val>
+  </key>
+  <key value="no">
+    <val lang="de_DE">Nein</val>
+  </key>
+  <key value="yes">
+    <val lang="de_DE">Ja</val>
+  </key>
+  <key value="additional_title_journal">
+    <val lang="de_DE">Weiterer Titel für Zeitschrift:</val>
+  </key>
+  <key value="letter">
+    <val lang="de_DE">Brief</val>
+  </key>
+  <key value="page_number">
+    <val lang="de_DE">Seite</val>
+  </key>
+  <key value="document">
+    <val lang="de_DE">Dokument</val>
+  </key>
+  <key value="see">
+    <val lang="de_DE">siehe</val>
+  </key>
+  <key value="annotation">
+    <val lang="de_DE">Bemerkung</val>
+  </key>
+  <key value="placename_alternative">
+    <val lang="de_DE">Alternativer Ortsname</val>
+  </key>
+  <key value="editor_short">
+    <val lang="de_DE">Hrsg.</val>
+  </key>
+</translation>
