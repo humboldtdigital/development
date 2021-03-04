@@ -1,48 +1,48 @@
 <translation>
-  
+
   <!-- Language options -->
   <languageList>
     <!-- Please set the order of preferences: the first position is the default language -->
     <language description="Spanish" lang="es_ES"/>
     <language description="German" lang="de_DE"/>
   </languageList>
-  
+
   <!-- ediarum.REGISTER menus -->
   <key value="general_new_entry.name">
     <val lang="de_DE">Neuer Eintrag</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Nueva entrada</val>
   </key>
   <key value="general_new_entry.description">
     <val lang="de_DE">Neuen Eintrag in diesem Register erstellen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Crear una nueva entrada en este Registro</val>
   </key>
   <key value="general_authorityID.name">
     <val lang="de_DE">Norm-ID</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Identificación estándar</val>
   </key>
   <key value="general_authorityID.description">
     <val lang="de_DE">Eine Norm-ID (GND, VIAF, BNF, GeoNames ...) hinzufügen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Añadir un identificador estándar (VIAF, GND, BNF, GeoNames...)</val>
   </key>
   <key value="person_birth.name">
     <val lang="de_DE">Geburtsjahr</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Año de nacimiento</val>
   </key>
   <key value="person_birth.description">
     <val lang="de_DE">Geburtsjahr eingeben</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Introducir el año de nacimiento</val>
   </key>
   <key value="person_death.name">
     <val lang="de_DE">Sterbejahr</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Año de fallecimiento</val>
   </key>
   <key value="person_death.description">
     <val lang="de_DE">Sterbejahr eingeben</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Introducir el año de fallecimiento</val>
   </key>
   <key value="general_note.name">
     <val lang="de_DE">Kommentar</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Comentario</val>
   </key>
   <key value="general_note.description">
     <val lang="de_DE">Kommentar einfügen</val>
@@ -50,82 +50,88 @@
   </key>
   <key value="general_delete_entry.name">
     <val lang="de_DE">Ganzen Eintrag löschen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Insertar comentario</val>
   </key>
   <key value="general_delete_entry.description">
     <val lang="de_DE">Löscht den kompletten Eintrag, wo sich der Cursor gerade befindet</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Borrar la entrada completa en la que se encuentra el cursor</val>
   </key>
   <key value="newGroup.name">
     <val lang="de_DE">Gruppe anlegen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Crear grupo</val>
   </key>
   <key value="newGroup.description">
     <val lang="de_DE"/>
+    <val lang="es_ES"/>
   </key>
   <key value="group_connecting.name">
     <val lang="de_DE">Personen zu einer Gruppe verbinden</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Conexión de personas con un grupo</val>
   </key>
   <key value="group_connecting.description">
     <val lang="de_DE">Personen zu einer Gruppe verbinden</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Conectar a las personas con un grupo</val>
   </key>
   <key value="groupName.name">
     <val lang="de_DE">Gruppenname vergeben</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Asignación de un nombre de grupo</val>
   </key>
   <key value="groupName.description">
     <val lang="de_DE">Gruppenname vergeben</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Asignar nombre de grupo</val>
   </key>
   <key value="place_name_alt.name">
     <val lang="de_DE">Alternativer Name bzw. Schreibung</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Nombre u ortografía alternativa</val>
   </key>
   <key value="place_name_alt.description">
     <val lang="de_DE">Alternative Schreibungen eines Names eintragen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Introducir un nombre u ortografía alternativa</val>
   </key>
+  <!-- doubt: traducir lugar o barrio? -->
   <key value="place_listPlace.name">
     <val lang="de_DE">Unterort</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Lugar</val>
   </key>
+  <!-- doubt: traducir lugar o barrio? -->
   <key value="place_listPlace.description">
     <val lang="de_DE">Einen Unterort hinzufügen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Añadir un nombre de lugar</val>
   </key>
+  <!-- doubt: traducir característica, metadato, elemento, entrada? -->
   <key value="general_delete_element.name">
     <val lang="de_DE">Einzelne Angabe löschen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Eliminación de la característica</val>
   </key>
+  <!-- doubt: traducir característica, metadato, elemento, entrada? -->
   <key value="general_delete_element.description">
     <val lang="de_DE">Löscht die Angabe, wo sich der Cursor gerade befindet</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Eliminar la característica en dónde se encuentra el cursor en ese
+      momento</val>
   </key>
   <key value="merge_entries[define].name">
     <val lang="de_DE">Eintrag auswählen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Selección de la entrada</val>
   </key>
   <key value="merge_entries[define].description">
     <val lang="de_DE">Eintrag zum Zusammenfügen auswählen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Seleccionar la entrada a fusionar</val>
   </key>
   <key value="merge_entries.name">
     <val lang="de_DE">Einträge zusammenführen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Fusión de entradas</val>
   </key>
   <key value="merge_entries.description">
     <val lang="de_DE"/>
   </key>
   <key value="person_persName[alt]_name.name">
     <val lang="de_DE">Alternativer Name bzw. Schreibung</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Nombre u ortografía alternativa</val>
   </key>
   <key value="person_persName[alt]_name.description">
     <val lang="de_DE">Alternative Schreibungen eintragen - ohne Unterscheidung zwischen Vor- und
       Nachname</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Introducir grafías alternativas, sin distinguir entre nombre y apellido</val>
   </key>
   <key value="person_persName[alt]_surname - Kopie.name">
     <val lang="de_DE">Alternativer Name bzw. Schreibung (Vor- und Nachname)</val>
