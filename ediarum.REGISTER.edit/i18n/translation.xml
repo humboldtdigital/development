@@ -443,147 +443,150 @@
   </key>
   <key value="surname">
     <val lang="de_DE">Nachname</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Apellido/s</val>
   </key>
   <key value="forename">
     <val lang="de_DE">Vorname(n)</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Nombre</val>
   </key>
   <key value="birth_year">
     <val lang="de_DE">Geburtsjahr</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Año de nacimiento</val>
   </key>
   <key value="death_year">
     <val lang="de_DE">Todesjahr</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Año de fallecimiento</val>
   </key>
   <key value="placename_without_additions">
     <val lang="de_DE">Ortsname (ohne Zusätze)</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Nombre del lugar (sin añadidos)</val>
   </key>
   <key value="surname_author">
     <val lang="de_DE">Nachname des Autors</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Apellidos del autor</val>
   </key>
   <key value="title_of_publication">
     <val lang="de_DE">Titel der Publikation</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Título de la publicación</val>
   </key>
   <key value="term_without_description">
     <val lang="de_DE">Begriff (ohne Beschreibung)</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Término (sin descripción)</val>
   </key>
   <key value="institution_without_description">
     <val lang="de_DE">Name der Einrichtung (ohne Beschreibung)</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Nombre de la institución (sin descripción)</val>
   </key>
   <key value="enter_authority_file_id">
     <val lang="de_DE">Norm-ID eingeben (GND, VIAF, BNF)</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Introducir identificador estándar (VIAF, GND, BNF)</val>
   </key>
   <key value="enter_authority_file_id_geonames">
     <val lang="de_DE">Norm-ID eingeben (GeoNames o.ä.)</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Introducir identificador estándar (GeoNames o similar)</val>
   </key>
   <key value="enter_authority_file_id_institution">
     <val lang="de_DE">Norm-ID für die Einrichtung eingeben (GND o.ä.)</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Introducir identificador estándar para la institución (GND o similar)</val>
   </key>
   <key value="birth_date">
     <val lang="de_DE">Geburtsdatum</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Fecha de nacimiento</val>
   </key>
   <key value="death_date">
     <val lang="de_DE">Sterbedatum</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Fecha de fallecimiento</val>
   </key>
   <key value="group_name">
     <val lang="de_DE">Gruppenname</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Nombre del grupo</val>
   </key>
   <key value="enter_comment">
     <val lang="de_DE">Kommentar eingeben</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Introducir comentario</val>
   </key>
+  <!-- doubt: barrio, suburbio, sublocalización o lugar? -->
   <key value="type_of_subplace">
     <val lang="de_DE">Art des Unterorts</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Tipo de barrio</val>
   </key>
   <key value="mountain">
     <val lang="de_DE">Berg, Hügel, Felsen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Montaña, Colina, Roca</val>
   </key>
   <key value="monument">
     <val lang="de_DE">Denkmal</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Monumento</val>
   </key>
   <key value="building">
     <val lang="de_DE">Gebäude</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Edificio</val>
   </key>
   <key value="sea">
     <val lang="de_DE">Fluss, See</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Río, lago</val>
   </key>
   <key value="type_others">
     <val lang="de_DE">Nicht spezifiziert</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Sin especificar</val>
   </key>
   <key value="park">
     <val lang="de_DE">Park</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Parque</val>
   </key>
+  <!-- doubt: esto no es Unterort -->
   <key value="district">
     <val lang="de_DE">Stadtviertel</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Barrio</val>
   </key>
   <key value="street">
     <val lang="de_DE">Straße</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Calle</val>
   </key>
   <key value="forest">
     <val lang="de_DE">Wald</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Bosque</val>
   </key>
   <key value="enter_name">
     <val lang="de_DE">Name eingeben</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Introducir nombre</val>
   </key>
   <key value="not_before_enter">
     <val lang="de_DE">Nicht vor (JJJJ(-MM)(-TT))</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">No antes de (AAAA(-MM)(-DD))</val>
   </key>
   <key value="not_after_enter">
     <val lang="de_DE">Nicht nach (JJJJ(-MM)(-TT))</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">No después de (AAAA(-MM)(-DD))</val>
   </key>
+  <!-- doubt -->
   <key value="enter_as_text">
     <val lang="de_DE">Angabe als Text</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Marcar como texto</val>
   </key>
   <key value="enter_pseudonym">
     <val lang="de_DE">Pseudonym eingeben</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Introducir pseudónimo</val>
   </key>
   <key value="year">
     <val lang="de_DE">Jahr</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Año</val>
   </key>
   <key value="type_of_place">
     <val lang="de_DE">Art des Ortes</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Tipo de lugar</val>
   </key>
   <key value="city_village">
     <val lang="de_DE">Stadt, Dorf</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Ciudad, pueblo</val>
   </key>
   <key value="country_region">
     <val lang="de_DE">Land, Region</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">País, región</val>
   </key>
   <key value="continent">
     <val lang="de_DE">Kontinent</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Continente</val>
   </key>
   <key value="europe">
     <val lang="de_DE">Europa</val>
