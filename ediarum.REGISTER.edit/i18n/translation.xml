@@ -366,78 +366,80 @@
   </key>
   <key value="org_location[date].name">
     <val lang="de_DE">Standortangabe datieren</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Datación de la localización</val>
   </key>
   <key value="org_location[date].description">
     <val lang="de_DE">Beschränkt die Ortsangaben auf den angegebenen Zeitraum</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Restringir la información de localización al periodo especificado</val>
   </key>
   <key value="item_list.name">
     <val lang="de_DE">Untergeordnete Ebene einfügen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Insertar nivel subordinado</val>
   </key>
   <key value="item_list.description">
     <val lang="de_DE"/>
   </key>
   <key value="bibl_author_role.name">
     <val lang="de_DE">Anteil am Werk bestimmen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Asignar una parte del trabajo</val>
   </key>
   <key value="bibl_author_role.description">
     <val lang="de_DE"/>
   </key>
   <key value="general_ptr_1.name">
     <val lang="de_DE">Referenz auf Druckausgabe - Teil 1</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Referencia impresa - Parte 1</val>
   </key>
   <key value="general_ptr_1.description">
     <val lang="de_DE"/>
   </key>
   <key value="general_ptr_2.name">
     <val lang="de_DE">Referenz auf Druckausgabe - Teil 2</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Referencia impresa - Parte 2</val>
   </key>
   <key value="general_ptr_2.description">
     <val lang="de_DE"/>
   </key>
   <key value="general_ptr.name">
     <val lang="de_DE">Referenz auf Druckausgabe</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Referencia a la edición impresa</val>
   </key>
   <key value="general_ptr.description">
     <val lang="de_DE"/>
   </key>
   <key value="general_bibl_zotero.name">
     <val lang="de_DE">Literaturtitel (Zotero) verlinken</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Vinculación títulos de publicaciones (Zotero)</val>
   </key>
   <key value="general_bibl_zotero.description">
     <val lang="de_DE">Literaturtitel mit Zotero-Register verknüpfen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Vinculat títulos de publicaciones con el registro de Zotero</val>
   </key>
   <key value="bibl_title_alt.name">
     <val lang="de_DE">Alternativer Titel (Zeitschrift)</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Título alternativo (revista)</val>
   </key>
   <key value="bibl_title_alt.description">
     <val lang="de_DE">Weiteren/alternativen Titel hinzufügen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Añadir otro título o alternativa</val>
   </key>
   <key value="item_label[alt].name">
     <val lang="de_DE">Alternative Bezeichung</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Denominación alternativa</val>
   </key>
   <key value="item_label[alt].description">
     <val lang="de_DE">Alternative Bezeichnung für den Begriff notieren</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Marcar un nombre alternativo para el término</val>
   </key>
+  <!-- doubt: sublocalizaciones, suburbios, lugares? -->
   <key value="general_sort_Unterorte.name">
     <val lang="de_DE">Unterorte sortieren</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Ordenar las sublocaciones</val>
   </key>
+  <!-- doubt: sublocalizaciones, suburbios, lugares? -->
   <key value="general_sort_Unterorte.description">
     <val lang="de_DE">Aktuelle Unterorte alphabethisch sortieren (zweite Ebene)</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Ordenar alfabéticamente las sublocalizaciones actuales (segundo nivel)</val>
   </key>
   <key value="surname">
     <val lang="de_DE">Nachname</val>
