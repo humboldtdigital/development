@@ -51,7 +51,7 @@
   </key>
   <key value="general_delete_entry.name">
     <val lang="de_DE">Ganzen Eintrag löschen</val>
-    <val lang="es_ES">Insertar comentario</val>
+    <val lang="es_ES">Borrar la entrada completa</val>
   </key>
   <key value="general_delete_entry.description">
     <val lang="de_DE">Löscht den kompletten Eintrag, wo sich der Cursor gerade befindet</val>
