@@ -1253,10 +1253,10 @@
 											<String>place_listPlace</String>
 										</field>
 										<field name="name">
-											<String>Unterort</String>
+											<String>${i18n(place_listPlace.name)}</String>
 										</field>
 										<field name="description">
-											<String>Einen Unterort hinzufügen</String>
+											<String>${i18n(place_listPlace.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -1363,10 +1363,10 @@
 											<String>general_delete_element</String>
 										</field>
 										<field name="name">
-											<String>Einzelne Angabe löschen</String>
+											<String>${i18n(general_delete_element.name)}</String>
 										</field>
 										<field name="description">
-											<String>Löscht die Angabe, wo sich der Cursor gerade befindet</String>
+											<String>${i18n(general_delete_element.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -1521,10 +1521,10 @@
 											<String>merge_entries[define]</String>
 										</field>
 										<field name="name">
-											<String>Eintrag auswählen</String>
+											<String>${i18n(merge_entries[define].name)}</String>
 										</field>
 										<field name="description">
-											<String>Eintrag zum Zusammenfügen auswählen</String>
+											<String>${i18n(merge_entries[define].description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -1663,7 +1663,7 @@
 											<String>merge_entries</String>
 										</field>
 										<field name="name">
-											<String>Einträge zusammenführen</String>
+											<String>${i18n(merge_entries.name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -1725,10 +1725,10 @@
 											<String>person_persName[alt]_name</String>
 										</field>
 										<field name="name">
-											<String>Alternativer Name bzw. Schreibung</String>
+											<String>${i18n(person_persName[alt]_name.name)}</String>
 										</field>
 										<field name="description">
-											<String>Alternative Schreibungen eintragen - ohne Unterscheidung zwischen Vor- und Nachname</String>
+											<String>${i18n(person_persName[alt]_name.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -1781,10 +1781,10 @@
 											<String>person_persName[alt]_surname - Kopie</String>
 										</field>
 										<field name="name">
-											<String>Alternativer Name bzw. Schreibung (Vor- und Nachname)</String>
+											<String>${i18n(person_persName[alt]_surname - Kopie.name)}</String>
 										</field>
 										<field name="description">
-											<String>Alternative Schreibungen eintragen</String>
+											<String>${i18n(person_persName[alt]_surname - Kopie.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -1838,10 +1838,10 @@
 											<String>person_floruit</String>
 										</field>
 										<field name="name">
-											<String>Floruit (Wirkungszeit)</String>
+											<String>${i18n(person_floruit.name)}</String>
 										</field>
 										<field name="description">
-											<String>Wirkungszeit, falls Geburts- und Sterbedatum nicht bekannt sind</String>
+											<String>${i18n(person_floruit.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -1916,7 +1916,7 @@
 											<String>person_floruit[notBefore]</String>
 										</field>
 										<field name="name">
-											<String>"Nicht vor" hinzufügen</String>
+											<String>${i18n(person_floruit[notBefore].name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -1982,7 +1982,7 @@
 											<String>person_floruit[notAfter]</String>
 										</field>
 										<field name="name">
-											<String>"Nicht nach" hinzufügen</String>
+											<String>${i18n(person_floruit[notAfter].name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -2048,7 +2048,7 @@
 											<String>person_persName[pseudonym]_name</String>
 										</field>
 										<field name="name">
-											<String>Pseudonym</String>
+											<String>${i18n(person_persName[pseudonym]_name.name)}</String>
 										</field>
 										<field name="description">
 											<String>Pseudonym</String>
@@ -2104,7 +2104,7 @@
 											<String>bibl_date</String>
 										</field>
 										<field name="name">
-											<String>Erscheinungsjahr</String>
+											<String>${i18n(bibl_date.name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -2158,7 +2158,7 @@
 											<String>bibl_pubPlace</String>
 										</field>
 										<field name="name">
-											<String>Erscheinungsort</String>
+											<String>${i18n(bibl_pubPlace.name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -2344,10 +2344,10 @@
 											<String>bibl_persName[key]</String>
 										</field>
 										<field name="name">
-											<String>Autor / Hrsg. mit Register verknüpfen</String>
+											<String>${i18n(bibl_persName[key].name)}</String>
 										</field>
 										<field name="description">
-											<String>Verknüpft einen Autor mit einem Eintrag im Personenregister</String>
+											<String>${i18n(bibl_persName[key].description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -2426,10 +2426,10 @@
 											<String>person_birth-death</String>
 										</field>
 										<field name="name">
-											<String>Lebensdaten</String>
+											<String>${i18n(person_birth-death.name)}</String>
 										</field>
 										<field name="description">
-											<String>Lebensdaten eingeben</String>
+											<String>${i18n(person_birth-death.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -2512,10 +2512,10 @@
 											<String>place_getGeoname</String>
 										</field>
 										<field name="name">
-											<String>GeoNames-ID suchen</String>
+											<String>${i18n(place_getGeoname.name)}</String>
 										</field>
 										<field name="description">
-											<String>GeoNames-ID recherchieren</String>
+											<String>${i18n(place_getGeoname.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -2590,7 +2590,7 @@
 											<String>merge_entries[deselect]</String>
 										</field>
 										<field name="name">
-											<String>Markierung zum Zusammenführen löschen</String>
+											<String>${i18n(merge_entries[deselect].name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -2716,10 +2716,10 @@
 											<String>general_sort</String>
 										</field>
 										<field name="name">
-											<String>Register sortieren</String>
+											<String>${i18n(general_sort.name)}</String>
 										</field>
 										<field name="description">
-											<String>Aktuelle Registerdatei alphabethisch sortieren (oberste Ebene)</String>
+											<String>${i18n(general_sort.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -2774,7 +2774,7 @@
 											<String>person_role</String>
 										</field>
 										<field name="name">
-											<String>Personentyp (fiktional etc.)</String>
+											<String>${i18n(person_role.name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -2832,7 +2832,7 @@
 											<String>bibl_author</String>
 										</field>
 										<field name="name">
-											<String>Weiterer Autor</String>
+											<String>${i18n(bibl_author.name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -2910,10 +2910,10 @@
 											<String>person_persName[birth]_name - Kopie</String>
 										</field>
 										<field name="name">
-											<String>Geburtsname</String>
+											<String>${i18n(person_persName[birth]_name - Kopie.name)}</String>
 										</field>
 										<field name="description">
-											<String>Geburtsname</String>
+											<String>${i18n(person_persName[birth]_name - Kopie.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -2966,10 +2966,10 @@
 											<String>person_persName[pseudonym]_name - Kopie</String>
 										</field>
 										<field name="name">
-											<String>Pseudonym (Vor- und Nachname)</String>
+											<String>${i18n(person_persName[pseudonym]_name - Kopie.name)}</String>
 										</field>
 										<field name="description">
-											<String>Pseudonym</String>
+											<String>${i18n(person_persName[pseudonym]_name - Kopie.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -3050,10 +3050,10 @@
 											<String>person_new[mythological]</String>
 										</field>
 										<field name="name">
-											<String>Neue mythologische Person</String>
+											<String>${i18n(person_new[mythological].name)}</String>
 										</field>
 										<field name="description">
-											<String>Neuen mythologische Person in diesem Register erstellen</String>
+											<String>${i18n(person_new[mythological].description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String>${frameworks}/hirt/icons/persName.gif</String>
@@ -3144,7 +3144,7 @@
 											<String>bibl_editor</String>
 										</field>
 										<field name="name">
-											<String>Weiterer Herausgeber</String>
+											<String>${i18n(bibl_editor.name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -3270,7 +3270,7 @@
 											<String>bibl_new[journal]</String>
 										</field>
 										<field name="name">
-											<String>Zeitschrift oder Sammelband</String>
+											<String>${i18n(bibl_new[journal].name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -3352,7 +3352,7 @@
 											<String>bibl_new[article]</String>
 										</field>
 										<field name="name">
-											<String>Artikel</String>
+											<String>${i18n(bibl_new[article].name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -3448,10 +3448,10 @@
 											<String>bibl_author2editor</String>
 										</field>
 										<field name="name">
-											<String>Autor &lt;-> Herausgeber</String>
+											<String>${i18n(bibl_author2editor.name)}</String>
 										</field>
 										<field name="description">
-											<String>Autor zu Herausgeber verwandeln oder umgekehrt</String>
+											<String>${i18n(bibl_author2editor.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -3518,10 +3518,10 @@
 											<String>general_persName</String>
 										</field>
 										<field name="name">
-											<String>Personenname verlinken</String>
+											<String>${i18n(general_persName.name)}</String>
 										</field>
 										<field name="description">
-											<String>In der Beschreibung erwähnte Person verlinken</String>
+											<String>${i18n(general_persName.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -3592,10 +3592,10 @@
 											<String>general_placeName</String>
 										</field>
 										<field name="name">
-											<String>Ortsname verlinken</String>
+											<String>${i18n(general_placeName.name)}</String>
 										</field>
 										<field name="description">
-											<String>In der Beschreibung erwähnten Ort verlinken</String>
+											<String>${i18n(general_placeName.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -3666,10 +3666,10 @@
 											<String>general_orgName</String>
 										</field>
 										<field name="name">
-											<String>Organisationsname verlinken</String>
+											<String>${i18n(general_orgName.name)}</String>
 										</field>
 										<field name="description">
-											<String>In der Beschreibung genannte Institution, Firma oder sonstige Organisation verlinken</String>
+											<String>${i18n(general_orgName.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -3740,10 +3740,10 @@
 											<String>ref[URL]</String>
 										</field>
 										<field name="name">
-											<String>Link auf externe Website</String>
+											<String>${i18n(ref[URL].name)}</String>
 										</field>
 										<field name="description">
-											<String>Link auf externe Website, nach Möglichkeit hier Permalinks verwenden</String>
+											<String>${i18n(ref[URL].description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -3786,7 +3786,7 @@
 											<String>general_openInWebsite</String>
 										</field>
 										<field name="name">
-											<String>Zeige diesen Eintrag auf der Website</String>
+											<String>${i18n(general_openInWebsite.name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -3896,10 +3896,10 @@
 											<String>org_location</String>
 										</field>
 										<field name="name">
-											<String>Standort</String>
+											<String>${i18n(org_location.name)}</String>
 										</field>
 										<field name="description">
-											<String>Standort der Organisation</String>
+											<String>${i18n(org_location.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -4040,10 +4040,10 @@
 											<String>org_location[from]</String>
 										</field>
 										<field name="name">
-											<String>Ortsangabe datieren</String>
+											<String>${i18n(org_location[from].name)}</String>
 										</field>
 										<field name="description">
-											<String>Beschränkt die Ortsangaben auf den angegebenen Zeitraum</String>
+											<String>${i18n(org_location[from].description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -4098,10 +4098,10 @@
 											<String>org_location[to]</String>
 										</field>
 										<field name="name">
-											<String>Ortsangabe datieren</String>
+											<String>${i18n(org_location[to].name)}</String>
 										</field>
 										<field name="description">
-											<String>Beschränkt die Ortsangaben auf den angegebenen Zeitraum</String>
+											<String>${i18n(org_location[to].description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -4156,10 +4156,10 @@
 											<String>org_location[date]</String>
 										</field>
 										<field name="name">
-											<String>Standortangabe datieren</String>
+											<String>${i18n(org_location[date].name)}</String>
 										</field>
 										<field name="description">
-											<String>Beschränkt die Ortsangaben auf den angegebenen Zeitraum</String>
+											<String>${i18n(org_location[date].description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -4203,7 +4203,7 @@ org_location[to]</String>
 											<String>item_list</String>
 										</field>
 										<field name="name">
-											<String>Untergeordnete Ebene einfügen</String>
+											<String>${i18n(item_list.name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -4317,7 +4317,7 @@ org_location[to]</String>
 											<String>bibl_author_role</String>
 										</field>
 										<field name="name">
-											<String>Anteil am Werk bestimmen</String>
+											<String>${i18n(bibl_author_role.name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -4371,7 +4371,7 @@ org_location[to]</String>
 											<String>general_ptr_1</String>
 										</field>
 										<field name="name">
-											<String>Referenz auf Druckausgabe - Teil 1</String>
+											<String>${i18n(general_ptr_1.name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -4561,7 +4561,7 @@ org_location[to]</String>
 											<String>general_ptr_2</String>
 										</field>
 										<field name="name">
-											<String>Referenz auf Druckausgabe - Teil 2</String>
+											<String>${i18n(general_ptr_2.name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -4659,7 +4659,7 @@ org_location[to]</String>
 											<String>general_ptr</String>
 										</field>
 										<field name="name">
-											<String>Referenz auf Druckausgabe</String>
+											<String>${i18n(general_ptr.name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -4710,10 +4710,10 @@ general_ptr_2</String>
 											<String>general_bibl_zotero</String>
 										</field>
 										<field name="name">
-											<String>Literaturtitel (Zotero) verlinken</String>
+											<String>${i18n(general_bibl_zotero.name)}</String>
 										</field>
 										<field name="description">
-											<String>Literaturtitel mit Zotero-Register verknüpfen</String>
+											<String>${i18n(general_bibl_zotero.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -4784,10 +4784,10 @@ general_ptr_2</String>
 											<String>bibl_title_alt</String>
 										</field>
 										<field name="name">
-											<String>Alternativer Titel (Zeitschrift)</String>
+											<String>${i18n(bibl_title_alt.name)}</String>
 										</field>
 										<field name="description">
-											<String>Weiteren/alternativen Titel hinzufügen</String>
+											<String>${i18n(bibl_title_alt.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -4842,10 +4842,10 @@ general_ptr_2</String>
 											<String>item_label[alt]</String>
 										</field>
 										<field name="name">
-											<String>Alternative Bezeichung</String>
+											<String>${i18n(item_label[alt].name)}</String>
 										</field>
 										<field name="description">
-											<String>Alternative Bezeichnung für den Begriff notieren</String>
+											<String>${i18n(item_label[alt].description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -4896,10 +4896,10 @@ general_ptr_2</String>
 											<String>general_sort_Unterorte</String>
 										</field>
 										<field name="name">
-											<String>Unterorte sortieren</String>
+											<String>${i18n(general_sort_Unterorte.name)}</String>
 										</field>
 										<field name="description">
-											<String>Aktuelle Unterorte alphabethisch sortieren (zweite Ebene)</String>
+											<String>${i18n(general_sort_Unterorte.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
