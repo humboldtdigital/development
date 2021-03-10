@@ -626,19 +626,19 @@
   </key>
   <key value="mythological_person">
     <val lang="de_DE">Mythologische Person</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Personaje mitológico</val>
   </key>
   <key value="fictitious_person">
     <val lang="de_DE">Fiktiver Charakter</val>
-    <val lang="es_ES">Personaje mitológico</val>
+    <val lang="es_ES">Personaje ficticio</val>
   </key>
   <key value="birthname_only_surname">
     <val lang="de_DE">Geburtsname (nur Nachname) eingeben</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Introducir el nombre de nacimiento (sólo el apellido)</val>
   </key>
   <key value="enter_pseudonym_surname">
     <val lang="de_DE">Nachname des Pseudonyms eingeben</val>
-    <val lang="es_ES">Introducir el nombre de nacimiento (sólo el apellido)</val>
+    <val lang="es_ES">Introducir el apellido del pseudónimo</val>
   </key>
   <key value="enter_pseudonym_forename">
     <val lang="de_DE">Vorname des Pseudonyms eingeben</val>
