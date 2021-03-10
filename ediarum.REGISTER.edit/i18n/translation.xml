@@ -189,6 +189,7 @@
   <key value="bibl_pubPlace.description">
     <val lang="de_DE"/>
   </key>
+  <!-- doubt: registro o índice de personas? -->
   <key value="bibl_persName[key].name">
     <val lang="de_DE">Autor / Hrsg. mit Register verknüpfen</val>
     <val lang="es_ES">Vinculación del autor o editor con el Registro</val>
@@ -220,7 +221,7 @@
   <key value="merge_entries[deselect].description">
     <val lang="de_DE"/>
   </key>
-  <!-- doubt: traducir entradas o Registro? -->
+  <!-- doubt: traducir por "Entradas", "Registro","índice"? -->
   <key value="general_sort.name">
     <val lang="de_DE">Register sortieren</val>
     <val lang="es_ES">Ordenar las entradas</val>
@@ -413,7 +414,7 @@
   </key>
   <key value="general_bibl_zotero.description">
     <val lang="de_DE">Literaturtitel mit Zotero-Register verknüpfen</val>
-    <val lang="es_ES">Vinculat títulos de publicaciones con el registro de Zotero</val>
+    <val lang="es_ES">Vincular títulos de publicaciones con el registro de Zotero</val>
   </key>
   <key value="bibl_title_alt.name">
     <val lang="de_DE">Alternativer Titel (Zeitschrift)</val>
