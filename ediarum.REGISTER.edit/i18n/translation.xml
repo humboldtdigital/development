@@ -7,7 +7,9 @@
     <language description="German" lang="de_DE"/>
   </languageList>
 
-  <!-- ediarum.REGISTER menus -->
+  <!-- ediarum.REGISTER -->
+  
+  <!-- inside menus buttons -->
   <key value="general_new_entry.name">
     <val lang="de_DE">Neuer Eintrag</val>
     <val lang="es_ES">Nueva entrada</val>
@@ -775,8 +777,7 @@
     <val lang="es_ES">ed.</val>
   </key>
   
-  <!-- Menu -->
-  
+  <!-- Toolbar menu -->
   <key value="general_menu">
     <val lang="de_DE">Allgemein</val>
     <val lang="es_ES">General</val>
@@ -808,6 +809,7 @@
     <val lang="es_ES">Fusiones</val>
   </key>
   
+  <!-- No point in using them -->
   <!-- 
   <key value="symbols_menu">
     <val lang="de_DE">Symbolleiste</val>
