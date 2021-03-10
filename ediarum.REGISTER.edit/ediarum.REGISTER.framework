@@ -4954,13 +4954,13 @@ general_ptr_2</String>
 							<field name="menubarDescriptor">
 								<menu>
 									<field name="label">
-										<String>Menü</String>
+										<String>Menu</String>
 									</field>
 									<field name="accessKey">
-										<null/>
+										<String></String>
 									</field>
 									<field name="iconPath">
-										<null/>
+										<String></String>
 									</field>
 									<field name="menuEntriesDescriptorList">
 										<menuEntry-array/>
@@ -4973,13 +4973,13 @@ general_ptr_2</String>
 							<field name="popupMenuDescriptor">
 								<menu>
 									<field name="label">
-										<String>Kontextmenü</String>
+										<String>Context menu</String>
 									</field>
 									<field name="accessKey">
-										<null/>
+										<String></String>
 									</field>
 									<field name="iconPath">
-										<null/>
+										<String></String>
 									</field>
 									<field name="menuEntriesDescriptorList">
 										<menuEntry-array>
@@ -5064,7 +5064,7 @@ general_ptr_2</String>
 											</menuItem>
 											<menu>
 												<field name="label">
-													<String>Duplikate zusammenführen</String>
+													<String>${i18n(merging_menu)}</String>
 												</field>
 												<field name="accessKey">
 													<String></String>
@@ -5100,7 +5100,7 @@ general_ptr_2</String>
 							<field name="toolbarDescriptor">
 								<toolbar>
 									<field name="id">
-										<String>Symbolleiste</String>
+										<String>Menu</String>
 									</field>
 									<field name="type">
 										<Integer>2</Integer>
@@ -5120,7 +5120,7 @@ general_ptr_2</String>
 											</toolbarItem>
 											<toolbar>
 												<field name="id">
-													<String>Allgemein</String>
+													<String>${i18n(general_menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
@@ -5186,7 +5186,7 @@ general_ptr_2</String>
 											</toolbar>
 											<toolbar>
 												<field name="id">
-													<String>Personenregister</String>
+													<String>${i18n(listperson_menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
@@ -5269,7 +5269,7 @@ general_ptr_2</String>
 											<toolbarSeparator/>
 											<toolbar>
 												<field name="id">
-													<String>Ortsregister</String>
+													<String>${i18n(listplace_menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
@@ -5308,7 +5308,7 @@ general_ptr_2</String>
 											<toolbarSeparator/>
 											<toolbar>
 												<field name="id">
-													<String>Werkregister</String>
+													<String>${i18n(listbibl_menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
@@ -5379,7 +5379,7 @@ general_ptr_2</String>
 											<toolbarSeparator/>
 											<toolbar>
 												<field name="id">
-													<String>Sachregister</String>
+													<String>${i18n(listtopic_menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
@@ -5409,7 +5409,7 @@ general_ptr_2</String>
 											<toolbarSeparator/>
 											<toolbar>
 												<field name="id">
-													<String>Einrichtungsregister</String>
+													<String>${i18n(listorganisations_menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
@@ -5438,7 +5438,7 @@ general_ptr_2</String>
 											<toolbarSeparator/>
 											<toolbar>
 												<field name="id">
-													<String>Zusammenführen</String>
+													<String>${i18n(merging_menu)}</String>
 												</field>
 												<field name="type">
 													<Integer>3</Integer>
