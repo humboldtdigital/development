@@ -24,6 +24,7 @@
 					<field name="classpath">
 						<String-array>
 							<String>${framework}/ediarum.jar</String>
+							<String>${framework}/i18n/</String>
 						</String-array>
 					</field>
 					<field name="parentClassLoaderID">
@@ -59,10 +60,10 @@
 											<String>general_new_entry</String>
 										</field>
 										<field name="name">
-											<String>Neuer Eintrag</String>
+											<String>${i18n(general_new_entry.name)}</String>
 										</field>
 										<field name="description">
-											<String>Neuen Eintrag in diesem Register erstellen</String>
+											<String>${i18n(general_new_entry.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String>${frameworks}/hirt/icons/persName.gif</String>
@@ -401,10 +402,10 @@
 											<String>general_authorityID</String>
 										</field>
 										<field name="name">
-											<String>Norm-ID</String>
+											<String>${i18n(general_authorityID.name)}</String>
 										</field>
 										<field name="description">
-											<String>Eine Norm-ID (GND, VIAF, BNF, GeoNames ...) hinzufügen</String>
+											<String>${i18n(general_authorityID.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -527,10 +528,10 @@
 											<String>person_birth</String>
 										</field>
 										<field name="name">
-											<String>Geburtsjahr</String>
+											<String>${i18n(person_birth.name)}</String>
 										</field>
 										<field name="description">
-											<String>Geburtsjahr eingeben</String>
+											<String>${i18n(person_birth.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -605,10 +606,10 @@
 											<String>person_death</String>
 										</field>
 										<field name="name">
-											<String>Sterbejahr</String>
+											<String>${i18n(person_death.name)}</String>
 										</field>
 										<field name="description">
-											<String>Sterbejahr eingeben</String>
+											<String>${i18n(person_death.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -659,10 +660,10 @@
 											<String>general_note</String>
 										</field>
 										<field name="name">
-											<String>Kommentar</String>
+											<String>${i18n(general_note.name)}</String>
 										</field>
 										<field name="description">
-											<String>Kommentar einfügen</String>
+											<String>${i18n(general_note.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -857,10 +858,10 @@
 											<String>general_delete_entry</String>
 										</field>
 										<field name="name">
-											<String>Ganzen Eintrag löschen</String>
+											<String>${i18n(general_delete_entry.name)}</String>
 										</field>
 										<field name="description">
-											<String>Löscht den kompletten Eintrag, wo sich der Cursor gerade befindet</String>
+											<String>${i18n(general_delete_entry.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -951,7 +952,7 @@
 											<String>newGroup</String>
 										</field>
 										<field name="name">
-											<String>Gruppe anlegen</String>
+											<String>${i18n(newGroup.name)}</String>
 										</field>
 										<field name="description">
 											<String></String>
@@ -1098,10 +1099,10 @@
 											<String>group_connecting</String>
 										</field>
 										<field name="name">
-											<String>Personen zu einer Gruppe verbinden</String>
+											<String>${i18n(group_connecting.name)}</String>
 										</field>
 										<field name="description">
-											<String>Personen zu einer Gruppe verbinden</String>
+											<String>${i18n(group_connecting.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -1144,10 +1145,10 @@
 											<String>groupName</String>
 										</field>
 										<field name="name">
-											<String>Gruppenname vergeben</String>
+											<String>${i18n(groupName.name)}</String>
 										</field>
 										<field name="description">
-											<String>Gruppenname vergeben</String>
+											<String>${i18n(groupName.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
@@ -1198,10 +1199,10 @@
 											<String>place_name_alt</String>
 										</field>
 										<field name="name">
-											<String>Alternativer Name bzw. Schreibung</String>
+											<String>${i18n(place_name_alt.name)}</String>
 										</field>
 										<field name="description">
-											<String>Alternative Schreibungen eines Names eintragen</String>
+											<String>${i18n(place_name_alt.description)}</String>
 										</field>
 										<field name="largeIconPath">
 											<String></String>
