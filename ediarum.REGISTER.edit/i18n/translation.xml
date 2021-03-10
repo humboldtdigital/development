@@ -774,4 +774,39 @@
     <val lang="de_DE">Hrsg.</val>
     <val lang="es_ES">ed.</val>
   </key>
+  
+  <!-- Menu -->
+  
+  <key value="general_menu">
+    <val lang="de_DE">Allgemein</val>
+    <val lang="es_ES">General</val>
+  </key>
+  <!-- doubt: registro, catálogo, lista, índice? -->
+  <key value="listperson_menu">
+    <val lang="de_DE">Personenregister</val>
+    <val lang="es_ES">Personas</val>
+  </key>
+  <!-- doubt: registro, catálogo, lista, índice? -->
+  <key value="listplace_menu">
+    <val lang="de_DE">Ortsregister</val>
+    <val lang="es_ES">Lugares</val>
+  </key>
+  <key value="listplace_menu">
+    <val lang="de_DE">Werkregister</val>
+    <val lang="es_ES">Publicaciones</val>
+  </key>
+  <key value="listtopic_menu">
+    <val lang="de_DE">Sachregister</val>
+    <val lang="es_ES">Temas</val>
+  </key>
+  <key value="lisorganisations_menu">
+    <val lang="de_DE">Einrichtungsregister</val>
+    <val lang="es_ES">Organizaciones</val>
+  </key>
+  <key value="merging_menu">
+    <val lang="de_DE">Zusammenführen</val>
+    <val lang="es_ES">Fusiones</val>
+  </key>
+  
+  
 </translation>
