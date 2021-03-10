@@ -381,7 +381,7 @@
   </key>
   <key value="bibl_author_role.name">
     <val lang="de_DE">Anteil am Werk bestimmen</val>
-    <val lang="es_ES">Asignar una parte del trabajo</val>
+    <val lang="es_ES">Asignar un rol</val>
   </key>
   <key value="bibl_author_role.description">
     <val lang="de_DE"/>
@@ -590,39 +590,39 @@
   </key>
   <key value="europe">
     <val lang="de_DE">Europa</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Europa</val>
   </key>
   <key value="north_america">
     <val lang="de_DE">Nordamerika</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">América del Norte</val>
   </key>
   <key value="south_america">
     <val lang="de_DE">Südamerika</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">América del Sur</val>
   </key>
   <key value="asia">
     <val lang="de_DE">Asien</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Asia</val>
   </key>
   <key value="all_continents">
     <val lang="de_DE">Alle Kontinente</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Todos los continentes</val>
   </key>
   <key value="africa">
     <val lang="de_DE">Afrika</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">África</val>
   </key>
   <key value="oceania">
     <val lang="de_DE">Ozeanien</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Oceania</val>
   </key>
   <key value="antarctica">
     <val lang="de_DE">Antarktis</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Antártida</val>
   </key>
   <key value="real_person">
     <val lang="de_DE">Reale Person</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Persona real</val>
   </key>
   <key value="mythological_person">
     <val lang="de_DE">Mythologische Person</val>
@@ -630,7 +630,7 @@
   </key>
   <key value="fictitious_person">
     <val lang="de_DE">Fiktiver Charakter</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Personaje mitológico</val>
   </key>
   <key value="birthname_only_surname">
     <val lang="de_DE">Geburtsname (nur Nachname) eingeben</val>
@@ -638,138 +638,139 @@
   </key>
   <key value="enter_pseudonym_surname">
     <val lang="de_DE">Nachname des Pseudonyms eingeben</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Introducir el nombre de nacimiento (sólo el apellido)</val>
   </key>
   <key value="enter_pseudonym_forename">
     <val lang="de_DE">Vorname des Pseudonyms eingeben</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Introducir el nombre del pseudónimo</val>
   </key>
   <key value="type_of_publication">
     <val lang="de_DE">Art der Publikation</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Tipo de publicación</val>
   </key>
   <key value="journal">
     <val lang="de_DE">Zeitschrift</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Revista</val>
   </key>
   <key value="edited_volumen">
     <val lang="de_DE">Sammelband</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Antología</val>
   </key>
   <key value="title_journal_volume">
     <val lang="de_DE">Titel der Zeitschrift bzw. des Sammelbandes</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Título de la revista o antología</val>
   </key>
   <key value="forename_author">
     <val lang="de_DE">Vorname des Autors</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Nombre del autor</val>
   </key>
   <key value="article_title">
     <val lang="de_DE">Titel des Artikels</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Título del artículo</val>
   </key>
   <key value="volume_and_page">
     <val lang="de_DE">Band- und Seitenangaben</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Referencia de volumen y página</val>
   </key>
   <key value="enter_url">
     <val lang="de_DE">URL eingeben</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Introducir URL</val>
   </key>
   <key value="place_details">
     <val lang="de_DE">Genauere Ortsangabe: Straße, Platz etc.</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Indicación más precisa de la ubicación: calle, plaza, etc.</val>
   </key>
   <key value="date_format_string_optional">
     <val lang="de_DE">Datum im Format (JJJJ-MM-TT), nur Jahr (JJJJ) ist auch möglich</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Fecha en formato (AAAA-MM-DD), también es posible el año (AAAA)</val>
   </key>
   <key value="choose_role">
     <val lang="de_DE">Anteil auswählen</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Seleccionar rol</val>
   </key>
   <key value="music">
     <val lang="de_DE">Musik</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Música</val>
   </key>
   <key value="composition">
     <val lang="de_DE">Komposition</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Composición</val>
   </key>
   <key value="arrangement">
     <val lang="de_DE">Bearbeitung</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Edición de</val>
   </key>
   <key value="libretto">
     <val lang="de_DE">Libretto</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Libreto</val>
   </key>
   <key value="text">
     <val lang="de_DE">Text</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Texto</val>
   </key>
   <key value="translation">
     <val lang="de_DE">Übersetzung</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Traducción</val>
   </key>
   <key value="type_of_pointer">
     <val lang="de_DE">Art der Referenz</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Tipo de referencia</val>
   </key>
   <key value="page">
     <val lang="de_DE">Seitenzahl</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Número de página</val>
   </key>
   <key value="letter_number">
     <val lang="de_DE">Briefnummer</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Número de carta</val>
   </key>
+  <!-- doubt: Band es cinta? No me suena correcto... quizás volumen? -->
   <key value="enter_reference_format">
     <val lang="de_DE">Referenz im Format Band#Seite bzw. Band#Briefnr. eingeben</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Introducir la referencia en el formato cinta#página o cinta#ncarta.</val>
   </key>
   <key value="only_mentioned_in_comment">
     <val lang="de_DE">Nur in Anmerkung erwähnt?</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">¿Sólo se menciona en una nota?</val>
   </key>
   <key value="no">
     <val lang="de_DE">Nein</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">No</val>
   </key>
   <key value="yes">
     <val lang="de_DE">Ja</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Sí</val>
   </key>
   <key value="additional_title_journal">
     <val lang="de_DE">Weiterer Titel für Zeitschrift:</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Otro título de la revista:</val>
   </key>
   <key value="letter">
     <val lang="de_DE">Brief</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Carta</val>
   </key>
   <key value="page_number">
     <val lang="de_DE">Seite</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Página</val>
   </key>
   <key value="document">
     <val lang="de_DE">Dokument</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Documento</val>
   </key>
   <key value="see">
     <val lang="de_DE">siehe</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">ver</val>
   </key>
   <key value="annotation">
     <val lang="de_DE">Bemerkung</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Anotación</val>
   </key>
   <key value="placename_alternative">
     <val lang="de_DE">Alternativer Ortsname</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">Nombre alternativo del lugar</val>
   </key>
   <key value="editor_short">
     <val lang="de_DE">Hrsg.</val>
-    <val lang="es_ES"> </val>
+    <val lang="es_ES">ed.</val>
   </key>
 </translation>
