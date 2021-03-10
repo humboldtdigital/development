@@ -791,7 +791,7 @@
     <val lang="de_DE">Ortsregister</val>
     <val lang="es_ES">Lugares</val>
   </key>
-  <key value="listplace_menu">
+  <key value="listbibl_menu">
     <val lang="de_DE">Werkregister</val>
     <val lang="es_ES">Publicaciones</val>
   </key>
@@ -799,7 +799,7 @@
     <val lang="de_DE">Sachregister</val>
     <val lang="es_ES">Temas</val>
   </key>
-  <key value="lisorganisations_menu">
+  <key value="listorganisations_menu">
     <val lang="de_DE">Einrichtungsregister</val>
     <val lang="es_ES">Organizaciones</val>
   </key>
@@ -807,6 +807,17 @@
     <val lang="de_DE">Zusammenführen</val>
     <val lang="es_ES">Fusiones</val>
   </key>
+  
+  <!-- 
+  <key value="symbols_menu">
+    <val lang="de_DE">Symbolleiste</val>
+    <val lang="es_ES">Lista de símbolos</val>
+  </key>
+  <key value="context_menu">
+    <val lang="de_DE">Kontextmenü</val>
+    <val lang="es_ES">Menu contextual</val>
+  </key>
+   -->
   
   
 </translation>
