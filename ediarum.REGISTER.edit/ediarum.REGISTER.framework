@@ -429,7 +429,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;idno xmlns="http://www.tei-c.org/ns/1.0" type="uri">${ask('Norm-ID eingeben (GND, VIAF, BNF)')}&lt;/idno></String>
+																<String>&lt;idno xmlns="http://www.tei-c.org/ns/1.0" type="uri">${ask('${i18n(enter_authority_file_id)}')}&lt;/idno></String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -453,7 +453,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;idno xmlns="http://www.tei-c.org/ns/1.0" type="uri">${ask('Norm-ID eingeben (GeoNames o.ä.)')}&lt;/idno></String>
+																<String>&lt;idno xmlns="http://www.tei-c.org/ns/1.0" type="uri">${ask('${i18n(enter_authority_file_id_geonames)}')}&lt;/idno></String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -477,7 +477,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;idno xmlns="http://www.tei-c.org/ns/1.0" type="uri">${ask('Norm-ID eingeben (GeoNames o.ä.)')}&lt;/idno></String>
+																<String>&lt;idno xmlns="http://www.tei-c.org/ns/1.0" type="uri">${ask('${i18n(enter_authority_file_id_geonames)}')}&lt;/idno></String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -501,7 +501,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;idno xmlns="http://www.tei-c.org/ns/1.0" type="uri">${ask('Norm-ID für die Einrichtung eingeben (GND o.ä.)')}&lt;/idno></String>
+																<String>&lt;idno xmlns="http://www.tei-c.org/ns/1.0" type="uri">${ask('${i18n(enter_authority_file_id_institution)}')}&lt;/idno></String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
