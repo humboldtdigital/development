@@ -89,10 +89,10 @@
 																<String>fragment</String>
 																<String>&lt;person xmlns="http://www.tei-c.org/ns/1.0" xml:id="ed_${id}">
 &lt;persName xmlns="http://www.tei-c.org/ns/1.0" type="reg">
-&lt;surname xmlns="http://www.tei-c.org/ns/1.0">${ask('Nachname')}&lt;/surname>
-&lt;forename xmlns="http://www.tei-c.org/ns/1.0">${ask('Vorname(n)')}&lt;/forename>
+&lt;surname xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(surname)}')}&lt;/surname>
+&lt;forename xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(forename)}')}&lt;/forename>
 &lt;/persName>
-&lt;birth xmlns="http://www.tei-c.org/ns/1.0">${ask('Geburtsjahr')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0">${ask('Todesjahr')}&lt;/death>
+&lt;birth xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(birth_year)}')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(death_year)}')}&lt;/death>
   &lt;/person></String>
 															</entry>
 															<entry>
@@ -123,10 +123,10 @@
 																<String>fragment</String>
 																<String>&lt;person xmlns="http://www.tei-c.org/ns/1.0" xml:id="ed_${id}">
 &lt;persName xmlns="http://www.tei-c.org/ns/1.0" type="reg">
-&lt;surname xmlns="http://www.tei-c.org/ns/1.0">${ask('Nachname')}&lt;/surname>
-&lt;forename xmlns="http://www.tei-c.org/ns/1.0">${ask('Vorname(n)')}&lt;/forename>
+&lt;surname xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(surname)}')}&lt;/surname>
+&lt;forename xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(forename)}')}&lt;/forename>
 &lt;/persName>
-&lt;birth xmlns="http://www.tei-c.org/ns/1.0">${ask('Geburtsjahr')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0">${ask('Todesjahr')}&lt;/death>
+&lt;birth xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(birth_year)}')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(death_year)}')}&lt;/death>
   &lt;/person></String>
 															</entry>
 															<entry>
@@ -157,11 +157,11 @@
 																<String>fragment</String>
 																<String>&lt;person xmlns="http://www.tei-c.org/ns/1.0" xml:id="ed_${id}">
 &lt;persName xmlns="http://www.tei-c.org/ns/1.0" type="reg">
-&lt;surname xmlns="http://www.tei-c.org/ns/1.0">${ask('Nachname')}&lt;/surname>
-&lt;forename xmlns="http://www.tei-c.org/ns/1.0">${ask('Vorname(n)')}&lt;/forename>
+&lt;surname xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(surname)}')}&lt;/surname>
+&lt;forename xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(forename)}')}&lt;/forename>
 &lt;/persName>
-&lt;birth xmlns="http://www.tei-c.org/ns/1.0">${ask('Geburtsjahr')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0">${ask('Todesjahr eingeben')}&lt;/death>
-&lt;/person></String>
+&lt;birth xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(birth_year)}')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(death_year)}')}&lt;/death>
+  &lt;/person></String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -190,7 +190,7 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;place xmlns="http://www.tei-c.org/ns/1.0" xml:id="ed_${id}">
-  &lt;placeName type="reg">${ask('Ortsname (ohne Zusätze)')}&lt;/placeName>
+  &lt;placeName type="reg">${ask('${i18n(placename_without_additions)}')}&lt;/placeName>
 &lt;/place></String>
 															</entry>
 															<entry>
@@ -216,7 +216,7 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;place xmlns="http://www.tei-c.org/ns/1.0" xml:id="ed_${id}">
-  &lt;placeName type="reg">${ask('Ortsname (ohne Zusätze)')}&lt;/placeName>
+  &lt;placeName type="reg">${ask('${i18n(placename_without_additions)}')}&lt;/placeName>
 &lt;/place></String>
 															</entry>
 															<entry>
@@ -242,8 +242,8 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="ed_${id}">
-  &lt;author>&lt;persName>&lt;surname>${ask('Nachname des Autors')}&lt;/surname>&lt;forename>${ask('Vorname')}&lt;/forename>&lt;/persName>&lt;/author>
-  &lt;title>${ask('Titel der Publikation')}&lt;/title>
+  &lt;author>&lt;persName>&lt;surname>${ask('${i18n(surname_author)}')}&lt;/surname>&lt;forename>${ask('${i18n(forename)}')}&lt;/forename>&lt;/persName>&lt;/author>
+  &lt;title>${ask('${i18n(title_of_publication)}')}&lt;/title>
 &lt;/bibl></String>
 															</entry>
 															<entry>
@@ -269,8 +269,8 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;bibl xmlns="http://www.tei-c.org/ns/1.0" xml:id="ed_${id}">
-  &lt;author>&lt;persName>&lt;surname>${ask('Nachname des Autors')}&lt;/surname>&lt;forename>${ask('Vorname')}&lt;/forename>&lt;/persName>&lt;/author>
-  &lt;title>${ask('Titel der Publikation')}&lt;/title>
+  &lt;author>&lt;persName>&lt;surname>${ask('${i18n(surname_author)}')}&lt;/surname>&lt;forename>${ask('${i18n(forename)}')}&lt;/forename>&lt;/persName>&lt;/author>
+  &lt;title>${ask('${i18n(title_of_publication)}')}&lt;/title>
 &lt;/bibl></String>
 															</entry>
 															<entry>
@@ -296,7 +296,7 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;item xmlns="http://www.tei-c.org/ns/1.0" xml:id="ed_${id}">
-  &lt;label type="reg">${ask('Begriff (ohne Beschreibung')}&lt;/label>
+  &lt;label type="reg">${ask('${i18n(term_without_description)}')}&lt;/label>
 &lt;/item></String>
 															</entry>
 															<entry>
@@ -322,7 +322,7 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;item xmlns="http://www.tei-c.org/ns/1.0" xml:id="ed_${id}">
-  &lt;label type="reg">${ask('Begriff ohne Beschreibung')}&lt;/label>
+  &lt;label type="reg">${ask('${i18n(term_without_description)}')}&lt;/label>
 &lt;/item></String>
 															</entry>
 															<entry>
@@ -348,7 +348,7 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;org xmlns="http://www.tei-c.org/ns/1.0" xml:id="ed_${id}">
-  &lt;orgName type="reg">${ask('Name der Einrichtung (ohne Beschreibung)')}&lt;/orgName>
+  &lt;orgName type="reg">${ask('${i18n(institution_without_description)}')}&lt;/orgName>
 &lt;/org></String>
 															</entry>
 															<entry>
@@ -374,7 +374,7 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;org xmlns="http://www.tei-c.org/ns/1.0" xml:id="ed_${id}">
-  &lt;orgName type="reg">${ask('Name der Einrichtung (ohne Beschreibung)')}&lt;/orgName>
+  &lt;orgName type="reg">${ask('${i18n(institution_without_description)}')}&lt;/orgName>
 &lt;/org></String>
 															</entry>
 															<entry>
