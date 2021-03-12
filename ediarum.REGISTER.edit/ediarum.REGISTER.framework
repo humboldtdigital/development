@@ -633,7 +633,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;death xmlns="http://www.tei-c.org/ns/1.0" >${ask('Sterbedatum')}&lt;/death></String>
+																<String>&lt;death xmlns="http://www.tei-c.org/ns/1.0" >${ask('${i18n(death_date)}')}&lt;/death></String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
