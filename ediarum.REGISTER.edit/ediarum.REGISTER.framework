@@ -555,7 +555,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;birth xmlns="http://www.tei-c.org/ns/1.0" >${ask('Geburtsdatum')}&lt;/birth></String>
+																<String>&lt;birth xmlns="http://www.tei-c.org/ns/1.0" >${ask('${i18n(birth_date)}')}&lt;/birth></String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -579,7 +579,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;birth xmlns="http://www.tei-c.org/ns/1.0" >${ask('Geburtsdatum')}&lt;/birth></String>
+																<String>&lt;birth xmlns="http://www.tei-c.org/ns/1.0" >${ask('${i18n(birth_date)}')}&lt;/birth></String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
