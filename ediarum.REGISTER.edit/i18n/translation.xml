@@ -227,7 +227,7 @@
   </key>
   <key value="general_sort.description">
     <val lang="de_DE">Aktuelle Registerdatei alphabethisch sortieren (oberste Ebene)</val>
-    <val lang="es_ES">Ordenar alfabéticamente las entradas del Registro actual (nivel
+    <val lang="es_ES">Ordenar alfabéticamente las entradas del índice actual (nivel
       superior)</val>
   </key>
   <key value="person_role.name">
@@ -266,7 +266,7 @@
   </key>
   <key value="person_new[mythological].description">
     <val lang="de_DE">Neuen mythologische Person in diesem Register erstellen</val>
-    <val lang="es_ES">Crear una nueva entradas sobre un personaje mitológico en este Registro</val>
+    <val lang="es_ES">Crear una nueva entradas sobre un personaje mitológico en este índice</val>
   </key>
   <key value="bibl_editor.name">
     <val lang="de_DE">Weiterer Herausgeber</val>
@@ -412,7 +412,7 @@
   </key>
   <key value="general_bibl_zotero.description">
     <val lang="de_DE">Literaturtitel mit Zotero-Register verknüpfen</val>
-    <val lang="es_ES">Vincular títulos de publicaciones con el registro de Zotero</val>
+    <val lang="es_ES">Vincular títulos de publicaciones con Zotero</val>
   </key>
   <key value="bibl_title_alt.name">
     <val lang="de_DE">Alternativer Titel (Zeitschrift)</val>
