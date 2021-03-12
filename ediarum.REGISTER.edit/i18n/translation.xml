@@ -8,7 +8,7 @@
   </languageList>
 
   <!-- ediarum.REGISTER -->
-  
+
   <!-- inside menus buttons -->
   <key value="general_new_entry.name">
     <val lang="de_DE">Neuer Eintrag</val>
@@ -329,7 +329,8 @@
   </key>
   <key value="ref[URL].description">
     <val lang="de_DE">Link auf externe Website, nach Möglichkeit hier Permalinks verwenden</val>
-    <val lang="es_ES">Enlazar a un sitio web externo, utilizando los enlaces permanentes si es posible</val>
+    <val lang="es_ES">Enlazar a un sitio web externo, utilizando los enlaces permanentes si es
+      posible</val>
   </key>
   <key value="general_openInWebsite.name">
     <val lang="de_DE">Zeige diesen Eintrag auf der Website</val>
@@ -771,7 +772,7 @@
     <val lang="de_DE">Hrsg.</val>
     <val lang="es_ES">ed.</val>
   </key>
-  
+
   <!-- Toolbar menu -->
   <key value="general_menu">
     <val lang="de_DE">Allgemein</val>
@@ -801,7 +802,7 @@
     <val lang="de_DE">Zusammenführen</val>
     <val lang="es_ES">Fusiones</val>
   </key>
-  
+
   <!-- No point in using them -->
   <!-- 
   <key value="symbols_menu">
@@ -813,6 +814,6 @@
     <val lang="es_ES">Menu contextual</val>
   </key>
    -->
-  
-  
+
+
 </translation>
