@@ -14,10 +14,9 @@
     <val lang="de_DE">Neuer Eintrag</val>
     <val lang="es_ES">Nueva entrada</val>
   </key>
-  <!-- doubt: traducir Registro o Índice de personas -->
   <key value="general_new_entry.description">
     <val lang="de_DE">Neuen Eintrag in diesem Register erstellen</val>
-    <val lang="es_ES">Crear una nueva entrada en este Registro</val>
+    <val lang="es_ES">Crear una nueva entrada en el índice</val>
   </key>
   <key value="general_authorityID.name">
     <val lang="de_DE">Norm-ID</val>
@@ -61,7 +60,7 @@
   </key>
   <key value="newGroup.name">
     <val lang="de_DE">Gruppe anlegen</val>
-    <val lang="es_ES">Crear grupo</val>
+    <val lang="es_ES">Creación de un grupo</val>
   </key>
   <key value="newGroup.description">
     <val lang="de_DE"/>
@@ -138,7 +137,7 @@
   </key>
   <key value="person_persName[alt]_surname - Kopie.name">
     <val lang="de_DE">Alternativer Name bzw. Schreibung (Vor- und Nachname)</val>
-    <val lang="es_ES">Nombre y apellidos o grafía alternativos </val>
+    <val lang="es_ES">Nombre y apellidos u ortografía alternativos </val>
   </key>
   <key value="person_persName[alt]_surname - Kopie.description">
     <val lang="de_DE">Alternative Schreibungen eintragen</val>
@@ -191,10 +190,9 @@
   <key value="bibl_pubPlace.description">
     <val lang="de_DE"/>
   </key>
-  <!-- doubt: registro o índice de personas? -->
   <key value="bibl_persName[key].name">
     <val lang="de_DE">Autor / Hrsg. mit Register verknüpfen</val>
-    <val lang="es_ES">Vinculación del autor o editor con el Registro</val>
+    <val lang="es_ES">Vinculación del autor o editor con el índice</val>
   </key>
   <key value="bibl_persName[key].description">
     <val lang="de_DE">Verknüpft einen Autor mit einem Eintrag im Personenregister</val>
@@ -223,10 +221,9 @@
   <key value="merge_entries[deselect].description">
     <val lang="de_DE"/>
   </key>
-  <!-- doubt: traducir por "Entradas", "Registro","índice"? -->
   <key value="general_sort.name">
     <val lang="de_DE">Register sortieren</val>
-    <val lang="es_ES">Ordenar las entradas</val>
+    <val lang="es_ES">Orden del índice</val>
   </key>
   <key value="general_sort.description">
     <val lang="de_DE">Aktuelle Registerdatei alphabethisch sortieren (oberste Ebene)</val>
@@ -349,19 +346,17 @@
     <val lang="de_DE">Standort der Organisation</val>
     <val lang="es_ES">Localización de la organización</val>
   </key>
-  <!-- doubt: está repetido? -->
   <key value="org_location[from].name">
     <val lang="de_DE">Ortsangabe datieren</val>
-    <val lang="es_ES">Datación de la localización</val>
+    <val lang="es_ES">Datación de la localización (inicio)</val>
   </key>
   <key value="org_location[from].description">
     <val lang="de_DE">Beschränkt die Ortsangaben auf den angegebenen Zeitraum</val>
     <val lang="es_ES">Restringir la información de localización al periodo especificado</val>
   </key>
-  <!-- doubt: está repetido? -->
   <key value="org_location[to].name">
     <val lang="de_DE">Ortsangabe datieren</val>
-    <val lang="es_ES">Datación de la localización</val>
+    <val lang="es_ES">Datación de la localización (fin)</val>
   </key>
   <key value="org_location[to].description">
     <val lang="de_DE">Beschränkt die Ortsangaben auf den angegebenen Zeitraum</val>
@@ -412,7 +407,7 @@
   </key>
   <key value="general_bibl_zotero.name">
     <val lang="de_DE">Literaturtitel (Zotero) verlinken</val>
-    <val lang="es_ES">Vinculación títulos de publicaciones (Zotero)</val>
+    <val lang="es_ES">Vinculación de títulos de publicaciones (Zotero)</val>
   </key>
   <key value="general_bibl_zotero.description">
     <val lang="de_DE">Literaturtitel mit Zotero-Register verknüpfen</val>
@@ -434,15 +429,15 @@
     <val lang="de_DE">Alternative Bezeichnung für den Begriff notieren</val>
     <val lang="es_ES">Marcar un nombre alternativo para el término</val>
   </key>
-  <!-- doubt: sublocalizaciones, suburbios, lugares? -->
+  <!-- doubt: lugar o barrio? -->
   <key value="general_sort_Unterorte.name">
     <val lang="de_DE">Unterorte sortieren</val>
-    <val lang="es_ES">Ordenar las sublocaciones</val>
+    <val lang="es_ES">Ordenar los lugares</val>
   </key>
-  <!-- doubt: sublocalizaciones, suburbios, lugares? -->
+  <!-- doubt: lugar o barrio? -->
   <key value="general_sort_Unterorte.description">
     <val lang="de_DE">Aktuelle Unterorte alphabethisch sortieren (zweite Ebene)</val>
-    <val lang="es_ES">Ordenar alfabéticamente las sublocalizaciones actuales (segundo nivel)</val>
+    <val lang="es_ES">Ordenar alfabéticamente los lugares actuales (segundo nivel)</val>
   </key>
   <key value="surname">
     <val lang="de_DE">Nachname</val>
@@ -508,10 +503,10 @@
     <val lang="de_DE">Kommentar eingeben</val>
     <val lang="es_ES">Introducir comentario</val>
   </key>
-  <!-- doubt: barrio, suburbio, sublocalización o lugar? -->
+  <!-- doubt: lugar o barrio? -->
   <key value="type_of_subplace">
     <val lang="de_DE">Art des Unterorts</val>
-    <val lang="es_ES">Tipo de barrio</val>
+    <val lang="es_ES">Tipo de lugar</val>
   </key>
   <key value="mountain">
     <val lang="de_DE">Berg, Hügel, Felsen</val>
@@ -537,10 +532,10 @@
     <val lang="de_DE">Park</val>
     <val lang="es_ES">Parque</val>
   </key>
-  <!-- doubt: esto no es Unterort -->
+  <!-- doubt: barrio o distrito? -->
   <key value="district">
     <val lang="de_DE">Stadtviertel</val>
-    <val lang="es_ES">Barrio</val>
+    <val lang="es_ES">Distrito</val>
   </key>
   <key value="street">
     <val lang="de_DE">Straße</val>
@@ -562,7 +557,7 @@
     <val lang="de_DE">Nicht nach (JJJJ(-MM)(-TT))</val>
     <val lang="es_ES">No después de (AAAA(-MM)(-DD))</val>
   </key>
-  <!-- doubt -->
+  <!-- doubt: marcar? -->
   <key value="enter_as_text">
     <val lang="de_DE">Angabe als Text</val>
     <val lang="es_ES">Marcar como texto</val>
@@ -782,12 +777,10 @@
     <val lang="de_DE">Allgemein</val>
     <val lang="es_ES">General</val>
   </key>
-  <!-- doubt: registro, catálogo, lista, índice? -->
   <key value="listperson_menu">
     <val lang="de_DE">Personenregister</val>
     <val lang="es_ES">Personas</val>
   </key>
-  <!-- doubt: registro, catálogo, lista, índice? -->
   <key value="listplace_menu">
     <val lang="de_DE">Ortsregister</val>
     <val lang="es_ES">Lugares</val>
