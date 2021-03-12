@@ -448,10 +448,12 @@
     <val lang="de_DE">Vorname(n)</val>
     <val lang="es_ES">Nombre</val>
   </key>
+  <!-- doubt: which author function is this? -->
   <key value="birth_year">
     <val lang="de_DE">Geburtsjahr</val>
     <val lang="es_ES">Año de nacimiento</val>
   </key>
+  <!-- doubt: which author function is this? -->
   <key value="death_year">
     <val lang="de_DE">Todesjahr</val>
     <val lang="es_ES">Año de fallecimiento</val>
