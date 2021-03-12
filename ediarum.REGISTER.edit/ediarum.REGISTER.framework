@@ -980,15 +980,15 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;listPerson xmlns="http://www.tei-c.org/ns/1.0" type="group">
-  &lt;head xmlns="http://www.tei-c.org/ns/1.0">${ask('Gruppenname')}&lt;/head>
+  &lt;head xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(group_name)}')}&lt;/head>
 &lt;person xmlns="http://www.tei-c.org/ns/1.0" xml:id="ediarum_${id}">
-&lt;idno xmlns="http://www.tei-c.org/ns/1.0" type="uri">${ask('Norm-ID eingeben (GND, VIAF, BNF)')}&lt;/idno>
+&lt;idno xmlns="http://www.tei-c.org/ns/1.0" type="uri">${ask('${i18n(enter_authority_file_id)}')}&lt;/idno>
 &lt;persName xmlns="http://www.tei-c.org/ns/1.0" type="reg">
-&lt;surname xmlns="http://www.tei-c.org/ns/1.0">${ask('Nachname eingeben')}&lt;/surname>
-&lt;forename xmlns="http://www.tei-c.org/ns/1.0">${ask('Vorname(n) eingeben')}&lt;/forename>
+&lt;surname xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(surname)}')}&lt;/surname>
+&lt;forename xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(forename)}')}&lt;/forename>
 &lt;/persName>
-&lt;birth xmlns="http://www.tei-c.org/ns/1.0">${ask('Geburtsjahr eingeben')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0">${ask('Todesjahr eingeben')}&lt;/death>
-&lt;note xmlns="http://www.tei-c.org/ns/1.0">${ask('Kommentar eingeben')}&lt;/note>
+&lt;birth xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(birth_year)}')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(death_year)}')}&lt;/death>
+&lt;note xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(enter_comment)}')}&lt;/note>
 &lt;/person>
 &lt;/listPerson></String>
 															</entry>
@@ -1019,15 +1019,15 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;listPerson xmlns="http://www.tei-c.org/ns/1.0" type="group">
-  &lt;head xmlns="http://www.tei-c.org/ns/1.0">${ask('Gruppenname')}&lt;/head>
+  &lt;head xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(group_name)}')}&lt;/head>
 &lt;person xmlns="http://www.tei-c.org/ns/1.0" xml:id="ediarum_${id}">
-&lt;idno xmlns="http://www.tei-c.org/ns/1.0" type="uri">${ask('Norm-ID eingeben (GND, VIAF, BNF)')}&lt;/idno>
+&lt;idno xmlns="http://www.tei-c.org/ns/1.0" type="uri">${ask('${i18n(enter_authority_file_id)}')}&lt;/idno>
 &lt;persName xmlns="http://www.tei-c.org/ns/1.0" type="reg">
-&lt;surname xmlns="http://www.tei-c.org/ns/1.0">${ask('Nachname eingeben')}&lt;/surname>
-&lt;forename xmlns="http://www.tei-c.org/ns/1.0">${ask('Vorname(n) eingeben')}&lt;/forename>
+&lt;surname xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(surname)}')}&lt;/surname>
+&lt;forename xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(forename)}')}&lt;/forename>
 &lt;/persName>
-&lt;birth xmlns="http://www.tei-c.org/ns/1.0">${ask('Geburtsjahr eingeben')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0">${ask('Todesjahr eingeben')}&lt;/death>
-&lt;note xmlns="http://www.tei-c.org/ns/1.0">${ask('Kommentar eingeben')}&lt;/note>
+&lt;birth xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(birth_year)}')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(death_year)}')}&lt;/death>
+&lt;note xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(enter_comment)}')}&lt;/note>
 &lt;/person>
 &lt;/listPerson></String>
 															</entry>
@@ -1058,15 +1058,15 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;listPerson xmlns="http://www.tei-c.org/ns/1.0" type="group">
-  &lt;head xmlns="http://www.tei-c.org/ns/1.0">${ask('Gruppenname')}&lt;/head>
+  &lt;head xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(group_name)}')}&lt;/head>
 &lt;person xmlns="http://www.tei-c.org/ns/1.0" xml:id="ediarum_${id}">
-&lt;idno xmlns="http://www.tei-c.org/ns/1.0" type="uri">${ask('Norm-ID eingeben (GND, VIAF, BNF)')}&lt;/idno>
+&lt;idno xmlns="http://www.tei-c.org/ns/1.0" type="uri">${ask('${i18n(enter_authority_file_id)}')}&lt;/idno>
 &lt;persName xmlns="http://www.tei-c.org/ns/1.0" type="reg">
-&lt;surname xmlns="http://www.tei-c.org/ns/1.0">${ask('Nachname eingeben')}&lt;/surname>
-&lt;forename xmlns="http://www.tei-c.org/ns/1.0">${ask('Vorname(n) eingeben')}&lt;/forename>
+&lt;surname xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(surname)}')}&lt;/surname>
+&lt;forename xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(forename)}')}&lt;/forename>
 &lt;/persName>
-&lt;birth xmlns="http://www.tei-c.org/ns/1.0">${ask('Geburtsjahr eingeben')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0">${ask('Todesjahr eingeben')}&lt;/death>
-&lt;note xmlns="http://www.tei-c.org/ns/1.0">${ask('Kommentar eingeben')}&lt;/note>
+&lt;birth xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(birth_year)}')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(death_year)}')}&lt;/death>
+&lt;note xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(enter_comment)}')}&lt;/note>
 &lt;/person>
 &lt;/listPerson></String>
 															</entry>
