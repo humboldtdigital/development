@@ -2813,7 +2813,7 @@
 															</entry>
 															<entry>
 																<String>value</String>
-																<String>${ask('Personentyp', combobox, ('':'Reale Person';'mythological':'Mythologische Person';'fictional':'Fiktiver Charakter';), '')}</String>
+																<String>${ask('${i18n(person_role)}', combobox, ('':'${i18n(real_person)}';'mythological':'${i18n(mythological_person)}';'fictional':'${i18n(fictitious_person)}';), '')}</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
