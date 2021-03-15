@@ -2076,7 +2076,7 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;persName xmlns="http://www.tei-c.org/ns/1.0" type="alt" subtype="pseudonym">
-  &lt;name>${ask('Pseudonym eingeben')}&lt;/name>
+  &lt;name>${ask('${i18n(enter_pseudonym)}')}&lt;/name>
 &lt;/persName></String>
 															</entry>
 															<entry>
