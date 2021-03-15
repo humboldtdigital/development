@@ -1753,7 +1753,7 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;persName xmlns="http://www.tei-c.org/ns/1.0" type="alt">
-  &lt;name>${ask('Name eingeben')}&lt;/name>
+  &lt;name>${ask('${i18n(enter_name)}')}&lt;/name>
 &lt;/persName></String>
 															</entry>
 															<entry>
