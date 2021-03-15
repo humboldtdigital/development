@@ -2131,7 +2131,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;date xmlns="http://www.tei-c.org/ns/1.0">${ask('Jahr', generic, '')}&lt;/date></String>
+																<String>&lt;date xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(year)}', generic, '')}&lt;/date></String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
