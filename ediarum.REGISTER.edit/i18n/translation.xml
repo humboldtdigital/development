@@ -93,12 +93,12 @@
   <!-- doubt: traducir lugar o barrio? -->
   <key value="place_listPlace.name">
     <val lang="de_DE">Unterort</val>
-    <val lang="es_ES">Lugar</val>
+    <val lang="es_ES">Lugar subordinado</val>
   </key>
   <!-- doubt: traducir lugar o barrio? -->
   <key value="place_listPlace.description">
     <val lang="de_DE">Einen Unterort hinzufügen</val>
-    <val lang="es_ES">Añadir un nombre de lugar</val>
+    <val lang="es_ES">Añadir un nombre de lugar subordinado</val>
   </key>
   <!-- doubt: traducir característica, metadato, elemento, entrada? -->
   <key value="general_delete_element.name">
@@ -433,12 +433,12 @@
   <!-- doubt: lugar o barrio? -->
   <key value="general_sort_Unterorte.name">
     <val lang="de_DE">Unterorte sortieren</val>
-    <val lang="es_ES">Ordenar los lugares</val>
+    <val lang="es_ES">Ordenar los lugares subordinados</val>
   </key>
   <!-- doubt: lugar o barrio? -->
   <key value="general_sort_Unterorte.description">
     <val lang="de_DE">Aktuelle Unterorte alphabethisch sortieren (zweite Ebene)</val>
-    <val lang="es_ES">Ordenar alfabéticamente los lugares actuales (segundo nivel)</val>
+    <val lang="es_ES">Ordenar alfabéticamente los lugares actuales subordinados (segundo nivel)</val>
   </key>
   <key value="surname">
     <val lang="de_DE">Nachname</val>
@@ -509,7 +509,7 @@
   <!-- doubt: lugar o barrio? -->
   <key value="type_of_subplace">
     <val lang="de_DE">Art des Unterorts</val>
-    <val lang="es_ES">Tipo de lugar</val>
+    <val lang="es_ES">Tipo de lugar subordinado</val>
   </key>
   <key value="mountain">
     <val lang="de_DE">Berg, Hügel, Felsen</val>
