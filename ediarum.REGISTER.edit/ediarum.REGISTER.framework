@@ -2539,7 +2539,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>URL</String>
-																<String>${ediarum_project_domain}${ediarum_projects_directory}${ediarum_project_name}${ediarum_getGeoname}?place=${selection}&amp;featureClass=${ask('Art des Ortes', combobox, ('P':' Stadt, Dorf';'A':'Land, Region';'H':'Fluss, See';'T':'Berg, Hügel, Felsen';'V':'Wald';'L':'Parks';'S':'Gebäude';'ALL':'[Nicht spezifiziert]';), 'P')}&amp;continentCode=${ask('Kontinent', combobox, ('ALL':'Alle Kontinente';'EU':'Europa';'NA':'Nordamerika';'SA':'Südamerika';'AS':'Asien';'AF':'Afrika';'OC':'Ozeanien';'AN':'Antarktis';), 'EU')}</String>
+																<String>${ediarum_project_domain}${ediarum_projects_directory}${ediarum_project_name}${ediarum_getGeoname}?place=${selection}&amp;featureClass="${ask('${i18n(type_of_subplace)}', combobox, ('mountain':'${i18n(mountain)}';'monument':'${i18n(monument)}';'building':'${i18n(building)}';'sea':'${i18n(sea)}';'others':'${i18n(type_others)}';'park':'${i18n(park)}';'district':'${i18n(district)}';'street':'${i18n(street)}';'forest':'${i18n(forest)}';),'others')}&amp;continentCode=${ask('Kontinent', combobox, ('ALL':'${i18n(all_continents)}';'EU':'${i18n(europe)}';'NA':'${i18n(north_america)}';'SA':'${i18n(south_america)}';'AS':'${i18n(asia)}';'AF':'${i18n(africa)}';'OC':'${i18n(oceania)}';'AN':'${i18n(antarctica)}';), 'EU')}</String>
 															</entry>
 															<entry>
 																<String>element</String>
