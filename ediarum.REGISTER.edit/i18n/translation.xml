@@ -620,6 +620,10 @@
     <val lang="de_DE">Antarktis</val>
     <val lang="es_ES">Antártida</val>
   </key>
+  <key value="person_role">
+    <val lang="de_DE">Personentyp</val>
+    <val lang="es_ES">Tipo de persona</val>
+  </key>
   <key value="real_person">
     <val lang="de_DE">Reale Person</val>
     <val lang="es_ES">Persona real</val>
