@@ -2453,7 +2453,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;birth xmlns="http://www.tei-c.org/ns/1.0" >${ask('Geburtsjahr')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0" >${ask('Sterbejahr')}&lt;/death></String>
+																<String>&lt;birth xmlns="http://www.tei-c.org/ns/1.0" >${ask('${i18n(person_birth.name)}')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0" >${ask('${i18n(person_death.name)}')}&lt;/death></String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -2481,7 +2481,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;birth xmlns="http://www.tei-c.org/ns/1.0" >${ask('Geburtsjahr')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0" >${ask('Sterbejahr')}&lt;/death></String>
+																<String>&lt;birth xmlns="http://www.tei-c.org/ns/1.0" >${ask('${i18n(person_birth.name)}')}&lt;/birth>&lt;death xmlns="http://www.tei-c.org/ns/1.0" >${ask('${i18n(person_death.name)}')}&lt;/death></String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
