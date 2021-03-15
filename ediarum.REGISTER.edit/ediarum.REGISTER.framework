@@ -1809,8 +1809,8 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;persName xmlns="http://www.tei-c.org/ns/1.0" type="alt">
-  &lt;surname>${ask('Nachname eingeben')}&lt;/surname>
-  &lt;forename>${ask('Vorname(n) eingeben')}&lt;/forename>
+  &lt;surname>${ask('${i18n(surname)}')}&lt;/surname>
+  &lt;forename>${ask('${i18n(forename)}')}&lt;/forename>
 &lt;/persName></String>
 															</entry>
 															<entry>
