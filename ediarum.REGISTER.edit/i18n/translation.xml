@@ -560,10 +560,9 @@
     <val lang="de_DE">Nicht nach (JJJJ(-MM)(-TT))</val>
     <val lang="es_ES">No después de (AAAA(-MM)(-DD))</val>
   </key>
-  <!-- doubt: marcar? -->
   <key value="enter_as_text">
     <val lang="de_DE">Angabe als Text</val>
-    <val lang="es_ES">Marcar como texto</val>
+    <val lang="es_ES">Introducir como texto</val>
   </key>
   <key value="enter_pseudonym">
     <val lang="de_DE">Pseudonym eingeben</val>
