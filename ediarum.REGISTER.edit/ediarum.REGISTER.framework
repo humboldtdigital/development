@@ -1280,8 +1280,8 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;place xml:id="ediarum_${id}" xmlns="http://www.tei-c.org/ns/1.0" type="${ask('Art des Unterorts', combobox, ('mountain':'Berg, Hügel, Felsen';'monument':'Denkmal';'building':'Gebäude';'sea':'Fluss, See';'others':'Nicht spezifiziert';'park':'Parks';'district':'Stadtviertel';'street':'Straße';'forest':'Wald';),'others')}">
-          &lt;placeName type="reg">${ask('Name eingeben')}&lt;/placeName>
+																<String>&lt;place xml:id="ediarum_${id}" xmlns="http://www.tei-c.org/ns/1.0" type="${ask('${i18n(type_of_subplace)}', combobox, ('mountain':'${i18n(mountain)}';'monument':'${i18n(monument)}';'building':'${i18n(building)}';'sea':'${i18n(sea)}';'others':'${i18n(type_others)}';'park':'${i18n(park)}';'district':'${i18n(district)}';'street':'${i18n(street)}';'forest':'${i18n(forest)}';),'others')}">
+          &lt;placeName type="reg">${ask('${i18n(enter_name)}')}&lt;/placeName>
   &lt;/place></String>
 															</entry>
 															<entry>
@@ -1307,8 +1307,8 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;listPlace xmlns="http://www.tei-c.org/ns/1.0">
-&lt;place xml:id="ediarum_${id}" xmlns="http://www.tei-c.org/ns/1.0" type="${ask('Art des Unterorts', combobox, ('mountain':'Berg, Hügel, Felsen';'monument':'Denkmal';'building':'Gebäude';'sea':'Fluss, See';'others':'Nicht spezifiziert';'park':'Parks';'district':'Stadtviertel';'street':'Straße';'forest':'Wald';),'others')}">
-          &lt;placeName type="reg">${ask('Name eingeben')}&lt;/placeName>
+&lt;place xml:id="ediarum_${id}" type="${ask('${i18n(type_of_subplace)}', combobox, ('mountain':'${i18n(mountain)}';'monument':'${i18n(monument)}';'building':'${i18n(building)}';'sea':'${i18n(sea)}';'others':'${i18n(type_others)}';'park':'${i18n(park)}';'district':'${i18n(district)}';'street':'${i18n(street)}';'forest':'${i18n(forest)}';),'others')}">
+          &lt;placeName type="reg">${ask('${i18n(enter_name)}')}&lt;/placeName>
   &lt;/place>
 &lt;/listPlace></String>
 															</entry>
@@ -1334,8 +1334,8 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;place xml:id="ediarum_${id}" xmlns="http://www.tei-c.org/ns/1.0" type="${ask('Art des Unterorts', combobox, ('mountain':'Berg, Hügel, Felsen';'monument':'Denkmal';'building':'Gebäude';'sea':'Fluss, See';'others':'Nicht spezifiziert';'park':'Parks';'district':'Stadtviertel';'street':'Straße';'forest':'Wald';),'others')}">
-          &lt;placeName type="reg">${ask('Name eingeben')}&lt;/placeName>
+																<String>&lt;place xml:id="ediarum_${id}" xmlns="http://www.tei-c.org/ns/1.0" type="${ask('${i18n(type_of_subplace)}', combobox, ('mountain':'${i18n(mountain)}';'monument':'${i18n(monument)}';'building':'${i18n(building)}';'sea':'${i18n(sea)}';'others':'${i18n(type_others)}';'park':'${i18n(park)}';'district':'${i18n(district)}';'street':'${i18n(street)}';'forest':'${i18n(forest)}';),'others')}">
+          &lt;placeName type="reg">${ask('${i18n(enter_name)}')}&lt;/placeName>
   &lt;/place></String>
 															</entry>
 															<entry>
