@@ -1963,7 +1963,7 @@
 															</entry>
 															<entry>
 																<String>value</String>
-																<String>${ask('Nicht vor (JJJJ(-MM)(-TT))', generic, '')}</String>
+																<String>${ask('${i18n(not_before_enter)}', generic, '')}</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
@@ -2029,7 +2029,7 @@
 															</entry>
 															<entry>
 																<String>value</String>
-																<String>${ask('Nicht nach (JJJJ(-MM)(-TT))', generic, '')}</String>
+																<String>${ask('${i18n(not_after_enter)}', generic, '')}</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
