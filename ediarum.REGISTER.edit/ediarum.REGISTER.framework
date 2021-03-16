@@ -2939,7 +2939,7 @@
 															<entry>
 																<String>fragment</String>
 																<String>&lt;persName xmlns="http://www.tei-c.org/ns/1.0" type="alt" subtype="birthname">
-  &lt;name>${ask('Geburtsname (nur Nachname) eingeben')}&lt;/name>
+  &lt;name>${ask('${i18n(birthname_only_surname)}')}&lt;/name>
 &lt;/persName></String>
 															</entry>
 															<entry>
