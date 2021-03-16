@@ -4234,7 +4234,7 @@ org_location[to]</String>
 																<String>fragment</String>
 																<String>&lt;list xmlns="http://www.tei-c.org/ns/1.0">
   &lt;item xml:id="ed_${id}">
-  &lt;label type="reg">${ask('Begriff ohne Beschreibung')}&lt;/label>
+  &lt;label type="reg">${ask('${i18n(term_without_description)}')}&lt;/label>
 &lt;/item>
 &lt;/list></String>
 															</entry>
@@ -4262,7 +4262,7 @@ org_location[to]</String>
 																<String>fragment</String>
 																<String>&lt;list xmlns="http://www.tei-c.org/ns/1.0">
   &lt;item xml:id="ed_${id}">
-  &lt;label type="reg">${ask('Begriff ohne Beschreibung')}&lt;/label>
+  &lt;label type="reg">${ask('${i18n(term_without_description)}')}&lt;/label>
 &lt;/item>
 &lt;/list></String>
 															</entry>
@@ -4290,7 +4290,7 @@ org_location[to]</String>
 																<String>fragment</String>
 																<String>&lt;list xmlns="http://www.tei-c.org/ns/1.0">
   &lt;item xml:id="ed_${id}">
-  &lt;label type="reg">${ask('Begriff ohne Beschreibung')}&lt;/label>
+  &lt;label type="reg">${ask('${i18n(term_without_description)}')}&lt;/label>
 &lt;/item>
 &lt;/list></String>
 															</entry>
