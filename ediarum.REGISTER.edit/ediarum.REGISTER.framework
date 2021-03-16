@@ -3080,7 +3080,7 @@
 																<String>fragment</String>
 																<String>&lt;person xmlns="http://www.tei-c.org/ns/1.0" xml:id="ed_${id}" role="mythological">
 &lt;persName xmlns="http://www.tei-c.org/ns/1.0" type="reg">
-&lt;name xmlns="http://www.tei-c.org/ns/1.0">${ask('Name eingeben')}&lt;/name>
+&lt;name xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(enter_name)}')}&lt;/name>
 &lt;/persName>
 &lt;/person></String>
 															</entry>
@@ -3112,7 +3112,7 @@
 																<String>fragment</String>
 																<String>&lt;person xmlns="http://www.tei-c.org/ns/1.0" xml:id="ed_${id}" role="mythological">
 &lt;persName xmlns="http://www.tei-c.org/ns/1.0" type="reg">
-&lt;name xmlns="http://www.tei-c.org/ns/1.0">${ask('Name')}&lt;/name>
+&lt;name xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(enter_name)}')}&lt;/name>
 &lt;/persName>
 &lt;/person></String>
 															</entry>
