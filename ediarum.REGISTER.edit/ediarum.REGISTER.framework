@@ -4354,7 +4354,7 @@ org_location[to]</String>
 															</entry>
 															<entry>
 																<String>value</String>
-																<String>${ask('Anteil auswählen', combobox, ('music':'Musik';'composition':'Komposition';'arrangement':'Bearbeitung';'libretto':'Libretto';'text':'Text';'translation':'Übersetzung';), '')}</String>
+																<String>${ask('${i18n(choose_role)}', combobox, ('music':'${i18n(music)}';'composition':'${i18n(composition)}';'arrangement':'${i18n(arrangement)}';'libretto':'${i18n(libretto)}';'text':'${i18n(text)}';'translation':'${i18n(translation)}';), '')}</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
