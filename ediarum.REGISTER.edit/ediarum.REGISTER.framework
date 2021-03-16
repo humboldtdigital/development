@@ -3172,7 +3172,8 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;editor xmlns="http://www.tei-c.org/ns/1.0">&lt;persName>&lt;surname>${ask('Nachname', generic, '')}&lt;/surname>&lt;forename>${ask('Vorname', generic, '')}&lt;/forename>&lt;/persName>&lt;/editor></String>
+																<String>&lt;editor xmlns="http://www.tei-c.org/ns/1.0">&lt;persName>&lt;surname>${ask('${i18n(surname)}')}&lt;/surname>&lt;forename>${ask('${i18n(forename)}')}&lt;/forename>&lt;/persName>&lt;/editor>
+</String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -3196,7 +3197,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;editor xmlns="http://www.tei-c.org/ns/1.0">&lt;persName>&lt;surname>${ask('Nachname', generic, '')}&lt;/surname>&lt;forename>${ask('Vorname', generic, '')}&lt;/forename>&lt;/persName>&lt;/editor></String>
+																<String>&lt;editor xmlns="http://www.tei-c.org/ns/1.0">&lt;persName>&lt;surname>${ask('${i18n(surname)}')}&lt;/surname>&lt;forename>${ask('${i18n(forename)}')}&lt;/forename>&lt;/persName>&lt;/editor></String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -3220,7 +3221,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;editor xmlns="http://www.tei-c.org/ns/1.0">&lt;persName>&lt;surname>${ask('Nachname', generic, '')}&lt;/surname>&lt;forename>${ask('Vorname', generic, '')}&lt;/forename>&lt;/persName>&lt;/editor></String>
+																<String>&lt;editor xmlns="http://www.tei-c.org/ns/1.0">&lt;persName>&lt;surname>${ask('${i18n(surname)}')}&lt;/surname>&lt;forename>${ask('${i18n(forename)}')}&lt;/forename>&lt;/persName>&lt;/editor></String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
@@ -3244,7 +3245,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;editor xmlns="http://www.tei-c.org/ns/1.0">&lt;persName>&lt;surname>${ask('Nachname', generic, '')}&lt;/surname>&lt;forename>${ask('Vorname', generic, '')}&lt;/forename>&lt;/persName>&lt;/editor></String>
+																<String>&lt;editor xmlns="http://www.tei-c.org/ns/1.0">&lt;persName>&lt;surname>${ask('${i18n(surname)}')}&lt;/surname>&lt;forename>${ask('${i18n(forename)}')}&lt;/forename>&lt;/persName>&lt;/editor></String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
