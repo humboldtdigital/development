@@ -3952,7 +3952,7 @@
 																<String>&lt;location xmlns='http://www.tei-c.org/ns/1.0'  xml:id='$XPATH{@xml:id}'>
   &lt;address>
     &lt;settlement key='$XPATH{@xml:id}'>$XPATH{/span}&lt;/settlement>
-    &lt;note>${ask('Genauere Ortsangabe: Straße, Platz etc.', generic, '')}&lt;/note>
+    &lt;note>${ask('${i18n(place_details)}', generic, '')}&lt;/note>
   &lt;/address>
 &lt;/location></String>
 															</entry>
@@ -4009,7 +4009,7 @@
 																<String>&lt;location xmlns='http://www.tei-c.org/ns/1.0'  xml:id='$XPATH{@xml:id}'>
   &lt;address>
     &lt;settlement key='$XPATH{@xml:id}'>$XPATH{/span}&lt;/settlement>
-    &lt;note>${ask('Genauere Ortsangabe: Straße, Platz etc.', generic, '')}&lt;/note>
+     &lt;note>${ask('${i18n(place_details)}', generic, '')}&lt;/note>
   &lt;/address>
 &lt;/location></String>
 															</entry>
