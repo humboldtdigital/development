@@ -4081,7 +4081,7 @@
 															</entry>
 															<entry>
 																<String>value</String>
-																<String>${ask('Datum im Format (JJJJ-MM-TT), nur Jahr (JJJJ) ist auch möglich', generic, '')}</String>
+																<String>${ask('${i18n(date_format_string_optional)}', generic, '')}</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
@@ -4139,7 +4139,7 @@
 															</entry>
 															<entry>
 																<String>value</String>
-																<String>${ask('Datum im Format (JJJJ-MM-TT), nur Jahr (JJJJ) ist auch möglich', generic, '')}</String>
+																<String>${ask('${i18n(date_format_string_optional)}', generic, '')}</String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
