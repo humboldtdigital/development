@@ -3769,7 +3769,7 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;ref xmlns="http://www.tei-c.org/ns/1.0" target="${ask('URL eingeben', url, '')}">&lt;/ref></String>
+																<String>&lt;ref xmlns="http://www.tei-c.org/ns/1.0" target="${ask('${i18n(enter_url)}', url, '')}">&lt;/ref></String>
 															</entry>
 														</serializableOrderedMap>
 													</field>
