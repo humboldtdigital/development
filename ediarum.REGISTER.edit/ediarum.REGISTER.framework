@@ -3299,8 +3299,8 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;bibl xmlns="http://www.tei-c.org/ns/1.0" type="${ask('Art der Publikation', combobox, ('journal':'Zeitschrift';'edited_volumen':'Sammelband';), 'journal')}" xml:id="ed_${id}">
-  &lt;title type="reg">${ask('Titel der Zeitschrift bzw. des Sammelbandes', generic, '')}&lt;/title>  
+																<String>&lt;bibl xmlns="http://www.tei-c.org/ns/1.0" type="${ask('${i18n(type_of_publication)}', combobox, ('journal':'${i18n(journal)}';'edited_volumen':'${i18n(edited_volumen)}';), 'journal')}" xml:id="ed_${id}">
+  &lt;title type="reg">${ask('${i18n(title_journal_volume)}', generic, '')}&lt;/title>  
 &lt;/bibl></String>
 															</entry>
 															<entry>
@@ -3325,8 +3325,8 @@
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;bibl xmlns="http://www.tei-c.org/ns/1.0" type="${ask('Art der Publikation', combobox, ('journal':'Zeitschrift';'edited_volumen':'Sammelband';), 'journal')}" xml:id="ed_${id}">
-  &lt;title>${ask('Titel der Zeitschrift bzw. des Sammelbandes', generic, '')}&lt;/title>  
+																<String>&lt;bibl xmlns="http://www.tei-c.org/ns/1.0" type="${ask('${i18n(type_of_publication)}', combobox, ('journal':'${i18n(journal)}';'edited_volumen':'${i18n(edited_volumen)}';), 'journal')}" xml:id="ed_${id}">
+  &lt;title type="reg">${ask('${i18n(title_journal_volume)}', generic, '')}&lt;/title>  
 &lt;/bibl></String>
 															</entry>
 															<entry>
