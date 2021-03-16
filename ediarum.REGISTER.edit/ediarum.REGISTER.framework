@@ -4813,7 +4813,7 @@ general_ptr_2</String>
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;title type="alt" xmlns="http://www.tei-c.org/ns/1.0">${ask('Weiterer Titel für Zeitschrift:', generic, '')}&lt;/title></String>
+																<String>&lt;title type="alt" xmlns="http://www.tei-c.org/ns/1.0">${ask('${i18n(additional_title_journal)}', generic, '')}&lt;/title></String>
 															</entry>
 															<entry>
 																<String>insertLocation</String>
