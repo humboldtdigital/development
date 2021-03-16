@@ -4400,7 +4400,7 @@ org_location[to]</String>
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;ptr xmlns="http://www.tei-c.org/ns/1.0" type="${ask('Art der Referenz', combobox, ('page':'Seitenzahl';'letter':'Briefnummer';'':'';), 'page')}" target="${ask('Referenz im Format Band#Seite bzw. Band#Briefnr. eingeben', generic, '')}" subtype="${ask('Nur in Anmerkung erwähnt?', combobox, ('no':'Nein';'yes':'Ja';), 'no')}" /></String>
+																<String>&lt;ptr xmlns="http://www.tei-c.org/ns/1.0" type="${ask('${i18n(type_of_pointer)}', combobox, ('page':'${i18n(page)}';'letter':'${i18n(letter_number)}';'':'';), 'page')}" target="${ask('${i18n(enter_reference_format)}', generic, '')}" subtype="${ask('${i18n(only_mentioned_in_comment)}', combobox, ('no':'${i18n(no)}';'yes':'${i18n(yes)}';), 'no')}" /></String>
 															</entry>
 															<entry>
 																<String>goToNextEditablePosition</String>
@@ -4432,7 +4432,7 @@ org_location[to]</String>
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;ptr xmlns="http://www.tei-c.org/ns/1.0" type="${ask('Art der Referenz', combobox, ('page':'Seitenzahl';'letter':'Briefnummer';'':'';), 'page')}" target="${ask('Referenz im Format Band#Seite bzw. Band#Briefnr. eingeben', generic, '')}" subtype="${ask('Nur in Anmerkung erwähnt?', combobox, ('no':'Nein';'yes':'Ja';), 'no')}" /></String>
+																<String>&lt;ptr xmlns="http://www.tei-c.org/ns/1.0" type="${ask('${i18n(type_of_pointer)}', combobox, ('page':'${i18n(page)}';'letter':'${i18n(letter_number)}';'':'';), 'page')}" target="${ask('${i18n(enter_reference_format)}', generic, '')}" subtype="${ask('${i18n(only_mentioned_in_comment)}', combobox, ('no':'${i18n(no)}';'yes':'${i18n(yes)}';), 'no')}" /></String>
 															</entry>
 															<entry>
 																<String>goToNextEditablePosition</String>
@@ -4464,7 +4464,7 @@ org_location[to]</String>
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;linkGrp xmlns="http://www.tei-c.org/ns/1.0">&lt;ptr type="${ask('Art der Referenz', combobox, ('page':'Seitenzahl';'letter':'Briefnummer';'':'';), 'page')}" target="${ask('Referenz im Format Band#Seite bzw. Band#Briefnr. eingeben', generic, '')}" subtype="${ask('Nur in Anmerkung erwähnt?', combobox, ('no':'Nein';'yes':'Ja';), 'no')}" />&lt;/linkGrp></String>
+																<String>&lt;linkGrp xmlns="http://www.tei-c.org/ns/1.0">&lt;ptr type="${ask('${i18n(type_of_pointer)}', combobox, ('page':'${i18n(page)}';'letter':'${i18n(letter_number)}';'':'';), 'page')}" target="${ask('${i18n(enter_reference_format)}', generic, '')}" subtype="${ask('${i18n(only_mentioned_in_comment)}', combobox, ('no':'${i18n(no)}';'yes':'${i18n(yes)}';), 'no')}" />&lt;/linkGrp></String>
 															</entry>
 															<entry>
 																<String>goToNextEditablePosition</String>
@@ -4496,7 +4496,7 @@ org_location[to]</String>
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;linkGrp xmlns="http://www.tei-c.org/ns/1.0">&lt;ptr type="${ask('Art der Referenz', combobox, ('page':'Seitenzahl';'letter':'Briefnummer';'':'';), 'page')}" target="${ask('Referenz im Format Band#Seite bzw. Band#Briefnr. eingeben', generic, '')}" subtype="${ask('Nur in Anmerkung erwähnt?', combobox, ('no':'Nein';'yes':'Ja';), 'no')}" />&lt;/linkGrp></String>
+																<String>&lt;linkGrp xmlns="http://www.tei-c.org/ns/1.0">&lt;ptr type="${ask('${i18n(type_of_pointer)}', combobox, ('page':'${i18n(page)}';'letter':'${i18n(letter_number)}';'':'';), 'page')}" target="${ask('${i18n(enter_reference_format)}', generic, '')}" subtype="${ask('${i18n(only_mentioned_in_comment)}', combobox, ('no':'${i18n(no)}';'yes':'${i18n(yes)}';), 'no')}" />&lt;/linkGrp></String>
 															</entry>
 															<entry>
 																<String>goToNextEditablePosition</String>
@@ -4528,7 +4528,7 @@ org_location[to]</String>
 														<serializableOrderedMap>
 															<entry>
 																<String>fragment</String>
-																<String>&lt;listRef xmlns="http://www.tei-c.org/ns/1.0">&lt;ptr type="${ask('Art der Referenz', combobox, ('page':'Seitenzahl';'letter':'Briefnummer';'':'';), 'page')}" target="${ask('Referenz im Format Band#Seite bzw. Band#Briefnr. eingeben', generic, '')}" subtype="${ask('Nur in Anmerkung erwähnt?', combobox, ('no':'Nein';'yes':'Ja';), 'no')}" />&lt;/listRef></String>
+																<String>&lt;listRef xmlns="http://www.tei-c.org/ns/1.0">&lt;ptr type="${ask('${i18n(type_of_pointer)}', combobox, ('page':'${i18n(page)}';'letter':'${i18n(letter_number)}';'':'';), 'page')}" target="${ask('${i18n(enter_reference_format)}', generic, '')}" subtype="${ask('${i18n(only_mentioned_in_comment)}', combobox, ('no':'${i18n(no)}';'yes':'${i18n(yes)}';), 'no')}" />&lt;/listRef></String>
 															</entry>
 															<entry>
 																<String>goToNextEditablePosition</String>
