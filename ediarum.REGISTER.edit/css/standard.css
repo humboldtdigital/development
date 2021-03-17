@@ -239,11 +239,11 @@ persName[subtype='pseudonym']:before {
 }
 
 surname {
-    -oxy-placeholder-content: "Nachname";
+    -oxy-placeholder-content: "${i18n(surname)}";
 }
 
 forename {
-    -oxy-placeholder-content: "Vorname(n)";
+    -oxy-placeholder-content: "${i18n(forename)}";
     -oxy-show-placeholder: always;
 }
 
@@ -252,11 +252,11 @@ forename:before {
 }
 
 birth {
-    -oxy-placeholder-content: "Geburtsjahr?";
+    -oxy-placeholder-content: "${i18n(birth_year)}";
 }
 
 death {
-    -oxy-placeholder-content: "Todesjahr?";
+    -oxy-placeholder-content: "${i18n(death_year)}";
     -oxy-show-placeholder: always;
 }
 
@@ -276,7 +276,7 @@ floruit:before {
 note,
 desc {
     display: block;
-    -oxy-placeholder-content: "Bemerkung";
+    -oxy-placeholder-content: "${i18n(annotation)}";
 }
 
 /* Org */
@@ -292,11 +292,11 @@ location[from][to]:before {
 /* Places */
 placeName[type="reg"] {
     font-weight: bold;
-     -oxy-placeholder-content: "Ortsnames";
+     -oxy-placeholder-content: "${i18n(placeName.css)}";
 }
 
 placeName[type="alt"] {
-     -oxy-placeholder-content: "Alternativer Ortsname";
+     -oxy-placeholder-content: "${i18n(placename_alternative)}";
 }
 
 
