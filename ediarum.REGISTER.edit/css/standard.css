@@ -62,40 +62,40 @@ place[type] placeName[type="reg"]:after{
 }
 
 place[type="building"] placeName[type="reg"]:after{
-    content: " (Gebäude)";
+    content: " (${i18n(building)})";
 }
 
 place[type="street"] placeName[type="reg"]:after{
-    content: " (Straße)";
+    content: " (${i18n(street)})";
     
 }
 
 place[type="mountain"] placeName[type="reg"]:after{
-    content: " (Berg, Hügel, Felsen)";
+    content: " (${i18n(mountain)})";
 }
 
 place[type="sea"] placeName[type="reg"]:after{
-    content: " (Fluss, See)";
+    content: " (${i18n(sea)})";
 }
 
 place[type="parks"] placeName[type="reg"]:after{
-    content: " (Park)";
+    content: " (${i18n(park)})";
 }
 
-place[type="forrest"] placeName[type="reg"]:after{
-    content: " (Wald)";
+place[type="forest"] placeName[type="reg"]:after{
+    content: " (${i18n(forest)})";
 }
 
 place[type="others"] placeName[type="reg"]:after{
-    content: " ([Nicht spezifiziert])";
+    content: " ([${i18n(type_others)}])";
 }
 
 place[type="district"] placeName[type="reg"]:after{
-    content: " (Stadtviertel)";
+    content: " (${i18n(district)})";
 }
 
 place[type="monument"] placeName[type="reg"]:after{
-    content: " (Denkmal)";
+    content: " (${i18n(monument)})";
 }
 
 place listPlace,
@@ -141,20 +141,20 @@ ptr:last-child:after {
 }
 
 ptr[type='letter'] {
-    content: "Brief " attr(target);
+    content: "${i18n(letter)} " attr(target);
 }
 
 ptr[type='page'] {
-    content: "Seite " attr(target);
+    content: "${i18n(page)} " attr(target);
 }
 
 ptr[type='document'] {
-    content: "Dokument " attr(target);
+    content: "${i18n(document)} " attr(target);
 }
 
 listRef ref[target],
 linkGrp ref[target] {
-    content: "siehe " attr(target);
+    content: "${i18n(see)} " attr(target);
 }
 
 desc ref[target],
