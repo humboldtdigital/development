@@ -90,12 +90,12 @@
     <val lang="de_DE">Alternative Schreibungen eines Names eintragen</val>
     <val lang="es_ES">Introducir un nombre u ortografía alternativa</val>
   </key>
-  <!-- doubt: traducir lugar o barrio? -->
+  <!-- doubt -->
   <key value="place_listPlace.name">
     <val lang="de_DE">Unterort</val>
     <val lang="es_ES">Lugar subordinado</val>
   </key>
-  <!-- doubt: traducir lugar o barrio? -->
+  <!-- doubt -->
   <key value="place_listPlace.description">
     <val lang="de_DE">Einen Unterort hinzufügen</val>
     <val lang="es_ES">Añadir un nombre de lugar subordinado</val>
@@ -430,12 +430,12 @@
     <val lang="de_DE">Alternative Bezeichnung für den Begriff notieren</val>
     <val lang="es_ES">Marcar un nombre alternativo para el término</val>
   </key>
-  <!-- doubt: lugar o barrio? -->
+  <!-- doubt -->
   <key value="general_sort_Unterorte.name">
     <val lang="de_DE">Unterorte sortieren</val>
     <val lang="es_ES">Ordenar los lugares subordinados</val>
   </key>
-  <!-- doubt: lugar o barrio? -->
+  <!-- doubt -->
   <key value="general_sort_Unterorte.description">
     <val lang="de_DE">Aktuelle Unterorte alphabethisch sortieren (zweite Ebene)</val>
     <val lang="es_ES">Ordenar alfabéticamente los lugares actuales subordinados (segundo nivel)</val>
@@ -506,7 +506,7 @@
     <val lang="de_DE">Kommentar eingeben</val>
     <val lang="es_ES">Introducir comentario</val>
   </key>
-  <!-- doubt: lugar o barrio? -->
+  <!-- doubt -->
   <key value="type_of_subplace">
     <val lang="de_DE">Art des Unterorts</val>
     <val lang="es_ES">Tipo de lugar subordinado</val>
@@ -769,7 +769,7 @@
   </key>
   <key value="annotation">
     <val lang="de_DE">Bemerkung</val>
-    <val lang="es_ES">Anotación</val>
+    <val lang="es_ES">Comentario</val>
   </key>
   <key value="placename_alternative">
     <val lang="de_DE">Alternativer Ortsname</val>
@@ -778,6 +778,10 @@
   <key value="editor_short">
     <val lang="de_DE">Hrsg.</val>
     <val lang="es_ES">ed.</val>
+  </key>
+  <key value="placeName.css">
+    <val lang="de_DE">Ort</val>
+    <val lang="es_ES">Lugar</val>
   </key>
 
   <!-- Toolbar menu -->
