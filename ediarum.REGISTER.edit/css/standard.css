@@ -221,20 +221,20 @@ person[role]:before {
 }
 
 person[role='fictional']:before {
-    content: "[Fiktionaler Charakter]";
+    content: "[${i18n(fictitious_person)}]";
 }
 
 person[role='mythological']:before {
-    content: "[Mythologische Person]";   
+    content: "[${i18n(mythological_person)}]";   
 }
 
 persName[subtype='birthname']:before {
-    content: "Geburtsname: ";
+    content: "${i18n(person_persName[birth]_name - Kopie.name)}: ";
     color: #666;
 }
 
 persName[subtype='pseudonym']:before {
-    content: "Pseudonym: ";
+    content: "${i18n(person_persName[pseudonym]_name.name)}: ";
     color: #666;
 }
 
@@ -281,7 +281,7 @@ desc {
 
 /* Org */
 location:before {
-    content: "Standort";
+    content: "${i18n(org_location.name)}";
 }
 
 location[from][to]:before {
@@ -310,31 +310,31 @@ author[role]:after {
 }
 
 author[role='music']:after {
-    content: " (Musik)";
+    content: " (${i18n(music)})";
 }
 
 author[role='composition']:after {
-    content: " (Komposition)";
+    content: " (${i18n(compostion)})";
 }
 
 author[role='arrangement']:after {
-    content: " (Bearbeitung)";
+    content: " (${i18n(arrangement)})";
 }
 
 author[role='libretto']:after {
-    content: " (Libretto)";
+    content: " (${i18n(libretto)})";
 }
 
 author[role='text']:after {
-    content: " (Text)";
+    content: " (${i18n(text)})";
 }
 
 author[role='translation']:after {
-    content: " (Übersetzung)";
+    content: " (${i18n(translation)})";
 }
 
 editor:after {
-    content: " (Hrsg.)";
+    content: " (${i18n(editor_short)})";
     color: gray;
 }
 
@@ -345,7 +345,7 @@ bibl persName[key] {
 title, title[type='reg'] {
     display: block;
     font-weight: bold;
-    -oxy-placeholder-content: "Publikationstitel";
+    -oxy-placeholder-content: "${i18n(title_of_publication)}";
 }
 
 title[type='alt'] {
