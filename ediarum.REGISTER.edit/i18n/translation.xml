@@ -9,7 +9,7 @@
 
   <!-- ediarum.REGISTER -->
 
-  <!-- inside menus buttons -->
+  <!-- Menus buttons -->
   <key value="general_new_entry.name">
     <val lang="de_DE">Neuer Eintrag</val>
     <val lang="es_ES">Nueva entrada</val>
@@ -812,18 +812,5 @@
     <val lang="de_DE">Zusammenführen</val>
     <val lang="es_ES">Fusiones</val>
   </key>
-
-  <!-- No point in using them -->
-  <!-- 
-  <key value="symbols_menu">
-    <val lang="de_DE">Symbolleiste</val>
-    <val lang="es_ES">Lista de símbolos</val>
-  </key>
-  <key value="context_menu">
-    <val lang="de_DE">Kontextmenü</val>
-    <val lang="es_ES">Menu contextual</val>
-  </key>
-   -->
-
 
 </translation>
