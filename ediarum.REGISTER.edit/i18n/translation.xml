@@ -90,23 +90,18 @@
     <val lang="de_DE">Alternative Schreibungen eines Names eintragen</val>
     <val lang="es_ES">Introducir un nombre u ortografía alternativa</val>
   </key>
-
   <key value="place_listPlace.name">
     <val lang="de_DE">Unterort</val>
     <val lang="es_ES">Lugar subordinado</val>
   </key>
-
   <key value="place_listPlace.description">
     <val lang="de_DE">Einen Unterort hinzufügen</val>
     <val lang="es_ES">Añadir un nombre de lugar subordinado</val>
   </key>
-
-  <!-- se refiere a la entrada relativa a la posición del cursor, pueden ser diferentes tipos de entradas, propongo por eso el término más genérico que es - pienso - "entrada" -->
   <key value="general_delete_element.name">
     <val lang="de_DE">Einzelne Angabe löschen</val>
     <val lang="es_ES">Eliminación de la entrada</val>
   </key>
-
   <key value="general_delete_element.description">
     <val lang="de_DE">Löscht die Angabe, wo sich der Cursor gerade befindet</val>
     <val lang="es_ES">Eliminar la entrada en dónde se encuentra el cursor en ese
@@ -153,7 +148,6 @@
     <val lang="es_ES">Introducir período de esplendor, si se desconoce la fecha de nacimiento y de
       defunción</val>
   </key>
-  <!-- correcto: se trata de poner una fecha/un año antes del cual no se tiene registro de la existencia de esta persona. Propongo añadirlo como description -->
   <key value="person_floruit[notBefore].name">
     <val lang="de_DE">"Nicht vor" hinzufügen</val>
     <val lang="es_ES">Añadir "No antes"</val>
@@ -162,7 +156,6 @@
     <val lang="de_DE"/>
     <val lang="es_ES">Añadir fecha antes de la cual no se tiene registro de la existencia de esta persona</val>
   </key>
-  <!-- correcto, ver comentario #notBefore: en este caso la fecha después de la cual no se tiene registro de la existencia de esta persona. Propongo añadirlo como description -->
   <key value="person_floruit[notAfter].name">
     <val lang="de_DE">"Nicht nach" hinzufügen</val>
     <val lang="es_ES">Añadir "No después"</val>
@@ -701,7 +694,6 @@
     <val lang="de_DE">Komposition</val>
     <val lang="es_ES">Composición</val>
   </key>
-  <!-- el término es específico para obras musicales y se refiere al "arreglo" de una composición, como dice el DRAE: "Transformación de una obra musical para poder interpretarla con instrumentos o voces distintos a los originales." -->
   <key value="arrangement">
     <val lang="de_DE">Bearbeitung</val>
     <val lang="es_ES">Arreglo de</val>
@@ -730,7 +722,6 @@
     <val lang="de_DE">Briefnummer</val>
     <val lang="es_ES">Número de carta</val>
   </key>
-
   <key value="enter_reference_format">
     <val lang="de_DE">Referenz im Format Band#Seite bzw. Band#Briefnr. eingeben</val>
     <val lang="es_ES">Introducir la referencia en el formato volumen#página o volumen#ncarta.</val>
