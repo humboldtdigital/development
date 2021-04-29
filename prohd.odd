@@ -41,6 +41,17 @@
             <outputRendition xml:space="preserve">
             
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             font-size: 16px;
                             color: #888888;
                             cursor: pointer;
@@ -48,6 +59,17 @@
                             display: block;
                             margin-right: 5px;
                             float: right;
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             </outputRendition>
@@ -65,6 +87,17 @@
             
             
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
                             font-size: 16px;
                             color: #888888;
                             cursor: pointer;
@@ -72,6 +105,17 @@
                             display: block;
                             margin-right: 5px;
                             float: right;
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -167,11 +211,33 @@
             
             
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
             
             margin-left: 10px;margin-right: 10px;
                   font-size:smaller;
 
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -297,6 +363,17 @@
             
             
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
                             
                             display: inline-block;
                             margin-top: .5em;
@@ -304,6 +381,17 @@
                             color: #CCC;
                             
                         
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -325,6 +413,17 @@
             
             
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
                             
                             display: inline-block;
                             margin-top: .5em;
@@ -340,10 +439,32 @@
             
             
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             </outputRendition>
         </model>
                     <model output="web" predicate="@type='sig' and $parameters?view='page'" behaviour="block">
             <outputRendition xml:space="preserve">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -365,6 +486,17 @@
             
             
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             </outputRendition>
         </model>
                     <model output="web" predicate="@type='catch' and $parameters?view='page'" behaviour="block">
@@ -377,8 +509,30 @@
             
             
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
                             margin-left: 20em;
                             color: #A0A0A0;
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -419,15 +573,12 @@
         <elementSpec ident="fileDesc" mode="change">
                     <model predicate="$parameters?mode='commentary'" behaviour="block"/>
                     <modelSequence predicate="$parameters?header='short'">
-            <model behaviour="block"/>
+            <model behaviour="link" cssClass="header-short">
+                <param name="content" value="titleStmt/title[@type=&#34;main&#34;]"/>
+                <param name="uri" value="$parameters?doc"/>
+            </model>
             <model behaviour="block" cssClass="header-short">
                 <param name="content" value="editionStmt"/>
-            </model>
-            <model behaviour="block" cssClass="header-short">
-                <param name="content" value="publicationStmt"/>
-            </model>
-            <model behaviour="block" cssClass="header-short">
-                <param name="content" value="notesStmt"/>
             </model>
         </modelSequence>
                     <model behaviour="title">
@@ -567,6 +718,11 @@
         </model>
                 </elementSpec>
         <elementSpec ident="profileDesc" mode="change">
+                    <modelSequence predicate="$parameters?header='short'">
+            <model behaviour="block" cssClass="header-short">
+                <param name="content" value="abstract"/>
+            </model>
+        </modelSequence>
                     <model predicate="$parameters?mode='commentary'" behaviour="block">
             <param name="language" value="langUsage/language"/>
             <param name="author" value="creation/persName"/>
@@ -653,8 +809,30 @@
             
             
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             text-decoration: line-through;
 color:red;
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -703,8 +881,30 @@ color:red;
             
             
             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             text-decoration-line: underline;
 text-decoration-style: double;
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -839,8 +1039,30 @@ text-decoration-style: double;
                 <elementSpec ident="address" mode="change">
                     <model behaviour="block">
             <outputRendition xml:space="preserve">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             margin-top: 2em; margin-left: 2em; margin-right: 2em;
                   margin-bottom: 2em;
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             </outputRendition>
         </model>
                 </elementSpec>
@@ -923,17 +1145,61 @@ text-decoration-style: double;
                 <elementSpec ident="closer" mode="change">
                     <model behaviour="block">
             <outputRendition xml:space="preserve">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             margin-top: 1em; margin-left: 1em; margin-left:
                   1em;
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             </outputRendition>
         </model>
                 </elementSpec>
                 <elementSpec ident="postscript" mode="change">
                     <model behaviour="block">
             <outputRendition xml:space="preserve">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             margin-top: 3em;
 margin-right: 3em;
 margin-bottom: 3em;
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             </outputRendition>
         </model>
                 </elementSpec>
