@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
       <titleStmt>
-                <title>ProHD Demo</title>
+                <title>ProHD</title>
             </titleStmt>
       <publicationStmt>
         <publisher>
@@ -52,6 +52,10 @@
             
             
             
+            
+            
+            
+            
             font-size: 16px;
                             color: #888888;
                             cursor: pointer;
@@ -59,6 +63,10 @@
                             display: block;
                             margin-right: 5px;
                             float: right;
+            
+            
+            
+            
             
             
             
@@ -98,6 +106,10 @@
             
             
             
+            
+            
+            
+            
                             font-size: 16px;
                             color: #888888;
                             cursor: pointer;
@@ -105,6 +117,10 @@
                             display: block;
                             margin-right: 5px;
                             float: right;
+            
+            
+            
+            
             
             
             
@@ -191,7 +207,7 @@
                 </elementSpec>
 
         <elementSpec ident="note" mode="change">
-                    <model predicate="@type=&#34;editorial&#34;" behaviour="block"/>
+                    <model predicate="@type=&#34;editorial&#34;" behaviour="omit"/>
                     <model predicate="parent::person or parent::place" behaviour="inline">
             <outputRendition xml:space="preserve">
             text-variant: italic;
@@ -222,11 +238,19 @@
             
             
             
+            
+            
+            
+            
 
             
             margin-left: 10px;margin-right: 10px;
                   font-size:smaller;
 
+            
+            
+            
+            
             
             
             
@@ -283,10 +307,8 @@
         <elementSpec ident="titleStmt" mode="change">
                     <model behaviour="block">
             <param name="editor" value="editor"/>
-            <param name="funder" value="funder"/>
             <pb:template xmlns="" xml:space="preserve"><div>
-  <ol>[[editor]]</ol>
-  <ol>[[funder]]</ol>
+  <ol>[[editor]] (ed.)</ol>
 </div></pb:template>
         </model>
                     <model output="latex" behaviour="meta">
@@ -374,6 +396,10 @@
             
             
             
+            
+            
+            
+            
                             
                             display: inline-block;
                             margin-top: .5em;
@@ -381,6 +407,10 @@
                             color: #CCC;
                             
                         
+            
+            
+            
+            
             
             
             
@@ -424,6 +454,10 @@
             
             
             
+            
+            
+            
+            
                             
                             display: inline-block;
                             margin-top: .5em;
@@ -450,10 +484,18 @@
             
             
             
+            
+            
+            
+            
             </outputRendition>
         </model>
                     <model output="web" predicate="@type='sig' and $parameters?view='page'" behaviour="block">
             <outputRendition xml:space="preserve">
+            
+            
+            
+            
             
             
             
@@ -497,6 +539,10 @@
             
             
             
+            
+            
+            
+            
             </outputRendition>
         </model>
                     <model output="web" predicate="@type='catch' and $parameters?view='page'" behaviour="block">
@@ -520,8 +566,16 @@
             
             
             
+            
+            
+            
+            
                             margin-left: 20em;
                             color: #A0A0A0;
+            
+            
+            
+            
             
             
             
@@ -578,7 +632,7 @@
                 <param name="uri" value="$parameters?doc"/>
             </model>
             <model behaviour="block" cssClass="header-short">
-                <param name="content" value="editionStmt"/>
+                <param name="content" value="notesStmt/note[@type=&#34;editorial&#34;]/p"/>
             </model>
         </modelSequence>
                     <model behaviour="title">
@@ -666,8 +720,6 @@
   <ol>[[collection]]</ol>
   <ol>[[shelfmark]]</ol>
   <ol>[[uri]]</ol>
-  <ol>[[URLImages]]</ol>
-  <ol>[[URLCatalogue]]</ol>
   <ol>[[physDesc]]</ol>
 </div></pb:template>
             <outputRendition xml:space="preserve">
@@ -724,23 +776,19 @@
             </model>
         </modelSequence>
                     <model predicate="$parameters?mode='commentary'" behaviour="block">
-            <param name="language" value="langUsage/language"/>
             <param name="author" value="creation/persName"/>
             <param name="place" value="creation/placeName"/>
-            <param name="sent" value="correspDesc/correspAction[@type=&#34;sent&#34;]"/>
-            <param name="received" value="correspDesc/correspAction[@type=&#34;received&#34;]"/>
+            <param name="receiver" value="correspDesc/correspAction[@type=&#34;received&#34;]/persName"/>
             <param name="date" value="creation/date"/>
-            <param name="abstract" value="abstract/p"/>
+            <param name="sender" value=" correspDesc/correspAction[@type=&#34;sent&#34;]/persName"/>
+            <param name="dateSent" value="correspDesc/correspAction[@type=&#34;sent&#34;]/date"/>
+            <param name="placeSent" value="correspDesc/correspAction[@type=&#34;sent&#34;]/placeName"/>
             <pb:template xmlns="" xml:space="preserve"><div>
   <h3>Creation</h3>
-  <ol>[[author]]</ol>
-  <ol>[[place]]</ol>
-  <ol>[[date]]</ol>
-  <ol>[[sent]]</ol>
-  <ol>[[received]]</ol>
-<h3>Language</h3><ol>[[language]]</ol>
-  <h3>Abstract</h3>
-  <ol>[[abstract]]</ol>
+  <ol>[[author]][[sender]]</ol>
+  <ol>[[place]] [[placeSent]]</ol>
+  <ol>[[date]] [[dateSent]]</ol>
+  <ol>[[receiver]]</ol>
 </div></pb:template>
         </model>
                     <model behaviour="omit"/>
@@ -776,17 +824,11 @@
         </model>
                     <model behaviour="omit"/>
                 </elementSpec>
-                <elementSpec ident="funder" mode="add">
-                    <model output="web" predicate="@ref" behaviour="block">
-            <param name="uri" value="@ref"/>
-        </model>
-                </elementSpec>
+                <elementSpec ident="funder" mode="add"/>
                 <elementSpec ident="publisher" mode="change">
                     <model predicate="ancestor::teiHeader" behaviour="inline"/>
                 </elementSpec>
-                <elementSpec ident="notesStmt" mode="add">
-                    <model behaviour="inline"/>
-                </elementSpec>
+                <elementSpec ident="notesStmt" mode="add"/>
                 <elementSpec ident="institution" mode="add">
                     <model behaviour="block"/>
                 </elementSpec>
@@ -800,7 +842,9 @@
                     <model predicate="@type=&#34;shelfmark&#34;" behaviour="inline"/>
                     <model output="web" predicate="@type=&#34;URLCatalogue&#34;" behaviour="link"/>
                     <model output="web" predicate="@type=&#34;URLImages&#34;" behaviour="link"/>
-                    <model output="web" predicate="@type=&#34;uri&#34;" behaviour="link"/>
+                    <model output="web" predicate="@type=&#34;uri&#34;" behaviour="link">
+            <param name="uri" value="."/>
+        </model>
                 </elementSpec>
                 <elementSpec ident="del" mode="change">
                     <model behaviour="inline">
@@ -820,8 +864,16 @@
             
             
             
+            
+            
+            
+            
             text-decoration: line-through;
 color:red;
+            
+            
+            
+            
             
             
             
@@ -857,17 +909,12 @@ color:red;
                     <model predicate="text()" behaviour="inline"/>
                 </elementSpec>
                 <elementSpec ident="publicationStmt" mode="change">
-                    <model output="web" behaviour="block">
+                    <model predicate="$parameters?mode='commentary'" behaviour="inline">
             <param name="licence" value="availability/licence"/>
-            <param name="publisher" value="publisher/ref"/>
-            <param name="pubPlace" value="pubPlace"/>
             <pb:template xmlns="" xml:space="preserve"><div>
-  <ol>[[publisher]]</ol>
-  <ol>[[pubPlace]]</ol>
   <ol>[[licence]]</ol>
-</div>  </pb:template>
+</div></pb:template>
         </model>
-                    <model behaviour="omit"/>
                 </elementSpec>
                 <elementSpec ident="editionStmt" mode="add">
                     <model behaviour="block">
@@ -892,8 +939,16 @@ color:red;
             
             
             
+            
+            
+            
+            
             text-decoration-line: underline;
 text-decoration-style: double;
+            
+            
+            
+            
             
             
             
@@ -1050,8 +1105,16 @@ text-decoration-style: double;
             
             
             
+            
+            
+            
+            
             margin-top: 2em; margin-left: 2em; margin-right: 2em;
                   margin-bottom: 2em;
+            
+            
+            
+            
             
             
             
@@ -1156,8 +1219,16 @@ text-decoration-style: double;
             
             
             
+            
+            
+            
+            
             margin-top: 1em; margin-left: 1em; margin-left:
                   1em;
+            
+            
+            
+            
             
             
             
@@ -1186,9 +1257,17 @@ text-decoration-style: double;
             
             
             
+            
+            
+            
+            
             margin-top: 3em;
 margin-right: 3em;
 margin-bottom: 3em;
+            
+            
+            
+            
             
             
             
