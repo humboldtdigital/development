@@ -58,6 +58,7 @@
             
             
             
+            
             font-size: 16px;
                             color: #888888;
                             cursor: pointer;
@@ -65,6 +66,7 @@
                             display: block;
                             margin-right: 5px;
                             float: right;
+            
             
             
             
@@ -116,6 +118,7 @@
             
             
             
+            
                             font-size: 16px;
                             color: #888888;
                             cursor: pointer;
@@ -123,6 +126,7 @@
                             display: block;
                             margin-right: 5px;
                             float: right;
+            
             
             
             
@@ -190,7 +194,7 @@
             </model>
             <model behaviour="alternate" cssClass="choice-alternate">
                 <param name="alternate" value="abbr[1]"/>
-                <param name="default" value="expan[1]"/>
+                <param name="deafault" value="expan[1]"/>
             </model>
         </modelSequence>
                     <model predicate="orig and reg" behaviour="alternate" cssClass="choice">
@@ -260,11 +264,13 @@
             
             
             
+            
 
             
             margin-left: 10px;margin-right: 10px;
                   font-size:smaller;
 
+            
             
             
             
@@ -411,6 +417,7 @@
             
             
             
+            
                             
                             display: inline-block;
                             margin-top: .5em;
@@ -418,6 +425,7 @@
                             color: #CCC;
                             
                         
+            
             
             
             
@@ -473,6 +481,7 @@
             
             
             
+            
                             
                             display: inline-block;
                             margin-top: .5em;
@@ -505,10 +514,12 @@
             
             
             
+            
             </outputRendition>
         </model>
                     <model output="web" predicate="@type='sig' and $parameters?view='page'" behaviour="block">
             <outputRendition xml:space="preserve">
+            
             
             
             
@@ -564,6 +575,7 @@
             
             
             
+            
             </outputRendition>
         </model>
                     <model output="web" predicate="@type='catch' and $parameters?view='page'" behaviour="block">
@@ -593,8 +605,10 @@
             
             
             
+            
                             margin-left: 20em;
                             color: #A0A0A0;
+            
             
             
             
@@ -893,8 +907,10 @@
             
             
             
+            
             text-decoration: line-through;
 color:red;
+            
             
             
             
@@ -972,8 +988,10 @@ color:red;
             
             
             
+            
             text-decoration-line: underline;
 text-decoration-style: double;
+            
             
             
             
@@ -1142,8 +1160,10 @@ text-decoration-style: double;
             
             
             
+            
             margin-top: 2em; margin-left: 2em; margin-right: 2em;
                   margin-bottom: 2em;
+            
             
             
             
@@ -1260,8 +1280,10 @@ text-decoration-style: double;
             
             
             
+            
             margin-top: 1em; margin-left: 1em; margin-left:
                   1em;
+            
             
             
             
@@ -1302,9 +1324,11 @@ text-decoration-style: double;
             
             
             
+            
             margin-top: 3em;
 margin-right: 3em;
 margin-bottom: 3em;
+            
             
             
             
