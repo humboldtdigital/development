@@ -56,6 +56,8 @@
             
             
             
+            
+            
             font-size: 16px;
                             color: #888888;
                             cursor: pointer;
@@ -63,6 +65,8 @@
                             display: block;
                             margin-right: 5px;
                             float: right;
+            
+            
             
             
             
@@ -110,6 +114,8 @@
             
             
             
+            
+            
                             font-size: 16px;
                             color: #888888;
                             cursor: pointer;
@@ -117,6 +123,8 @@
                             display: block;
                             margin-right: 5px;
                             float: right;
+            
+            
             
             
             
@@ -175,10 +183,16 @@
             <param name="default" value="expan[1]"/>
             <param name="alternate" value="abbr[1]"/>
         </model>
-                    <model predicate="abbr and expan" behaviour="alternate" cssClass="choice">
-            <param name="default" value="abbr[1]"/>
-            <param name="alternate" value="expan[1]"/>
-        </model>
+                    <modelSequence predicate="abbr and expan">
+            <model behaviour="alternate" cssClass="choice">
+                <param name="default" value="abbr[1]"/>
+                <param name="alternate" value="expan[1]"/>
+            </model>
+            <model behaviour="alternate" cssClass="choice-alternate">
+                <param name="alternate" value="abbr[1]"/>
+                <param name="default" value="expan[1]"/>
+            </model>
+        </modelSequence>
                     <model predicate="orig and reg" behaviour="alternate" cssClass="choice">
             <param name="default" value="reg[1]"/>
             <param name="alternate" value="orig[1]"/>
@@ -196,8 +210,10 @@
                 </elementSpec>
 
         <elementSpec ident="persName" mode="add">
-                    <model output="web" predicate="parent::editor and @ref " behaviour="link">
-            <param name="uri" value="@ref"/>
+                    <model predicate="parent::editor" behaviour="inline">
+            <param name="surname" value="surname"/>
+            <param name="forename" value="forename"/>
+            <pb:template xmlns="" xml:space="preserve">[[surname]], [[forename]]</pb:template>
         </model>
                     <model predicate="not(ancestor::teiHeader)" behaviour="inline">
             <outputRendition xml:space="preserve">
@@ -242,11 +258,15 @@
             
             
             
+            
+            
 
             
             margin-left: 10px;margin-right: 10px;
                   font-size:smaller;
 
+            
+            
             
             
             
@@ -308,7 +328,8 @@
                     <model behaviour="block">
             <param name="editor" value="editor"/>
             <pb:template xmlns="" xml:space="preserve"><div>
-  <ol>[[editor]] (ed.)</ol>
+  <h3>About this edition</h3>
+  <ul>[[editor]]</ul>
 </div></pb:template>
         </model>
                     <model output="latex" behaviour="meta">
@@ -354,28 +375,18 @@
                 </elementSpec>
         
         <elementSpec ident="lb" mode="change">
-                    <model predicate="not(@break)" behaviour="inline">
-            <pb:template xmlns="" xml:space="preserve"><br/></pb:template>
-        </model>
-                    <modelSequence output="web" predicate="@break='no' and $parameters?view='page'">
-            <model behaviour="inline">
-                <param name="content" value="'-'"/>
-            </model>
-            <model behaviour="break">
-                <param name="type" value="'line'"/>
-                <param name="label" value="@n"/>
-            </model>
-        </modelSequence>
-                    <model output="web" predicate="$parameters?view='page' and not(following-sibling::*[1][self::p])" behaviour="break" useSourceRendition="true">
+                    <model predicate="$parameters?mode='norm'" behaviour="omit"/>
+                    <model behaviour="break" cssClass="lb">
             <param name="type" value="'line'"/>
             <param name="label" value="@n"/>
         </model>
-                    <model behaviour="omit"/>
                 </elementSpec>
         
         <elementSpec ident="fw" mode="change">
                     <model output="web" predicate="@type='folNum' and $parameters?view='page'" behaviour="inline">
             <outputRendition xml:space="preserve">
+            
+            
             
             
             
@@ -407,6 +418,8 @@
                             color: #CCC;
                             
                         
+            
+            
             
             
             
@@ -458,6 +471,8 @@
             
             
             
+            
+            
                             
                             display: inline-block;
                             margin-top: .5em;
@@ -488,10 +503,14 @@
             
             
             
+            
+            
             </outputRendition>
         </model>
                     <model output="web" predicate="@type='sig' and $parameters?view='page'" behaviour="block">
             <outputRendition xml:space="preserve">
+            
+            
             
             
             
@@ -543,6 +562,8 @@
             
             
             
+            
+            
             </outputRendition>
         </model>
                     <model output="web" predicate="@type='catch' and $parameters?view='page'" behaviour="block">
@@ -570,8 +591,12 @@
             
             
             
+            
+            
                             margin-left: 20em;
                             color: #A0A0A0;
+            
+            
             
             
             
@@ -642,9 +667,7 @@
         
         <elementSpec ident="editor" mode="change">
                     <model predicate="$parameters?mode='commentary'" behaviour="inline">
-            <param name="surname" value="persName/surname"/>
-            <param name="forename" value="persName/forename"/>
-            <pb:template xmlns="" xml:space="preserve">[[surname]], [[forename]]</pb:template>
+            <pb:template xmlns="" xml:space="preserve"><li>[[content]]</li></pb:template>
             <outputRendition xml:space="preserve">
             
             </outputRendition>
@@ -868,8 +891,12 @@
             
             
             
+            
+            
             text-decoration: line-through;
 color:red;
+            
+            
             
             
             
@@ -943,8 +970,12 @@ color:red;
             
             
             
+            
+            
             text-decoration-line: underline;
 text-decoration-style: double;
+            
+            
             
             
             
@@ -1109,8 +1140,12 @@ text-decoration-style: double;
             
             
             
+            
+            
             margin-top: 2em; margin-left: 2em; margin-right: 2em;
                   margin-bottom: 2em;
+            
+            
             
             
             
@@ -1223,8 +1258,12 @@ text-decoration-style: double;
             
             
             
+            
+            
             margin-top: 1em; margin-left: 1em; margin-left:
                   1em;
+            
+            
             
             
             
@@ -1261,9 +1300,13 @@ text-decoration-style: double;
             
             
             
+            
+            
             margin-top: 3em;
 margin-right: 3em;
 margin-bottom: 3em;
+            
+            
             
             
             
