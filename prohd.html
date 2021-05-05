@@ -2,18 +2,18 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
-        <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
-        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
-        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
-        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
-        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
-
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/faviconProhd.ico"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/faviconProhd-16.png" sizes="16x16"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/faviconProhd-32.png" sizes="24x24"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/faviconProhd-64.png" sizes="64x64"/>
+        
         <title data-template="config:app-title"/>
         <meta name="description" content="ProHD"/>
         
-        <link rel="stylesheet" type="text/css" href="resources/fonts/font.css"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600"/>
         <link rel="stylesheet" href="resources/css/theme.css"/>
+        <link rel="stylesheet" href="resources/css/prohd-theme.css"/>
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
 
         <custom-style>
@@ -79,7 +79,7 @@
                         <pb-toggle-feature name="mode" on="diplomatic" off="norm">Diplomatic View</pb-toggle-feature>
                         
                         <!-- directly change properties of the pb-view -->
-                        <pb-toggle-feature name="view" on="page" off="single" default="off">Page View</pb-toggle-feature>
+                        <pb-toggle-feature name="view" on="page" off="single" default="on">Page View</pb-toggle-feature>
                         
                         <!-- Navigate to previous page -->
                         <pb-navigation direction="backward" keyboard="left">
