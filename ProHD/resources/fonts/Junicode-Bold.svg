@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-    ><metadata
+<svg xmlns="http://www.w3.org/2000/svg">
+    <metadata>
 Created by FontPrep 20130207 at Sun Apr  5 09:41:50 2015
  By Wolfgang Meier
 Copyright (c) 2001-2012 by Peter S. Baker
-/>
-    <defs
-        ><font id="a4a3a01371cff8e72df79cb557f6a57d" horiz-adv-x="1024"
-            ><font-face font-family="Junicode-Bold" font-weight="700" font-stretch="normal" units-per-em="2048" panose-1="2 4 8 2 0 0 0 0 0 0" ascent="1638" descent="-410" x-height="854" cap-height="1363" bbox="-1782 -840 3342 2088" underline-thickness="70" underline-position="-100" unicode-range="U+000D-1034A"/>
+</metadata>
+    <defs>
+        <font id="a4a3a01371cff8e72df79cb557f6a57d" horiz-adv-x="1024">
+            <font-face font-family="Junicode-Bold" font-weight="700" font-stretch="normal" units-per-em="2048" panose-1="2 4 8 2 0 0 0 0 0 0" ascent="1638" descent="-410" x-height="854" cap-height="1363" bbox="-1782 -840 3342 2088" underline-thickness="70" underline-position="-100" unicode-range="U+000D-1034A"/>
             <missing-glyph horiz-adv-x="1024" d="M68 -132v1640h864v-1640h-864zM534 86q0 39 -20 71q-36 56 -100 56q-38 0 -68 -21q-50 -37 -50 -106q0 -37 29 -77t77 -40t78 17q54 33 54 100zM354 1194q292 0 292 -199q0 -89 -116 -151l-106 -56q-114 -62 -114 -144t76 -218q8 -8 26 -6t18 18q-20 70 -20 122t74 93 l166 88q82 43 81 196t-117 294q-114 131 -244 131q-84 0 -84 -84t68 -84z"/>
             <glyph glyph-name="IJ" unicode="IJ" horiz-adv-x="1452" d="M784 -419q-68 0 -125 37q-57 36 -57 106t65 102q33 17 76 17q74 0 128 -58q25 -27 38 -62q33 24 56 82q26 88 26 448v901q0 116 -171 116q-14 0 -14 46t14 47q48 -5 294 -5t294 5q14 -1 14 -47t-14 -46q-172 0 -172 -116v-525q0 -107 -10 -434q-2 -227 -82 -361 t-206 -205q-86 -48 -154 -48zM481 202q0 -116 159 -116q14 0 14 -46t-14 -47q-133 7 -286 7t-279 -7q-15 1 -15 47t15 46q162 0 162 116v952q0 116 -161 116q-14 0 -14 46t14 47q48 -5 284 -5t284 5q14 -1 14 -47t-14 -46q-163 0 -163 -116v-952z"/>
             <glyph glyph-name="ij" unicode="ij" horiz-adv-x="1024" d="M891 682v-543q0 -186 -11 -268q-24 -175 -104 -283q-106 -144 -296 -143q-48 0 -98 39t-51 93q0 54 51 84q26 15 66 15t78 -62t74 -63q46 1 56 91q5 43 5 129v786q0 125 -92 125q-15 0 -15 37t15 37q51 0 151 50t118 63q17 14 32 14q28 0 29 -27q-8 -92 -8 -174z M897 1187q0 -71 -59 -112q-39 -27 -100 -27q-60 0 -96 46t-36 104q0 56 48 92t109 36t97 -48t37 -91zM401 1185q0 -71 -59 -111q-38 -26 -100 -26t-103 58q-26 36 -26 92q-1 56 47 91t111 35t97 -49t33 -90zM278 0q-134 0 -219 -8q-15 0 -15 38t15 38q105 0 105 75v414 q0 125 -92 125q-16 0 -16 37t16 37q50 0 150 50t116 63q16 14 35 14q28 0 26 -27q-6 -88 -6 -174v-539q0 -75 103 -75q15 0 15 -38t-15 -38q-84 8 -218 8z"/>

@@ -1,6 +1,6 @@
-<html
-    ><head
-        ><meta charset="utf-8"/>
+<html>
+    <head>
+        <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
         <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
         <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
         <link rel="stylesheet" href="resources/css/theme.css"/>
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
-        <style
+        <style>
             body {
                 --pb-view-height: calc(100vh - 128px);
             }
@@ -59,38 +59,38 @@
                     display: none;
                 }
             }
-        />
+        </style>
     </head>
 
-    <body
-        ><pb-page data-template="pages:pb-page" unresolved="unresolved"
-            ><pb-document id="document1" data-template="pages:pb-document"/>
-            <app-drawer-layout force-narrow="force-narrow"
-                ><app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
-                <app-header-layout
-                    ><app-header slot="header" fixed="fixed" data-template="browse:fix-links"
-                        ><app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+    <body>
+        <pb-page data-template="pages:pb-page" unresolved="unresolved">
+            <pb-document id="document1" data-template="pages:pb-document"/>
+            <app-drawer-layout force-narrow="force-narrow">
+                <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+                <app-header-layout>
+                    <app-header slot="header" fixed="fixed" data-template="browse:fix-links">
+                        <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
                         <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>
                     </app-header>
-                    <pb-drawer toggle="tocToggle" class="tocDrawer" emit="toc" subscribe="transcription"
-                        ><div class="drawer-content"
-                            ><h3
-                                ><pb-i18n key="contents"Contents/>
+                    <pb-drawer toggle="tocToggle" class="tocDrawer" emit="toc" subscribe="transcription">
+                        <div class="drawer-content">
+                            <h3>
+                                <pb-i18n key="contents">Contents</pb-i18n>
                             </h3>
-                            <pb-load id="toc" url="api/document/{doc}/contents?target=transcription&amp;icons=true" expand="expand" src="document1" subscribe="toc" load-once="load-once"Loading .../>
+                            <pb-load id="toc" url="api/document/{doc}/contents?target=transcription&amp;icons=true" expand="expand" src="document1" subscribe="toc" load-once="load-once">Loading ...</pb-load>
                         </div>
                     </pb-drawer>                    
-                    <main class="content-body"
-                        ><div class="text"
-                            ><pb-collapse class="metadata"
-                                ><h3 slot="collapse-trigger"
-                                    ><pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt" view="single"
-                                        ><pb-param name="mode" value="title"/>
+                    <main class="content-body">
+                        <div class="text">
+                            <pb-collapse class="metadata">
+                                <h3 slot="collapse-trigger">
+                                    <pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt" view="single">
+                                        <pb-param name="mode" value="title"/>
                                     </pb-view>
                                 </h3>
-                                <div slot="collapse-content"
-                                    ><pb-view id="metadata-view1" src="document1" xpath="//teiHeader" view="single"
-                                        ><pb-param name="mode" value="metadata"/>
+                                <div slot="collapse-content">
+                                    <pb-view id="metadata-view1" src="document1" xpath="//teiHeader" view="single">
+                                        <pb-param name="mode" value="metadata"/>
                                     </pb-view>
                                     <hr/>
                                 </div>

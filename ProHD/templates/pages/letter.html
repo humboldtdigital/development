@@ -1,7 +1,7 @@
-<html
+<html>
 
-><head
-    ><meta charset="utf-8"/>
+<head>
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
     <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
     <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="resources/css/theme.css"/>
     <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
     <script type="module" src="pb-leaflet-map.js" data-template="pages:load-components"/>
-    <style
+    <style>
         body {
             --pb-view-height: calc(100vh - 220px);
         }
@@ -64,34 +64,34 @@
         .toc-toggle, pb-navigation {
             display: none;
         }
-    />
+    </style>
 </head>
 
-<body
-    ><pb-page data-template="pages:pb-page" unresolved="unresolved"
-        ><pb-document id="document1" data-template="pages:pb-document"/>
-        <app-drawer-layout force-narrow="force-narrow"
-            ><app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
-            <app-header-layout
-                ><app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall"
-                    ><app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+<body>
+    <pb-page data-template="pages:pb-page" unresolved="unresolved">
+        <pb-document id="document1" data-template="pages:pb-document"/>
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer data-template="templates:include" data-template-path="templates/drawer.html"/>
+            <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                    <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
                     <app-toolbar data-template="templates:include" data-template-path="templates/toolbar.html"/>
                 </app-header>
 
-                <section class="breadcrumbs"
-                    ><pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt/title" view="single"
-                        ><pb-param name="header" value="short"/>
+                <section class="breadcrumbs">
+                    <pb-view id="title-view1" src="document1" xpath="//teiHeader/fileDesc/titleStmt/title" view="single">
+                        <pb-param name="header" value="short"/>
                     </pb-view>
                 </section>
-                <section class="content-body"
-                    ><pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription"/>
-                    <aside class="places"
-                        ><pb-view src="document1" odd="graves" subscribe="transcription" emit="letter" wait-for="pb-leaflet-map"
-                            ><pb-param name="mode" value="facets"/>
+                <section class="content-body">
+                    <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription"/>
+                    <aside class="places">
+                        <pb-view src="document1" odd="graves" subscribe="transcription" emit="letter" wait-for="pb-leaflet-map">
+                            <pb-param name="mode" value="facets"/>
                         </pb-view>
                     </aside>
-                    <aside
-                        ><pb-leaflet-map subscribe="letter" access-token="pk.eyJ1Ijoid29sZmdhbmdtbSIsImEiOiJjam1kMjVpMnUwNm9wM3JwMzdsNGhhcnZ0In0.v65crewF-dkNsPF3o1Q4uw"/>
+                    <aside>
+                        <pb-leaflet-map subscribe="letter" access-token="pk.eyJ1Ijoid29sZmdhbmdtbSIsImEiOiJjam1kMjVpMnUwNm9wM3JwMzdsNGhhcnZ0In0.v65crewF-dkNsPF3o1Q4uw"/>
                         <!--pb-map api-key="AIzaSyA8_mVF-4N2NRWfQ9y6ADgrkiQgoml3trw" zoom="14" subscribe="letter"></pb-map-->
                     </aside>
                 </section>

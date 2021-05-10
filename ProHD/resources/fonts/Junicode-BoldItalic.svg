@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-    ><metadata
+<svg xmlns="http://www.w3.org/2000/svg">
+    <metadata>
 Created by FontPrep 20130207 at Sun Apr  5 09:41:55 2015
  By Wolfgang Meier
 Copyright (c) 2003-2012 by Peter S. Baker
-/>
-    <defs
-        ><font id="f3502fc61f511459dbb2216b7fd7011f" horiz-adv-x="1024"
-            ><font-face font-family="Junicode-BoldItalic" font-weight="700" font-style="italic" font-stretch="normal" units-per-em="2048" panose-1="2 4 8 2 0 0 0 0 0 0" ascent="1638" descent="-410" x-height="852" cap-height="1364" bbox="-910 -822 3229 2104" underline-thickness="70" underline-position="-100" slope="-11" unicode-range="U+000D-1034A"/>
+</metadata>
+    <defs>
+        <font id="f3502fc61f511459dbb2216b7fd7011f" horiz-adv-x="1024">
+            <font-face font-family="Junicode-BoldItalic" font-weight="700" font-style="italic" font-stretch="normal" units-per-em="2048" panose-1="2 4 8 2 0 0 0 0 0 0" ascent="1638" descent="-410" x-height="852" cap-height="1364" bbox="-910 -822 3229 2104" underline-thickness="70" underline-position="-100" slope="-11" unicode-range="U+000D-1034A"/>
             <missing-glyph horiz-adv-x="1024" d="M68 -132v1640h864v-1640h-864zM534 86q0 39 -20 71q-36 56 -100 56q-38 0 -68 -21q-50 -37 -50 -106q0 -37 29 -77t77 -40t78 17q54 33 54 100zM354 1194q292 0 292 -199q0 -89 -116 -151l-106 -56q-114 -62 -114 -144t76 -218q8 -8 26 -6t18 18q-20 70 -20 122t74 93 l166 88q82 43 80 196t-116 294q-114 131 -244 131q-84 0 -84 -84t68 -84z"/>
             <glyph glyph-name="IJ" unicode="IJ" horiz-adv-x="1514" d="M630 -418q-72 0 -116 28t-44 87q0 58 49 90t106 32q57 1 96 -35t43 -88q84 56 126 167t233 775l149 516q7 23 7 41q0 75 -125 75q-8 0 -8 15t10 47t23 32q57 -6 269 -6t269 6q9 0 9 -14t-8 -46q-8 -34 -24 -34q-82 0 -124 -21t-63 -95l-257 -881q-100 -349 -280 -520 t-340 -171zM434 150q0 -64 149 -64q7 0 7 -14t-10 -48q-10 -32 -20 -32q-77 8 -289 8t-288 -8q-8 0 -8 13q1 13 9 47t24 34q88 0 133 24t65 92l272 952q8 27 8 63q0 53 -140 53q-7 0 -7 14t11 46q11 34 22 34q58 -6 286 -6t286 6q8 0 8 -12t-10 -48q-10 -34 -25 -34 q-111 0 -149 -30t-54 -86l-273 -952q-7 -25 -7 -52z"/>
             <glyph glyph-name="ij" unicode="ij" horiz-adv-x="1025" d="M992 1010q-142 0 -142 152q0 50 44 89t98 39q140 0 139 -150q1 -54 -43 -92t-96 -38zM325 -553q-41 1 -71 25t-31 66t31 68t68 25t73 -39t67 -38t67 56q36 56 60 161l209 876q3 12 3 20q0 21 -25 21t-92 -84q-10 -14 -34 8t-23 29q0 7 3 10q166 201 285 201q91 0 91 -123 q0 -31 -7 -63l-123 -523q-30 -143 -82 -293t-166 -276t-303 -127zM496 1010q-142 0 -142 152q0 50 44 89t98 39q140 0 139 -150q1 -54 -43 -92t-96 -38zM328 158q0 -17 26 -17t88 80q11 14 38 -11t18 -36q-64 -79 -144 -140t-135 -61q-101 0 -101 125q0 34 11 70l147 479 q4 13 4 21q0 20 -19 20t-97 -82q-12 -12 -34 10t-22 28t3 11q63 77 142 137t134 60q104 0 104 -126q0 -25 -12 -64l-147 -482q-4 -14 -4 -22z"/>

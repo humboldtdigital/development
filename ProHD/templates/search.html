@@ -1,6 +1,6 @@
-<html
-    ><head
-        ><meta charset="utf-8"/>
+<html>
+    <head>
+        <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
         <link rel="shortcut icon" type="image/x-icon" href="resources/images/faviconProhd.ico"/>
         <link rel="shortcut icon" type="image/png" href="resources/images/faviconProhd-16.png" sizes="16x16"/>
@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="resources/css/prohd-theme.css"/>
         <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
 
-        <style
+        <style>
             main {
                 display: flex;
                 flex-direction: row;
@@ -61,7 +61,7 @@
                 color: var(--paper-grey-600);
             }
             .breadcrumb:before {
-                content: '>';
+                content: '&gt;';
                 padding: 0 8px;
                 font-weight: 600;
             }
@@ -104,29 +104,29 @@
                 padding-left: 1em;
                 vertical-align: middle;
             }
-        />
+        </style>
     </head>
 
-    <body
-        ><pb-page data-template="pages:pb-page" unresolved="unresolved"
-            ><app-header-layout
-                ><app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall"
-                    ><app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
-                    <app-toolbar
-                        ><pb-paginate per-page="10" range="5" subscribe="results"/>
+    <body>
+        <pb-page data-template="pages:pb-page" unresolved="unresolved">
+            <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                    <app-toolbar data-template="templates:include" data-template-path="templates/menu.html"/>
+                    <app-toolbar>
+                        <pb-paginate per-page="10" range="5" subscribe="results"/>
                         <pb-progress indeterminate="indeterminate" bottom-item="bottom-item"/>
                     </app-toolbar>
                 </app-header>
 
-                <main
-                    ><pb-load id="results" url="api/search" emit="results"/>
-                    <div class="search-panel"
-                        ><paper-card
-                            ><div class="card-content"
-                                ><pb-search id="search-form" subscribe="search" data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load"
-                                    ><div class="targets"
-                                        ><paper-checkbox name="field" value="text"Search sections/>
-                                        <paper-checkbox name="field" value="head"Search headings/>
+                <main>
+                    <pb-load id="results" url="api/search" emit="results"/>
+                    <div class="search-panel">
+                        <paper-card>
+                            <div class="card-content">
+                                <pb-search id="search-form" subscribe="search" data-template="pages:parse-params" value="${query}" submit-on-load="submit-on-load">
+                                    <div class="targets">
+                                        <paper-checkbox name="field" value="text">Search sections</paper-checkbox>
+                                        <paper-checkbox name="field" value="head">Search headings</paper-checkbox>
                                     </div>
                                     <pb-custom-form id="facets" url="api/search/facets" subscribe="results" event="pb-results-received" emit="search"/>
                                 </pb-search>
@@ -136,16 +136,16 @@
                 </main>
             </app-header-layout>
         </pb-page>
-        <script
+        <script>
             const facets = document.getElementById('facets');
             if (facets) {
                 facets.addEventListener('pb-custom-form-loaded', function(ev) {
                     const elems = ev.detail.querySelectorAll('.facet');
-                    elems.forEach(facet => {
-                        facet.addEventListener('change', () => {
+                    elems.forEach(facet =&gt; {
+                        facet.addEventListener('change', () =&gt; {
                             const table = facet.closest('table');
                             if (table) {
-                                const nested = table.querySelectorAll('.nested .facet').forEach(nested => {
+                                const nested = table.querySelectorAll('.nested .facet').forEach(nested =&gt; {
                                     if (nested != facet) {
                                         nested.checked = false;
                                     }
@@ -156,6 +156,6 @@
                     });
                 });
             }
-        />
+        </script>
     </body>
 </html>
