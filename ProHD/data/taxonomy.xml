@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   ><teiHeader
+      ><fileDesc
+         ><titleStmt
+            ><titleExample taxonomy for TEI Publisher demo files/>
+         </titleStmt>
+         <publicationStmt
+            ><p/>
+         </publicationStmt>
+         <sourceDesc
+            ><p/>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc
+         ><classDecl
+            ><taxonomy xml:id="pb-taxonomy"
+               ><category xml:id="genre"
+                  ><catDescGenre of a text/>
+                  <category xml:id="prose"
+                     ><catDescProse/>
+                     <category xml:id="philosophy"
+                        ><catDescPhilosophy/>
+                     </category>
+                     <category xml:id="religion"
+                        ><catDescReligion/>
+                     </category>
+                  </category>
+                  <category xml:id="correspondence"
+                     ><catDescLetters and Correspondence/>
+                  </category>
+                  <category xml:id="drama"
+                     ><catDescDrama/>
+                  </category>
+               </category>
+               <category xml:id="form"
+                  ><catDescForm/>
+                  <category xml:id="manuscript"
+                     ><catDescManuscript/>
+                  </category>
+                  <category xml:id="print"
+                     ><catDescPrint/>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text
+      ><body
+         ><p/>
+      </body>
+   </text>
+</TEI>
