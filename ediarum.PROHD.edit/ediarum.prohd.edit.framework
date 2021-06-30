@@ -10578,7 +10578,8 @@ ancestor-or-self::cell[not(@rendition)]</String>
 																<serializableOrderedMap>
 																	<entry>
 																		<String>fragment</String>
-																		<String>&lt;langUsage xmlns="http://www.tei-c.org/ns/1.0">&lt;language ident="${ask('${i18n(ask.foreign_language)}', combobox, ('gr':'${i18n(ask.lang_grc)}'; 'la':'${i18n(ask.lang_lat)}'; 'heb':'${i18n(ask.lang_heb)}';'de':'${i18n(ask.lang_deu)}';'fr':'${i18n(ask.lang_fra)}'; 'en':'${i18n(ask.lang_eng)}';'ru':'${i18n(ask.lang_rus)}';'es':'${i18n(ask.lang_spa)}'; ))}">&lt;/language>&lt;/langUsage></String>
+																		<String>&lt;langUsage xmlns="http://www.tei-c.org/ns/1.0">&lt;language ident="${ask('${i18n(ask.foreign_language)}', combobox, ('de':'${i18n(ask.lang_deu)}';'fr':'${i18n(ask.lang_fra)}'; 'en':'${i18n(ask.lang_eng)}';'es':'${i18n(ask.lang_spa)}'; ))}">${ask('${i18n(ask.foreign_language)}', combobox, ('Deutsch':'${i18n(ask.lang_deu)}';'Français':'${i18n(ask.lang_fra)}'; 'English':'${i18n(ask.lang_eng)}';'Español':'${i18n(ask.lang_spa)}'; ))}&lt;/language>&lt;/langUsage>
+</String>
 																	</entry>
 																	<entry>
 																		<String>insertLocation</String>
@@ -10602,7 +10603,8 @@ ancestor-or-self::cell[not(@rendition)]</String>
 																<serializableOrderedMap>
 																	<entry>
 																		<String>fragment</String>
-																		<String>&lt;langUsage xmlns="http://www.tei-c.org/ns/1.0">&lt;language ident="${ask('${i18n(ask.foreign_language)}', combobox, ('gr':'${i18n(ask.lang_grc)}'; 'la':'${i18n(ask.lang_lat)}'; 'heb':'${i18n(ask.lang_heb)}';'de':'${i18n(ask.lang_deu)}';'fr':'${i18n(ask.lang_fra)}'; 'en':'${i18n(ask.lang_eng)}';'ru':'${i18n(ask.lang_rus)}';'es':'${i18n(ask.lang_spa)}'; ))}">&lt;/language>&lt;/langUsage></String>
+																		<String>&lt;langUsage xmlns="http://www.tei-c.org/ns/1.0">&lt;language ident="${ask('${i18n(ask.foreign_language)}', combobox, ('de':'${i18n(ask.lang_deu)}';'fr':'${i18n(ask.lang_fra)}'; 'en':'${i18n(ask.lang_eng)}';'es':'${i18n(ask.lang_spa)}'; ))}">${ask('${i18n(ask.foreign_language)}', combobox, ('Deutsch':'${i18n(ask.lang_deu)}';'Français':'${i18n(ask.lang_fra)}'; 'English':'${i18n(ask.lang_eng)}';'Español':'${i18n(ask.lang_spa)}'; ))}&lt;/language>&lt;/langUsage>
+</String>
 																	</entry>
 																	<entry>
 																		<String>insertLocation</String>
@@ -10626,7 +10628,7 @@ ancestor-or-self::cell[not(@rendition)]</String>
 																<serializableOrderedMap>
 																	<entry>
 																		<String>fragment</String>
-																		<String>&lt;language xmlns="http://www.tei-c.org/ns/1.0"  ident="${ask('${i18n(ask.foreign_language)}', combobox, ('gr':'${i18n(ask.lang_grc)}'; 'la':'${i18n(ask.lang_lat)}'; 'heb':'${i18n(ask.lang_heb)}';'de':'${i18n(ask.lang_deu)}';'fr':'${i18n(ask.lang_fra)}'; 'en':'${i18n(ask.lang_eng)}';'ru':'${i18n(ask.lang_rus)}';'es':'${i18n(ask.lang_spa)}'; ))}">&lt;/language>
+																		<String>&lt;language xmlns="http://www.tei-c.org/ns/1.0" ident="${ask('${i18n(ask.foreign_language)}', combobox, ('de':'${i18n(ask.lang_deu)}';'fr':'${i18n(ask.lang_fra)}'; 'en':'${i18n(ask.lang_eng)}';'es':'${i18n(ask.lang_spa)}'; ))}">${ask('${i18n(ask.foreign_language)}', combobox, ('Deutsch':'${i18n(ask.lang_deu)}';'Français':'${i18n(ask.lang_fra)}'; 'English':'${i18n(ask.lang_eng)}';'Español':'${i18n(ask.lang_spa)}'; ))}&lt;/language>
 </String>
 																	</entry>
 																	<entry>
