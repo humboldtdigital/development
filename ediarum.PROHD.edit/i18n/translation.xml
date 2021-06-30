@@ -938,6 +938,14 @@
         <val lang="de_DE">Digitalisat(e)</val>
         <val lang="es_ES">Facsímil digital</val>
     </key>
+    <key value="alt_title.name">
+        <val lang="de_DE">Alternativer Titel</val>
+        <val lang="es_ES">Título alternativo</val>
+    </key>
+    <key value="alt_title.description">
+        <val lang="de_DE">Alternativer Titel</val>
+        <val lang="es_ES">Insertar un título alternativo</val>
+    </key>
     <key value="facsimile.description">
         <val lang="de_DE">Links oder Identifier von Digitalisaten notieren</val>
         <val lang="es_ES">Etiquetar enlaces o identificadores de los facsímiles digitales</val>
