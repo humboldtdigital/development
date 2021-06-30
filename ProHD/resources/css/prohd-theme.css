@@ -71,4 +71,78 @@ h2, h3, h6 {
              background-color: #E2F4F1;
 }
 
+footer {
+    background-color: #F2F0EB;
+}
+    
+#footerGray {
+    text-align: center;
+}
+
+#footerGray img {
+    display: inline-block;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: -2em;
+    margin-bottom: -1em;
+}
+
+#footerGray p {
+    font-style: Montserrat;
+    font-weight: 300;
+    font-size: 1em;
+    padding-top: 0.5em;
+}
+   
+#footerGreen {
+    height: 3em;
+    width: auto;
+    background-color: #008F8F;
+    position: relative;
+    overflow: hidden;
+}
+ 
+.version {
+    text-align: left;
+    margin-left: 10em;
+}    
+  
+p.license,
+p.version {
+    font-family: Montserrat;
+    color: white;
+    font-weight: 300;
+    font-size: 0.8em;
+    
+}
+
+p.license span,
+p.version span  {
+    font-weight: 500;
+}
+
+.poweredBy {
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    right: auto;
+    left: 0;
+}
+  
+.license {
+    position: absolute;
+    top: 25%;
+    bottom: auto;
+    right: 7.5%;
+    left: auto;
+}
+  
+.cc  {
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    right: 0;
+    left: auto;
+    margin: 0.5em 0.5em 0 0;            
+}
 
