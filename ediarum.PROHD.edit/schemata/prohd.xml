@@ -229,6 +229,7 @@
                 <valItem ident="de"/>
                 <valItem ident="es"/>
                 <valItem ident="en"/>
+                <valItem ident="fr"/>
               </valList>
             </attDef>
           </attList>
