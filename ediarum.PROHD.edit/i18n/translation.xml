@@ -163,6 +163,14 @@
     <key value="abstract.description">
         <val lang="de_DE">Regest mit kurzer Zusammenfassung des Textes</val>
         <val lang="es_ES">Breve resumen del texto</val>
+    </key> 
+    <key value="langUsage.name">
+        <val lang="de_DE">Sprache</val>
+        <val lang="es_ES">Idioma</val>
+    </key>
+    <key value="langUsage.description">
+        <val lang="de_DE">Sprache hinzufügen</val>
+        <val lang="es_ES">Insertar idioma</val>
     </key>
     <key value="wit(Druck).name">
         <val lang="de_DE">Überlieferung: Druck</val>
@@ -2451,6 +2459,7 @@
         <val lang="de_DE">zentriert</val>
         <val lang="es_ES">Texto centrado</val>
     </key>
+
     
     
     <!-- prohd templates -->
