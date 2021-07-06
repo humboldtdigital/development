@@ -35,6 +35,8 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 ), " - ")
             case "author" return (
                 $header//tei:correspDesc/tei:correspAction/tei:persName,
+                (: Added by ARC on 06.07.2021 :)
+                $header//tei:creation/tei:persName,
                 $header//tei:titleStmt/tei:author,
                 $root/dbk:info/dbk:author
             )
@@ -55,12 +57,36 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 idx:get-genre($header),
                 $root/dbk:info/dbk:keywordset[@vocab="#genre"]/dbk:keyword
             )
+            (: Added by ARC on 06.07.2021 :)    
+            case "form" return (
+                idx:get-form($header),
+                $root/dbk:info/dbk:keywordset[@vocab="#form"]/dbk:keyword
+            ) 
+            case "topic" return (
+                idx:get-topic($header),
+                $root/dbk:info/dbk:keywordset[@vocab="#topic"]/dbk:keyword
+            ) 
             default return
                 ()
 };
 
 declare function idx:get-genre($header as element()?) {
     for $target in $header//tei:textClass/tei:catRef[@scheme="#genre"]/@target
+    let $category := id(substring($target, 2), doc($idx:app-root || "/data/taxonomy.xml"))
+    return
+        $category/ancestor-or-self::tei:category[parent::tei:category]/tei:catDesc
+};
+
+(: Added by ARC on 06.07.2021 :)
+declare function idx:get-form($header as element()?) {
+    for $target in $header//tei:textClass/tei:catRef[@scheme="#form"]/@target
+    let $category := id(substring($target, 2), doc($idx:app-root || "/data/taxonomy.xml"))
+    return
+        $category/ancestor-or-self::tei:category[parent::tei:category]/tei:catDesc
+};
+
+declare function idx:get-topic($header as element()?) {
+    for $target in $header//tei:textClass/tei:catRef[@scheme="#topic"]/@target
     let $category := id(substring($target, 2), doc($idx:app-root || "/data/taxonomy.xml"))
     return
         $category/ancestor-or-self::tei:category[parent::tei:category]/tei:catDesc
