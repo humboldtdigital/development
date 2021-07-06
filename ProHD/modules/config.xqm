@@ -97,12 +97,6 @@ declare variable $config:pagination-fill := 5;
  :)
 declare variable $config:facets := [
     map {
-        "dimension": "genre",
-        "heading": "facets.genre",
-        "max": 5,
-        "hierarchical": true()
-    },
-    map {
         "dimension": "language",
         "heading": "facets.language",
         "max": 5,
@@ -116,6 +110,28 @@ declare variable $config:facets := [
                 case "en" return "English"
                 default return $label
         }
+    },
+    (: Added by ARC on 06.07.2021 :)
+    (: To do: i18n the heading of this facet :)
+     map {
+        "dimension": "topic",
+        "heading": "Keyword",
+        "max": 5,
+        "hierarchical": false()
+    },
+    map {
+        "dimension": "genre",
+        "heading": "facets.genre",
+        "max": 5,
+        "hierarchical": false()
+    },
+    (: Added by ARC on 06.07.2021 :)
+    (: To do: i18n the heading of this facet :)
+    map {
+        "dimension": "form",
+        "heading": "Form",
+        "max": 5,
+        "hierarchical": false()
     }
 ];
 
