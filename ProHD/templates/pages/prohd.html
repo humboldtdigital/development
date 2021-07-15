@@ -22,7 +22,7 @@
                     --pb-view-height: calc(100vh - 192px);
                 }
                 
-                 pb-drawer {
+                pb-drawer {
                     background-color: #E2F4F1;
                 }
 
@@ -32,7 +32,7 @@
                     justify-content: center;
                     padding: 0 20px;
                 }
-              
+
                 .metadata {
                     width: 100%;
                     padding: 0 20px 20px;
@@ -118,7 +118,7 @@
                             <pb-navigation emit="transcription" keyboard="left" subscribe="transcription" direction="backward" unit="page">
                                 <paper-icon-button icon="icons:chevron-left"/>
                             </pb-navigation>
-                             <!-- Page navigation in the  menu -->
+                             <!-- Page navigation in the menu -->
                             <pb-navigation emit="transcription" keyboard="right" subscribe="transcription" direction="forward" unit="page">
                                 <paper-icon-button icon="icons:chevron-right"/>
                             </pb-navigation>
@@ -153,10 +153,10 @@
                     <main class="content-body">
 
                         <!-- pb-toggle-feature-->
-                        <pb-view id="view1" src="document1" xpath="//text"/>
+                        <pb-view id="view1" src="document1" xpath="//text" emit="transcription" wait-for="#facsimile"/>
                         
                         <!-- pb-facsimile -->
-                        <pb-facsimile id="facsimile" base-uri="to-be-defined" default-zoom-level="0" show-navigation-control="show-navigation-control" show-navigator="show-navigator" subscribe="transcription"/>
+                       <pb-facsimile id="facsimile" base-uri="https://content.staatsbibliothek-berlin.de/dc/" facsimiles="[&#34;787980595-0001&#34;]" default-zoom-level="0" show-navigator="show-navigator" show-navigation-control="show-navigation-control" subscribe="transcription"/>
                          
                     </main>
                     <footer>
