@@ -1428,27 +1428,27 @@
         <val lang="es_ES"/>
     </key>
     <key value="genre.name">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Genre</val>
         <val lang="es_ES">Género</val>
     </key>
     <key value="genre.description">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Kategorisierung des Textes mit einer Textgattung</val>
         <val lang="es_ES">Categorizar el texto con un género textual</val>
     </key>
     <key value="form.name">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Form</val>
         <val lang="es_ES">Forma</val>
     </key>
     <key value="form.description">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Kategorisierung der Originalquelle als Druck oder Manuskript</val>
         <val lang="es_ES">Categorizar la fuente original como impreso o un manuscrito</val>
     </key>
     <key value="subject.name">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Themen</val>
         <val lang="es_ES">Materias</val>
     </key>
     <key value="subject.description">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Kategorisierung des Textes mit einem oder mehreren Themen</val>
         <val lang="es_ES">Categorizar el texto con una o varias materias</val>
     </key>
 
@@ -1797,15 +1797,15 @@
         <val lang="es_ES">Idioma</val>
     </key>
     <key value="css.categories.genre">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Genre</val>
         <val lang="es_ES">Género</val>
     </key>
     <key value="css.categories.form">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Form</val>
         <val lang="es_ES">Forma</val>
     </key>
     <key value="css.categories.subject">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Thema</val>
         <val lang="es_ES">Materia</val>
     </key>
     
@@ -2505,43 +2505,43 @@
         <val lang="es_ES">Texto centrado</val>
     </key>
     <key value="ask.genre">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Genre</val>
         <val lang="es_ES">Género</val>
     </key>
     <key value="ask.diaries">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Tagebücher</val>
         <val lang="es_ES">Diarios personales</val>
     </key>
     <key value="ask.essays">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Aufsatz</val>
         <val lang="es_ES">Ensayos</val>
     </key>
     <key value="ask.notebooks">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Persönliche Anmerkungen</val>
         <val lang="es_ES">Notas personales</val>
     </key>
     <key value="ask.correspondence">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Briefe</val>
         <val lang="es_ES">Cartas</val>
     </key>
     <key value="ask.travelwriting">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Reisegeschichten</val>
         <val lang="es_ES">Narraciones de viaje</val>
     </key>
     <key value="ask.form">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Form</val>
         <val lang="es_ES">Forma</val>
     </key>
     <key value="ask.manuscript">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Manuskripte</val>
         <val lang="es_ES">Manuscritos</val>
     </key>
     <key value="ask.print">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Gedruckt</val>
         <val lang="es_ES">Impresos</val>
     </key>
     <key value="ask.subject">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Klimatologie</val>
         <val lang="es_ES">Materias</val>
     </key>
     <key value="ask.climatology">
@@ -2549,55 +2549,55 @@
         <val lang="es_ES">Climatología</val>
     </key>
     <key value="ask.colonialism">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Kolonialismus</val>
         <val lang="es_ES">Colonialismo</val>
     </key>
     <key value="ask.demography">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Demografische Daten</val>
         <val lang="es_ES">Demografía</val>
     </key>
     <key value="ask.economicconditions">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Wirtschaftliche Situation</val>
         <val lang="es_ES">Situación económica</val>
     </key>
     <key value="ask.geography">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Geographie</val>
         <val lang="es_ES">Geografía</val>
     </key>
     <key value="ask.history">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Geschichte</val>
         <val lang="es_ES">Historia</val>
     </key>
     <key value="ask.medicine">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Medizinische Geschichte</val>
         <val lang="es_ES">Historia de la medicina</val>
     </key>
     <key value="ask.science">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Wissenschaftsgeschichte</val>
         <val lang="es_ES">Historia de la ciencia</val>
     </key>
     <key value="ask.plantations">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Plantagen</val>
         <val lang="es_ES">Plantaciones</val>
     </key>
     <key value="ask.coffee">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Kaffeeplantagen</val>
         <val lang="es_ES">Plantaciones de café</val>
     </key>
     <key value="ask.sugar">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Zuckerplantagen</val>
         <val lang="es_ES">Plantaciones de azúcar</val>
     </key>
     <key value="ask.slavery">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Sklaverei</val>
         <val lang="es_ES">Esclavitud</val>
     </key>
     <key value="ask.trade">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Sklavenhandel</val>
         <val lang="es_ES">Comercio de esclavos</val>
     </key>
     <key value="ask.emancipation">
-        <val lang="de_DE"></val>
+        <val lang="de_DE">Emanzipation der Sklaven</val>
         <val lang="es_ES">Emancipación de esclavos</val>
     </key>
 
