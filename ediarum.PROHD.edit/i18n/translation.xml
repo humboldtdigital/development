@@ -1427,6 +1427,30 @@
         <val lang="de_DE"/>
         <val lang="es_ES"/>
     </key>
+    <key value="genre.name">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Género</val>
+    </key>
+    <key value="genre.description">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Categorizar el texto con un género textual</val>
+    </key>
+    <key value="form.name">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Forma</val>
+    </key>
+    <key value="form.description">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Categorizar la fuente original como impreso o un manuscrito</val>
+    </key>
+    <key value="subject.name">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Materias</val>
+    </key>
+    <key value="subject.description">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Categorizar el texto con una o varias materias</val>
+    </key>
 
     <!-- CSS -->
     <!-- See css/standard.css -->
@@ -1689,8 +1713,8 @@
         <val lang="es_ES">[Línea de dirección postal]</val>
     </key>
     <key value="css.profileDesc.textClass-before">
-        <val lang="de_DE">Schlagwörter/Themen</val>
-        <val lang="es_ES">Palabras clave o temas</val>
+        <val lang="de_DE">Kategorien</val>
+        <val lang="es_ES">Categorías</val>
     </key>
     <key value="css.revisionDesc.change">
         <val lang="de_DE">[Kommentar zur Änderung eingeben]</val>
@@ -1771,6 +1795,18 @@
     <key value="css.language">
         <val lang="de_DE">Sprache</val>
         <val lang="es_ES">Idioma</val>
+    </key>
+    <key value="css.categories.genre">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Género</val>
+    </key>
+    <key value="css.categories.form">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Forma</val>
+    </key>
+    <key value="css.categories.subject">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Materia</val>
     </key>
     
     <!-- Menu -->
@@ -1871,6 +1907,7 @@
         <val lang="de_DE">Überprüfung und Status</val>
         <val lang="es_ES">Revisión y estado</val>
     </key>
+
 
     <!-- Styles -->
 
@@ -2466,6 +2503,102 @@
     <key value="ask.alignment_change_centered">
         <val lang="de_DE">zentriert</val>
         <val lang="es_ES">Texto centrado</val>
+    </key>
+    <key value="ask.genre">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Género</val>
+    </key>
+    <key value="ask.diaries">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Diarios personales</val>
+    </key>
+    <key value="ask.essays">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Ensayos</val>
+    </key>
+    <key value="ask.notebooks">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Notas personales</val>
+    </key>
+    <key value="ask.correspondence">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Cartas</val>
+    </key>
+    <key value="ask.travelwriting">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Narraciones de viaje</val>
+    </key>
+    <key value="ask.form">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Forma</val>
+    </key>
+    <key value="ask.manuscript">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Manuscritos</val>
+    </key>
+    <key value="ask.print">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Impresos</val>
+    </key>
+    <key value="ask.subject">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Materias</val>
+    </key>
+    <key value="ask.climatology">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Climatología</val>
+    </key>
+    <key value="ask.colonialism">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Colonialismo</val>
+    </key>
+    <key value="ask.demography">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Demografía</val>
+    </key>
+    <key value="ask.economicconditions">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Situación económica</val>
+    </key>
+    <key value="ask.geography">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Geografía</val>
+    </key>
+    <key value="ask.history">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Historia</val>
+    </key>
+    <key value="ask.medicine">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Historia de la medicina</val>
+    </key>
+    <key value="ask.science">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Historia de la ciencia</val>
+    </key>
+    <key value="ask.plantations">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Plantaciones</val>
+    </key>
+    <key value="ask.coffee">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Plantaciones de café</val>
+    </key>
+    <key value="ask.sugar">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Plantaciones de azúcar</val>
+    </key>
+    <key value="ask.slavery">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Esclavitud</val>
+    </key>
+    <key value="ask.trade">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Comercio de esclavos</val>
+    </key>
+    <key value="ask.emancipation">
+        <val lang="de_DE"></val>
+        <val lang="es_ES">Emancipación de esclavos</val>
     </key>
 
     
