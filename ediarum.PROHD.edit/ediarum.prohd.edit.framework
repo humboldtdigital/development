@@ -10978,6 +10978,31 @@ ancestor-or-self::cell[not(@rendition)]</String>
 													<actionMode-array>
 														<actionMode>
 															<field name="xpathCondition">
+																<String>//teiHeader/profileDesc[correspDesc  and not(textClass)]</String>
+															</field>
+															<field name="argValues">
+																<serializableOrderedMap>
+																	<entry>
+																		<String>fragment</String>
+																		<String>&lt;textClass xmlns="http://www.tei-c.org/ns/1.0">&lt;catRef  scheme="#genre"  target="${ask('${i18n(ask.genre)}', combobox, ('#diaries':'${i18n(ask.diaries)}';'#essays':'${i18n(ask.essays)}'; '#notebooks':'${i18n(ask.notebooks)}';'#correspondence':'${i18n(ask.correspondence)}';'#travelwriting':'${i18n(ask.travelwriting)}'; ))}">&lt;/catRef>&lt;/textClass>
+</String>
+																	</entry>
+																	<entry>
+																		<String>insertLocation</String>
+																		<String>//profileDesc/correspDesc[last()]</String>
+																	</entry>
+																	<entry>
+																		<String>insertPosition</String>
+																		<String>After</String>
+																	</entry>
+																</serializableOrderedMap>
+															</field>
+															<field name="operationID">
+																<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+															</field>
+														</actionMode>
+														<actionMode>
+															<field name="xpathCondition">
 																<String>//teiHeader/profileDesc[abstract  and not(textClass)]</String>
 															</field>
 															<field name="argValues">
@@ -11123,6 +11148,30 @@ ancestor-or-self::cell[not(@rendition)]</String>
 													<actionMode-array>
 														<actionMode>
 															<field name="xpathCondition">
+																<String>//teiHeader/profileDesc[correspDesc  and not(textClass)]</String>
+															</field>
+															<field name="argValues">
+																<serializableOrderedMap>
+																	<entry>
+																		<String>fragment</String>
+																		<String>&lt;textClass xmlns="http://www.tei-c.org/ns/1.0">&lt;catRef  scheme="#form"  target="${ask('${i18n(ask.form)}', combobox, ('#print':'${i18n(ask.print)}';'#manuscript':'${i18n(ask.manuscript)}';))}">&lt;/catRef>&lt;/textClass></String>
+																	</entry>
+																	<entry>
+																		<String>insertLocation</String>
+																		<String>//profileDesc/correspDesc[last()]</String>
+																	</entry>
+																	<entry>
+																		<String>insertPosition</String>
+																		<String>After</String>
+																	</entry>
+																</serializableOrderedMap>
+															</field>
+															<field name="operationID">
+																<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+															</field>
+														</actionMode>
+														<actionMode>
+															<field name="xpathCondition">
 																<String>//teiHeader/profileDesc[abstract  and not(textClass)]</String>
 															</field>
 															<field name="argValues">
@@ -11263,6 +11312,30 @@ ancestor-or-self::cell[not(@rendition)]</String>
 												</field>
 												<field name="actionModes">
 													<actionMode-array>
+														<actionMode>
+															<field name="xpathCondition">
+																<String>//teiHeader/profileDesc[correspDesc  and not(textClass)]</String>
+															</field>
+															<field name="argValues">
+																<serializableOrderedMap>
+																	<entry>
+																		<String>fragment</String>
+																		<String>&lt;textClass xmlns="http://www.tei-c.org/ns/1.0">&lt;catRef  scheme="#subject"  target="${ask('${i18n(ask.subject)}', combobox, ('#climatology':'${i18n(ask.climatology)}';        '#colonialism':'${i18n(ask.colonialism)}';    '#demography':'${i18n(ask.demography)}';  '#economicconditions':'${i18n(ask.economicconditions)}';    '#geography':'${i18n(ask.geography)}';     '#history':'${i18n(ask.history)}';   '#medicine':'${i18n(ask.medicine)}';  '#science':'${i18n(ask.science)}';  '#plantations':'${i18n(ask.plantations)}';  '#coffee':'${i18n(ask.coffee)}';  '#sugar':'${i18n(ask.sugar)}';  '#slavery':'${i18n(ask.slavery)}';  '#trade':'${i18n(ask.trade)}';  '#emancipation':'${i18n(ask.emancipation)}';    ))}">&lt;/catRef>&lt;/textClass></String>
+																	</entry>
+																	<entry>
+																		<String>insertLocation</String>
+																		<String>//profileDesc/correspDesc[last()]</String>
+																	</entry>
+																	<entry>
+																		<String>insertPosition</String>
+																		<String>After</String>
+																	</entry>
+																</serializableOrderedMap>
+															</field>
+															<field name="operationID">
+																<String>ro.sync.ecss.extensions.commons.operations.InsertFragmentOperation</String>
+															</field>
+														</actionMode>
 														<actionMode>
 															<field name="xpathCondition">
 																<String>//teiHeader/profileDesc[abstract  and not(textClass)]</String>
