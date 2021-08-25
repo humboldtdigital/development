@@ -11,16 +11,12 @@
                 <funder ref="https://www.gerda-henkel-stiftung.de/">Gerda Henkel Stiftung</funder>
             </titleStmt>
             <editionStmt>
-                <p>Erste Ausgabe von Projekt Humboldt digital - ProHD (<date>${ask('Jahr der
-                        Publikation', generic, '')}</date>).</p>
+                <p>Proyecto Humboldt Digital (<date>${ask('Jahr der Publikation', generic, '')}</date>)</p>
             </editionStmt>
             <publicationStmt>
-                <publisher>${ask('Herausgebende Institution', combobox, ('Berlin-Brandenburgische
-                    Akademie der Wissenschaften':'BBAW';'Oficina del Historiador de la Ciudad de la
-                    Habana':'OHCH'))}</publisher>
+                <publisher>${ask('Herausgebende Institution', combobox, ('Berlin-Brandenburgische Akademie der Wissenschaften':'BBAW';'Oficina del Historiador de la Ciudad de la Habana':'OHCH'))}</publisher>
                 <availability status="free">
-                    <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
-                        Namensnennung 4.0 International (CC BY 4.0) </licence>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons (CC BY 4.0)</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
