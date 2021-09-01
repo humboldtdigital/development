@@ -2564,10 +2564,6 @@
         <val lang="de_DE">Geografie</val>
         <val lang="es_ES">Geografía</val>
     </key>
-    <key value="ask.history">
-        <val lang="de_DE">Geschichte</val>
-        <val lang="es_ES">Historia</val>
-    </key>
     <key value="ask.medicine">
         <val lang="de_DE">Medizin</val>
         <val lang="es_ES">Medicina</val>
