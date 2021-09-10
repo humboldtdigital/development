@@ -533,6 +533,7 @@ text body {
 text head {
     display: block;
     margin: 0 0 1em 0;
+    font-weight: bold;
 }
 
 text head[type = "h1"] {
@@ -1948,3 +1949,6 @@ facsimile:before {
     padding-bottom: 0.2em;
 }
 
+org {
+    display: block;
+}
