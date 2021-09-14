@@ -1956,3 +1956,12 @@ org {
 person {
     display: block;
 }
+
+
+bibl {
+    font-style: italic;
+}
+
+title {
+    font-style: italic;
+}
