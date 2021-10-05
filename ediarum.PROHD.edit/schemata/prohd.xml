@@ -273,15 +273,15 @@
             </attDef>
           </attList>
         </elementSpec>
-        <elementSpec ident="row" mode="change">
+        <!--<elementSpec ident="row" mode="change">
           <attList>
-            <attDef ident="role" mode="change">
+            <attDef ident="role" mode="change" usage="opt">
               <valList type="closed" mode="replace">
                 <valItem ident="label"/>
               </valList>
             </attDef>
           </attList>
-        </elementSpec>
+        </elementSpec>-->
         <elementSpec ident="cell" mode="change">
           <attList>
             <attDef ident="rendition" mode="change">

@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2021-10-04T12:52:25Z. .
+Schema generated from ODD source 2021-10-05T12:53:22Z. .
 TEI Edition: Version 4.3.0. Last updated on
         31st August 2021, revision b4f72b1ff
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
@@ -6498,19 +6498,7 @@ Los valores sugeridos incluyen: 1] label; 2] data</a:documentation>
             <ref name="tei_cell"/>
          </oneOrMore>
          <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.tableDecoration.attribute.rows"/>
-         <ref name="tei_att.tableDecoration.attribute.cols"/>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="role"
-                       a:defaultValue="data">
-               <a:documentation>(role) especifica el tipo de información contenida en la celda en cuestión o en cada una de las celdas de la fila.</a:documentation>
-               <choice>
-                  <value>label</value>
-                  <a:documentation/>
-               </choice>
-            </attribute>
-         </optional>
+         <ref name="tei_att.tableDecoration.attributes"/>
          <empty/>
       </element>
    </define>
