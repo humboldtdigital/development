@@ -13011,11 +13011,6 @@ ancestor-or-self::cell[not(@rendition)]</String>
 														<menuSeparator/>
 														<menuItem>
 															<field name="actionID">
-																<String>correspContext_ref[ID]</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
 																<String>correspContext_ref[text]</String>
 															</field>
 														</menuItem>
@@ -14322,11 +14317,6 @@ ancestor-or-self::cell[not(@rendition)]</String>
 																		</field>
 																	</toolbarItem>
 																	<toolbarSeparator/>
-																	<toolbarItem>
-																		<field name="actionID">
-																			<String>correspContext_ref[ID]</String>
-																		</field>
-																	</toolbarItem>
 																	<toolbarItem>
 																		<field name="actionID">
 																			<String>correspContext_ref[text]</String>
