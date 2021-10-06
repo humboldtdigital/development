@@ -12404,16 +12404,6 @@ ancestor-or-self::cell[not(@rendition)]</String>
 																<String>placeName</String>
 															</field>
 														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>bibl</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>rs[term]</String>
-															</field>
-														</menuItem>
 														<menuSeparator/>
 														<menuItem>
 															<field name="actionID">
@@ -12423,11 +12413,6 @@ ancestor-or-self::cell[not(@rendition)]</String>
 														<menuItem>
 															<field name="actionID">
 																<String>index_places</String>
-															</field>
-														</menuItem>
-														<menuItem>
-															<field name="actionID">
-																<String>index_bibl</String>
 															</field>
 														</menuItem>
 													</menuEntry-array>
@@ -13186,11 +13171,6 @@ ancestor-or-self::cell[not(@rendition)]</String>
 																<String>index_places</String>
 															</field>
 														</toolbarItem>
-														<toolbarItem>
-															<field name="actionID">
-																<String>index_bibl</String>
-															</field>
-														</toolbarItem>
 													</toolbarEntry-array>
 												</field>
 											</toolbar>
@@ -13238,16 +13218,6 @@ ancestor-or-self::cell[not(@rendition)]</String>
 														<toolbarItem>
 															<field name="actionID">
 																<String>placeName</String>
-															</field>
-														</toolbarItem>
-														<toolbarItem>
-															<field name="actionID">
-																<String>bibl</String>
-															</field>
-														</toolbarItem>
-														<toolbarItem>
-															<field name="actionID">
-																<String>rs[term]</String>
 															</field>
 														</toolbarItem>
 														<toolbarSeparator/>
