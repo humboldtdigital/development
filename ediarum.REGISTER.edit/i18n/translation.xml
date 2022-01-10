@@ -141,11 +141,11 @@
   </key>
   <key value="person_floruit.name">
     <val lang="de_DE">Floruit (Wirkungszeit)</val>
-    <val lang="es_ES">Floruit (período de esplendor) </val>
+    <val lang="es_ES">Floruit (período de actividad) </val>
   </key>
   <key value="person_floruit.description">
     <val lang="de_DE">Wirkungszeit, falls Geburts- und Sterbedatum nicht bekannt sind</val>
-    <val lang="es_ES">Introducir período de esplendor, si se desconoce la fecha de nacimiento y de
+    <val lang="es_ES">Introducir período de actividad, si se desconoce la fecha de nacimiento y de
       defunción</val>
   </key>
   <key value="person_floruit[notBefore].name">
