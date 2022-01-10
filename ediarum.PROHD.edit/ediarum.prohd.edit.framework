@@ -3146,7 +3146,7 @@ calendar="${ask('${i18n(ask.date_calendar)}', combobox, ('#Gregorian':'${i18n(as
 													<serializableOrderedMap>
 														<entry>
 															<String>fragment</String>
-															<String>&lt;foreign xmlns="http://www.tei-c.org/ns/1.0" xml:lang="${ask('${i18n(ask.foreign_language)}', combobox, ('grc':'${i18n(ask.lang_grc)}'; 'Lat':'${i18n(ask.lang_lat)}'; 'heb':'${i18n(ask.lang_heb)}';'deu':'${i18n(ask.lang_deu)}';'fra':'${i18n(ask.lang_fra)}'; 'eng':'${i18n(ask.lang_eng)}';'rus':'${i18n(ask.lang_rus)}';'spa':'${i18n(ask.lang_spa)}'; ))}">&lt;/foreign></String>
+															<String>&lt;foreign xmlns="http://www.tei-c.org/ns/1.0" xml:lang="${ask('${i18n(ask.foreign_language)}', combobox, ('gr':'${i18n(ask.lang_grc)}'; 'la':'${i18n(ask.lang_lat)}'; 'he':'${i18n(ask.lang_heb)}';'de':'${i18n(ask.lang_deu)}';'fr':'${i18n(ask.lang_fra)}'; 'en':'${i18n(ask.lang_eng)}';'ru':'${i18n(ask.lang_rus)}';'es':'${i18n(ask.lang_spa)}'; ))}">&lt;/foreign></String>
 														</entry>
 													</serializableOrderedMap>
 												</field>
